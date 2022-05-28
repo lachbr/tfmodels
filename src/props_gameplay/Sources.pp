@@ -43,3 +43,5 @@
 #include $[THISDIRPREFIX]Sources.security_fence80.pp
 #include $[THISDIRPREFIX]Sources.door_grate001_floorplate.pp
 #include $[THISDIRPREFIX]Sources.bottle001.pp
+#include $[THISDIRPREFIX]Sources.sewer_entrance02.pp
+#include $[THISDIRPREFIX]Sources.sewer_entrance01.pp

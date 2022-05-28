@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/glasswindow006a.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "glass"
+  }
+}

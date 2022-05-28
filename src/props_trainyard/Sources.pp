@@ -53,3 +53,11 @@
 #include $[THISDIRPREFIX]Sources.handrail_corner02.pp
 #include $[THISDIRPREFIX]Sources.train_billboard001.pp
 #include $[THISDIRPREFIX]Sources.handrail_stairs.pp
+#include $[THISDIRPREFIX]Sources.distillery_barrel001.pp
+#include $[THISDIRPREFIX]Sources.beer_keg001.pp
+#include $[THISDIRPREFIX]Sources.handrail003_rocketroom.pp
+#include $[THISDIRPREFIX]Sources.handrail002_rocketroom.pp
+#include $[THISDIRPREFIX]Sources.portable_stairs001.pp
+#include $[THISDIRPREFIX]Sources.train_building001b.pp
+#include $[THISDIRPREFIX]Sources.stairs001a.pp
+#include $[THISDIRPREFIX]Sources.stairs001b.pp

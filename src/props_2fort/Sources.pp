@@ -107,3 +107,4 @@
 #include $[THISDIRPREFIX]Sources.roof_metal002.pp
 #include $[THISDIRPREFIX]Sources.roof_metal001.pp
 #include $[THISDIRPREFIX]Sources.trainwheel001.pp
+#include $[THISDIRPREFIX]Sources.window007.pp

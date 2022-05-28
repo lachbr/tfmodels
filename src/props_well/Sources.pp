@@ -8,3 +8,5 @@
 #include $[THISDIRPREFIX]Sources.main_entrance_door_frame.pp
 #include $[THISDIRPREFIX]Sources.vault_door.pp
 #include $[THISDIRPREFIX]Sources.bridge_railing.pp
+#include $[THISDIRPREFIX]Sources.overhead_crane.pp
+#include $[THISDIRPREFIX]Sources.distillery_still.pp

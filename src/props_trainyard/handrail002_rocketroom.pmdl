@@ -1,0 +1,64 @@
+
+{
+  "model"   "handrail002_rocketroom.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "../materials/handrail002_rocketroom.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "handrail002_rocketroom_reference"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "handrail002_rocketroom_reference_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "handrail002_rocketroom_physics"
+    "mass"     1000
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "handrail002_rocketroom_reference*"
+        ]
+      }
+    ]
+  }
+}

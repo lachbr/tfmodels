@@ -974,7 +974,82 @@
     tp_direction.ptex \
     tp_direction1.ptex \
     teleporter_Gibs.ptex \
-    teleporter_Gibs_Blue.ptex
+    teleporter_Gibs_Blue.ptex \
+    wall021.ptex \
+    concretewall002d.ptex \
+    brickwall001c.ptex \
+    brickwall001_height-ssbump.ptex \
+    computerwall003.ptex \
+    grain_elevator_facade_09.ptex \
+    grain_elevator_facade_14c.ptex \
+    floor_tile_001a.ptex \
+    concretewall002e.ptex \
+    computerwall006.ptex \
+    concretewall002.ptex \
+    concretewall009.ptex \
+    concretewall009_height-ssbump.ptex \
+    computerwall005e.ptex \
+    plasticwall002a.ptex \
+    plasticwall002a_normal.ptex \
+    floor_tile_007a.ptex \
+    computerwall011.ptex \
+    computerwall003b.ptex \
+    concretefloor002b.ptex \
+    world_map001.ptex \
+    concretewall002c.ptex \
+    tile_ceiling_001a.ptex \
+    metalwall001.ptex \
+    metalwall001_normal.ptex \
+    concretewall008b.ptex \
+    glasswindow001a.ptex \
+    concretewall008.ptex \
+    concrete_track001.ptex \
+    concrete_track001_height-ssbump.ptex \
+    concretefloor005.ptex \
+    computerwall005.ptex \
+    computerwall005a.ptex \
+    computerwall005b.ptex \
+    world_map002.ptex \
+    concrete_track002.ptex \
+    concrete_track002_height-ssbump.ptex \
+    concretefloor004.ptex \
+    concretefloor004_normal.ptex \
+    wall019d.ptex \
+    dirtground001.ptex \
+    grass_03.ptex \
+    dirtground001_height-ssbump.ptex \
+    Imetal001.ptex \
+    cobweb001.ptex \
+    cobweb004.ptex \
+    Imetal002.ptex \
+    computerwall008.ptex \
+    grain_elevator_facade_12.ptex \
+    glasswindow006a.ptex \
+    window007.ptex \
+    distillery_barrel001.ptex \
+    distillery_barrel001_normal.ptex \
+    sewer_entrance01.ptex \
+    rocket_clamp.ptex \
+    rocket_clamp_blue.ptex \
+    rocket002_bottom.ptex \
+    rocket002.ptex \
+    rocket002b.ptex \
+    rocket002b_bottom.ptex \
+    overhead_crane.ptex \
+    overhead_crane_blue.ptex \
+    distillery_still.ptex \
+    handrail003_rocketroom.ptex \
+    handrail002_rocketroom.ptex \
+    suitcase001.ptex \
+    suitcase001_skin1.ptex \
+    portable_stairs001.ptex \
+    portable_stairs001_normal.ptex \
+    horizon_facade.ptex \
+    horizon_facade_brown.ptex \
+    stairs001a_metal.ptex \
+    briefcase.ptex \
+    briefcase_blue.ptex \
+    briefcase_ntr.ptex
 
 #end install_tex
 

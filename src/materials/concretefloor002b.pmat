@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/concretefloor002b.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "concrete"
+  }
+}

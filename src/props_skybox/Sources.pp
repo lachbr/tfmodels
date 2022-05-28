@@ -19,3 +19,4 @@
 #include $[THISDIRPREFIX]Sources.train_building004_skybox.pp
 #include $[THISDIRPREFIX]Sources.train_building006_skybox.pp
 #include $[THISDIRPREFIX]Sources.train_building007_skybox.pp
+#include $[THISDIRPREFIX]Sources.horizon_facade001.pp

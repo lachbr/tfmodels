@@ -1,0 +1,29 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/distillery_still.ptex"
+    "basemapalphaphongmask"     1
+    "envmap"     1
+    "normalmapalphaenvmapmask"     1
+    "envmaptint" 
+    [
+      0.2
+      0.15
+      0.1
+    ]
+    "phong"     1
+    "phongboost"     1
+    "phongexponent"     8
+    "phongfresnelranges" 
+    [
+      0.3
+      2
+      5
+    ]
+    "rimlight"     1
+    "rimlightboost"     0.8
+    "rimlightexponent"     1
+  }
+}

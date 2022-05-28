@@ -79,3 +79,8 @@
 #include $[THISDIRPREFIX]Sources.doorframe002c.pp
 #include $[THISDIRPREFIX]Sources.doorframe004d.pp
 #include $[THISDIRPREFIX]Sources.radio_tower001.pp
+#include $[THISDIRPREFIX]Sources.rocket_clamp_hinge.pp
+#include $[THISDIRPREFIX]Sources.rocket_clamp.pp
+#include $[THISDIRPREFIX]Sources.rocket003.pp
+#include $[THISDIRPREFIX]Sources.rocket_clamp_wires.pp
+#include $[THISDIRPREFIX]Sources.suitcase.pp

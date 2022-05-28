@@ -902,6 +902,74 @@
     tp_direction.pmat \
     tp_direction1.pmat \
     teleporter_gibs.pmat \
-    teleporter_gibs_blue.pmat
+    teleporter_gibs_blue.pmat \
+    wall021.pmat \
+    concretewall002d.pmat \
+    brickwall001c.pmat \
+    computerwall003.pmat \
+    grain_elevator_facade_09.pmat \
+    grain_elevator_facade_14c.pmat \
+    floor_tile_001a.pmat \
+    concretewall002e.pmat \
+    computerwall006.pmat \
+    concretewall002.pmat \
+    concretewall009.pmat \
+    computerwall005e.pmat \
+    plasticwall002a.pmat \
+    floor_tile_007a.pmat \
+    computerwall011.pmat \
+    computerwall003b.pmat \
+    concretefloor002b.pmat \
+    world_map001a.pmat \
+    concretewall002c.pmat \
+    tile_ceiling_001a.pmat \
+    metalwall001.pmat \
+    concretewall008b.pmat \
+    glasswindow001a.pmat \
+    concretewall008.pmat \
+    concrete_track001.pmat \
+    concretefloor005.pmat \
+    computerwall005.pmat \
+    computerwall005a.pmat \
+    computerwall005b.pmat \
+    world_map002a.pmat \
+    concrete_track002.pmat \
+    concretefloor004.pmat \
+    wall019d.pmat \
+    blendgroundtograss001b.pmat \
+    imetal001.pmat \
+    cobweb001.pmat \
+    cobweb004.pmat \
+    imetal002.pmat \
+    computerwall008.pmat \
+    grain_elevator_facade_12.pmat \
+    glasswindow006b.pmat \
+    window007.pmat \
+    distillery_barrel001.pmat \
+    sewer_entrance01.pmat \
+    rocket_clamp.pmat \
+    rocket_clamp_blue.pmat \
+    rocket002_bottom.pmat \
+    rocket002.pmat \
+    rocket002b.pmat \
+    rocket002b_bottom.pmat \
+    overhead_crane.pmat \
+    overhead_crane_blue.pmat \
+    distillery_still.pmat \
+    handrail003_rocketroom.pmat \
+    handrail002_rocketroom.pmat \
+    suitcase001.pmat \
+    suitcase001_skin1.pmat \
+    portable_stairs001.pmat \
+    horizon_facade.pmat \
+    horizon_facade_brown.pmat \
+    stairs001a_wood.pmat \
+    stairs001a_metal.pmat \
+    briefcase.pmat \
+    briefcase_blue.pmat \
+    briefcase_ntr.pmat \
+    briefcase_pickedup.pmat \
+    briefcase_pickedup_blue.pmat \
+    briefcase_pickedup_ntr.pmat
 
 #end install_mat

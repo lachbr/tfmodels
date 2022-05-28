@@ -66,9 +66,9 @@ def parseSide(side):
 
     # Skip it if we already have a .pmat for it.
     pmatFilename = tfModels / Filename("src/materials/" + material.getBasenameWoExtension() + ".pmat")
-    #print(pmatFilename)
-    #if pmatFilename.isRegularFile():
-    #    return
+    print(pmatFilename)
+    if pmatFilename.isRegularFile():
+        return
 
     runCommand("python port_vmt.py " + material.getFullpath())
     portedSideMaterials.append(material)
