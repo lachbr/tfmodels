@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/grain_elevator_silo_06.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "wood"
+  }
+}

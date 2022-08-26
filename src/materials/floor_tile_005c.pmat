@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/floor_tile_005c.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "ceramic"
+  }
+}

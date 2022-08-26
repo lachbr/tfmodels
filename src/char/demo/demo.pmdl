@@ -199,6 +199,19 @@
     ]
   }
 
+  attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [ 0.27 1.65 9.72 ]
+          hpr [ 90.35 193.37 184.65 ]
+        }
+      ]
+    }
+  ]
+
   pose_parameters [
     {
       name move_x

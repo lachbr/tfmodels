@@ -1,0 +1,98 @@
+{
+  model "optchar/w_medigun-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+
+    bodygroups [
+      {
+        name hose
+        nodes [
+          "w_medigun_hose_reference*"
+          blank
+        ]
+      }
+    ]
+  }
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone_L
+          pos [ 0 -0.79 29.34 ]
+          hpr [ 0 90 180 ]
+        }
+      ]
+    }
+    {
+      name wb_hack
+      influences [
+        {
+          parent weapon_bone
+        }
+      ]
+    }
+  ]
+
+  lods [
+    {
+      distance 0
+      groups [
+        w_medigun_reference
+        w_medigun_hose_reference
+      ]
+    }
+    {
+      distance 20
+      groups [
+        w_medigun_reference_lod1
+        w_medigun_hose_reference_lod1
+      ]
+    }
+    {
+      distance 30
+      groups [
+        w_medigun_reference_lod2
+        w_medigun_hose_reference_lod2
+      ]
+    }
+    {
+      distance 40
+      groups [
+        w_medigun_reference_lod3
+        w_medigun_hose_reference_lod3
+      ]
+    }
+    {
+      distance 60
+      groups [
+        w_medigun_reference_lod4
+        w_medigun_hose_reference_lod4
+      ]
+    }
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/w_medigun01.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/w_medigun01_blue.pmat"
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh w_medigun_physics
+    mass 1.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  material SpriteParticleMaterial
+
+  parameters {
+    base_texture "../maps/particle_rockettrail1.ptex"
+  }
+  depth_write off
+  transparency alpha
+}

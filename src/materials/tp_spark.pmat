@@ -1,0 +1,9 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture "../maps/tp_spark.ptex"
+  }
+  color_blend additive
+  depth_write off
+  bin fixed
+}

@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters"
+  {
+    "basetexture"     "../maps/White001.ptex"
+    "selfillum"     1
+    "selfillumtint" [ 29.4 29.4 29.4 ]
+  }
+}

@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/farm_fields001.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+  }
+}

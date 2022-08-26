@@ -1,0 +1,7 @@
+{
+  image sky_tf2_04_hdrside.tga
+  format rgba
+  wrap clamp
+  minfilter nearest
+  magfilter nearest
+}

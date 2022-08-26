@@ -1,0 +1,53 @@
+{
+  model "optchar/resupply_locker-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  lods [
+    {
+      distance 0
+      groups [ resupply_locker_reference ]
+    }
+    {
+      distance 20
+      groups [ resupply_locker_reference_lod1 ]
+    }
+    {
+      distance 50
+      groups [ resupply_locker_reference_lod2 ]
+    }
+    {
+      distance 70
+      groups [ resupply_locker_reference_lod3 ]
+    }
+    {
+      distance 120
+      groups [ resupply_locker_reference_lod4 ]
+    }
+  ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  physics_model {
+    mesh resupply_locker_physics
+    mass 111.5684
+  }
+
+  sequences [
+    {
+      name idle
+      anim "optchar/resupply_locker-idle.egg"
+    }
+    {
+      name open
+      anim "optchar/resupply_locker-open.egg"
+    }
+    {
+      name close
+      anim "optchar/resupply_locker-close.egg"
+    }
+  ]
+}

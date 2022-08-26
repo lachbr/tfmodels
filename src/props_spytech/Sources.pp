@@ -84,3 +84,4 @@
 #include $[THISDIRPREFIX]Sources.rocket003.pp
 #include $[THISDIRPREFIX]Sources.rocket_clamp_wires.pp
 #include $[THISDIRPREFIX]Sources.suitcase.pp
+#include $[THISDIRPREFIX]Sources.computer_wall02.pp

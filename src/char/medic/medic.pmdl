@@ -1,0 +1,1471 @@
+{
+  model "optchar/medic-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  lods [
+    {
+      distance 0
+      groups [
+        medic_morphs_low
+      ]
+    }
+    {
+      distance 11
+      groups [
+        medic_morphs_low_lod1
+      ]
+    }
+    {
+      distance 22
+      groups [
+        medic_morphs_low_lod2
+      ]
+    }
+    {
+      distance 33
+      groups [
+        medic_morphs_low_lod3
+      ]
+    }
+    {
+      distance 44
+      groups [
+        medic_morphs_low_lod4
+      ]
+    }
+    {
+      distance 55
+      groups [
+        medic_morphs_low_lod5
+      ]
+    }
+  ]
+
+  custom_data {
+    surfaceprop flesh
+
+    hit_boxes [
+      {
+        group 1
+        joint bip_head
+        mins [ -5.00 -8.00 -7.50 ]
+        maxs [ 5.00 5.00 3.50 ]
+      }
+      {
+        group 0
+        joint bip_pelvis
+        mins [ -9.00 -1.00 -6.00 ]
+        maxs [ 9.00 11.00 5.00 ]
+      }
+      {
+        group 3
+        joint bip_spine_0
+        mins [ -8.00 -1.50 -8.00 ]
+        maxs [ 8.00 3.50 4.00 ]
+      }
+      {
+        group 3
+        joint bip_spine_1
+        mins [ -7.50 -2.00 -8.50 ]
+        maxs [ 7.50 4.00 3.50 ]
+      }
+      {
+        group 2
+        joint bip_spine_2
+        mins [ -8.50 -3.00 -8.75 ]
+        maxs [ 8.50 3.00 3.75 ]
+      }
+      {
+        group 2
+        joint bip_spine_3
+        mins [ -10.00 -2.00 -5.00 ]
+        maxs [ 10.00 2.00 3.00 ]
+      }
+      {
+        group 4
+        joint bip_upperArm_L
+        mins [ -0.50 -3.00 -2.25 ]
+        maxs [ 12.50 3.50 2.75 ]
+      }
+      {
+        group 4
+        joint bip_lowerArm_L
+        mins [ 0.00 -2.35 -3.00 ]
+        maxs [ 12.00 3.15 3.00 ]
+      }
+      {
+        group 4
+        joint bip_hand_L
+        mins [ -3.50 -9.50 -3.25 ]
+        maxs [ 1.50 -0.50 3.25 ]
+      }
+      {
+        group 5
+        joint bip_upperArm_R
+        mins [ -0.50 -3.50 -2.75 ]
+        maxs [ 12.50 3.00 2.25 ]
+      }
+      {
+        group 5
+        joint bip_lowerArm_R
+        mins [ 0.00 -3.00 -3.15 ]
+        maxs [ 12.00 3.00 2.35 ]
+      }
+      {
+        group 5
+        joint bip_hand_R
+        mins [ -1.50 0.50 -3.25 ]
+        maxs [ 3.50 9.50 3.25 ]
+      }
+      {
+        group 6
+        joint bip_hip_L
+        mins [ 4.00 -3.25 -2.50 ]
+        maxs [ 18.00 5.25 5.50 ]
+      }
+      {
+        group 6
+        joint bip_knee_L
+        mins [ 0.50 -2.75 -3.50 ]
+        maxs [ 19.50 4.25 3.50 ]
+      }
+      {
+        group 6
+        joint bip_foot_L
+        mins [ -2.00 -10.00 -4.00 ]
+        maxs [ 2.00 2.00 2.00 ]
+      }
+      {
+        group 7
+        joint bip_hip_R
+        mins [ 4.00 -2.50 -3.25 ]
+        maxs [ 18.00 5.50 5.25 ]
+      }
+      {
+        group 7
+        joint bip_knee_R
+        mins [ 0.50 -3.50 -2.75 ]
+        maxs [ 19.50 3.50 4.25 ]
+      }
+      {
+        group 7
+        joint bip_foot_R
+        mins [ -2.00 -2.00 -2.00 ]
+        maxs [ 2.00 10.00 4.00 ]
+      }
+    ]
+  }
+
+  eyeballs [
+    {
+      name righteye
+      material eyeball_r_medic
+      parent bip_head
+      pos [ -1.04 3.836432 78.958725 ]
+      diameter 1.2
+      z_offset 3
+      iris_size 0.5
+    }
+    {
+      name lefteye
+      material eyeball_l_medic
+      parent bip_head
+      pos [ 1.04 3.836432 78.958725 ]
+      diameter 1.2
+      z_offset -3
+      iris_size 0.5
+    }
+  ]
+
+  ik_chains [
+    {
+      name rfoot
+      end_joint bip_foot_R
+      middle_joint_dir [ 0.554 -0.004 0.833 ]
+    }
+    {
+      name lfoot
+      end_joint bip_foot_L
+      middle_joint_dir [ 0.516 0.857 -0.004 ]
+    }
+    {
+      name rhand
+      end_joint bip_hand_R
+      middle_joint_dir [ 0.81 0.586 0.002 ]
+    }
+    {
+      name lhand
+      end_joint bip_hand_L
+      middle_joint_dir [ 0.751 -0.661 -0.003 ]
+    }
+    {
+      name medicHose
+      end_joint joint_hose05
+      middle_joint_dir [ 0.438 -0.878 0.193 ]
+    }
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/medic_red.pmat"
+        "../../materials/medic_head_red.pmat"
+        "../../materials/medic_backpack_red.pmat"
+        "eyeball_l_medic.pmat"
+        "eyeball_r_medic.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/medic_blue.pmat"
+        "../../materials/medic_head_blue.pmat"
+        "../../materials/medic_backpack_blue.pmat"
+        "eyeball_l_medic.pmat"
+        "eyeball_r_medic.pmat"
+      ]
+    }
+  ]
+
+  joint_merges [
+    "bip_pelvis"
+    "bip_spine_0"
+    "bip_spine_1"
+    "bip_spine_2"
+    "bip_spine_3"
+    "bip_neck"
+    "bip_head"
+    "bip_collar_L"
+    "bip_collar_R"
+    "bip_upperArm_L"
+    "bip_upperArm_R"
+    "bip_lowerArm_L"
+    "bip_lowerArm_R"
+    "bip_hand_L"
+    "bip_hand_R"
+    "weapon_bone"
+    "weapon_bone_1"
+    "weapon_bone_L"
+    "joint_lever"
+    "joint_hose01"
+    "joint_hose02"
+    "joint_hose03"
+    "joint_hose04"
+    "joint_hose05"
+    "medal_bone"
+    "prp_backpack"
+    "mvm"
+    "prop_bone"
+    "prop_bone_1"
+    "prop_bone_2"
+    "prop_bone_3"
+    "prop_bone_4"
+    "prop_bone_5"
+    "prop_bone_6"
+  ]
+
+  pose_parameters [
+    {
+      name move_x
+      min -1 max 1
+    }
+    {
+      name move_y
+      min -1 max 1
+    }
+    {
+      name body_pitch
+      min -45 max 90
+      loop 360
+    }
+    {
+      name body_yaw
+      min -45 max 45
+      loop 360
+    }
+  ]
+
+  weight_lists [
+    {
+      name weights_layer_AttackStandMelee_arms
+      weights {
+        "bip_pelvis" 0
+        "bip_spine_0" 0
+        "bip_spine_1" 0
+        "bip_spine_2" 0
+        "bip_spine_3" 0
+        "bip_neck" 0
+        "bip_head" 0
+        "bip_collar_L" 1
+        "bip_collar_R" 1
+        "bip_upperArm_L" 1
+        "bip_upperArm_R" 1
+        "bip_lowerArm_L" 1
+        "bip_lowerArm_R" 1
+        "bip_hip_L" 0
+        "bip_hip_R" 0
+        "bip_knee_L" 0
+        "bip_knee_R" 0
+        "bip_hand_L" 1
+        "bip_hand_R" 1
+        "weapon_bone" 1
+        "weapon_bone_1" 1
+        "weapon_bone_L" 1
+        "joint_lever" 1
+        "joint_hose01" 1
+        "joint_hose02" 1
+        "joint_hose03" 1
+        "joint_hose04" 1
+        "joint_hose05" 1
+        "medal_bone" 0
+        "prp_backpack" 0
+        "mvm" 0
+        "effect_hand_L" 1
+        "effect_hand_R" 1
+        "prp_glasses" 0
+        "bip_foot_L" 0
+        "bip_foot_R" 0
+        "bip_toe_L" 0
+        "bip_toe_R" 0
+        "prp_hippouch_0_L" 0
+        "prp_hippouch_0_B" 0
+        "prp_coat_back_0_M" 0
+        "prp_coat_back_1_M" 0
+        "prp_coat_back_2_M" 0
+        "prp_coat_front_0_L" 0
+        "prp_coat_front_0_R" 0
+        "prp_coat_front_1_L" 0
+        "prp_coat_front_1_R" 0
+        "prp_coat_front_2_L" 0
+        "prp_coat_front_2_R" 0
+        "prp_coat_back_0_L" 0
+        "prp_coat_back_0_R" 0
+        "prp_coat_back_1_L" 0
+        "prp_coat_back_1_R" 0
+        "prp_coat_back_2_L" 0
+        "prp_coat_back_2_R" 0
+        "bip_thumb_0_L" 1
+        "bip_thumb_0_R" 1
+        "bip_index_0_L" 1
+        "bip_index_0_R" 1
+        "bip_middle_0_L" 1
+        "bip_middle_0_R" 1
+        "bip_ring_0_L" 1
+        "bip_ring_0_R" 1
+        "bip_pinky_0_L" 1
+        "bip_pinky_0_R" 1
+        "bip_thumb_1_L" 1
+        "bip_thumb_1_R" 1
+        "bip_index_1_L" 1
+        "bip_index_1_R" 1
+        "bip_middle_1_L" 1
+        "bip_middle_1_R" 1
+        "bip_ring_1_L" 1
+        "bip_ring_1_R" 1
+        "bip_pinky_1_L" 1
+        "bip_pinky_1_R" 1
+        "bip_thumb_2_L" 1
+        "bip_thumb_2_R" 1
+        "bip_index_2_L" 1
+        "bip_index_2_R" 1
+        "bip_middle_2_L" 1
+        "bip_middle_2_R" 1
+        "bip_ring_2_L" 1
+        "bip_ring_2_R" 1
+        "bip_pinky_2_L" 1
+        "bip_pinky_2_R" 1
+        "prop_bone" 0
+        "prop_bone_1" 0
+        "prop_bone_2" 0
+        "prop_bone_3" 0
+        "prop_bone_4" 0
+        "prop_bone_5" 0
+        "prop_bone_6" 0
+      }
+    }
+    {
+      name weights_SECONDARY_aimmatrix_idle
+      weights {
+        "bip_pelvis" 1
+        "bip_spine_0" 1
+        "bip_spine_1" 1
+        "bip_spine_2" 1
+        "bip_spine_3" 1
+        "bip_neck" 1
+        "bip_head" 1
+        "bip_collar_L" 1
+        "bip_collar_R" 1
+        "bip_upperArm_L" 1
+        "bip_upperArm_R" 1
+        "bip_lowerArm_L" 1
+        "bip_lowerArm_R" 1
+        "bip_hip_L" 0
+        "bip_hip_R" 0
+        "bip_knee_L" 0
+        "bip_knee_R" 0
+        "bip_hand_L" 1
+        "bip_hand_R" 1
+        "weapon_bone" 1
+        "weapon_bone_1" 1
+        "weapon_bone_L" 1
+        "joint_lever" 1
+        "joint_hose01" 1
+        "joint_hose02" 1
+        "joint_hose03" 1
+        "joint_hose04" 1
+        "joint_hose05" 1
+        "medal_bone" 1
+        "prp_backpack" 1
+        "mvm" 1
+        "effect_hand_L" 1
+        "effect_hand_R" 1
+        "prp_glasses" 1
+        "bip_foot_L" 0
+        "bip_foot_R" 0
+        "bip_toe_L" 0
+        "bip_toe_R" 0
+        "prp_hippouch_0_L" 1
+        "prp_hippouch_0_B" 1
+        "prp_coat_back_0_M" 1
+        "prp_coat_back_1_M" 1
+        "prp_coat_back_2_M" 1
+        "prp_coat_front_0_L" 1
+        "prp_coat_front_0_R" 1
+        "prp_coat_front_1_L" 1
+        "prp_coat_front_1_R" 1
+        "prp_coat_front_2_L" 1
+        "prp_coat_front_2_R" 1
+        "prp_coat_back_0_L" 1
+        "prp_coat_back_0_R" 1
+        "prp_coat_back_1_L" 1
+        "prp_coat_back_1_R" 1
+        "prp_coat_back_2_L" 1
+        "prp_coat_back_2_R" 1
+        "bip_thumb_0_L" 0
+        "bip_thumb_0_R" 0
+        "bip_index_0_L" 0
+        "bip_index_0_R" 0
+        "bip_middle_0_L" 0
+        "bip_middle_0_R" 0
+        "bip_ring_0_L" 0
+        "bip_ring_0_R" 0
+        "bip_pinky_0_L" 0
+        "bip_pinky_0_R" 0
+        "bip_thumb_1_L" 0
+        "bip_thumb_1_R" 0
+        "bip_index_1_L" 0
+        "bip_index_1_R" 0
+        "bip_middle_1_L" 0
+        "bip_middle_1_R" 0
+        "bip_ring_1_L" 0
+        "bip_ring_1_R" 0
+        "bip_pinky_1_L" 0
+        "bip_pinky_1_R" 0
+        "bip_thumb_2_L" 0
+        "bip_thumb_2_R" 0
+        "bip_index_2_L" 0
+        "bip_index_2_R" 0
+        "bip_middle_2_L" 0
+        "bip_middle_2_R" 0
+        "bip_ring_2_L" 0
+        "bip_ring_2_R" 0
+        "bip_pinky_2_L" 0
+        "bip_pinky_2_R" 0
+        "prop_bone" 1
+        "prop_bone_1" 1
+        "prop_bone_2" 1
+        "prop_bone_3" 1
+        "prop_bone_4" 1
+        "prop_bone_5" 1
+        "prop_bone_6" 1
+      }
+    }
+  ]
+
+  sequences [
+    {
+      name layer_idleNoise
+      delta true
+      anim "optchar/medic-layer_idleNoise.egg"
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      real_time true
+      loop true
+      weight_list weights_SECONDARY_aimmatrix_idle
+    }
+    {
+      name MELEE_aimmatrix_idle
+      blend {
+        anims [
+          "optchar/medic-a_MELEE_aimmatrix_idle_down_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_down_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_down_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_mid_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_mid_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_mid_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_up_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_up_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_up_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_straight_up.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_straight_up.egg"
+          "optchar/medic-a_MELEE_aimmatrix_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name stand_MELEE
+      anim "optchar/medic-stand_MELEE.egg"
+      activity Melee_Stand
+      loop true
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+        {
+          sequence layer_idleNoise
+        }
+      ]
+    }
+
+    {
+      name MELEE_aimmatrix_run
+      blend {
+        anims [
+          "optchar/medic-a_MELEE_aimmatrix_run_down_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_down_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_down_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_mid_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_mid_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_mid_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_up_left.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_up_center.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_up_right.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_straight_up.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_straight_up.egg"
+          "optchar/medic-a_MELEE_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name a_runSW_MELEE
+      anim "optchar/medic-a_runSW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runS_MELEE
+      anim "optchar/medic-a_runS_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runSE_MELEE
+      anim "optchar/medic-a_runSE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runW_MELEE
+      anim "optchar/medic-a_runW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runCenter_MELEE
+      anim "optchar/medic-a_runCenter_MELEE.egg"
+    }
+    {
+      name a_runE_MELEE
+      anim "optchar/medic-a_runE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNW_MELEE
+      anim "optchar/medic-a_runNW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runN_MELEE
+      anim "optchar/medic-a_runN_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNE_MELEE
+      anim "optchar/medic-a_runNE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name MELEE_run
+      blend {
+        anims [
+          "a_runSW_MELEE"
+          "a_runS_MELEE"
+          "a_runSE_MELEE"
+          "a_runW_MELEE"
+          "a_runCenter_MELEE"
+          "a_runE_MELEE"
+          "a_runNW_MELEE"
+          "a_runN_MELEE"
+          "a_runNE_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Melee_Run
+      layers [
+        {
+          sequence MELEE_aimmatrix_run
+        }
+      ]
+    }
+
+    {
+      name layer_AttackStandMelee_runW_arms
+      anim "optchar/medic-layer_AttackStandMelee_runW_arms.egg"
+      weight_list weights_layer_AttackStandMelee_arms
+    }
+    {
+      name layer_AttackStandMelee_arms
+      anim "optchar/medic-layer_AttackStandMelee_arms.egg"
+      weight_list weights_layer_AttackStandMelee_arms
+    }
+    {
+      name layer_melee_swing
+      delta true
+      anim "optchar/medic-layer_melee_swing.egg"
+      ik_events [
+        {
+          chain rfoot type lock
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_AttackStandMelee_arms
+          start 0 peak 4 tail 24 end 30
+          spline true
+        }
+      ]
+    }
+    {
+      name layer_melee_swing_runW
+      delta true
+      anim "optchar/medic-layer_melee_swing_runW.egg"
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_AttackStandMelee_runW_arms
+          start 0 peak 4 tail 23 end 27
+          spline true
+        }
+      ]
+    }
+    {
+      name MELEE_swing
+      activity Melee_Attack_Stand
+      layers [
+        {
+          sequence layer_melee_swing
+          start -0.8 peak -0.6 tail 1 end 2
+          pose_parameter move_x
+          spline true
+        }
+        {
+          sequence layer_melee_swing_runW
+          start -2 peak -1 tail -0.6 end -0.2
+          pose_parameter move_x
+          spline true
+        }
+      ]
+    }
+
+    {
+      name layer_PRIMARY_jump_floatNoise
+      anim "optchar/medic-layer_PRIMARY_jump_floatNoise.egg"
+      delta true
+      real_time true
+    }
+
+    {
+      name a_jumpfloat_MELEE
+      anim "optchar/medic-a_jumpfloat_MELEE.egg"
+    }
+    {
+      name a_jumpfloat_N_MELEE
+      anim "optchar/medic-a_jumpfloat_N_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_NE_MELEE
+      anim "optchar/medic-a_jumpfloat_NE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_NW_MELEE
+      anim "optchar/medic-a_jumpfloat_NW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_E_MELEE
+      anim "optchar/medic-a_jumpfloat_E_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SE_MELEE
+      anim "optchar/medic-a_jumpfloat_SE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_W_MELEE
+      anim "optchar/medic-a_jumpfloat_W_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SW_MELEE
+      anim "optchar/medic-a_jumpfloat_SW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_S_MELEE
+      anim "optchar/medic-a_jumpfloat_S_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_MELEE
+      anim "optchar/medic-a_jumpstart_MELEE.egg"
+    }
+    {
+      name a_jumpstart_N_MELEE
+      anim "optchar/medic-a_jumpstart_N_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NE_MELEE
+      anim "optchar/medic-a_jumpstart_NE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NW_MELEE
+      anim "optchar/medic-a_jumpstart_NW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_E_MELEE
+      anim "optchar/medic-a_jumpstart_E_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SE_MELEE
+      anim "optchar/medic-a_jumpstart_SE_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_W_MELEE
+      anim "optchar/medic-a_jumpstart_W_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SW_MELEE
+      anim "optchar/medic-a_jumpstart_SW_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_S_MELEE
+      anim "optchar/medic-a_jumpstart_S_MELEE.egg"
+      motion [ x y ]
+    }
+
+    {
+      name jump_start_MELEE
+      blend {
+        anims [
+          "a_jumpstart_SW_MELEE"
+          "a_jumpstart_S_MELEE"
+          "a_jumpstart_SE_MELEE"
+          "a_jumpstart_W_MELEE"
+          "a_jumpstart_MELEE"
+          "a_jumpstart_E_MELEE"
+          "a_jumpstart_NW_MELEE"
+          "a_jumpstart_N_MELEE"
+          "a_jumpstart_NE_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+      ]
+      activity Melee_Jump_Start
+    }
+    {
+      name jump_float_MELEE
+      blend {
+        anims [
+          "a_jumpfloat_SW_MELEE"
+          "a_jumpfloat_S_MELEE"
+          "a_jumpfloat_SE_MELEE"
+          "a_jumpfloat_W_MELEE"
+          "a_jumpfloat_MELEE"
+          "a_jumpfloat_E_MELEE"
+          "a_jumpfloat_NW_MELEE"
+          "a_jumpfloat_N_MELEE"
+          "a_jumpfloat_NE_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+        {
+          sequence layer_PRIMARY_jump_floatNoise
+        }
+      ]
+      activity Melee_Jump_Float
+      loop true
+    }
+    {
+      name jumpland_MELEE
+      anim "optchar/medic-jumpland_MELEE.egg"
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+      activity Melee_Jump_Land
+    }
+
+    {
+      name SECONDARY_aimmatrix_idle
+      blend {
+        anims [
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_down_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_down_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_down_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_mid_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_mid_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_mid_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_up_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_up_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_up_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_straight_up.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_straight_up.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name SECONDARY_aimmatrix_run
+      blend {
+        anims [
+          "optchar/medic-a_SECONDARY_aimmatrix_run_down_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_down_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_down_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_mid_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_mid_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_mid_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_up_left.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_up_center.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_up_right.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_straight_up.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_straight_up.egg"
+          "optchar/medic-a_SECONDARY_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name stand_SECONDARY
+      activity Secondary_Stand
+      anim "optchar/medic-stand_SECONDARY.egg"
+      loop true
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+        {
+          sequence layer_idleNoise
+        }
+      ]
+    }
+    {
+      name a_runSW_SECONDARY
+      anim "optchar/medic-a_runSW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runS_SECONDARY
+      anim "optchar/medic-a_runS_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runSE_SECONDARY
+      anim "optchar/medic-a_runSE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runW_SECONDARY
+      anim "optchar/medic-a_runW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runCenter_SECONDARY
+      anim "optchar/medic-a_runCenter_SECONDARY.egg"
+    }
+    {
+      name a_runE_SECONDARY
+      anim "optchar/medic-a_runE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNW_SECONDARY
+      anim "optchar/medic-a_runNW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runN_SECONDARY
+      anim "optchar/medic-a_runN_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNE_SECONDARY
+      anim "optchar/medic-a_runNE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name run_SECONDARY
+      blend {
+        anims [
+          "a_runSW_SECONDARY"
+          "a_runS_SECONDARY"
+          "a_runSE_SECONDARY"
+          "a_runW_SECONDARY"
+          "a_runCenter_SECONDARY"
+          "a_runE_SECONDARY"
+          "a_runNW_SECONDARY"
+          "a_runN_SECONDARY"
+          "a_runNE_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Secondary_Run
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_run
+        }
+      ]
+    }
+    {
+      name AttackStand_SECONDARY_Prefire
+      anim "optchar/medic-AttackStand_SECONDARY_Prefire.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rhand type touch
+          joint joint_lever
+        }
+      ]
+      activity Secondary_Attack_Stand_Prefire
+    }
+    {
+      name AttackStand_SECONDARY
+      anim "optchar/medic-AttackStand_SECONDARY.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rhand type touch
+          joint joint_lever
+        }
+      ]
+      loop true
+      activity Secondary_Attack_Stand
+    }
+    {
+      name layer_AttackStand_SECONDARY_Postfire
+      anim "optchar/medic-layer_AttackStand_SECONDARY_Postfire.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rhand type touch
+          joint joint_lever
+        }
+      ]
+      weight_list weights_SECONDARY_aimmatrix_idle
+      activity Secondary_Attack_Stand_Postfire
+    }
+    {
+      name a_jumpfloat_SECONDARY
+      anim "optchar/medic-a_jumpfloat_SECONDARY.egg"
+    }
+    {
+      name a_jumpfloat_N_SECONDARY
+      anim "optchar/medic-a_jumpfloat_N_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_NE_SECONDARY
+      anim "optchar/medic-a_jumpfloat_NE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_NW_SECONDARY
+      anim "optchar/medic-a_jumpfloat_NW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_E_SECONDARY
+      anim "optchar/medic-a_jumpfloat_E_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SE_SECONDARY
+      anim "optchar/medic-a_jumpfloat_SE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_W_SECONDARY
+      anim "optchar/medic-a_jumpfloat_W_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SW_SECONDARY
+      anim "optchar/medic-a_jumpfloat_SW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_S_SECONDARY
+      anim "optchar/medic-a_jumpfloat_S_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SECONDARY
+      anim "optchar/medic-a_jumpstart_SECONDARY.egg"
+    }
+    {
+      name a_jumpstart_N_SECONDARY
+      anim "optchar/medic-a_jumpstart_N_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NE_SECONDARY
+      anim "optchar/medic-a_jumpstart_NE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NW_SECONDARY
+      anim "optchar/medic-a_jumpstart_NW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_E_SECONDARY
+      anim "optchar/medic-a_jumpstart_E_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SE_SECONDARY
+      anim "optchar/medic-a_jumpstart_SE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_W_SECONDARY
+      anim "optchar/medic-a_jumpstart_W_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SW_SECONDARY
+      anim "optchar/medic-a_jumpstart_SW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_S_SECONDARY
+      anim "optchar/medic-a_jumpstart_S_SECONDARY.egg"
+      motion [ x y ]
+    }
+
+    {
+      name jump_start_SECONDARY
+      blend {
+        anims [
+          "a_jumpstart_SW_SECONDARY"
+          "a_jumpstart_S_SECONDARY"
+          "a_jumpstart_SE_SECONDARY"
+          "a_jumpstart_W_SECONDARY"
+          "a_jumpstart_SECONDARY"
+          "a_jumpstart_E_SECONDARY"
+          "a_jumpstart_NW_SECONDARY"
+          "a_jumpstart_N_SECONDARY"
+          "a_jumpstart_NE_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+      ]
+      activity Secondary_Jump_Start
+    }
+    {
+      name jump_float_SECONDARY
+      blend {
+        anims [
+          "a_jumpfloat_SW_SECONDARY"
+          "a_jumpfloat_S_SECONDARY"
+          "a_jumpfloat_SE_SECONDARY"
+          "a_jumpfloat_W_SECONDARY"
+          "a_jumpfloat_SECONDARY"
+          "a_jumpfloat_E_SECONDARY"
+          "a_jumpfloat_NW_SECONDARY"
+          "a_jumpfloat_N_SECONDARY"
+          "a_jumpfloat_NE_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+        {
+          sequence layer_PRIMARY_jump_floatNoise
+        }
+      ]
+      activity Secondary_Jump_Float
+      loop true
+    }
+    {
+      name jumpland_SECONDARY
+      anim "optchar/medic-jumpland_SECONDARY.egg"
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+      activity Secondary_Jump_Land
+    }
+
+    {
+      name a_flinch01
+      anim "optchar/medic-a_flinch01.egg"
+      activity Gesture_Flinch
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+
+    {
+      name SelectionMenu_Anim01
+      anim "optchar/medic-SelectionMenu_Anim01.egg"
+      events [
+        {
+          frame 29 type 2 event Client_Play_Sound
+          data "Selection.MedicFootStomp"
+        }
+        {
+          frame 30 type 2 event Client_Play_Sound
+          data "Selection.MedicFootSlide"
+        }
+        {
+          frame 43 type 2 event Client_Play_Sound
+          data "Selection.MedicHeelClick"
+        }
+      ]
+    }
+    {
+      name SelectionMenu_Idle
+      anim "optchar/medic-SelectionMenu_Idle.egg"
+      loop true
+    }
+  ]
+
+  physics_model {
+    mesh medic_physics
+
+    mass 100.00
+    inertia 10.00
+    damping 0.00
+    rot_damping 7.00
+
+    joints [
+      {
+        name bip_pelvis
+        rot_damping 0.00
+      }
+      {
+        name prp_coat_front_1_R
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 15 ]
+      }
+      {
+        name prp_coat_back_1_R
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 10 ]
+      }
+      {
+        name prp_coat_back_2_R
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name prp_coat_back_1_M
+        mass_bias 0.75
+        limit_x [ -3 22 ]
+        limit_y [ -35 35 ]
+        limit_z [ -18 18 ]
+      }
+      {
+        name prp_coat_back_2_M
+        mass_bias 0.75
+        limit_x [ -3 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name prp_coat_back_1_L
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name prp_coat_back_2_L
+        mass_bias 0.75
+        limit_x [ -18 25 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name prp_coat_front_1_L
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -35 30 ]
+        limit_z [ -10 24 ]
+      }
+      {
+        name prp_coat_front_2_L
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name bip_hip_R
+        mass_bias 0.80
+        rot_damping 4.00
+        limit_x [ -20 30 ]
+        limit_y [ -15 15 ]
+        limit_z [ -12 80 ]
+      }
+      {
+        name bip_knee_R
+        mass_bias 1.20
+        rot_damping 3.00
+        limit_x [ 0 0 ]
+        limit_y [ -8 25 ]
+        limit_z [ 0 0 ]
+      }
+      {
+        name prp_coat_front_2_R
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -25 15 ]
+      }
+      {
+        name bip_hip_L
+        mass_bias 0.80
+        rot_damping 4.00
+        limit_x [ -20 30 ]
+        limit_y [ -79 24 ]
+        limit_z [ -12 20 ]
+      }
+      {
+        name bip_knee_L
+        mass_bias 1.20
+        rot_damping 3.00
+        limit_x [ 0 0 ]
+        limit_y [ 0 0 ]
+        limit_z [ -25 8 ]
+      }
+      {
+        name bip_foot_L
+        mass_bias 0.75
+        limit_x [ -15 30 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+      {
+        name bip_spine_1
+        mass_bias 1.60
+        rot_damping 12.00
+        limit_x [ -30 30 ]
+        limit_y [ -16 16 ]
+        limit_z [ -20 15 ]
+      }
+      {
+        name bip_upperArm_R
+        mass_bias 0.80
+        rot_damping 16.00
+        limit_x [ -50 40 ]
+        limit_y [ -32 55 ]
+        limit_z [ -80 25 ]
+      }
+      {
+        name bip_lowerArm_R
+        mass_bias 1.80
+        rot_damping 4.00
+        limit_x [ 0 0 ]
+        limit_y [ 0 0 ]
+        limit_z [ -120 12 ]
+      }
+      {
+        name bip_upperArm_L
+        mass_bias 0.80
+        rot_damping 16.00
+        limit_x [ -40 50 ]
+        limit_y [ -15 48 ]
+        limit_z [ -35 70 ]
+      }
+      {
+        name bip_lowerArm_L
+        mass_bias 1.80
+        rot_damping 4.00
+        limit_x [ -25 25 ]
+        limit_y [ -110 13 ]
+        limit_z [ 0 0 ]
+      }
+      {
+        name bip_head
+        mass_bias 1.50
+        rot_damping 8.00
+        limit_x [ -44 20 ]
+        limit_y [ -35 35 ]
+        limit_z [ -26 30 ]
+      }
+      {
+        name bip_hand_R
+        mass_bias 0.60
+        rot_damping 8.00
+        limit_x [ -10 30 ]
+        limit_y [ -8 30 ]
+        limit_z [ -20 40 ]
+      }
+      {
+        name bip_foot_R
+        mass_bias 0.75
+        limit_x [ -10 22 ]
+        limit_y [ -19 25 ]
+        limit_z [ -17 24 ]
+      }
+    ]
+  }
+}

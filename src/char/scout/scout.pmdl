@@ -225,6 +225,16 @@
   }
 
   attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [ -0.19 0.69 7.85 ]
+          hpr [ 91.26 182.62 181.89 ]
+        }
+      ]
+    }
   ]
 
   pose_parameters [
@@ -715,6 +725,7 @@
         }
       ]
       activity Primary_Jump_Float
+      loop true
     }
     {
       name jumpland_primary
@@ -1283,6 +1294,7 @@
         }
       ]
       activity Secondary_Jump_Float
+      loop true
     }
     {
       name jumpland_secondary

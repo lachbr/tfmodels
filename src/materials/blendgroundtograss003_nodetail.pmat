@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/dirtground003.ptex"
+    "basetexture2"     "../maps/dirtground004.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+  }
+}

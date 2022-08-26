@@ -1,0 +1,12 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/grain_elevator_facade_14a.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "wood"
+  }
+}

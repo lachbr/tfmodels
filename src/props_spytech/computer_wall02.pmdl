@@ -1,0 +1,94 @@
+
+{
+  "model"   "computer_wall02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "../materials/computer_wall02.pmat"
+        "../materials/computer_radar.pmat"
+        "../materials/computer_screen1.pmat"
+        "../materials/computer_wall02b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "../materials/computer_wall02b.pmat"
+        "../materials/computer_radar.pmat"
+        "../materials/computer_screen1.pmat"
+        "../materials/computer_wall02b.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "computer_wall02_reference"
+      ]
+    }
+
+    {
+      "distance"       15
+      "groups" 
+      [
+        "computer_wall02_reference_lod1"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "computer_wall02_reference_lod2"
+      ]
+    }
+
+    {
+      "distance"       60
+      "groups" 
+      [
+        "computer_wall02_reference_lod3"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "computer_wall02_physics"
+    "mass"     80
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "computer_wall02_reference*"
+        ]
+      }
+    ]
+  }
+}

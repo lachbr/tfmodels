@@ -172,6 +172,19 @@
     }
   ]
 
+  attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [  0 -1.39 8.95 ]
+          hpr [ 90.08 182.96 181.49 ]
+        }
+      ]
+    }
+  ]
+
   eyeballs [
     {
       name eye_right

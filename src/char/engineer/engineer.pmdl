@@ -335,6 +335,16 @@
   ]
 
   attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [  0.12 1.92 9.64 ]
+          hpr [ 90.95 186.92 181.52 ]
+        }
+      ]
+    }
   ]
 
   sequences [

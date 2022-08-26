@@ -24,7 +24,11 @@ outDir = tfModels / Filename("src/materials")
 if not os.path.isdir(outDir.toOsSpecific()):
     os.makedirs(outDir.toOsSpecific())
 
-pmatFilename = outDir / Filename(vmtFilename.getBasenameWoExtension() + ".pmat")
+if len(sys.argv) > 2:
+    pmatBasename = sys.argv[2]
+else:
+    pmatBasename = vmtFilename.getBasenameWoExtension()
+pmatFilename = outDir / Filename(pmatBasename + ".pmat")
 
 VMTShaderToMaterialName = {
     'vertexlitgeneric': 'SourceMaterial',
@@ -425,6 +429,7 @@ if materialName == 'SourceLightmappedMaterial':
     pmatTags = PDXElement()
     for key, value in tags.items():
         pmatTags.setAttribute(key, value)
+    pmatTags.setAttribute("original", vmtFilename.getFullpath())
     pmatData.setAttribute("tags", pmatTags)
 
 print("Writing " + pmatFilename.getFullpath(), file=sys.stderr)

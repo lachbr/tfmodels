@@ -1,0 +1,5 @@
+{
+  image healsign.tga
+  format srgb
+  wrap clamp
+}

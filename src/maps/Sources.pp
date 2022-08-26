@@ -1049,7 +1049,81 @@
     stairs001a_metal.ptex \
     briefcase.ptex \
     briefcase_blue.ptex \
-    briefcase_ntr.ptex
+    briefcase_ntr.ptex \
+    wood_wall003.ptex \
+    ground_04.ptex \
+    wall015b.ptex \
+    wood_wall005c.ptex \
+    wood_wall002b.ptex \
+    grain_elevator_facade_13.ptex \
+    concretewall001b.ptex \
+    grain_elevator_silo_10c.ptex \
+    wall016b.ptex \
+    wall016b_bump-ssbump.ptex \
+    grain_elevator_silo_06.ptex \
+    wall014d.ptex \
+    wall016.ptex \
+    wall022.ptex \
+    grain_elevator_facade_14a.ptex \
+    grain_elevator_silo_10b.ptex \
+    concretewall001c.ptex \
+    wall016a.ptex \
+    wall016a_bump-ssbump.ptex \
+    computerwall005d.ptex \
+    dirtground002.ptex \
+    dirtground002_height-ssbump.ptex \
+    White001.ptex \
+    color013.ptex \
+    floor_tile_004c.ptex \
+    floor_tile_004c_normal.ptex \
+    floor_tile_004a.ptex \
+    wall014b.ptex \
+    floor_tile_004b.ptex \
+    floor_tile_004b_normal.ptex \
+    concretewall006.ptex \
+    rockwall003.ptex \
+    rockwall003_height-ssbump.ptex \
+    wood_wall005b.ptex \
+    floor_tile_005c.ptex \
+    floor_tile_005a.ptex \
+    floor_tile_005b.ptex \
+    farm_fields001.ptex \
+    computer_radar.ptex \
+    computer_radarsweep.ptex \
+    computer_screen1.ptex \
+    computer_wall02b.ptex \
+    monitor_world_red.ptex \
+    glasswindow002c.ptex \
+    metalchrome001.ptex \
+    Cloud001a.ptex \
+    Cloud001c.ptex \
+    color003.ptex \
+    White002.ptex \
+    Cloud001d.ptex \
+    Cloud001b.ptex \
+    lightshaft_2fortspawnext.ptex \
+    monitor_world_blue.ptex \
+    color005.ptex \
+    metalrail003a.ptex \
+    metalgrate011a.ptex \
+    sky_tf2_04_hdrdn.ptex sky_tf2_04_hdrup.ptex sky_tf2_04_hdrside.ptex \
+    resupply_locker.ptex \
+    resupply_locker02.ptex \
+    medic_red.ptex \
+    medic_normal.ptex \
+    medic_head.ptex \
+    medic_head_phongmask.ptex \
+    medic_head_exponent.ptex \
+    medic_blue.ptex \
+    medic_hands_red.ptex \
+    medic_hands_blue.ptex \
+    v_bonesaw.ptex \
+    medic_backpack_red.ptex \
+    medic_backpack_blue.ptex \
+    w_medigun01.ptex \
+    w_medigun01_Blue.ptex \
+    v_medigun.ptex \
+    v_medigun_blue.ptex
 
 #end install_tex
 

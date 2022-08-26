@@ -1,0 +1,56 @@
+{
+  model "optchar/v_bonesaw_medic-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/medic_red.pmat"
+        "../../materials/medic_hands_red.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/medic_blue.pmat"
+        "../../materials/medic_hands_blue.pmat"
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name draw
+      anim "optchar/v_bonesaw_medic-draw.egg"
+      activity VM_Draw
+    }
+    {
+      name idle
+      anim "optchar/v_bonesaw_medic-idle.egg"
+      loop true
+      activity VM_Idle
+      fps 15
+    }
+    {
+      name swing_a
+      anim "optchar/v_bonesaw_medic-swing_a.egg"
+      activity VM_Fire
+    }
+    {
+      name swing_b
+      anim "optchar/v_bonesaw_medic-swing_b.egg"
+      activity VM_Fire
+    }
+    {
+      name swing_c
+      anim "optchar/v_bonesaw_medic-swing_c.egg"
+      activity VM_Swing_Hard
+    }
+  ]
+}

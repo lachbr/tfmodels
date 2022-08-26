@@ -1,0 +1,94 @@
+{
+  model "optchar/v_medigun_medic-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/medic_red.pmat"
+        "../../materials/medic_hands_red.pmat"
+        "../../materials/v_medigun.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/medic_blue.pmat"
+        "../../materials/medic_hands_blue.pmat"
+        "../../materials/v_medigun_blue.pmat"
+      ]
+    }
+  ]
+
+  attachments [
+    {
+      name weapon_bone_L
+      influences [
+        {
+          parent weapon_bone_L
+        }
+      ]
+    }
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 -0.79 29.34 ]
+          hpr [ 0 90 180 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name layer_idleNoise
+      anim "optchar/v_medigun_medic-layer_idleNoise.egg"
+      delta true
+      real_time true
+      fps 6
+      loop true
+    }
+    {
+      name draw
+      anim "optchar/v_medigun_medic-draw.egg"
+      activity VM_Draw
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_Medigun.Draw"
+        }
+      ]
+    }
+    {
+      name idle
+      anim "optchar/v_medigun_medic-idle.egg"
+      activity VM_Idle
+      loop true
+    }
+    {
+      name fire_on
+      anim "optchar/v_medigun_medic-fire_on.egg"
+      activity VM_Pre_Fire
+    }
+    {
+      name fire_loop
+      anim "optchar/v_medigun_medic-fire_loop.egg"
+      activity VM_Fire
+      loop true
+    }
+    {
+      name fire_off
+      anim "optchar/v_medigun_medic-fire_off.egg"
+      activity VM_Post_Fire
+      fps 18
+    }
+  ]
+}

@@ -163,6 +163,16 @@
   }
 
   attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_3
+          pos [  1.42 5.01 8.82 ]
+          hpr [ 93.7 190.88 190.1 ]
+        }
+      ]
+    }
   ]
 
   pose_parameters [
@@ -1371,6 +1381,7 @@
 
   physics_model {
     mesh soldier_physics
+    inertia 10
     mass 100
     rot_damping 4
     damping 0

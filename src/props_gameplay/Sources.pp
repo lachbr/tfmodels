@@ -1,6 +1,23 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/props_gameplay
 
+// Resupply locker.
+#define resupply_locker_optchar_opts \
+  -flag resupply_locker_physics \
+  -flag resupply_locker_reference,resupply_locker_reference_lod1,resupply_locker_reference_lod2 \
+  -flag resupply_locker_reference_lod3,resupply_locker_reference_lod4
+#call tf_char_egg resupply_locker,idle close open,$[resupply_locker_optchar_opts]
+
+// Bam file installation.
+#begin install_mdl
+  #define SOURCES \
+    resupply_locker.pmdl
+
+#end install_mdl
+
+// Below is auto-generated from the port_mdl.py script, currently used for
+// porting static props.
+
 #include $[THISDIRPREFIX]Sources.sign_gameplay01_witharrow_r_sm.pp
 #include $[THISDIRPREFIX]Sources.sign_barricade001a.pp
 #include $[THISDIRPREFIX]Sources.door_slide_large_frame.pp

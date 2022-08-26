@@ -1,0 +1,5 @@
+{
+  image tp_spark.tga
+  format srgb
+  wrap clamp
+}

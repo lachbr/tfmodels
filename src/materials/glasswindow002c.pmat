@@ -1,0 +1,23 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters"
+  {
+    "basetexture"     "../maps/glasswindow002c.ptex"
+    "envmap"     1
+    "envmaptint"
+    [
+      0.2
+      0.2
+      0.2
+    ]
+  }
+  "color_blend"   "additive"
+  light off
+  fog off
+  bin transparent
+  "tags"
+  {
+    "surface_prop"     "glass"
+  }
+}

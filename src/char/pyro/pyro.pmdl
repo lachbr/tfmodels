@@ -198,6 +198,19 @@
     }
   ]
 
+  attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [  -0.65 6.91 9.17 ]
+          hpr [ 92.51 182.14 194.44 ]
+        }
+      ]
+    }
+  ]
+
   ik_chains [
     {
       name rhand

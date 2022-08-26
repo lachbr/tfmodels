@@ -357,6 +357,19 @@
     }
   ]
 
+  attachments [
+    {
+      name flag
+      influences [
+        {
+          parent bip_spine_2
+          pos [  0 -4.99 9.58 ]
+          hpr [ 90.59 182.56 191.46 ]
+        }
+      ]
+    }
+  ]
+
   joint_merges [
     "bip_pelvis"
     "bip_spine_0"

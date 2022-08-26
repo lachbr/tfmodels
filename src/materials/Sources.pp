@@ -783,6 +783,7 @@
     brickwall004d.pmat \
     imetal005.pmat \
     toolsplayerclip.pmat \
+    toolsclip.pmat \
     blue_wall2_middle.pmat \
     concretewall011c.pmat \
     blendgroundtograss_coalmines.pmat \
@@ -970,6 +971,85 @@
     briefcase_ntr.pmat \
     briefcase_pickedup.pmat \
     briefcase_pickedup_blue.pmat \
-    briefcase_pickedup_ntr.pmat
+    briefcase_pickedup_ntr.pmat \
+    wood_wall003.pmat \
+    ground_04.pmat \
+    wall015b.pmat \
+    wood_wall005c.pmat \
+    wood_wall002b.pmat \
+    grain_elevator_facade_13.pmat \
+    concretewall001b.pmat \
+    grain_elevator_silo_10c.pmat \
+    wall016b.pmat \
+    grain_elevator_silo_06.pmat \
+    wall014d.pmat \
+    wall016.pmat \
+    wall022.pmat \
+    grain_elevator_facade_14a.pmat \
+    grain_elevator_silo_10b.pmat \
+    concretewall001c.pmat \
+    wall016a.pmat \
+    computerwall005d.pmat \
+    dirtground002.pmat \
+    white001.pmat \
+    blendgroundtogravel001.pmat \
+    dirtground001.pmat \
+    dirtground003.pmat \
+    blendgroundtograss001.pmat \
+    color013.pmat \
+    floor_tile_004c.pmat \
+    floor_tile_004a.pmat \
+    wall014b.pmat \
+    floor_tile_004b.pmat \
+    concretewall006.pmat \
+    rockwall003.pmat \
+    blendgroundtograss003_nodetail.pmat \
+    wood_wall005b.pmat \
+    blendgroundtograss003.pmat \
+    floor_tile_005c.pmat \
+    floor_tile_005a.pmat \
+    floor_tile_005b.pmat \
+    farm_fields001.pmat \
+    computer_radar.pmat \
+    computer_screen1.pmat \
+    computer_wall02b.pmat \
+    monitor_world_red.pmat \
+    glasswindow002c.pmat \
+    metalchrome001.pmat \
+    cloud001a.pmat \
+    cloud001c.pmat \
+    color003.pmat \
+    white002.pmat \
+    cloud001d.pmat \
+    cloud001b.pmat \
+    lightshaft_2fortspawnext.pmat \
+    monitor_world_blue.pmat \
+    color005.pmat \
+    metalrail003a.pmat \
+    metalgrate011a.pmat \
+    sky_tf2_04_hdrbk.pmat \
+    sky_tf2_04_hdrdn.pmat \
+    sky_tf2_04_hdrft.pmat \
+    sky_tf2_04_hdrlf.pmat \
+    sky_tf2_04_hdrrt.pmat \
+    sky_tf2_04_hdrup.pmat \
+    resupply_locker.pmat \
+    resupply_locker02.pmat \
+    water_2fort.pmat \
+    water_2fort_skybox.pmat \
+    medic_red.pmat \
+    medic_head_red.pmat \
+    medic_blue.pmat \
+    medic_head_blue.pmat \
+    medic_hands_red.pmat \
+    medic_hands_blue.pmat \
+    v_bonesaw.pmat \
+    w_bonesaw.pmat \
+    medic_backpack_red.pmat \
+    medic_backpack_blue.pmat \
+    w_medigun01.pmat \
+    w_medigun01_blue.pmat \
+    v_medigun.pmat \
+    v_medigun_blue.pmat
 
 #end install_mat

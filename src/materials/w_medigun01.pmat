@@ -1,0 +1,30 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/w_medigun01.ptex"
+    "phong"     1
+    "phongexponent"     15
+    "phongboost"     5
+    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
+    "phongfresnelranges" 
+    [
+      1.5
+      0.5
+      3
+    ]
+    "halflambert"     1
+    "selfillum"     1
+    "selfillumtint" 
+    [
+      1
+      0.55
+      0.1
+    ]
+    "basemapalphaphongmask"     1
+    "rimlight"     1
+    "rimlightexponent"     4
+    "rimlightboost"     2
+  }
+}

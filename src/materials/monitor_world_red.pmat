@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/monitor_world_red.ptex"
+    "selfillum"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "glass"
+  }
+}

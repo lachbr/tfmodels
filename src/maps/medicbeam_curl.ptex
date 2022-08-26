@@ -1,0 +1,5 @@
+{
+  image medicbeam_curl.tga
+  format rgb
+  wrap clamp
+}
