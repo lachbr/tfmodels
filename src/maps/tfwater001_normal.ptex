@@ -1,0 +1,7 @@
+{
+  type "2d_texture_array"
+  image "tfwater001_normal_#_00_00.tga"
+  format rgb
+  wrap repeat
+  num_pages 60
+}

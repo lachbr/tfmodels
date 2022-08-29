@@ -1123,7 +1123,8 @@
     w_medigun01.ptex \
     w_medigun01_Blue.ptex \
     v_medigun.ptex \
-    v_medigun_blue.ptex
+    v_medigun_blue.ptex \
+    tfwater001_normal.ptex
 
 #end install_tex
 

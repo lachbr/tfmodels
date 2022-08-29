@@ -1,5 +1,10 @@
 {
-  material SourceWaterMaterial
+  material SourceLightmappedMaterial
   parameters {
+    envmap true
+  }
+
+  tags {
+    compile_water 1
   }
 }
