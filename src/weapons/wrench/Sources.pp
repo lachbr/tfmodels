@@ -51,6 +51,7 @@
   #define SOURCES \
     v_wrench_engineer-zero.egg \
     $[matrix anims/v_wrench_engineer-,$[V_WRENCH_ENGINEER_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

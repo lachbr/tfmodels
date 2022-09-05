@@ -40,6 +40,7 @@
   #define SOURCES \
     v_toolbox_engineer-zero.egg \
     $[matrix anims/v_toolbox_engineer-,$[V_TOOLBOX_ENGINEER_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

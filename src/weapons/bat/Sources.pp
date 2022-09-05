@@ -23,6 +23,7 @@
   #define SOURCES \
     v_bat_scout-zero.egg \
     $[matrix anims/v_bat_scout-,$[V_BAT_SCOUT_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

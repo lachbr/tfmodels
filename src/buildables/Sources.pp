@@ -65,13 +65,13 @@
 #end optchar_egg
 
 // Blueprint model.
-#call tf_char_egg sentry1_blueprint,idle reject,
+#call tf_char_egg sentry1_blueprint,idle reject,-keepall
 
 // Sentry1 gibs.
-#call tf_char_egg sentry1_gib1,,-flag sentry1_gib1_physics
-#call tf_char_egg sentry1_gib2,,-flag sentry1_gib2_physics
-#call tf_char_egg sentry1_gib3,,-flag sentry1_gib3_physics
-#call tf_char_egg sentry1_gib4,,-flag sentry1_gib4_physics
+#call tf_char_egg sentry1_gib1,,-flag sentry1_gib1_physics -keepall
+#call tf_char_egg sentry1_gib2,,-flag sentry1_gib2_physics -keepall
+#call tf_char_egg sentry1_gib3,,-flag sentry1_gib3_physics -keepall
+#call tf_char_egg sentry1_gib4,,-flag sentry1_gib4_physics -keepall
 
 #define sentry2_heavy_anims \
   a_pitch_center \
@@ -140,10 +140,11 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // Blueprint model.
-#call tf_char_egg dispenser_blueprint,idle reject,
+#call tf_char_egg dispenser_blueprint,idle reject,-keepall
 
 // "Heavy" model.  Used for the building animation.
 #define dispenser_optchar_opts \
+  -keepall \
   -flag dispenser_toolbox,dispenser_toolbox_lod1,dispenser_toolbox_lod2 \
   -flag dispenser_toolbox_lod3,dispenser_toolbox_lod4 \
   -flag dispenser_toolbox_junk,dispenser_toolbox_junk_lod1,dispenser_toolbox_junk_lod2 \
@@ -152,17 +153,18 @@
 
 // "Light" model.  Used after building animation.
 #define dispenser_light_optchar_opts \
+  -keepall \
   -flag dispenser_light_reference,dispenser_light_reference_lod1 \
   -flag dispenser_light_reference_lod2,dispenser_light_reference_lod3 \
   -flag dispenser_light_reference_lod4
 #call tf_char_egg dispenser_light,a_idle,$[dispenser_light_optchar_opts]
 
 // Dispenser gibs.
-#call tf_char_egg dispenser_gib1,,-flag dispenser_gib1_physics
-#call tf_char_egg dispenser_gib2,,-flag dispenser_gib2_physics
-#call tf_char_egg dispenser_gib3,,-flag dispenser_gib3_physics
-#call tf_char_egg dispenser_gib4,,-flag dispenser_gib4_physics
-#call tf_char_egg dispenser_gib5,,-flag dispenser_gib5_physics
+#call tf_char_egg dispenser_gib1,,-flag dispenser_gib1_physics -keepall
+#call tf_char_egg dispenser_gib2,,-flag dispenser_gib2_physics -keepall
+#call tf_char_egg dispenser_gib3,,-flag dispenser_gib3_physics -keepall
+#call tf_char_egg dispenser_gib4,,-flag dispenser_gib4_physics -keepall
+#call tf_char_egg dispenser_gib5,,-flag dispenser_gib5_physics -keepall
 
 ///////////////////////////////////////////////////////////////////////////////
 //
@@ -171,11 +173,12 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // Blueprints.
-#call tf_char_egg teleporter_blueprint_enter,enter_idle enter_reject,
-#call tf_char_egg teleporter_blueprint_exit,exit_idle exit_reject,
+#call tf_char_egg teleporter_blueprint_enter,enter_idle enter_reject,-keepall
+#call tf_char_egg teleporter_blueprint_exit,exit_idle exit_reject,-keepall
 
 // Model for when teleporter is constructing.
 #define teleporter_optchar_opts \
+  -keepall \
   -flag teleporter_reference,teleporter_reference_lod1,teleporter_reference_lod2
 #call tf_char_egg teleporter,build idle,$[teleporter_optchar_opts]
 
@@ -184,16 +187,17 @@
   a_arrowEnd a_arrowMid0 a_arrowMid1 \
   a_arrowMid2 a_arrowStart a_running
 #define teleporter_light_optchar_opts \
+  -keepall \
   -flag teleporter_arrow,teleporter_arrow_lod1,teleporter_arrow_lod2 \
   -flag teleporter_light_reference,teleporter_light_reference_lod1,teleporter_light_reference_lod2 \
   -flag teleporter_spin_blur,teleporter_spin_blur_lod1,teleporter_spin_blur_lod2
 #call tf_char_egg teleporter_light,$[teleporter_light_anims],$[teleporter_light_optchar_opts]
 
 // Teleporter gibs.
-#call tf_char_egg teleporter_gib1,,-flag teleporter_gib1_physics
-#call tf_char_egg teleporter_gib2,,-flag teleporter_gib2_physics
-#call tf_char_egg teleporter_gib3,,-flag teleporter_gib3_physics
-#call tf_char_egg teleporter_gib4,,-flag teleporter_gib4_physics
+#call tf_char_egg teleporter_gib1,,-flag teleporter_gib1_physics -keepall
+#call tf_char_egg teleporter_gib2,,-flag teleporter_gib2_physics -keepall
+#call tf_char_egg teleporter_gib3,,-flag teleporter_gib3_physics -keepall
+#call tf_char_egg teleporter_gib4,,-flag teleporter_gib4_physics -keepall
 
 ///////////////////////////////////////////////////////////////////////////////
 //

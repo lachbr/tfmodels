@@ -46,6 +46,7 @@
   #define SOURCES \
     v_revolver_spy-zero.egg \
     $[matrix anims/v_revolver_spy-,$[V_REVOLVER_SPY_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

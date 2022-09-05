@@ -51,6 +51,7 @@
   #define SOURCES \
     v_shotgun_engineer-zero.egg \
     $[matrix anims/v_shotgun_engineer-,$[V_SHOTGUN_ENGINEER_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
@@ -80,6 +81,7 @@
   #define SOURCES \
     v_shotgun_soldier-zero.egg \
     $[matrix anims/v_shotgun_soldier-,$[V_SHOTGUN_SOLDIER_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
@@ -109,6 +111,7 @@
   #define SOURCES \
     v_shotgun_heavy-zero.egg \
     $[matrix anims/v_shotgun_heavy-,$[V_SHOTGUN_HEAVY_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
@@ -138,6 +141,7 @@
   #define SOURCES \
     v_shotgun_pyro-zero.egg \
     $[matrix anims/v_shotgun_pyro-,$[V_SHOTGUN_PYRO_ANIMS],.egg]
+  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
