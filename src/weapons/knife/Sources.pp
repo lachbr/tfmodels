@@ -47,7 +47,6 @@
   #define SOURCES \
     v_knife_spy-zero.egg \
     $[matrix anims/v_knife_spy-,$[V_KNIFE_SPY_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

@@ -24,7 +24,6 @@
   #define SOURCES \
     v_builder_engineer-zero.egg \
     $[matrix anims/v_builder_engineer-,$[V_BUILDER_ENGINEER_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
@@ -74,7 +73,6 @@
   #define SOURCES \
     v_pda_engineer-zero.egg \
     $[matrix anims/v_pda_engineer-,$[V_PDA_ENGINEER_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

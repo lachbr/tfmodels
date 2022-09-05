@@ -43,7 +43,6 @@
   #define SOURCES \
     v_shovel_soldier-zero.egg \
     $[matrix anims/v_shovel_soldier-,$[V_SHOVEL_SOLDIER_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

@@ -23,7 +23,6 @@
   #define SOURCES \
     v_fist_heavy-zero.egg \
     $[matrix anims/v_fist_heavy-,$[V_FIST_HEAVY_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

@@ -8,7 +8,7 @@
 
 #define v_bonesaw_medic_anims \
   draw idle swing_a swing_b swing_c
-#call tf_char_egg v_bonesaw_medic,$[v_bonesaw_medic_anims],-keepall
+#call tf_char_egg v_bonesaw_medic,$[v_bonesaw_medic_anims],
 
 #begin install_mdl
   #define SOURCES \

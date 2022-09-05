@@ -46,7 +46,6 @@
   #define SOURCES \
     v_bottle_demoman-zero.egg \
     $[matrix anims/v_bottle_demoman-,$[V_BOTTLE_DEMOMAN_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

@@ -60,7 +60,6 @@
   #define SOURCES \
     v_rocketlauncher_soldier-zero.egg \
     $[matrix anims/v_rocketlauncher_soldier-,$[V_ROCKETLAUNCHER_SOLDIER_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

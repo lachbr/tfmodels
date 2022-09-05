@@ -42,7 +42,6 @@
   #define SOURCES \
     v_fireaxe_pyro-zero.egg \
     $[matrix anims/v_fireaxe_pyro-,$[V_FIREAXE_PYRO_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

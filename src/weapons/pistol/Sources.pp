@@ -44,7 +44,6 @@
   #define SOURCES \
     v_pistol_engineer-zero.egg \
     $[matrix anims/v_pistol_engineer-,$[V_PISTOL_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 
@@ -66,7 +65,6 @@
   #define SOURCES \
     v_pistol_scout-zero.egg \
     $[matrix anims/v_pistol_scout-,$[V_PISTOL_ANIMS],.egg]
-  #define OPTCHAR_OPTS -keepall
 
 #end optchar_egg
 

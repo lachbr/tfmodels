@@ -3,7 +3,6 @@
 
 // Resupply locker.
 #define resupply_locker_optchar_opts \
-  -keepall \
   -flag resupply_locker_physics \
   -flag resupply_locker_reference,resupply_locker_reference_lod1,resupply_locker_reference_lod2 \
   -flag resupply_locker_reference_lod3,resupply_locker_reference_lod4
