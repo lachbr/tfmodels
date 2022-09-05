@@ -50,7 +50,7 @@
   sequences [
     {
       name layer_idleNoise
-      anim "optchar/v_medigun_medic-layer_idleNoise.egg"
+      anim "optchar/v_medigun_medic-layer_idlenoise.egg"
       delta true
       real_time true
       fps 6
