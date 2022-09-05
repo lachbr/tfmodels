@@ -8,6 +8,7 @@
 *.mto
 *.blend1
 *.pyc
+*.optchar
 /built/
 Makefile
 /decompile/
