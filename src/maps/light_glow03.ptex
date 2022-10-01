@@ -1,5 +1,5 @@
 {
   image light_glow03.tga
-  format srgb
+  format sluminance
   wrap clamp
 }
