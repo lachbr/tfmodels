@@ -11,6 +11,21 @@
       mins [ -44.942 -34.227 -15.798 ]
       maxs [ 27.132 38.166 56.385 ]
     }
+
+    gibs [
+      {
+        model "models/buildables/sentry2_gib1"
+      }
+      {
+        model "models/buildables/sentry2_gib2"
+      }
+      {
+        model "models/buildables/sentry2_gib3"
+      }
+      {
+        model "models/buildables/sentry2_gib4"
+      }
+    ]
   }
 
   lods [

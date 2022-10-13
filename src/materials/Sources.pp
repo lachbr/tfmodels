@@ -1050,6 +1050,10 @@
     w_medigun01.pmat \
     w_medigun01_blue.pmat \
     v_medigun.pmat \
-    v_medigun_blue.pmat
+    v_medigun_blue.pmat \
+    sentry3_gibs.pmat \
+    sentry3_gibs_blue.pmat \
+    sapper_deployed.pmat \
+    placementmodel.pmat
 
 #end install_mat

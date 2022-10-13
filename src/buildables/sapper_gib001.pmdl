@@ -1,0 +1,27 @@
+{
+  model "sapper_gib001.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  // TODO
+  //attachments [
+  //  {
+  //    name sentry_spark1
+  //    influences [
+  //      {
+  //        pos [ -]
+  //      }
+  //    ]
+   // }
+  //]
+
+  physics_model {
+    mesh sapper_gib001_physics
+    mass 1.00476
+  }
+}

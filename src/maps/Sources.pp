@@ -1124,7 +1124,12 @@
     w_medigun01_Blue.ptex \
     v_medigun.ptex \
     v_medigun_blue.ptex \
-    tfwater001_normal.ptex
+    tfwater001_normal.ptex \
+    Sentry3_Gibs.ptex \
+    Sentry3_Gibs_blue.ptex \
+    sapper_deployed.ptex \
+    sapper_deployed_phongmask.ptex \
+    placementmodel.ptex
 
 #end install_tex
 

@@ -1,6 +1,12 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/buildables
 
+///////////////////////////////////////////////////////////////////////////////
+//
+// SENTRY 1
+//
+///////////////////////////////////////////////////////////////////////////////
+
 #define sentry1_heavy_anims \
   a_yaw_right \
   a_pitch_down \
@@ -73,6 +79,12 @@
 #call tf_char_egg sentry1_gib3,,-flag sentry1_gib3_physics
 #call tf_char_egg sentry1_gib4,,-flag sentry1_gib4_physics
 
+///////////////////////////////////////////////////////////////////////////////
+//
+// SENTRY 2
+//
+///////////////////////////////////////////////////////////////////////////////
+
 #define sentry2_heavy_anims \
   a_pitch_center \
   a_pitch_down \
@@ -132,6 +144,28 @@
   -flag sentry2_optimized_reference_lod3 \
   -flag sentry2_optimized_reference_lod4
 #call tf_char_egg sentry2,$[sentry2_anims],$[sentry2_optchar_opts]
+
+// Sentry 2 gibs
+#begin blender_egg
+  #define SOURCES \
+    sentry2_gib1.blend \
+    sentry2_gib2.blend \
+    sentry2_gib3.blend \
+    sentry2_gib4.blend
+
+#end blender_egg
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// SENTRY 3
+//
+///////////////////////////////////////////////////////////////////////////////
+
+// Gibs
+#begin blender_egg
+  #define SOURCES \
+    sentry3_gib1.blend
+#end blender_egg
 
 ///////////////////////////////////////////////////////////////////////////////
 //
@@ -197,6 +231,19 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //
+// SAPPER
+//
+///////////////////////////////////////////////////////////////////////////////
+
+// Gibs
+#begin blender_egg
+  #define SOURCES \
+    sapper_gib001.blend \
+    sapper_gib002.blend
+#end blender_egg
+
+///////////////////////////////////////////////////////////////////////////////
+//
 // Bam file installation.
 //
 ///////////////////////////////////////////////////////////////////////////////
@@ -210,6 +257,9 @@
     sentry1_blueprint.pmdl \
     sentry2.pmdl \
     sentry2_heavy.pmdl \
+    sentry2_gib1.pmdl sentry2_gib2.pmdl \
+    sentry2_gib3.pmdl sentry2_gib4.pmdl \
+    sentry3_gib1.pmdl \
     dispenser.pmdl \
     dispenser_light.pmdl \
     dispenser_blueprint.pmdl \
@@ -221,6 +271,7 @@
     teleporter_blueprint_enter.pmdl \
     teleporter_blueprint_exit.pmdl \
     teleporter_gib1.pmdl teleporter_gib2.pmdl \
-    teleporter_gib3.pmdl teleporter_gib4.pmdl
+    teleporter_gib3.pmdl teleporter_gib4.pmdl \
+    sapper_gib001.pmdl sapper_gib002.pmdl
 
 #end install_mdl

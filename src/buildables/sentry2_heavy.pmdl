@@ -13,6 +13,21 @@
       maxs [ 36.449 51.932 80.479 ]
     }
 
+    gibs [
+      {
+        model "models/buildables/sentry2_gib1"
+      }
+      {
+        model "models/buildables/sentry2_gib2"
+      }
+      {
+        model "models/buildables/sentry2_gib3"
+      }
+      {
+        model "models/buildables/sentry2_gib4"
+      }
+    ]
+
     bodygroups [
       {
         name sentry2

@@ -1,0 +1,38 @@
+{
+  model "sentry3_gib1.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../materials/sentry3_gibs.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../materials/sentry3_gibs_blue.pmat" ]
+    }
+  ]
+
+  // TODO
+  //attachments [
+  //  {
+  //    name sentry_spark1
+  //    influences [
+  //      {
+  //        pos [ -]
+  //      }
+  //    ]
+   // }
+  //]
+
+  physics_model {
+    mesh sentry3_gib1_physics
+    mass 15.40499
+  }
+}
