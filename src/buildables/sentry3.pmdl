@@ -1,0 +1,343 @@
+{
+  model "optchar/sentry3-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+
+    gibs [
+      {
+        model "models/buildables/sentry3_gib1"
+      }
+      {
+        model "models/buildables/sentry2_gib2"
+      }
+      {
+        model "models/buildables/sentry2_gib3"
+      }
+      {
+        model "models/buildables/sentry2_gib4"
+      }
+    ]
+
+    bbox {
+      mins [ -33.475 -41.087 -0.25 ]
+      maxs [ 33.327 41.158 89.264 ]
+    }
+
+    bodygroups [
+      {
+        name Rockets
+        nodes [
+          "Sentry3_rockets_reference*"
+          blank
+        ]
+      }
+    ]
+  }
+
+  lods [
+    {
+      distance 0
+      groups [
+        sentry3_optimized_reference Sentry3_rockets_reference sentry3_laser
+      ]
+    }
+    {
+      distance 18
+      groups [
+        sentry3_optimized_reference_lod1 Sentry3_rockets_reference_lod1 sentry3_laser_lod1
+      ]
+    }
+    {
+      distance 30
+      groups [
+        sentry3_optimized_reference_lod2 Sentry3_rockets_reference_lod2 sentry3_laser_lod2
+      ]
+    }
+    {
+      distance 40
+      groups [
+        sentry3_optimized_reference_lod3 Sentry3_rockets_reference_lod3 sentry3_laser_lod3
+      ]
+    }
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../materials/sentry1.pmat"
+        "../materials/sentry2.pmat"
+        "../materials/sentry3.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../materials/sentry1_blue.pmat"
+        "../materials/sentry2_blue.pmat"
+        "../materials/sentry3_blue.pmat"
+      ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle_l
+      influences [
+        {
+          parent S2chaingunL_02
+          pos [ -0.07 0.35 23.11 ]
+          hpr [ -90 90 0 ]
+        }
+      ]
+    }
+    {
+      name muzzle_r
+      influences [
+        {
+          parent S2chaingunR_02
+          pos [ 0.04 0.35 23.11 ]
+          hpr [ -90 90 0 ]
+        }
+      ]
+    }
+    {
+      name rocket
+      influences [
+        {
+          parent boxRocket
+          pos [ 0.09 1.41 12.38 ]
+          hpr [ -90 90 0 ]
+        }
+      ]
+    }
+    {
+      name rocket_l
+      influences [
+        {
+          parent boxRocket
+          pos [ 0.09 1.41 12.38 ]
+          hpr [ -90 90 0 ]
+        }
+      ]
+    }
+    {
+      name rocket_r
+      influences [
+        {
+          parent boxRocket
+          pos [ 0.09 1.41 12.38 ]
+          hpr [ -90 90 0 ]
+        }
+      ]
+    }
+  ]
+
+  pose_parameters [
+    {
+      name aim_pitch
+      min -50 max 50
+    }
+    {
+      name aim_yaw
+      min -180 max 180
+      loop 360
+    }
+  ]
+
+  weight_lists [
+    {
+      name weights_fire_empty
+      weights {
+        "toolboxRoot" 0
+        "upper_telescope_01" 0
+        "S2turret_back" 0
+        "S2lFork_bolt" 0
+        "S2midHousingL" 0
+        "S2chaingunL_02" 1
+        "boxRocketArm1" 0
+        "boxRocketArm2" 0
+        "boxRocketArm3" 0
+        "boxRocket" 0
+        "S2rFork_bolt" 0
+        "S2midHousingR" 0
+        "S2chaingunR_02" 1
+        "S3wireL01" 0
+        "S3wireL03" 0
+        "ammochain09" 0
+        "ammochain010" 0
+        "ammochain017" 0
+        "ammochain013" 0
+        "S3wireR01" 0
+        "S3wireR03" 0
+        "turretBackPlate" 0
+        "ammoBeltL2" 0
+        "ammoBeltL4" 0
+        "ammoBeltL6" 0
+        "ammoBeltL8" 0
+        "weapon_bone" 0
+        "hose_3_R" 0
+        "hose_2_R" 0
+        "hose_1_R" 0
+        "hose_0_R" 0
+        "hose_3_L" 0
+        "hose_2_L" 0
+        "hose_1_L" 0
+        "hose_0_L" 0
+      }
+    }
+    {
+      name weights_fire_rocket
+      weights {
+        "toolboxRoot" 0
+        "upper_telescope_01" 0
+        "S2turret_back" 1
+        "S2lFork_bolt" 0
+        "S2midHousingL" 0
+        "S2chaingunL_02" 0
+        "boxRocketArm1" 1
+        "boxRocketArm2" 1
+        "boxRocketArm3" 1
+        "boxRocket" 1
+        "S2rFork_bolt" 0
+        "S2midHousingR" 0
+        "S2chaingunR_02" 0
+        "S3wireL01" 1
+        "S3wireL03" 1
+        "ammochain09" 1
+        "ammochain010" 1
+        "ammochain017" 1
+        "ammochain013" 1
+        "S3wireR01" 1
+        "S3wireR03" 1
+        "turretBackPlate" 1
+        "ammoBeltL2" 1
+        "ammoBeltL4" 1
+        "ammoBeltL6" 1
+        "ammoBeltL8" 1
+        "weapon_bone" 1
+        "hose_3_R" 1
+        "hose_2_R" 1
+        "hose_1_R" 1
+        "hose_0_R" 1
+        "hose_3_L" 1
+        "hose_2_L" 1
+        "hose_1_L" 1
+        "hose_0_L" 1
+      }
+    }
+  ]
+
+  sequences [
+    {
+      name layer_aim_yaw
+      blend {
+        anims [
+          "optchar/sentry3-a_yaw_back.egg"
+          "optchar/sentry3-a_yaw_left.egg"
+          "optchar/sentry3-a_yaw_forward.egg"
+          "optchar/sentry3-a_yaw_right.egg"
+          "optchar/sentry3-a_yaw_back.egg"
+        ]
+        width 5
+        blend_x aim_yaw
+      }
+      delta true
+    }
+
+    {
+      name layer_aim_pitch
+      blend {
+        anims [
+          "optchar/sentry3-a_pitch_down.egg"
+          "optchar/sentry3-a_pitch_center.egg"
+          "optchar/sentry3-a_pitch_up.egg"
+        ]
+        width 3
+        blend_x aim_pitch
+      }
+      delta true
+    }
+
+    {
+      name idle_off
+      activity Object_Idle
+      loop true
+      anim "optchar/sentry3-idle_off.egg"
+      layers [
+        {
+          sequence layer_aim_yaw
+        }
+        {
+          sequence layer_aim_pitch
+        }
+      ]
+    }
+
+    {
+      name fire
+      anim "optchar/sentry3-fire.egg"
+      activity Object_Fire
+      delta true
+      loop true
+    }
+
+    {
+      name fire_empty
+      anim "optchar/sentry3-fire_empty.egg"
+      activity Object_Fire_Empty
+      delta true
+      weight_list weights_fire_empty
+      loop true
+    }
+
+    {
+      name fire_rocket
+      anim "optchar/sentry3-fire_rocket.egg"
+      delta true
+      activity Object_Fire2
+      loop false
+      weight_list weights_fire_rocket
+
+      events [
+        {
+          frame 1 type 2 event Client_Bodygroup_Set_Value
+          data "Rockets 1"
+        }
+        {
+          frame 62 type 2 event Client_Bodygroup_Set_Value
+          data "Rockets 0"
+        }
+
+        {
+          frame 36 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketSteam1"
+        }
+        {
+          frame 37 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketMove1"
+        }
+        {
+          frame 50 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketClunk1"
+        }
+        {
+          frame 64 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketSteam2"
+        }
+        {
+          frame 65 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketMove2"
+        }
+        {
+          frame 79 type 2 event Client_Play_Sound
+          data "Building_SentryGun.RocketClunk2"
+        }
+      ]
+    }
+  ]
+}

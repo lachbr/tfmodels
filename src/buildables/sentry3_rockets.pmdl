@@ -1,0 +1,60 @@
+{
+  model "optchar/sentry3_rockets-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  attachments [
+    {
+      name rocket1
+      influences [
+        {
+          parent cube
+          pos [ 0 0 -8 ]
+          hpr [ 90 0 0 ]
+        }
+      ]
+    }
+    {
+      name rocket2
+      influences [
+        {
+          parent cube1
+          pos [ 0 0 -8 ]
+          hpr [ 90 0 0 ]
+        }
+      ]
+    }
+    {
+      name rocket3
+      influences [
+        {
+          parent cube2
+          pos [ 0 0 -8 ]
+          hpr [ 90 0 0 ]
+        }
+      ]
+    }
+    {
+      name rocket4
+      influences [
+        {
+          parent cube3
+          pos [ 0 0 -8 ]
+          hpr [ 90 0 0 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/sentry3_rockets-idle.egg"
+    }
+  ]
+}

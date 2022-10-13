@@ -1,0 +1,282 @@
+{
+  model "optchar/sentry3_heavy-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+
+    gibs [
+      {
+        model "models/buildables/sentry3_gib1"
+      }
+      {
+        model "models/buildables/sentry2_gib2"
+      }
+      {
+        model "models/buildables/sentry2_gib3"
+      }
+      {
+        model "models/buildables/sentry2_gib4"
+      }
+    ]
+
+    bbox {
+      mins [ -46.963 -38.623 -12.252 ]
+      maxs [ 42.176 38.132 97.513 ]
+    }
+
+    bodygroups [
+      {
+        name boxRocket
+        nodes [
+          blank
+          "Sentry3_S3_boxRocket*"
+        ]
+      }
+      {
+        name boxRocketArm
+        nodes [
+          blank
+          "Sentry3_S3_boxRocketArm*"
+        ]
+      }
+      {
+        name stabilizerPads
+        nodes [
+          blank
+          "sentry3_S3_StabilizerPads*"
+        ]
+      }
+    ]
+  }
+
+  lods [
+    {
+      distance 0
+      groups [
+        sentry3_reference Sentry3_S3_boxRocket Sentry3_S3_boxRocketArm
+        sentry3_S3_StabilizerPads sentry3_laser
+      ]
+    }
+    {
+      distance 18
+      groups [
+        sentry3_reference_lod1 Sentry3_S3_boxRocket_lod1 Sentry3_S3_boxRocketArm_lod1
+        sentry3_S3_StabilizerPads_lod1 sentry3_laser_lod1
+      ]
+    }
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../materials/sentry1.pmat"
+        "../materials/sentry2.pmat"
+        "../materials/sentry3.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../materials/sentry1_blue.pmat"
+        "../materials/sentry2_blue.pmat"
+        "../materials/sentry3_blue.pmat"
+      ]
+    }
+  ]
+
+  pose_parameters [
+    {
+      name aim_pitch
+      min -50 max 50
+    }
+    {
+      name aim_yaw
+      min -180 max 180
+      loop 360
+    }
+  ]
+
+  weight_lists [
+    {
+      name weights_layer_aim_pitch
+      weights {
+        "toolboxRoot" 0
+        "root" 1
+        "upper_telescope_01" 1
+        "S2turret_back" 1
+        "S2lFork_flap" 1
+        "S2midHousingL" 1
+        "boxRocketArm1" 1
+        "boxRocketArm2" 1
+        "boxRocketArm3" 1
+        "boxRocket" 1
+        "S2rFork_flap" 1
+        "S2midHousingR" 1
+        "S3wireR01" 1
+        "S3wireR02" 1
+        "S3wireR03" 1
+        "S3wireL01" 1
+        "S3wireL02" 1
+        "S3wireL03" 1
+        "weapon_bone" 1
+        "hose_3_R" 1
+        "hose_2_R" 1
+        "hose_1_R" 1
+        "hose_0_R" 1
+        "hose_3_L" 1
+        "hose_2_L" 1
+        "hose_1_L" 1
+        "hose_0_L" 1
+        "ammochain08" 0
+        "ammochain09" 0
+        "ammochain015" 0
+        "ammochain010" 0
+        "ammochain016" 0
+        "ammochain011" 0
+        "ammochain017" 0
+        "ammochain012" 0
+        "ammochain018" 0
+        "ammochain013" 0
+        "ammochain014" 0
+        "turretBackPlate" 1
+        "ammoBeltL1" 1
+        "ammoBeltL2" 1
+        "ammoBeltL3" 1
+        "ammoBeltL4" 1
+        "ammoBeltL5" 1
+        "ammoBeltL6" 1
+        "ammoBeltL7" 1
+        "ammoBeltL8" 1
+        "S2turretArm01" 1
+        "S2turretArm02" 1
+        "S2turretArm03" 1
+        "lower_lLateralBase" 1
+        "lLeg01" 1
+        "lLeg02" 1
+        "lLeg03" 1
+        "lLeg04" 1
+        "legbraceL02" 1
+        "legbraceL03" 1
+        "legbraceL04" 1
+        "lBackLeg01" 1
+        "lBackLeg02" 1
+        "lBackLeg03" 1
+        "lower_rLateralBase" 1
+        "rLeg01" 1
+        "rLeg02" 1
+        "rLeg03" 1
+        "rLeg04" 1
+        "legbraceR02" 1
+        "legbraceR03" 1
+        "legbraceR04" 1
+        "rBackLeg01" 1
+        "rBackLeg02" 1
+        "rBackLeg03" 1
+        "stabilixerJoint1" 0
+        "stabilixerJoint2" 0
+        "stabilixerJoint3" 0
+        "stabilixerJoint5" 0
+        "stabilixerJoint8" 0
+        "stabilixerJoint4" 0
+        "stabilixerJointR1" 0
+        "stabilixerJointR2" 0
+        "stabilixerJointR3" 0
+        "stabilixerJointR5" 0
+        "stabilixerJointR8" 0
+        "stabilixerJointR4" 0
+      }
+    }
+  ]
+
+  sequences [
+    {
+      name layer_aim_yaw
+      blend {
+        anims [
+          "optchar/sentry3_heavy-a_yaw_back.egg"
+          "optchar/sentry3_heavy-a_yaw_left.egg"
+          "optchar/sentry3_heavy-a_yaw_forward.egg"
+          "optchar/sentry3_heavy-a_yaw_right.egg"
+          "optchar/sentry3_heavy-a_yaw_back.egg"
+        ]
+        width 5
+        blend_x aim_yaw
+      }
+      delta true
+      weight_list weights_layer_aim_pitch
+    }
+
+    {
+      name layer_aim_pitch
+      blend {
+        anims [
+          "optchar/sentry3_heavy-a_pitch_down.egg"
+          "optchar/sentry3_heavy-a_pitch_center.egg"
+          "optchar/sentry3_heavy-a_pitch_up.egg"
+        ]
+        width 3
+        blend_x aim_pitch
+      }
+      delta true
+      weight_list weights_layer_aim_pitch
+    }
+
+    {
+      name upgrade
+      anim "optchar/sentry3_heavy-upgrade.egg"
+      activity Object_Upgrade
+      snap true
+
+      events [
+        {
+          frame 33 type 2 event Client_Bodygroup_Set_Value
+          data "stabilizerPads 1"
+        }
+        {
+          frame 45 type 2 event Client_Bodygroup_Set_Value
+          data "boxRocket 1"
+        }
+        {
+          frame 66 type 2 event Client_Bodygroup_Set_Value
+          data "boxRocketArm 1"
+        }
+
+        {
+          frame 4 type 2 event Client_Play_Sound
+          data "Building_Sentrygun.Build4"
+        }
+        {
+          frame 4 type 2 event Client_Play_Sound
+          data "Building_Sentrygun.BuildSteam1"
+        }
+        {
+          frame 33 type 2 event Client_Play_Sound
+          data "Building_Sentrygun.Build8"
+        }
+        {
+          frame 36 type 2 event Client_Play_Sound
+          data "Building_Sentrygun.Build2"
+        }
+        {
+          frame 60 type 2 event Client_Play_Sound
+          data "Building_Sentrygun.BuildSteam4"
+        }
+      ]
+
+      layers [
+        {
+          sequence layer_aim_yaw
+        }
+        {
+          sequence layer_aim_pitch
+        }
+      ]
+
+      fps 80
+    }
+  ]
+}

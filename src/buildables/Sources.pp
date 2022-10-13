@@ -161,6 +161,56 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
+#define SENTRY3_ANIMS \
+  a_pitch_center \
+  a_pitch_down \
+  a_pitch_neutral \
+  a_pitch_up \
+  a_yaw_back \
+  a_yaw_forward \
+  a_yaw_left \
+  a_yaw_neutral \
+  a_yaw_right \
+  aimBug \
+  aim_nat \
+  fire \
+  fire_empty \
+  fire_rocket \
+  idle_off \
+  refpose \
+  upgrade
+#define SENTRY3_OPTCHAR_OPTS \
+  -flag sentry3_optimized_reference,sentry3_optimized_reference_lod1 \
+  -flag sentry3_optimized_reference_lod2,sentry3_optimized_reference_lod3 \
+  -flag sentry3_laser,sentry3_laser_lod1,sentry3_laser_lod2,sentry3_laser_lod3 \
+  -flag Sentry3_rockets_reference,Sentry3_rockets_reference_lod1 \
+  -flag Sentry3_rockets_reference_lod2,Sentry3_rockets_reference_lod3
+
+#define SENTRY3_HEAVY_ANIMS \
+  a_pitch_center \
+  a_pitch_down \
+  a_pitch_neutral \
+  a_pitch_up \
+  a_yaw_back \
+  a_yaw_forward \
+  a_yaw_left \
+  a_yaw_neutral \
+  a_yaw_right \
+  aimBug \
+  aim_nat \
+  refpose \
+  upgrade
+#define SENTRY3_HEAVY_OPTCHAR_OPTS \
+  -flag sentry3_reference,sentry3_reference_lod1 \
+  -flag Sentry3_S3_boxRocket,Sentry3_S3_boxRocket_lod1 \
+  -flag Sentry3_S3_boxRocketArm,Sentry3_S3_boxRocketArm_lod1 \
+  -flag sentry3_S3_StabilizerPads,sentry3_S3_StabilizerPads_lod1 \
+  -flag sentry3_laser,sentry3_laser_lod1
+
+#call tf_char_egg sentry3_rockets,idle,
+#call tf_char_egg sentry3,$[SENTRY3_ANIMS],$[SENTRY3_OPTCHAR_OPTS]
+#call tf_char_egg sentry3_heavy,$[SENTRY3_HEAVY_ANIMS],$[SENTRY3_HEAVY_OPTCHAR_OPTS]
+
 // Gibs
 #begin blender_egg
   #define SOURCES \
@@ -260,6 +310,9 @@
     sentry2_gib1.pmdl sentry2_gib2.pmdl \
     sentry2_gib3.pmdl sentry2_gib4.pmdl \
     sentry3_gib1.pmdl \
+    sentry3.pmdl \
+    sentry3_heavy.pmdl \
+    sentry3_rockets.pmdl \
     dispenser.pmdl \
     dispenser_light.pmdl \
     dispenser_blueprint.pmdl \

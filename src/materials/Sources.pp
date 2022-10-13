@@ -1054,6 +1054,9 @@
     sentry3_gibs.pmat \
     sentry3_gibs_blue.pmat \
     sapper_deployed.pmat \
-    placementmodel.pmat
+    placementmodel.pmat \
+    4rockets.pmat \
+    sentry3.pmat \
+    sentry3_blue.pmat
 
 #end install_mat

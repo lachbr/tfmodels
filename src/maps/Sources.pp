@@ -1129,7 +1129,11 @@
     Sentry3_Gibs_blue.ptex \
     sapper_deployed.ptex \
     sapper_deployed_phongmask.ptex \
-    placementmodel.ptex
+    placementmodel.ptex \
+    4rockets.ptex \
+    Sentry3.ptex \
+    Sentry3_normal.ptex \
+    Sentry3_blue.ptex
 
 #end install_tex
 
