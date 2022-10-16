@@ -1057,6 +1057,14 @@
     placementmodel.pmat \
     4rockets.pmat \
     sentry3.pmat \
-    sentry3_blue.pmat
+    sentry3_blue.pmat \
+    blood_goop3.pmat \
+    particle_rockettrail1.pmat \
+    healsign.pmat \
+    tp_spark.pmat \
+    medicbeam_curl.pmat \
+    starflash01.pmat \
+    glow_test02.pmat \
+    light_glow03.pmat
 
 #end install_mat

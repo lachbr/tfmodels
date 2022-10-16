@@ -1133,7 +1133,15 @@
     4rockets.ptex \
     Sentry3.ptex \
     Sentry3_normal.ptex \
-    Sentry3_blue.ptex
+    Sentry3_blue.ptex \
+    blood_goop3/blood_goop3.ptex \
+    particle_rockettrail1.ptex \
+    healsign.ptex \
+    tp_spark.ptex \
+    medicbeam_curl.ptex \
+    starflash01.ptex \
+    glow_test02.ptex \
+    light_glow03.ptex
 
 #end install_tex
 

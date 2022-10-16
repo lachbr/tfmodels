@@ -1,0 +1,7 @@
+{
+  image "blood_goop3_#.rgb"
+  type "2d_texture_array"
+  num_pages 56
+  format srgb_alpha
+  wrap clamp
+}
