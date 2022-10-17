@@ -61,7 +61,7 @@
 // ------------------------------------------------------------------------------------ //
 "HealthKit.Touch"
 {
-	"channel"	"CHAN_ITEM"
+	"channel"	"CHAN_STATIC"
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
@@ -73,7 +73,7 @@
 // ------------------------------------------------------------------------------------ //
 "AmmoPack.Touch"
 {
-	"channel"	"CHAN_ITEM"
+	"channel"	"CHAN_STATIC"
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
