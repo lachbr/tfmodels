@@ -1065,6 +1065,8 @@
     medicbeam_curl.pmat \
     starflash01.pmat \
     glow_test02.pmat \
-    light_glow03.pmat
+    light_glow03.pmat \
+    v_grenadelauncher.pmat \
+    v_minigun.pmat
 
 #end install_mat

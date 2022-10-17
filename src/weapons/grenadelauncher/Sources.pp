@@ -42,8 +42,13 @@
     -flag w_grenade_grenadelauncher_physics
 #end optchar_egg
 
+#define V_GRENADELAUNCHER_DEMO_ANIMS \
+  draw fire idle reload_end reload_loop reload_start
+#call tf_char_egg v_grenadelauncher_demo,$[V_GRENADELAUNCHER_DEMO_ANIMS],
+
 #begin install_mdl
   #define SOURCES \
     c_grenadelauncher.pmdl \
-    w_grenade_grenadelauncher.pmdl
+    w_grenade_grenadelauncher.pmdl \
+    v_grenadelauncher_demo.pmdl
 #end install_mdl

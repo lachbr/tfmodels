@@ -1,0 +1,98 @@
+{
+  model "optchar/v_grenadelauncher_demo-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/demoman_red.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/demoman_blue.pmat"
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name draw
+      anim "optchar/v_grenadelauncher_demo-draw.egg"
+      snap true
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.Draw"
+        }
+      ]
+      activity VM_Draw
+    }
+    {
+      name idle
+      anim "optchar/v_grenadelauncher_demo-idle.egg"
+      snap true
+      loop true
+      activity VM_Idle
+    }
+    {
+      name fire
+      anim "optchar/v_grenadelauncher_demo-fire.egg"
+      activity VM_Fire
+      snap true
+      events [
+        {
+          frame 11 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.DrumStart"
+        }
+        {
+          frame 16 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.DrumStart"
+        }
+      ]
+    }
+    {
+      name reload_start
+      anim "optchar/v_grenadelauncher_demo-reload_start.egg"
+      snap true
+      activity VM_Reload_Start
+      events [
+        {
+          frame 5 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.DrumOpen"
+        }
+      ]
+    }
+    {
+      name reload_loop
+      anim "optchar/v_grenadelauncher_demo-reload_loop.egg"
+      snap true
+      activity VM_Reload
+      events [
+        {
+          frame 6 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.DrumLoad"
+        }
+      ]
+    }
+    {
+      name reload_end
+      anim "optchar/v_grenadelauncher_demo-reload_end.egg"
+      snap true
+      activity VM_Reload_Finish
+      events [
+        {
+          frame 5 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.DrumClose"
+        }
+      ]
+    }
+  ]
+}

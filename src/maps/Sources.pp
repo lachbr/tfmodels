@@ -1141,7 +1141,11 @@
     medicbeam_curl.ptex \
     starflash01.ptex \
     glow_test02.ptex \
-    light_glow03.ptex
+    light_glow03.ptex \
+    v_grenadelauncher.ptex \
+    v_grenadelauncher_phongmask.ptex \
+    v_minigun.ptex \
+    v_minigun_phongmask.ptex
 
 #end install_tex
 

@@ -1,0 +1,69 @@
+{
+  model "optchar/v_minigun_heavy-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent v_minigun_body
+          pos [ 3.38 -37.71 0 ]
+          hpr [ -199 0 0 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/v_minigun_heavy-idle.egg"
+      loop true
+      activity VM_Idle
+    }
+    {
+      name fire
+      anim "optchar/v_minigun_heavy-fire.egg"
+      snap true
+      loop true
+      activity VM_Fire
+    }
+    {
+      name spool_up
+      anim "optchar/v_minigun_heavy-spool_up.egg"
+      snap true
+      activity VM_Pre_Fire
+    }
+    {
+      name spool_down
+      anim "optchar/v_minigun_heavy-spool_down.egg"
+      snap true
+      activity VM_Post_Fire
+    }
+    {
+      name draw
+      anim "optchar/v_minigun_heavy-draw.egg"
+      activity VM_Draw
+      snap true
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_Minigun.Draw"
+        }
+      ]
+    }
+    {
+      name spool_idle
+      anim "optchar/v_minigun_heavy-spool_idle.egg"
+      snap true
+      loop true
+      activity VM_SecondaryFire
+    }
+  ]
+}

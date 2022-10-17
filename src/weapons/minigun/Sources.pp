@@ -22,7 +22,12 @@
     -flag c_minigun_physics
 #end optchar_egg
 
+#define V_MINIGUN_HEAVY_ANIMS \
+  draw fire idle spool_down spool_idle spool_up
+#call tf_char_egg v_minigun_heavy,$[V_MINIGUN_HEAVY_ANIMS],
+
 #begin install_mdl
   #define SOURCES \
-    c_minigun.pmdl
+    c_minigun.pmdl \
+    v_minigun_heavy.pmdl
 #end install_mdl
