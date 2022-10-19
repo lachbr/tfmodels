@@ -20,3 +20,6 @@
 #include $[THISDIRPREFIX]Sources.train_building006_skybox.pp
 #include $[THISDIRPREFIX]Sources.train_building007_skybox.pp
 #include $[THISDIRPREFIX]Sources.horizon_facade001.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest512bump.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest128bump.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest512dip.pp

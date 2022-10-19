@@ -1,0 +1,8 @@
+
+{
+  "image"   "brickwall004e_height-ssbump.tga"
+  "format"   "rgba"
+  "type"   "2d_texture"
+  "wrap_u"   "repeat"
+  "wrap_v"   "repeat"
+}

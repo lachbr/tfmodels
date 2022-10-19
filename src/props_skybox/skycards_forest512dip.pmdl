@@ -1,0 +1,289 @@
+
+{
+  "model"   "skycards_forest512dip.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "../materials/skycards_forest1.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed3"
+      "materials" 
+      [
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed4"
+      "materials" 
+      [
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed5"
+      "materials" 
+      [
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed6"
+      "materials" 
+      [
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed7"
+      "materials" 
+      [
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed8"
+      "materials" 
+      [
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed9"
+      "materials" 
+      [
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed10"
+      "materials" 
+      [
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed11"
+      "materials" 
+      [
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed12"
+      "materials" 
+      [
+        "../materials/skycards_forest_black.pmat"
+        "../materials/skycards_forest1a.pmat"
+        "../materials/skycards_forest1b.pmat"
+        "../materials/skycards_forest1c.pmat"
+        "../materials/skycards_forest2.pmat"
+        "../materials/skycards_forest2a.pmat"
+        "../materials/skycards_forest2b.pmat"
+        "../materials/skycards_forest2c.pmat"
+        "../materials/skycards_forest3.pmat"
+        "../materials/skycards_forest3a.pmat"
+        "../materials/skycards_forest3b.pmat"
+        "../materials/skycards_forest3c.pmat"
+        "../materials/skycards_forest_black.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "skycards_forest512dip_reference*"
+        ]
+      }
+    ]
+  }
+}

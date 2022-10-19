@@ -1,0 +1,22 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/w_sniperrifle01.ptex"
+    "bumpmap"     "../maps/w_sniperrifle_normal.ptex"
+    "phong"     1
+    "phongexponent"     20
+    "phongboost"     6
+    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
+    "phongfresnelranges" 
+    [
+      0.25
+      0.5
+      1
+    ]
+    "rimlight"     1
+    "rimlightexponent"     4
+    "rimlightboost"     2
+  }
+}

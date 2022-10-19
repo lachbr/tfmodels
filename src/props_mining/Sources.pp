@@ -106,3 +106,6 @@
 #include $[THISDIRPREFIX]Sources.crane001_small.pp
 #include $[THISDIRPREFIX]Sources.support_wall001a.pp
 #include $[THISDIRPREFIX]Sources.silo_top001.pp
+#include $[THISDIRPREFIX]Sources.ceiling_pipe_128_thin.pp
+#include $[THISDIRPREFIX]Sources.ceiling_pipe03_thin.pp
+#include $[THISDIRPREFIX]Sources.smoke_stack001.pp

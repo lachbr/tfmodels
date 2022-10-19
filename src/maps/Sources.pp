@@ -1145,7 +1145,62 @@
     v_grenadelauncher.ptex \
     v_grenadelauncher_phongmask.ptex \
     v_minigun.ptex \
-    v_minigun_phongmask.ptex
+    v_minigun_phongmask.ptex \
+    wood_wall007.ptex \
+    concretefloor006.ptex \
+    concretewall003c.ptex \
+    concretewall013b.ptex \
+    dirtground009.ptex \
+    grass_07.ptex \
+    wood_wall005d.ptex \
+    computerwall003d.ptex \
+    computerwall002.ptex \
+    brickwall004e.ptex \
+    brickwall004e_height-ssbump.ptex \
+    brickwall004.ptex \
+    computerwall004trim.ptex \
+    concretewall013a.ptex \
+    computerwall007trim.ptex \
+    concretewall013.ptex \
+    rubber_trim001.ptex \
+    mudground002.ptex \
+    rockground002_height-ssbump.ptex \
+    plasticwall003a.ptex \
+    plasticwall003b.ptex \
+    wall019e.ptex \
+    wall011_bump-ssbump.ptex \
+    floor_tile_worn.ptex \
+    metaldoor01_192_noentry.ptex \
+    wall014a.ptex \
+    wood_track001.ptex \
+    gray.ptex \
+    fire_extinguisher_cabinet01.ptex \
+    fire_extinguisher_cabinet01_glass.ptex \
+    cliff_wall_10a.ptex \
+    cliff_wall_10a_snow.ptex \
+    wall019.ptex \
+    loading_tower_bottom.ptex \
+    sniper_red.ptex \
+    sniper_normal.ptex \
+    sniper_blue.ptex \
+    sniper_head.ptex \
+    sniper_head_phongmask.ptex \
+    sniper_head_exponent.ptex \
+    sniper_lens.ptex \
+    sniper_red_gib.ptex \
+    sniper_blue_gib.ptex \
+    sniper_handL_red.ptex \
+    sniper_hand_normal.ptex \
+    w_sniperrifle01.ptex \
+    w_sniperrifle_normal.ptex \
+    v_sniperrifle.ptex \
+    v_sniperrifle_scope.ptex \
+    w_smg.ptex \
+    v_smg.ptex \
+    v_machete.ptex \
+    sky_nightfall_01ft.ptex sky_nightfall_01bk.ptex \
+    sky_nightfall_01lf.ptex sky_nightfall_01rt.ptex \
+    sky_nightfall_01up.ptex sky_nightfall_01dn.ptex
 
 #end install_tex
 

@@ -1,0 +1,43 @@
+{
+  model "optchar/w_smg-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    contents solid
+    surfaceprop metal
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ w_smg_reference ]
+    }
+    {
+      distance 18
+      groups [ w_smg_reference_lod1 ]
+    }
+    {
+      distance 35
+      groups [ w_smg_reference_lod2 ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 2.61 26.49 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh w_smg_physics
+    mass 1.0
+  }
+}

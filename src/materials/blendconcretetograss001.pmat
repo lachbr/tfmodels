@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/concretefloor007.ptex"
+    "basetexture2"     "../maps/grass_07.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "concrete"
+    "original"     "nature/blendconcretetograss001.vmt"
+  }
+}

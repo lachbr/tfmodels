@@ -27,3 +27,5 @@
 #include $[THISDIRPREFIX]Sources.tree_pine01.pp
 #include $[THISDIRPREFIX]Sources.tree_pine01_8cluster.pp
 #include $[THISDIRPREFIX]Sources.tree_pine_extrasmall.pp
+#include $[THISDIRPREFIX]Sources.tree_pine_huge.pp
+#include $[THISDIRPREFIX]Sources.tree_pine_small.pp

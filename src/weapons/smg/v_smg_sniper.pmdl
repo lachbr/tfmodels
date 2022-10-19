@@ -1,0 +1,78 @@
+{
+  model "optchar/v_smg_sniper-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/sniper_red.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/sniper_blue.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 3.25 26.09 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name draw
+      anim "optchar/v_smg_sniper-draw.egg"
+      activity VM_Draw
+      snap true
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_smg.Draw"
+        }
+      ]
+    }
+
+    {
+      name idle
+      anim "optchar/v_smg_sniper-idle.egg"
+      activity VM_Idle
+      loop true
+    }
+
+    {
+      name fire_a
+      anim "optchar/v_smg_sniper-fire_a.egg"
+      activity VM_Fire
+      snap true
+    }
+
+    {
+      name reload
+      anim "optchar/v_smg_sniper-reload.egg"
+      activity VM_Reload
+      events [
+        {
+          frame 8 type 2 event Client_Play_Sound
+          data "Weapon_smg.ClipOut"
+        }
+        {
+          frame 23 type 2 event Client_Play_Sound
+          data "Weapon_smg.ClipIn"
+        }
+      ]
+    }
+  ]
+}

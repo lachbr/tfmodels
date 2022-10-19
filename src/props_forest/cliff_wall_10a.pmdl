@@ -1,0 +1,64 @@
+
+{
+  "model"   "cliff_wall_10a.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "../materials/cliff_wall_10a.pmat"
+        "../materials/cliff_wall_10a_snow.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "../materials/cliff_wall_10a.pmat"
+        "../materials/cliff_wall_10a_snow.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "../materials/cliff_wall_10a_snow.pmat"
+        "../materials/cliff_wall_10a_snow.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "cliff_wall_10a_physics"
+    "mass"     717266
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "rock"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "cliff_wall_10a*"
+        ]
+      }
+    ]
+  }
+}

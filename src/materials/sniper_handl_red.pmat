@@ -1,0 +1,23 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/sniper_handL_red.ptex"
+    "bumpmap"     "../maps/sniper_hand_normal.ptex"
+    "phong"     1
+    "phongexponent"     4
+    "phongboost"     0.15
+    "lightwarptexture"     "../maps/pyro_lightwarp.ptex"
+    "phongfresnelranges" 
+    [
+      1
+      5
+      10
+    ]
+    "halflambert"     1
+    "rimlight"     1
+    "rimlightexponent"     5
+    "rimlightboost"     0.3
+  }
+}

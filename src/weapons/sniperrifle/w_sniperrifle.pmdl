@@ -1,0 +1,43 @@
+{
+  model "optchar/w_sniperrifle-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ w_sniperrifle_reference ]
+    }
+    {
+      distance 14
+      groups [ w_sniperrifle_reference_lod1 ]
+    }
+    {
+      distance 25
+      groups [ w_sniperrifle_reference_lod2 ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 3.77 45.82 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh w_sniperrifle_physics
+    mass 1.0
+  }
+}

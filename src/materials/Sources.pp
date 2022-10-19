@@ -1067,6 +1067,70 @@
     glow_test02.pmat \
     light_glow03.pmat \
     v_grenadelauncher.pmat \
-    v_minigun.pmat
+    v_minigun.pmat \
+    wood_wall007.pmat \
+    concretefloor006a.pmat \
+    concretewall003c.pmat \
+    concretewall002a.pmat \
+    concretewall013b.pmat \
+    blendgroundtograss007_nodetail.pmat \
+    wood_wall005d.pmat \
+    computerwall003d.pmat \
+    computerwall002.pmat \
+    brickwall004e.pmat \
+    brickwall004.pmat \
+    computerwall004trim.pmat \
+    concretewall013a.pmat \
+    computerwall007trim.pmat \
+    concretewall013.pmat \
+    rubber_trim001.pmat \
+    blendgroundtomud001.pmat \
+    blendrockgroundwallforest.pmat \
+    blendconcretetograss001.pmat \
+    blendgroundtoconcrete003.pmat \
+    plasticwall003a.pmat \
+    plasticwall003b.pmat \
+    wall019e.pmat \
+    floor_tile_worn.pmat \
+    metaldoor01_192_noentry.pmat \
+    wall014a.pmat \
+    wood_track001.pmat \
+    skycards_forest1.pmat \
+    skycards_forest1a.pmat \
+    skycards_forest1b.pmat \
+    skycards_forest1c.pmat \
+    skycards_forest2.pmat \
+    skycards_forest2a.pmat \
+    skycards_forest2b.pmat \
+    skycards_forest2c.pmat \
+    skycards_forest3.pmat \
+    skycards_forest3a.pmat \
+    skycards_forest3b.pmat \
+    skycards_forest3c.pmat \
+    skycards_forest_black.pmat \
+    gray.pmat \
+    fire_extinguisher_cabinet01.pmat \
+    fire_extinguisher_cabinet01_glass.pmat \
+    cliff_wall_10a.pmat \
+    cliff_wall_10a_snow.pmat \
+    wall019.pmat \
+    loading_tower_bottom.pmat \
+    sniper_red.pmat \
+    sniper_blue.pmat \
+    sniper_head_red.pmat \
+    sniper_head_blue.pmat \
+    sniper_lens.pmat \
+    sniper_red_gib.pmat \
+    sniper_blue_gib.pmat \
+    sniper_handl_red.pmat \
+    w_sniperrifle01.pmat \
+    v_sniperrifle.pmat \
+    v_sniperrifle_scope.pmat \
+    w_smg.pmat \
+    v_smg.pmat \
+    v_machete.pmat \
+    sky_nightfall_01ft.pmat sky_nightfall_01bk.pmat \
+    sky_nightfall_01lf.pmat sky_nightfall_01rt.pmat \
+    sky_nightfall_01up.pmat sky_nightfall_01dn.pmat
 
 #end install_mat

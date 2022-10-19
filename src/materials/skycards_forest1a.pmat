@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/tree_pine01.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "fog"   "off"
+  "color_scale" 
+  [
+    0.37
+    0.37
+    0.46
+    1
+  ]
+  "transparency"   "dual"
+}

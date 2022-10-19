@@ -40,3 +40,8 @@
 #include $[THISDIRPREFIX]Sources.cliff_wall_02a.pp
 #include $[THISDIRPREFIX]Sources.rock006c.pp
 #include $[THISDIRPREFIX]Sources.tree_pine_stump01.pp
+#include $[THISDIRPREFIX]Sources.rock006.pp
+#include $[THISDIRPREFIX]Sources.rock006b.pp
+#include $[THISDIRPREFIX]Sources.cliff_wall_10a.pp
+#include $[THISDIRPREFIX]Sources.tree_pine_stump02.pp
+#include $[THISDIRPREFIX]Sources.roof_tiles2.pp

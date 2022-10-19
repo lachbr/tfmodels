@@ -1,14 +1,9 @@
 
 {
-  "material"   "SourceLightmappedMaterial"
+  "material"   "SourceMaterial"
   "parameters" 
   {
     "basetexture"     "../maps/wall021.ptex"
-    "bumpmap"     "../maps/wall016_bump-ssbump.ptex"
-    "ssbump"     1
   }
-  "tags" 
-  {
-    "surface_prop"     "metal"
-  }
+  "cull"   "double_sided"
 }

@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/concretewall013.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "concrete"
+    "original"     "concrete/concretewall013.vmt"
+  }
+}

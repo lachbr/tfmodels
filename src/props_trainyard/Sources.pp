@@ -61,3 +61,4 @@
 #include $[THISDIRPREFIX]Sources.train_building001b.pp
 #include $[THISDIRPREFIX]Sources.stairs001a.pp
 #include $[THISDIRPREFIX]Sources.stairs001b.pp
+#include $[THISDIRPREFIX]Sources.loading_tower.pp

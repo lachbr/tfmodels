@@ -1,0 +1,26 @@
+{
+  model "optchar/c_machete-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    contents solid
+    surfaceprop metal
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ c_machete_reference ]
+    }
+    {
+      distance 15
+      groups [ c_machete_reference_lod1 ]
+    }
+  ]
+
+  physics_model {
+    mesh c_machete_physics
+    mass 1.0
+  }
+}

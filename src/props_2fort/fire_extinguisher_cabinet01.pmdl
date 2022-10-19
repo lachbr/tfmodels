@@ -1,0 +1,46 @@
+
+{
+  "model"   "fire_extinguisher_cabinet01.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "../materials/fire_extinguisher_cabinet01.pmat"
+        "../materials/fire_extinguisher_cabinet01_glass.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "fire_extinguisher_cabinet01_physics"
+    "mass"     16.5654
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "fire_extinguisher_cabinet01_reference*"
+        ]
+      }
+    ]
+  }
+}
