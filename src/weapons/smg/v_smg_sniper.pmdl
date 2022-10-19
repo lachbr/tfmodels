@@ -40,7 +40,7 @@
       events [
         {
           frame 1 type 2 event Client_Play_Sound
-          data "Weapon_smg.Draw"
+          data "Weapon_SMG.Draw"
         }
       ]
     }
@@ -66,11 +66,11 @@
       events [
         {
           frame 8 type 2 event Client_Play_Sound
-          data "Weapon_smg.ClipOut"
+          data "Weapon_SMG.ClipOut"
         }
         {
           frame 23 type 2 event Client_Play_Sound
-          data "Weapon_smg.ClipIn"
+          data "Weapon_SMG.ClipIn"
         }
       ]
     }
