@@ -10,5 +10,6 @@
   {
     "surface_prop"     "default"
     compile_skip 1
+    collide_type blockbullets
   }
 }

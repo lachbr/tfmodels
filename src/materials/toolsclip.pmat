@@ -10,5 +10,6 @@
   {
     "surface_prop"     "default"
     compile_clip 1
+    collide_type clip
   }
 }
