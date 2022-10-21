@@ -793,46 +793,46 @@
 
     {
       name a_runSW_PRIMARY
-      anim "optchar/demo-a_runSW_PRIMARY.egg"
+      anim "optchar/demo-a_runSW_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runS_PRIMARY
-      anim "optchar/demo-a_runS_PRIMARY.egg"
+      anim "optchar/demo-a_runS_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runSE_PRIMARY
-      anim "optchar/demo-a_runSE_PRIMARY.egg"
+      anim "optchar/demo-a_runSE_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runW_PRIMARY
-      anim "optchar/demo-a_runW_PRIMARY.egg"
+      anim "optchar/demo-a_runW_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runCenter_PRIMARY
-      anim "optchar/demo-a_runCenter_PRIMARY.egg"
+      anim "optchar/demo-a_runCenter_SECONDARY.egg"
     }
     {
       name a_runE_PRIMARY
-      anim "optchar/demo-a_runE_PRIMARY.egg"
+      anim "optchar/demo-a_runE_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runNW_PRIMARY
-      anim "optchar/demo-a_runNW_PRIMARY.egg"
+      anim "optchar/demo-a_runNW_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runN_PRIMARY
-      anim "optchar/demo-a_runN_PRIMARY.egg"
+      anim "optchar/demo-a_runN_SECONDARY.egg"
       motion [ x y ]
     }
     {
       name a_runNE_PRIMARY
-      anim "optchar/demo-a_runNE_PRIMARY.egg"
+      anim "optchar/demo-a_runNE_SECONDARY.egg"
       motion [ x y ]
     }
     {
