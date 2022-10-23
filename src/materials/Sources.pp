@@ -1131,6 +1131,11 @@
     v_machete.pmat \
     sky_nightfall_01ft.pmat sky_nightfall_01bk.pmat \
     sky_nightfall_01lf.pmat sky_nightfall_01rt.pmat \
-    sky_nightfall_01up.pmat sky_nightfall_01dn.pmat
+    sky_nightfall_01up.pmat sky_nightfall_01dn.pmat \
+    w_stickybomb_blue.pmat \
+    w_stickybomb_red.pmat \
+    w_stickybomb_destroyed.pmat \
+    w_stickybomb_launcher.pmat \
+    v_stickybomb_launcher.pmat
 
 #end install_mat

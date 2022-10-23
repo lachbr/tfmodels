@@ -1,0 +1,62 @@
+{
+  model "w_stickybomb.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    contents solid
+    surfaceprop metal
+
+    gibs [
+      {
+        model "models/weapons/w_stickybomb_gib1"
+      }
+      {
+        model "models/weapons/w_stickybomb_gib2"
+      }
+      {
+        model "models/weapons/w_stickybomb_gib3"
+      }
+      {
+        model "models/weapons/w_stickybomb_gib4"
+      }
+      {
+        model "models/weapons/w_stickybomb_gib5"
+      }
+      {
+        model "models/weapons/w_stickybomb_gib6"
+      }
+    ]
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ w_stickybomb_reference ]
+    }
+    {
+      distance 18
+      groups [ w_stickybomb_reference_lod1 ]
+    }
+    {
+      distance 35
+      groups [ w_stickybomb_reference_lod2 ]
+    }
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/w_stickybomb_red.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/w_stickybomb_blue.pmat" ]
+    }
+  ]
+
+  physics_model {
+    mesh w_stickybomb_physics
+    mass 5.0
+  }
+}

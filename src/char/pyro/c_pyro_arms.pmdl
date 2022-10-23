@@ -1,0 +1,86 @@
+{
+  model "optchar/c_pyro_arms-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/pyro_red.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/pyro_blue.pmat"
+      ]
+    }
+  ]
+
+  joint_merges [
+    "root"
+    "bip_collar_L"
+    "bip_collar_R"
+    "bip_upperArm_L"
+    "bip_upperArm_R"
+    "bip_lowerArm_L"
+    "bip_lowerArm_R"
+    "bip_hand_L"
+    "bip_hand_R"
+    "effect_hand_L"
+    "effect_hand_R"
+    "vm_weapon_bone"
+    "vm_weapon_bone_1"
+    "vm_weapon_bone_2"
+    "vm_weapon_bone_3"
+    "vm_weapon_bone_4"
+    "vm_weapon_bone_5"
+    "vm_weapon_bone_6"
+    "vm_weapon_bone_7"
+    "vm_weapon_bone_L"
+    "vm_weapon_bone_L_1"
+    "vm_weapon_bone_L_2"
+    "weapon_bone"
+    "weapon_bone_1"
+    "weapon_bone_2"
+    "weapon_bone_3"
+    "weapon_bone_4"
+    "weapon_bone_L"
+  ]
+
+  sequences [
+    {
+      name ft_draw
+      anim "optchar/c_pyro_arms-ft_draw.egg"
+      activity Primary_VM_Draw
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_FlameThrower.Draw"
+        }
+      ]
+    }
+    {
+      name ft_idle
+      anim "optchar/c_pyro_arms-ft_idle.egg"
+      activity Primary_VM_Idle
+      loop true
+    }
+    {
+      name ft_fire
+      anim "optchar/c_pyro_arms-ft_fire.egg"
+      loop true
+      activity Primary_VM_Fire
+    }
+    {
+      name ft_alt_fire
+      anim "optchar/c_pyro_arms-ft_alt_fire.egg"
+      activity Primary_VM_SecondaryFire
+    }
+  ]
+}

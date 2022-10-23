@@ -955,6 +955,254 @@
     }
 
     {
+      name SECONDARY_aimmatrix_idle
+      blend {
+        anims [
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_down_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_down_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_down_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_mid_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_mid_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_mid_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_up_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_up_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_up_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+
+    {
+      name stand_SECONDARY
+      anim "optchar/demo-stand_PRIMARY.egg"
+      activity Secondary_Stand
+      loop true
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+      ]
+    }
+
+    {
+      name SECONDARY_aimmatrix_run
+      blend {
+        anims [
+          "optchar/demo-a_PRIMARY_aimmatrix_run_down_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_down_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_down_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_mid_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_mid_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_mid_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_up_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_up_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_up_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+
+    {
+      name a_runSW_SECONDARY
+      anim "optchar/demo-a_runSW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runS_SECONDARY
+      anim "optchar/demo-a_runS_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runSE_SECONDARY
+      anim "optchar/demo-a_runSE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runW_SECONDARY
+      anim "optchar/demo-a_runW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runCenter_SECONDARY
+      anim "optchar/demo-a_runCenter_PRIMARY.egg"
+    }
+    {
+      name a_runE_SECONDARY
+      anim "optchar/demo-a_runE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNW_SECONDARY
+      anim "optchar/demo-a_runNW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runN_SECONDARY
+      anim "optchar/demo-a_runN_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNE_SECONDARY
+      anim "optchar/demo-a_runNE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name run_SECONDARY
+      blend {
+        anims [
+          a_runSW_SECONDARY
+          a_runS_SECONDARY
+          a_runSE_SECONDARY
+          a_runW_SECONDARY
+          a_runCenter_SECONDARY
+          a_runE_SECONDARY
+          a_runNW_SECONDARY
+          a_runN_SECONDARY
+          a_runNE_SECONDARY
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_run
+        }
+      ]
+      loop true
+      activity Secondary_Run
+    }
+    {
+      name AttackStand_SECONDARY
+      anim "optchar/demo-AttackStand_PRIMARY.egg"
+      delta true
+      activity Secondary_Attack_Stand
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+    {
+      name SECONDARY_reload
+      anim "optchar/demo-PRIMARY_reload.egg"
+      delta true
+      activity Secondary_Reload_Stand
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_loop
+      anim "optchar/demo-a_PRIMARY_reload_loop.egg"
+      delta true
+      activity Secondary_Reload_Stand_Loop
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_end
+      anim "optchar/demo-a_PRIMARY_reload_end.egg"
+      delta true
+      activity Secondary_Reload_Stand_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_jumpstart_SECONDARY
+      anim "optchar/demo-a_jumpstart_PRIMARY.egg"
+      motion [ x y ]
+      activity Secondary_Jump_Start
+    }
+    {
+      name a_jumpfloat_SECONDARY
+      anim "optchar/demo-a_jumpfloat_PRIMARY.egg"
+      activity Secondary_Jump_Float
+      loop true
+      motion [ x y ]
+    }
+    {
+      name jumpland_SECONDARY
+      anim "optchar/demo-jumpland_PRIMARY.egg"
+      delta true
+      activity Secondary_Jump_Land
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+
+    {
       name a_flinch01
       anim "optchar/demo-a_flinch01.egg"
       activity Gesture_Flinch

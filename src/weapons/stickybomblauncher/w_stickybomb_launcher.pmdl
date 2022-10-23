@@ -1,0 +1,53 @@
+{
+  model "optchar/w_stickybomb_launcher-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ w_stickybomb_launcher_reference ]
+    }
+    {
+      distance 18
+      groups [ w_stickybomb_launcher_reference_lod1 ]
+    }
+    {
+      distance 30
+      groups [ w_stickybomb_launcher_reference_lod2 ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 2.2 25.15 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+    {
+      name eject_brass
+      influences [
+        {
+          parent weapon_bone
+          pos [ 2.22 4.18 9.1 ]
+          hpr [ -62.71 0 0 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh w_stickybomb_launcher_physics
+    mass 1.0
+  }
+}

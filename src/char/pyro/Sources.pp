@@ -868,8 +868,11 @@
 
 #end optchar_egg
 
+#call tf_char_egg c_pyro_arms,ft_idle ft_fire ft_draw ft_alt_fire,-keepall
+
 #begin install_mdl
   #define SOURCES \
-    pyro.pmdl
+    pyro.pmdl \
+    c_pyro_arms.pmdl
 
 #end install_mdl

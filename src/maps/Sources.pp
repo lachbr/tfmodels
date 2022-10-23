@@ -1200,7 +1200,14 @@
     v_machete.ptex \
     sky_nightfall_01ft.ptex sky_nightfall_01bk.ptex \
     sky_nightfall_01lf.ptex sky_nightfall_01rt.ptex \
-    sky_nightfall_01up.ptex sky_nightfall_01dn.ptex
+    sky_nightfall_01up.ptex sky_nightfall_01dn.ptex \
+    w_stickybomb_blue.ptex \
+    w_stickybomb_red.ptex \
+    w_stickybomb_destroyed.ptex \
+    w_stickybomb_launcher.ptex \
+    w_stickybomb_launcher_normal.ptex \
+    v_stickybomb_launcher.ptex \
+    v_stickybomb_launcher_phongmask.ptex
 
 #end install_tex
 

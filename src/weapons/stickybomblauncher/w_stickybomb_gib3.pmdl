@@ -1,0 +1,15 @@
+{
+  model "w_stickybomb_gib3.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    contents solid
+    surfaceprop metal
+  }
+
+  physics_model {
+    mesh w_stickybomb_gib3_physics
+    mass 0.586826
+  }
+}

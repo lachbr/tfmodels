@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters"
+  {
+    "basetexture"     "../maps/w_stickybomb_destroyed.ptex"
+    "phong"     1
+    "phongexponent"     50
+    "phongboost"     0.1
+    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
+    [
+      0.05
+      0.1
+      0.2
+    ]
+  }
+}

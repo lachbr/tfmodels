@@ -1,0 +1,98 @@
+{
+  model "optchar/v_stickybomb_launcher_demo-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    omni true
+  }
+
+  material_groups [
+    {
+      name red
+      materials [
+        "../../materials/demoman_red.pmat"
+      ]
+    }
+    {
+      name blue
+      materials [
+        "../../materials/demoman_blue.pmat"
+      ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 2.21 27.15 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/v_stickybomb_launcher_demo-idle.egg"
+      activity VM_Idle
+      loop true
+    }
+    {
+      name fire
+      anim "optchar/v_stickybomb_launcher_demo-fire.egg"
+      snap true
+      activity VM_Fire
+    }
+    {
+      name draw
+      anim "optchar/v_stickybomb_launcher_demo-draw.egg"
+      activity VM_Draw
+      snap true
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_GrenadeLauncher.Draw"
+        }
+      ]
+    }
+    {
+      name autofire
+      anim "optchar/v_stickybomb_launcher_demo-autofire.egg"
+      activity VM_Pre_Fire
+      snap true
+    }
+    {
+      name reload_start
+      anim "optchar/v_stickybomb_launcher_demo-reload_start.egg"
+      snap true
+      activity VM_Reload_Start
+    }
+    {
+      name reload_loop
+      anim "optchar/v_stickybomb_launcher_demo-reload_loop.egg"
+      snap true
+      activity VM_Reload
+      events [
+        {
+          frame 2 type 2 event Client_Play_Sound
+          data "Weapon_StickyBombLauncher.BoltBack"
+        }
+        {
+          frame 12 type 2 event Client_Play_Sound
+          data "Weapon_StickyBombLauncher.BoltForward"
+        }
+      ]
+    }
+    {
+      name reload_end
+      anim "optchar/v_stickybomb_launcher_demo-reload_end.egg"
+      snap true
+      activity VM_Reload_Finish
+    }
+  ]
+}
