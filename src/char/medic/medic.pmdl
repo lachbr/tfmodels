@@ -1343,12 +1343,6 @@
       ]
     }
     {
-      name airwalk_LOSER
-      anim "optchar/medic-airwalk_LOSER.egg"
-      activity Loser_Air_Walk
-      loop true
-    }
-    {
       name crouch_LOSER
       anim "optchar/medic-crouch_LOSER.egg"
       activity Loser_Crouch
