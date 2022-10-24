@@ -3,6 +3,18 @@
 
   hpr [ 180 0 0 ]
 
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0.64 2.35 58.05 ]
+        }
+      ]
+    }
+  ]
+
   material_groups [
     {
       name red

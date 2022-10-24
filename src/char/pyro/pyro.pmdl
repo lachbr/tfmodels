@@ -268,6 +268,90 @@
     "taunt_effect"
   ]
 
+  weight_lists [
+    {
+      name weights_AttackCrouch_PRIMARY
+      weights {
+        "bip_pelvis" 0.1
+        "bip_spine_0" 0.5
+        "bip_spine_1" 0.6
+        "bip_spine_2" 0.8
+        "bip_spine_3" 1
+        "bip_neck" 1
+        "bip_head" 1
+        "bip_collar_L" 1
+        "bip_upperArm_L" 1
+        "bip_lowerArm_L" 1
+        "bip_hand_L" 1
+        "bip_collar_R" 1
+        "bip_upperArm_R" 1
+        "bip_lowerArm_R" 1
+        "bip_hand_R" 1
+        "bip_hip_L" 0
+        "bip_knee_L" 0
+        "bip_foot_L" 0
+        "bip_toe_L" 0
+        "bip_hip_R" 0
+        "bip_knee_R" 0
+        "bip_foot_R" 0
+        "bip_toe_R" 0
+        "prp_fuelTank" 0.8
+        "weapon_bone_L" 1
+        "weapon_bone" 1
+        "weapon_bone_1" 1
+        "weapon_bone_2" 1
+        "weapon_bone_3" 1
+        "weapon_bone_4" 1
+        "effect_hand_L" 1
+        "effect_hand_R" 1
+        "prp_pouch" 0.1
+        "prp_cannister1" 0.6
+        "prp_cannister2" 0.6
+        "prp_cannister3" 0.6
+        "bip_thumb_0_L" 1
+        "bip_thumb_1_L" 1
+        "bip_thumb_2_L" 1
+        "bip_index_0_L" 1
+        "bip_index_1_L" 1
+        "bip_index_2_L" 1
+        "bip_middle_0_L" 1
+        "bip_middle_1_L" 1
+        "bip_middle_2_L" 1
+        "bip_ring_0_L" 1
+        "bip_ring_1_L" 1
+        "bip_ring_2_L" 1
+        "bip_pinky_0_L" 1
+        "bip_pinky_1_L" 1
+        "bip_pinky_2_L" 1
+        "bip_thumb_0_R" 1
+        "bip_thumb_1_R" 1
+        "bip_thumb_2_R" 1
+        "bip_index_0_R" 1
+        "bip_index_1_R" 1
+        "bip_index_2_R" 1
+        "bip_middle_0_R" 1
+        "bip_middle_1_R" 1
+        "bip_middle_2_R" 1
+        "bip_ring_0_R" 1
+        "bip_ring_1_R" 1
+        "bip_ring_2_R" 1
+        "bip_pinky_0_R" 1
+        "bip_pinky_1_R" 1
+        "bip_pinky_2_R" 1
+        "medal_bone" 0.8
+        "mvm" 0.1
+        "prop_bone" 0.1
+        "prop_bone_1" 0.1
+        "prop_bone_2" 0.1
+        "prop_bone_3" 0.1
+        "prop_bone_4" 0.1
+        "prop_bone_5" 0.1
+        "prop_bone_6" 0.1
+        "taunt_effect" 0.1
+      }
+    }
+  ]
+
   sequences [
     {
       name SECONDARY_aimmatrix_idle
@@ -738,6 +822,232 @@
         }
         {
           chain lfoot type lock
+        }
+      ]
+    }
+
+    {
+      name PRIMARY_aimmatrix_idle
+      blend {
+        anims [
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_down_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_down_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_down_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_mid_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_mid_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_mid_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_up_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_up_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_up_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name PRIMARY_aimmatrix_run
+      blend {
+        anims [
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_down_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_down_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_down_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_mid_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_mid_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_mid_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_up_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_up_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_up_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name stand_PRIMARY
+      anim "optchar/pyro-stand_PRIMARY.egg"
+      loop true
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_idle
+        }
+      ]
+      activity Primary_Stand
+    }
+    {
+      name a_runSW_PRIMARY
+      anim "optchar/pyro-a_runSW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runS_PRIMARY
+      anim "optchar/pyro-a_runS_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runSE_PRIMARY
+      anim "optchar/pyro-a_runSE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runW_PRIMARY
+      anim "optchar/pyro-a_runW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runCenter_PRIMARY
+      anim "optchar/pyro-a_runCenter_PRIMARY.egg"
+    }
+    {
+      name a_runE_PRIMARY
+      anim "optchar/pyro-a_runE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNW_PRIMARY
+      anim "optchar/pyro-a_runNW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runN_PRIMARY
+      anim "optchar/pyro-a_runN_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNE_PRIMARY
+      anim "optchar/pyro-a_runNE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name PRIMARY_run
+      blend {
+        anims [
+          "a_runSW_PRIMARY"
+          "a_runS_PRIMARY"
+          "a_runSE_PRIMARY"
+          "a_runW_PRIMARY"
+          "a_runCenter_PRIMARY"
+          "a_runE_PRIMARY"
+          "a_runNW_PRIMARY"
+          "a_runN_PRIMARY"
+          "a_runNE_PRIMARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Primary_Run
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_run
+        }
+      ]
+    }
+    {
+      name AttackStand_PRIMARY
+      anim "optchar/pyro-AttackStand_PRIMARY.egg"
+      activity Primary_Attack_Stand
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+      weight_list weights_AttackCrouch_PRIMARY
+    }
+    {
+      name AttackStand_primary_spoolup
+      anim "optchar/pyro-AttackStand_primary_spoolup.egg"
+      activity Primary_Attack_Stand_Prefire
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+    {
+      name AttackStand_primary_spooldown
+      anim "optchar/pyro-AttackStand_primary_spooldown.egg"
+      activity Primary_Attack_Stand_Postfire
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+    {
+      name a_jumpstart_PRIMARY
+      anim "optchar/pyro-a_jumpstart_PRIMARY.egg"
+      activity Primary_Jump_Start
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_PRIMARY
+      anim "optchar/pyro-a_jumpfloat_PRIMARY.egg"
+      activity Primary_Jump_Float
+      motion [ x y ]
+      loop true
+    }
+    {
+      name jumpland_PRIMARY
+      anim "optchar/pyro-jumpland_PRIMARY.egg"
+      delta true
+      activity Primary_Jump_Land
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
         }
       ]
     }
