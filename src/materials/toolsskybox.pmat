@@ -9,5 +9,6 @@
   {
     "surface_prop"     "default_silent"
     "compile_sky" 1
+    collide_type sky
   }
 }
