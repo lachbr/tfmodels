@@ -1241,6 +1241,185 @@
       activity Secondary_Jump_Land
     }
 
+    ///////////////////////////////////////////////////////////////////////////
+    // Loser state
+    ///////////////////////////////////////////////////////////////////////////
+    {
+      name stand_LOSER
+      anim "optchar/medic-stand_LOSER.egg"
+      activity Loser_Stand
+      loop true
+    }
+    {
+      name a_runSW_LOSER
+      anim "optchar/medic-a_runSW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runS_LOSER
+      anim "optchar/medic-a_runS_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runSE_LOSER
+      anim "optchar/medic-a_runSE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runW_LOSER
+      anim "optchar/medic-a_runW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runCenter_LOSER
+      anim "optchar/medic-a_runCenter_LOSER.egg"
+    }
+    {
+      name a_runE_LOSER
+      anim "optchar/medic-a_runE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNW_LOSER
+      anim "optchar/medic-a_runNW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runN_LOSER
+      anim "optchar/medic-a_runN_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_runNE_LOSER
+      anim "optchar/medic-a_runNE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name run_LOSER
+      blend {
+        anims [
+          "a_runSW_LOSER"
+          "a_runS_LOSER"
+          "a_runSE_LOSER"
+          "a_runW_LOSER"
+          "a_runCenter_LOSER"
+          "a_runE_LOSER"
+          "a_runNW_LOSER"
+          "a_runN_LOSER"
+          "a_runNE_LOSER"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Loser_Run
+    }
+    {
+      name a_jumpstart_LOSER
+      anim "optchar/medic-a_jumpstart_LOSER.egg"
+      activity Loser_Jump_Start
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_LOSER
+      anim "optchar/medic-a_jumpfloat_LOSER.egg"
+      activity Loser_Jump_Float
+      motion [ x y ]
+      loop true
+    }
+    {
+      name jumpland_LOSER
+      anim "optchar/medic-jumpland_LOSER.egg"
+      activity Loser_Jump_Land
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+    {
+      name airwalk_LOSER
+      anim "optchar/medic-airwalk_LOSER.egg"
+      activity Loser_Air_Walk
+      loop true
+    }
+    {
+      name crouch_LOSER
+      anim "optchar/medic-crouch_LOSER.egg"
+      activity Loser_Crouch
+      loop true
+    }
+    {
+      name a_swimSW_LOSER
+      anim "optchar/medic-a_swimSW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimS_LOSER
+      anim "optchar/medic-a_swimS_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimSE_LOSER
+      anim "optchar/medic-a_swimSE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimW_LOSER
+      anim "optchar/medic-a_swimW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimCenter_LOSER
+      anim "optchar/medic-a_swimCenter_LOSER.egg"
+    }
+    {
+      name a_swimE_LOSER
+      anim "optchar/medic-a_swimE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimNW_LOSER
+      anim "optchar/medic-a_swimNW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimN_LOSER
+      anim "optchar/medic-a_swimN_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_swimNE_LOSER
+      anim "optchar/medic-a_swimNE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name swim_LOSER
+      blend {
+        anims [
+          "a_swimSW_LOSER"
+          "a_swimS_LOSER"
+          "a_swimSE_LOSER"
+          "a_swimW_LOSER"
+          "a_swimCenter_LOSER"
+          "a_swimE_LOSER"
+          "a_swimNW_LOSER"
+          "a_swimN_LOSER"
+          "a_swimNE_LOSER"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Loser_Swim
+    }
+
     {
       name a_flinch01
       anim "optchar/medic-a_flinch01.egg"
