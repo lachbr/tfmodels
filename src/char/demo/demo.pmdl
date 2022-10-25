@@ -1,3 +1,9 @@
+// NOTE: Primary and secondary anims are swapped.
+// The egg files for the grenade launcher (primary weapon) are named _SECONDARY,
+// but the animation names are _PRIMARY.
+// The egg files for the stickybomb launcher (secondary weapon) are named _PRIMARY,
+// but the animation names are _SECONDARY.
+
 {
   model "optchar/demo-zero.egg"
 
@@ -752,6 +758,176 @@
       layers [
         {
           sequence PRIMARY_aimmatrix_idle
+        }
+      ]
+    }
+
+    {
+      name SECONDARY_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_down_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_down_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_down_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_mid_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_mid_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_mid_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_up_left.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_up_center.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_up_right.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/demo-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+
+    {
+      name airwalk_PRIMARY
+      anim "optchar/demo-airwalk_SECONDARY.egg"
+      activity Primary_Air_Walk
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name airwalk_SECONDARY
+      anim "optchar/demo-airwalk_PRIMARY.egg"
+      activity Secondary_Air_Walk
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_MELEE
+      anim "optchar/demo-airwalk_MELEE.egg"
+      activity Melee_Air_Walk
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name SECONDARY_reload_airwalk
+      anim "optchar/demo-PRIMARY_reload_airwalk.egg"
+      activity Secondary_Reload_Air_Walk
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_airwalk_loop
+      anim "optchar/demo-a_PRIMARY_reload_airwalk_loop.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk_Loop
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_airwalk_end
+      anim "optchar/demo-a_PRIMARY_reload_airwalk_end.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name PRIMARY_reload_airwalk
+      anim "optchar/demo-SECONDARY_reload_airwalk.egg"
+      activity Primary_Reload_Air_Walk
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_PRIMARY_reload_airwalk_loop
+      anim "optchar/demo-a_SECONDARY_reload_airwalk_loop.egg"
+      delta true
+      activity Primary_Reload_Air_Walk_Loop
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_PRIMARY_reload_airwalk_end
+      anim "optchar/demo-a_SECONDARY_reload_airwalk_end.egg"
+      delta true
+      activity Primary_Reload_Air_Walk_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
         }
       ]
     }
