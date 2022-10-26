@@ -311,6 +311,84 @@
         bip_lowerArm_R 1.0
       }
     }
+    {
+      name weights_layer_reload_arms_PRIMARY
+      weights {
+        "bip_pelvis" 0
+        "bip_hip_R" 0
+        "bip_knee_R" 0
+        "bip_spine_0" 0.2
+        "bip_spine_1" 0.4
+        "bip_spine_2" 0.6
+        "bip_spine_3" 1
+        "bip_neck" 1
+        "bip_head" 1
+        "bip_hip_L" 0
+        "bip_knee_L" 0
+        "bip_collar_L" 1
+        "bip_upperArm_L" 1
+        "bip_lowerArm_L" 1
+        "bip_collar_R" 1
+        "bip_upperArm_R" 1
+        "bip_lowerArm_R" 1
+        "bip_foot_L" 0
+        "bip_foot_R" 0
+        "bip_hand_R" 1
+        "bip_hand_L" 1
+        "bip_toe_L" 0
+        "bip_index_0_L" 1
+        "weapon_bone_L" 1
+        "effect_hand_L" 1
+        "effect_hand_R" 1
+        "bip_pinky_0_L" 1
+        "bip_toe_R" 0
+        "bip_ring_0_L" 1
+        "bip_thumb_0_R" 1
+        "prp_cord" 0
+        "bip_thumb_0_L" 1
+        "bip_index_0_R" 1
+        "prp_pouch" 0
+        "bip_middle_0_L" 1
+        "prp_legPouch" 0.4
+        "bip_middle_0_R" 1
+        "bip_ring_0_R" 1
+        "weapon_bone_1" 1
+        "weapon_bone" 1
+        "bip_pinky_0_R" 1
+        "bip_pinky_1_R" 1
+        "bip_pinky_2_R" 1
+        "bip_ring_1_R" 1
+        "bip_ring_2_R" 1
+        "bip_middle_1_R" 1
+        "bip_middle_2_R" 1
+        "bip_index_1_R" 1
+        "bip_index_2_R" 1
+        "bip_thumb_1_R" 1
+        "bip_thumb_2_R" 1
+        "bip_thumb_1_L" 1
+        "bip_middle_1_L" 1
+        "bip_thumb_2_L" 1
+        "bip_index_1_L" 1
+        "bip_pinky_1_L" 1
+        "bip_pinky_2_L" 1
+        "bip_ring_1_L" 1
+        "bip_ring_2_L" 1
+        "bip_middle_2_L" 1
+        "bip_index_2_L" 1
+        "prp_helmet" 1
+        "medal_bone" 0.6
+        "prp_starter" 1
+        "mvm" 0
+        "prop_bone" 0
+        "prop_bone_1" 0
+        "prop_bone_2" 0
+        "prop_bone_3" 0
+        "prop_bone_4" 0
+        "prop_bone_5" 0
+        "prop_bone_6" 0
+        "taunt_effect" 0
+      }
+    }
   ]
 
   pose_parameters [
@@ -1722,6 +1800,7 @@
       activity Loser_Swim
     }
 
+    // Selection menu
     {
       name SelectionMenu_Anim01
       anim "optchar/engineer-SelectionMenu_Anim01.egg"
@@ -1740,11 +1819,346 @@
         }
       ]
     }
-
     {
       name SelectionMenu_Idle
       anim "optchar/engineer-SelectionMenu_Idle.egg"
       loop true
+    }
+
+    // Air walking
+    {
+      name layer_reload_arms_PRIMARY
+      anim "optchar/engineer-layer_reload_arms_PRIMARY.egg"
+      ik_events [
+        {
+          chain lhand
+          type touch
+          joint weapon_bone_1
+        }
+      ]
+      weight_list weights_layer_reload_arms_PRIMARY
+    }
+    {
+      name PRIMARY_reload_airwalk
+      anim "optchar/engineer-PRIMARY_reload_airwalk.egg"
+      delta true
+      activity Primary_Reload_Air_Walk
+      layers [
+        {
+          sequence layer_reload_arms_PRIMARY
+          start 0 peak 10 tail 21 end 21
+          spline true
+        }
+      ]
+    }
+    {
+      name layer_reload_arms_PRIMARY_loop
+      anim "optchar/engineer-layer_reload_arms_PRIMARY_loop.egg"
+      weight_list weights_layer_reload_arms_PRIMARY
+      ik_events [
+        {
+          chain lhand
+          type touch
+          joint weapon_bone_1
+        }
+      ]
+    }
+    {
+      name PRIMARY_reload_airwalk_loop
+      anim "optchar/engineer-PRIMARY_reload_airwalk_loop.egg"
+      delta true
+      activity Primary_Reload_Air_Walk_Loop
+      layers [
+        {
+          sequence layer_reload_arms_PRIMARY_loop
+          start -2 peak -2 tail 21 end 21
+          spline true
+        }
+      ]
+      ik_events [
+        {
+          chain rfoot
+          type lock
+        }
+        {
+          chain lfoot
+          type lock
+        }
+      ]
+    }
+    {
+      name layer_reload_arms_PRIMARY_end
+      anim "optchar/engineer-layer_reload_arms_PRIMARY_end.egg"
+      ik_events [
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+      weight_list weights_layer_reload_arms_PRIMARY
+    }
+    {
+      name PRIMARY_reload_airwalk_end
+      anim "optchar/engineer-PRIMARY_reload_airwalk_end.egg"
+      delta true
+      fade_out 0.7
+      activity Primary_Reload_Air_Walk_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_PRIMARY_end
+          start -2 peak -2 tail 1 end 7
+          spline true
+        }
+      ]
+    }
+    {
+      name layer_reload_airwalk_arms_SECONDARY
+      anim "optchar/engineer-layer_reload_airwalk_arms_SECONDARY.egg"
+      ik_events [
+        {
+          chain lhand type touch joint weapon_bone
+          start 5 peak 9 tail 23 end 1
+        }
+      ]
+    }
+    {
+      name ReloadAirwalk_SECONDARY
+      anim "optchar/engineer-ReloadAirwalk_SECONDARY.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_airwalk_arms_SECONDARY
+        }
+      ]
+    }
+    {
+      name PRIMARY_aimmatrix_airwalk
+      blend {
+        anims [
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_down_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_down_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_down_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_mid_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_mid_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_mid_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_up_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_up_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_up_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_straight_up.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_straight_up.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_airwalk_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          type lock chain rfoot
+        }
+        {
+          type lock chain lfoot
+        }
+      ]
+    }
+    {
+      name SECONDARY_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_down_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_down_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_down_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_mid_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_mid_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_mid_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_up_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_up_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_up_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          type lock chain rfoot
+        }
+        {
+          type lock chain lfoot
+        }
+      ]
+    }
+    {
+      name MELEE_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/engineer-a_MELEE_aimmatrix_swim_down_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_down_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_down_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_mid_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_mid_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_mid_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_up_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_up_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_up_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          type lock chain rfoot
+        }
+        {
+          type lock chain lfoot
+        }
+      ]
+    }
+    {
+      name PDA_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/engineer-a_PDA_aimmatrix_swim_down_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_down_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_down_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_mid_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_mid_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_mid_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_up_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_up_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_up_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_PDA_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          type lock chain rfoot
+        }
+        {
+          type lock chain lfoot
+        }
+      ]
+    }
+    {
+      name BUILDING_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_down_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_down_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_down_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_mid_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_mid_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_mid_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_up_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_up_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_up_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_straight_up.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          type lock chain rfoot
+        }
+        {
+          type lock chain lfoot
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name airwalk_PRIMARY
+      anim "optchar/engineer-airwalk_PRIMARY.egg"
+      activity Primary_Air_Walk
+      loop true
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_airwalk
+        }
+      ]
+    }
+    {
+      name airwalk_SECONDARY
+      anim "optchar/engineer-airwalk_SECONDARY.egg"
+      activity Secondary_Air_Walk
+      loop true
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_MELEE
+      anim "optchar/engineer-airwalk_MELEE.egg"
+      activity Melee_Air_Walk
+      loop true
+      layers [
+        {
+          sequence MELEE_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_PDA
+      anim "optchar/engineer-airwalk_PDA.egg"
+      activity PDA_Air_Walk
+      loop true
+      layers [
+        {
+          sequence PDA_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_BUILDING
+      anim "optchar/engineer-airwalk_BUILDING.egg"
+      activity Building_Air_Walk
+      loop true
+      layers [
+        {
+          sequence BUILDING_aimmatrix_swim
+        }
+      ]
     }
   ]
 
