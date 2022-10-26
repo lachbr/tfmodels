@@ -350,6 +350,87 @@
         "taunt_effect" 0.1
       }
     }
+    {
+      name weights_layer_reload_arms_ITEM1
+      weights {
+        "bip_pelvis" 0
+        "bip_spine_0" 0.2
+        "bip_spine_1" 0.4
+        "bip_spine_2" 0.6
+        "bip_spine_3" 1
+        "bip_neck" 1
+        "bip_head" 1
+        "bip_collar_L" 1
+        "bip_upperArm_L" 1
+        "bip_lowerArm_L" 1
+        "bip_hand_L" 1
+        "bip_collar_R" 1
+        "bip_upperArm_R" 1
+        "bip_lowerArm_R" 1
+        "bip_hand_R" 1
+        "bip_hip_L" 0
+        "bip_knee_L" 0
+        "bip_foot_L" 0
+        "bip_toe_L" 0
+        "bip_hip_R" 0
+        "bip_knee_R" 0
+        "bip_foot_R" 0
+        "bip_toe_R" 0
+        "prp_fuelTank" 0.6
+        "weapon_bone_L" 1
+        "weapon_bone" 1
+        "weapon_bone_1" 1
+        "weapon_bone_2" 1
+        "weapon_bone_3" 1
+        "weapon_bone_4" 1
+        "effect_hand_L" 1
+        "effect_hand_R" 1
+        "prp_pouch" 0
+        "prp_cannister1" 0.4
+        "prp_cannister2" 0.4
+        "prp_cannister3" 0.4
+        "bip_thumb_0_L" 1
+        "bip_thumb_1_L" 1
+        "bip_thumb_2_L" 1
+        "bip_index_0_L" 1
+        "bip_index_1_L" 1
+        "bip_index_2_L" 1
+        "bip_middle_0_L" 1
+        "bip_middle_1_L" 1
+        "bip_middle_2_L" 1
+        "bip_ring_0_L" 1
+        "bip_ring_1_L" 1
+        "bip_ring_2_L" 1
+        "bip_pinky_0_L" 1
+        "bip_pinky_1_L" 1
+        "bip_pinky_2_L" 1
+        "bip_thumb_0_R" 1
+        "bip_thumb_1_R" 1
+        "bip_thumb_2_R" 1
+        "bip_index_0_R" 1
+        "bip_index_1_R" 1
+        "bip_index_2_R" 1
+        "bip_middle_0_R" 1
+        "bip_middle_1_R" 1
+        "bip_middle_2_R" 1
+        "bip_ring_0_R" 1
+        "bip_ring_1_R" 1
+        "bip_ring_2_R" 1
+        "bip_pinky_0_R" 1
+        "bip_pinky_1_R" 1
+        "bip_pinky_2_R" 1
+        "medal_bone" 0.6
+        "mvm" 0
+        "prop_bone" 0
+        "prop_bone_1" 0
+        "prop_bone_2" 0
+        "prop_bone_3" 0
+        "prop_bone_4" 0
+        "prop_bone_5" 0
+        "prop_bone_6" 0
+        "taunt_effect" 0
+      }
+    }
   ]
 
   sequences [
@@ -403,6 +484,40 @@
           "optchar/pyro-a_SECONDARY_aimmatrix_run_straight_up.egg"
           "optchar/pyro-a_SECONDARY_aimmatrix_run_straight_up.egg"
           "optchar/pyro-a_SECONDARY_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+    {
+      name SECONDARY_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_down_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_down_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_down_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_mid_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_mid_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_mid_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_up_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_up_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_up_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_swim_straight_up.egg"
         ]
         width 3
         blend_x body_yaw
@@ -700,6 +815,40 @@
       ]
     }
     {
+      name MELEE_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/pyro-a_MELEE_aimmatrix_swim_down_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_down_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_down_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_mid_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_mid_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_mid_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_up_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_up_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_up_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+    {
       name stand_MELEE
       anim "optchar/pyro-stand_MELEE.egg"
       loop true
@@ -876,6 +1025,40 @@
           "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
           "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
           "optchar/pyro-a_PRIMARY_aimmatrix_run_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name PRIMARY_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_down_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_down_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_down_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_mid_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_mid_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_mid_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_up_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_up_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_up_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_swim_straight_up.egg"
         ]
         width 3
         blend_x body_yaw
@@ -1264,6 +1447,135 @@
       name SelectionMenu_Idle
       anim "optchar/pyro-selectionMenu_Idle.egg"
       loop true
+    }
+
+    // Air walks
+    {
+      name airwalk_PRIMARY
+      anim "optchar/pyro-airwalk_PRIMARY.egg"
+      activity Primary_Air_Walk
+      loop true
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_SECONDARY
+      anim "optchar/pyro-airwalk_SECONDARY.egg"
+      activity Secondary_Air_Walk
+      loop true
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name airwalk_MELEE
+      anim "optchar/pyro-airwalk_MELEE.egg"
+      activity Melee_Air_Walk
+      loop true
+      layers [
+        {
+          sequence MELEE_aimmatrix_swim
+        }
+      ]
+    }
+    {
+      name layer_reload_arms_SECONDARY
+      anim "optchar/pyro-layer_reload_arms_SECONDARY.egg"
+      ik_events [
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+      weight_list weights_layer_reload_arms_ITEM1
+    }
+    {
+      name SECONDARY_reload_airwalk
+      anim "optchar/pyro-SECONDARY_reload_airwalk.egg"
+      activity Secondary_Reload_Air_Walk
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY
+          start 0 peak 10 tail 21 end 21
+          spline true
+        }
+      ]
+    }
+    {
+      name layer_reload_arms_SECONDARY_loop
+      anim "optchar/pyro-layer_reload_arms_SECONDARY_loop.egg"
+      ik_events [
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+      weight_list weights_layer_reload_arms_ITEM1
+    }
+    {
+      name SECONDARY_reload_airwalk_loop
+      anim "optchar/pyro-SECONDARY_reload_airwalk_loop.egg"
+      activity Secondary_Reload_Air_Walk_Loop
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY_loop
+          start -2 peak -2 tail 21 end 21
+          spline true
+        }
+      ]
+    }
+    {
+      name layer_reload_arms_SECONDARY_end
+      anim "optchar/pyro-layer_reload_arms_SECONDARY_end.egg"
+      ik_events [
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+      weight_list weights_layer_reload_arms_ITEM1
+    }
+    {
+      name SECONDARY_reload_airwalk_end
+      anim "optchar/pyro-SECONDARY_reload_airwalk_end.egg"
+      activity Secondary_Reload_Air_Walk_End
+      delta true
+      fade_out 1.0
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY_end
+          start -2 peak -2 tail 1 end 7
+          spline true
+        }
+      ]
     }
   ]
 
