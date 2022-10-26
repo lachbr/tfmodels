@@ -482,6 +482,103 @@
         "prop_bone_6" 1
       }
     }
+    {
+      name weights_layer_airwalkXtraNoise
+      weights {
+        "bip_pelvis" 1
+        "bip_spine_0" 1
+        "bip_spine_1" 1
+        "bip_spine_2" 1
+        "bip_spine_3" 1
+        "bip_neck" 1
+        "bip_head" 1
+        "bip_collar_L" 0
+        "bip_collar_R" 0
+        "bip_upperArm_L" 0
+        "bip_upperArm_R" 0
+        "bip_lowerArm_L" 0
+        "bip_lowerArm_R" 0
+        "bip_hip_L" 1
+        "bip_hip_R" 1
+        "bip_knee_L" 1
+        "bip_knee_R" 1
+        "bip_hand_L" 0
+        "bip_hand_R" 0
+        "weapon_bone" 0
+        "weapon_bone_1" 0
+        "weapon_bone_L" 0
+        "joint_lever" 0
+        "joint_hose01" 0
+        "joint_hose02" 0
+        "joint_hose03" 0
+        "joint_hose04" 0
+        "joint_hose05" 0
+        "medal_bone" 1
+        "prp_backpack" 1
+        "mvm" 1
+        "effect_hand_L" 0
+        "effect_hand_R" 0
+        "prp_glasses" 1
+        "bip_foot_L" 1
+        "bip_foot_R" 1
+        "bip_toe_L" 1
+        "bip_toe_R" 1
+        "prp_hippouch_0_L" 1
+        "prp_hippouch_0_B" 1
+        "prp_coat_back_0_M" 1
+        "prp_coat_back_1_M" 1
+        "prp_coat_back_2_M" 1
+        "prp_coat_front_0_L" 1
+        "prp_coat_front_0_R" 1
+        "prp_coat_front_1_L" 1
+        "prp_coat_front_1_R" 1
+        "prp_coat_front_2_L" 1
+        "prp_coat_front_2_R" 1
+        "prp_coat_back_0_L" 1
+        "prp_coat_back_0_R" 1
+        "prp_coat_back_1_L" 1
+        "prp_coat_back_1_R" 1
+        "prp_coat_back_2_L" 1
+        "prp_coat_back_2_R" 1
+        "bip_thumb_0_L" 0
+        "bip_thumb_0_R" 0
+        "bip_index_0_L" 0
+        "bip_index_0_R" 0
+        "bip_middle_0_L" 0
+        "bip_middle_0_R" 0
+        "bip_ring_0_L" 0
+        "bip_ring_0_R" 0
+        "bip_pinky_0_L" 0
+        "bip_pinky_0_R" 0
+        "bip_thumb_1_L" 0
+        "bip_thumb_1_R" 0
+        "bip_index_1_L" 0
+        "bip_index_1_R" 0
+        "bip_middle_1_L" 0
+        "bip_middle_1_R" 0
+        "bip_ring_1_L" 0
+        "bip_ring_1_R" 0
+        "bip_pinky_1_L" 0
+        "bip_pinky_1_R" 0
+        "bip_thumb_2_L" 0
+        "bip_thumb_2_R" 0
+        "bip_index_2_L" 0
+        "bip_index_2_R" 0
+        "bip_middle_2_L" 0
+        "bip_middle_2_R" 0
+        "bip_ring_2_L" 0
+        "bip_ring_2_R" 0
+        "bip_pinky_2_L" 0
+        "bip_pinky_2_R" 0
+        "prop_bone" 1
+        "prop_bone_1" 1
+        "prop_bone_2" 1
+        "prop_bone_3" 1
+        "prop_bone_4" 1
+        "prop_bone_5" 1
+        "prop_bone_6" 1
+      }
+    }
   ]
 
   sequences [
@@ -1316,16 +1413,137 @@
       activity Loser_Run
     }
     {
-      name a_jumpstart_LOSER
-      anim "optchar/medic-a_jumpstart_LOSER.egg"
-      activity Loser_Jump_Start
+      name a_jumpfloat_LOSER
+      anim "optchar/medic-a_jumpfloat_LOSER.egg"
+    }
+    {
+      name a_jumpfloat_N_LOSER
+      anim "optchar/medic-a_jumpfloat_N_LOSER.egg"
       motion [ x y ]
     }
     {
-      name a_jumpfloat_LOSER
-      anim "optchar/medic-a_jumpfloat_LOSER.egg"
-      activity Loser_Jump_Float
+      name a_jumpfloat_NE_LOSER
+      anim "optchar/medic-a_jumpfloat_NE_LOSER.egg"
       motion [ x y ]
+    }
+    {
+      name a_jumpfloat_NW_LOSER
+      anim "optchar/medic-a_jumpfloat_NW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_E_LOSER
+      anim "optchar/medic-a_jumpfloat_E_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SE_LOSER
+      anim "optchar/medic-a_jumpfloat_SE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_W_LOSER
+      anim "optchar/medic-a_jumpfloat_W_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_SW_LOSER
+      anim "optchar/medic-a_jumpfloat_SW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpfloat_S_LOSER
+      anim "optchar/medic-a_jumpfloat_S_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_LOSER
+      anim "optchar/medic-a_jumpstart_LOSER.egg"
+    }
+    {
+      name a_jumpstart_N_LOSER
+      anim "optchar/medic-a_jumpstart_N_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NE_LOSER
+      anim "optchar/medic-a_jumpstart_NE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_NW_LOSER
+      anim "optchar/medic-a_jumpstart_NW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_E_LOSER
+      anim "optchar/medic-a_jumpstart_E_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SE_LOSER
+      anim "optchar/medic-a_jumpstart_SE_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_W_LOSER
+      anim "optchar/medic-a_jumpstart_W_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_SW_LOSER
+      anim "optchar/medic-a_jumpstart_SW_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name a_jumpstart_S_LOSER
+      anim "optchar/medic-a_jumpstart_S_LOSER.egg"
+      motion [ x y ]
+    }
+    {
+      name jump_start_LOSER
+      blend {
+        anims [
+          "a_jumpstart_SW_LOSER"
+          "a_jumpstart_S_LOSER"
+          "a_jumpstart_SE_LOSER"
+          "a_jumpstart_W_LOSER"
+          "a_jumpstart_LOSER"
+          "a_jumpstart_E_LOSER"
+          "a_jumpstart_NW_LOSER"
+          "a_jumpstart_N_LOSER"
+          "a_jumpstart_NE_LOSER"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      activity Loser_Jump_Start
+    }
+    {
+      name jump_float_LOSER
+      blend {
+        anims [
+          "a_jumpfloat_SW_LOSER"
+          "a_jumpfloat_S_LOSER"
+          "a_jumpfloat_SE_LOSER"
+          "a_jumpfloat_W_LOSER"
+          "a_jumpfloat_LOSER"
+          "a_jumpfloat_E_LOSER"
+          "a_jumpfloat_NW_LOSER"
+          "a_jumpfloat_N_LOSER"
+          "a_jumpfloat_NE_LOSER"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence layer_PRIMARY_jump_floatNoise
+        }
+      ]
+      activity Loser_Jump_Float
       loop true
     }
     {
@@ -1450,6 +1668,106 @@
     {
       name SelectionMenu_Idle
       anim "optchar/medic-SelectionMenu_Idle.egg"
+      loop true
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Air walk
+    ///////////////////////////////////////////////////////////////////////////
+    {
+      name layer_airwalkXtraNoise
+      anim "optchar/medic-layer_airwalkXtraNoise.egg"
+      delta true
+      real_time true
+      loop true
+      weight_list weights_layer_airwalkXtraNoise
+    }
+    // TODO: Primary weapon anims.  Haven't implemented syringe gun yet.
+    //{
+    //  name airwalk_PRIMARY
+    //}
+    {
+      name airwalk_SECONDARY
+      blend {
+        anims [
+          "a_jumpfloat_SW_SECONDARY"
+          "a_jumpfloat_S_SECONDARY"
+          "a_jumpfloat_SE_SECONDARY"
+          "a_jumpfloat_W_SECONDARY"
+          "a_jumpfloat_SECONDARY"
+          "a_jumpfloat_E_SECONDARY"
+          "a_jumpfloat_NW_SECONDARY"
+          "a_jumpfloat_N_SECONDARY"
+          "a_jumpfloat_NE_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+        {
+          sequence layer_airwalkXtraNoise
+        }
+      ]
+      activity Secondary_Air_Walk
+      loop true
+    }
+    {
+      name airwalk_MELEE
+      blend {
+        anims [
+          "a_jumpfloat_SW_MELEE"
+          "a_jumpfloat_S_MELEE"
+          "a_jumpfloat_SE_MELEE"
+          "a_jumpfloat_W_MELEE"
+          "a_jumpfloat_MELEE"
+          "a_jumpfloat_E_MELEE"
+          "a_jumpfloat_NW_MELEE"
+          "a_jumpfloat_N_MELEE"
+          "a_jumpfloat_NE_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+        {
+          sequence layer_airwalkXtraNoise
+        }
+      ]
+      activity Melee_Air_Walk
+      loop true
+    }
+    {
+      name airwalk_LOSER
+      blend {
+        anims [
+          "a_jumpfloat_SW_LOSER"
+          "a_jumpfloat_S_LOSER"
+          "a_jumpfloat_SE_LOSER"
+          "a_jumpfloat_W_LOSER"
+          "a_jumpfloat_LOSER"
+          "a_jumpfloat_E_LOSER"
+          "a_jumpfloat_NW_LOSER"
+          "a_jumpfloat_N_LOSER"
+          "a_jumpfloat_NE_LOSER"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence layer_airwalkXtraNoise
+        }
+      ]
+      activity Loser_Air_Walk
       loop true
     }
   ]
