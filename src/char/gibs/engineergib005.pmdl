@@ -19,6 +19,17 @@
     }
   ]
 
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ 0 -2 51 ]
+        }
+      ]
+    }
+  ]
+
   physics_model {
     mesh engineergib005_physics
     mass 36.24524

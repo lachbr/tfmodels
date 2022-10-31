@@ -19,6 +19,17 @@
     }
   ]
 
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ -9 -5 28 ]
+        }
+      ]
+    }
+  ]
+
   physics_model {
     mesh demogib002_physics
     mass 13.39236

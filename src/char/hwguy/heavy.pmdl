@@ -92,6 +92,31 @@
   custom_data {
     surfaceprop flesh
 
+    gibs [
+      {
+        model "models/char/heavygib001"
+      }
+      {
+        model "models/char/heavygib002"
+      }
+      {
+        model "models/char/heavygib003"
+      }
+      {
+        model "models/char/heavygib004"
+      }
+      {
+        model "models/char/heavygib005"
+      }
+      {
+        model "models/char/heavygib006"
+      }
+      {
+        model "models/char/heavygib007"
+        is_head true
+      }
+    ]
+
     hit_boxes [
       {
         group 1

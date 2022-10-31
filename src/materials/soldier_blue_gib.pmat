@@ -1,0 +1,22 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/soldier_blue_gib.ptex"
+    "bumpmap"     "../maps/soldier_normal.ptex"
+    "phong"     1
+    "phongboost"     1
+    "lightwarptexture"     "../maps/pyro_lightwarp.ptex"
+    "phongfresnelranges" 
+    [
+      0.3
+      1
+      3
+    ]
+    "halflambert"     1
+    "rimlight"     1
+    "rimlightexponent"     4
+    "rimlightboost"     2
+  }
+}

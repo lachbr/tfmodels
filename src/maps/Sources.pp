@@ -1207,7 +1207,19 @@
     w_stickybomb_launcher.ptex \
     w_stickybomb_launcher_normal.ptex \
     v_stickybomb_launcher.ptex \
-    v_stickybomb_launcher_phongmask.ptex
+    v_stickybomb_launcher_phongmask.ptex \
+    soldier_red_gib.ptex \
+    soldier_blue_gib.ptex \
+    hvyweapon_blue_gib.ptex \
+    hvyweapon_red_gib.ptex \
+    medic_red_gib.ptex \
+    medic_blue_gib.ptex \
+    pyro_blue_gib.ptex \
+    pyro_red_gib.ptex \
+    scout_red_gib.ptex \
+    scout_blue_gib.ptex \
+    spy_red_gib.ptex \
+    spy_blue_gib.ptex
 
 #end install_tex
 

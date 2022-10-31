@@ -1136,6 +1136,18 @@
     w_stickybomb_red.pmat \
     w_stickybomb_destroyed.pmat \
     w_stickybomb_launcher.pmat \
-    v_stickybomb_launcher.pmat
+    v_stickybomb_launcher.pmat \
+    soldier_red_gib.pmat \
+    soldier_blue_gib.pmat \
+    hvyweapon_blue_gib.pmat \
+    hvyweapon_red_gib.pmat \
+    medic_red_gib.pmat \
+    medic_blue_gib.pmat \
+    pyro_blue_gib.pmat \
+    pyro_red_gib.pmat \
+    scout_red_gib.pmat \
+    scout_blue_gib.pmat \
+    spy_red_gib.pmat \
+    spy_blue_gib.pmat
 
 #end install_mat

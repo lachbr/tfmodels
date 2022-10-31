@@ -8,6 +8,17 @@
     contents solid
   }
 
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ 0 0 60 ]
+        }
+      ]
+    }
+  ]
+
   physics_model {
     mesh random_organ_physics
     mass 0.716001

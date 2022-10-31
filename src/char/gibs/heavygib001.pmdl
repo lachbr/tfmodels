@@ -1,0 +1,37 @@
+{
+  model "heavygib001.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/hvyweapon_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/hvyweapon_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ -8 3 9 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh heavygib001_physics
+    mass 7.260509
+  }
+}

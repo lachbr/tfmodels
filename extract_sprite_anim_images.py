@@ -13,12 +13,17 @@ xSize = img.getXSize()
 ySize = img.getYSize()
 
 framesPerRow = xSize // frameSize
-numAnims = ((ySize // frameSize) * framesPerRow) // framesPerAnim
+totalFrames = (ySize // frameSize) * framesPerRow
+numAnims = totalFrames / framesPerAnim
 
 print("xSize", xSize)
 print("ySize", ySize)
 print("framesPerRow", framesPerRow)
 print("numAnims", numAnims)
+print("totalFrames", totalFrames)
+assert (xSize % frameSize) == 0
+assert (ySize % frameSize) == 0
+assert (totalFrames % framesPerAnim) == 0
 
 x = 0
 y = 0
