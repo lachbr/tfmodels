@@ -6,6 +6,34 @@
   custom_data {
     surfaceprop flesh
 
+    gibs [
+      {
+        model "models/char/pyrogib001"
+      }
+      {
+        model "models/char/pyrogib002"
+      }
+      {
+        model "models/char/pyrogib003"
+      }
+      {
+        model "models/char/pyrogib004"
+      }
+      {
+        model "models/char/pyrogib005"
+      }
+      {
+        model "models/char/pyrogib006"
+      }
+      {
+        model "models/char/pyrogib007"
+      }
+      {
+        model "models/char/pyrogib008"
+        is_head true
+      }
+    ]
+
     bbox {
       mins [ -16.232 -22.611 -3.144 ]
       maxs [ 13.487 22.611 82.521 ]

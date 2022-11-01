@@ -1,0 +1,37 @@
+{
+  model "pyrogib002.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/pyro_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/pyro_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ -7 -2 29 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh pyrogib002_physics
+    mass 19.36599
+  }
+}
