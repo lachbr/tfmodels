@@ -29,6 +29,31 @@
   custom_data {
     surfaceprop flesh
 
+    gibs [
+      {
+        model "models/char/spygib001"
+      }
+      {
+        model "models/char/spygib002"
+      }
+      {
+        model "models/char/spygib003"
+      }
+      {
+        model "models/char/spygib004"
+      }
+      {
+        model "models/char/spygib005"
+      }
+      {
+        model "models/char/spygib006"
+      }
+      {
+        model "models/char/spygib007"
+        is_head true
+      }
+    ]
+
     bodygroups [
       {
         name spyMask

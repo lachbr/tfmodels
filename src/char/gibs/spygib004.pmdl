@@ -1,0 +1,37 @@
+{
+  model "spygib004.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/spy_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/spy_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ 14 4 57 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh spygib004_physics
+    mass 6.28855
+  }
+}
