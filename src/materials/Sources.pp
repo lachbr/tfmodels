@@ -1149,6 +1149,14 @@
     scout_blue_gib.pmat \
     spy_red_gib.pmat \
     spy_blue_gib.pmat \
-    brightmuzzle.pmat blurmuzzle.pmat
+    brightmuzzle.pmat blurmuzzle.pmat \
+    concretefloor008.pmat \
+    concretewall012a.pmat \
+    wall030.pmat \
+    concretewall012.pmat \
+    concretewall004.pmat \
+    wall012.pmat \
+    concretewall012b.pmat \
+    computerwall006b.pmat
 
 #end install_mat

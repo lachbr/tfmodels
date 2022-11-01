@@ -1220,7 +1220,17 @@
     scout_blue_gib.ptex \
     spy_red_gib.ptex \
     spy_blue_gib.ptex \
-    brightmuzzle.ptex blurmuzzle.ptex
+    brightmuzzle.ptex blurmuzzle.ptex \
+    concretefloor008.ptex \
+    concretefloor008_normal.ptex \
+    concretewall012a.ptex \
+    wall030.ptex \
+    concretewall012.ptex \
+    concretewall004.ptex \
+    wall012.ptex \
+    wall012_normal.ptex \
+    concretewall012b.ptex \
+    computerwall006b.ptex
 
 #end install_tex
 

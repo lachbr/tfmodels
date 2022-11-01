@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../maps/wall012.ptex"
+    "bumpmap"     "../maps/wall012_normal.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/wall012.vmt"
+  }
+}
