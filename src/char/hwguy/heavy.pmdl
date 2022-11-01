@@ -115,6 +115,9 @@
         model "models/char/heavygib007"
         is_head true
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     hit_boxes [

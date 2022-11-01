@@ -71,6 +71,9 @@
       {
         model "models/char/medicgib008"
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     hit_boxes [

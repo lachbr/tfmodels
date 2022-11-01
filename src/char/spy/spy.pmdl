@@ -52,6 +52,9 @@
         model "models/char/spygib007"
         is_head true
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     bodygroups [

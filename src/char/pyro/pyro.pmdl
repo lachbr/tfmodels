@@ -32,6 +32,9 @@
         model "models/char/pyrogib008"
         is_head true
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     bbox {

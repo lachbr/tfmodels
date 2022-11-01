@@ -30,6 +30,9 @@
       {
         model "models/char/snipergib007"
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     bbox {

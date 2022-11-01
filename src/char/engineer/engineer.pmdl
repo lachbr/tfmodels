@@ -31,6 +31,9 @@
       {
         model "models/char/engineergib007"
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     hit_boxes [

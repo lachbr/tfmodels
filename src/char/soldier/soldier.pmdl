@@ -57,6 +57,9 @@
       {
         model "models/char/soldiergib008"
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     surfaceprop flesh

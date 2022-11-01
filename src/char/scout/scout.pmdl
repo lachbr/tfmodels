@@ -135,6 +135,9 @@
       {
         model "models/char/scoutgib009"
       }
+      {
+        model "models/char/random_organ"
+      }
     ]
 
     hit_boxes [
