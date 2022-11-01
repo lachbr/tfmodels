@@ -1,0 +1,37 @@
+{
+  model "scoutgib006.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/scout_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/scout_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ 0 2 67 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh scoutgib006_physics
+    mass 36.54222
+  }
+}

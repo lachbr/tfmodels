@@ -106,6 +106,37 @@
   custom_data {
     surfaceprop flesh
 
+    gibs [
+      {
+        model "models/char/scoutgib001"
+      }
+      {
+        model "models/char/scoutgib002"
+      }
+      {
+        model "models/char/scoutgib003"
+      }
+      {
+        model "models/char/scoutgib004"
+      }
+      {
+        model "models/char/scoutgib005"
+      }
+      {
+        model "models/char/scoutgib006"
+      }
+      {
+        model "models/char/scoutgib007"
+        is_head true
+      }
+      {
+        model "models/char/scoutgib008"
+      }
+      {
+        model "models/char/scoutgib009"
+      }
+    ]
+
     hit_boxes [
       {
         group 1
