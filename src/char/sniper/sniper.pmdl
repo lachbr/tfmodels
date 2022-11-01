@@ -7,6 +7,31 @@
     surfaceprop flesh
     contents solid
 
+    gibs [
+      {
+        model "models/char/snipergib001"
+      }
+      {
+        model "models/char/snipergib002"
+      }
+      {
+        model "models/char/snipergib003"
+      }
+      {
+        model "models/char/snipergib004"
+      }
+      {
+        model "models/char/snipergib005"
+        is_head true
+      }
+      {
+        model "models/char/snipergib006"
+      }
+      {
+        model "models/char/snipergib007"
+      }
+    ]
+
     bbox {
       mins [ -13.856 -24.828 -3.683 ]
       maxs [ 7.471 24.828 89.813 ]

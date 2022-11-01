@@ -1,0 +1,38 @@
+{
+  model "snipergib005.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/sniper_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/sniper_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ -1 3 70 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh snipergib005_physics
+    mass 5.357269
+    rot_damping 2
+  }
+}
