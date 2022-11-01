@@ -1,0 +1,26 @@
+{
+  model "soldiergib008.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/soldier_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/soldier_blue_gib.pmat" ]
+    }
+  ]
+
+  physics_model {
+    mesh soldiergib008_physics
+    mass 8.041666
+  }
+}

@@ -1,0 +1,38 @@
+{
+  model "soldiergib007.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/soldier_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/soldier_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ 0 1 70 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh soldiergib007_physics
+    mass 6.813213
+    rot_damping 2
+  }
+}

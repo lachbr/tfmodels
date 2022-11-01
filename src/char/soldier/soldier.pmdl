@@ -31,6 +31,34 @@
       //min
     }
 
+    gibs [
+      {
+        model "models/char/soldiergib001"
+      }
+      {
+        model "models/char/soldiergib002"
+      }
+      {
+        model "models/char/soldiergib003"
+      }
+      {
+        model "models/char/soldiergib004"
+      }
+      {
+        model "models/char/soldiergib005"
+      }
+      {
+        model "models/char/soldiergib006"
+      }
+      {
+        model "models/char/soldiergib007"
+        is_head true
+      }
+      {
+        model "models/char/soldiergib008"
+      }
+    ]
+
     surfaceprop flesh
 
     bodygroups [
