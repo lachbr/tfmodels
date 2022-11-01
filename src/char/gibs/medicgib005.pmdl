@@ -1,0 +1,37 @@
+{
+  model "medicgib005.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop flesh
+    contents solid
+  }
+
+  material_groups [
+    {
+      name red
+      materials [ "../../materials/medic_red_gib.pmat" ]
+    }
+    {
+      name blue
+      materials [ "../../materials/medic_blue_gib.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name bloodpoint
+      influences [
+        {
+          pos [ -11 6 57 ]
+        }
+      ]
+    }
+  ]
+
+  physics_model {
+    mesh medicgib005_physics
+    mass 13.55081
+  }
+}
