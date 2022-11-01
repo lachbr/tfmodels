@@ -1,0 +1,16 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters"
+  {
+    "basetexture"     "../maps/black.ptex"
+  }
+
+  //light off
+  //color_scale [ 0 0 0 0 ]
+  //transparency true
+  color_blend additive
+  //bin fixed
+  //bin_sort 1
+  depth_write off
+}

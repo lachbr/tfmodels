@@ -1219,7 +1219,8 @@
     scout_red_gib.ptex \
     scout_blue_gib.ptex \
     spy_red_gib.ptex \
-    spy_blue_gib.ptex
+    spy_blue_gib.ptex \
+    brightmuzzle.ptex blurmuzzle.ptex
 
 #end install_tex
 

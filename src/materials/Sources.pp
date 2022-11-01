@@ -1148,6 +1148,7 @@
     scout_red_gib.pmat \
     scout_blue_gib.pmat \
     spy_red_gib.pmat \
-    spy_blue_gib.pmat
+    spy_blue_gib.pmat \
+    brightmuzzle.pmat blurmuzzle.pmat
 
 #end install_mat

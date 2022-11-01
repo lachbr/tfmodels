@@ -1,0 +1,12 @@
+{
+  model "optchar/minigunmuzzle-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/minigunmuzzle-idle.egg"
+    }
+  ]
+}
