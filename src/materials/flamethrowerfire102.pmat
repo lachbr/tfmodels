@@ -2,7 +2,7 @@
   material SpriteParticleMaterial
   parameters {
     base_texture {
-      texture "../maps/flamethrowerfire102.ptex"
+      texture "../maps/flamethrowerfire102/flamethrowerfire102.ptex"
       anims [
         {
           num_pages 19
