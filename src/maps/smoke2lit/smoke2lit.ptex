@@ -1,0 +1,7 @@
+{
+  image "smoke2lit_#.rgb"
+  type "2d_texture_array"
+  num_pages 5
+  format srgb_alpha
+  wrap clamp
+}

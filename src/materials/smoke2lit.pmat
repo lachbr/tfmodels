@@ -1,0 +1,17 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture {
+      texture "../maps/smoke2lit/smoke2lit.ptex"
+      anims [
+        {
+          num_pages 5
+          interpolate 1
+          loop 1
+        }
+      ]
+    }
+  }
+  transparency alpha
+  depth_write off
+}
