@@ -1,0 +1,10 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture "../maps/softglow.ptex"
+  }
+
+  color_blend additive
+  bin fixed
+  depth_write off
+}

@@ -1157,6 +1157,7 @@
     concretewall004.pmat \
     wall012.pmat \
     concretewall012b.pmat \
-    computerwall006b.pmat
+    computerwall006b.pmat \
+    sc_softglow.pmat circle1.pmat
 
 #end install_mat

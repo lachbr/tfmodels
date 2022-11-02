@@ -1,0 +1,9 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture "../maps/circle1.ptex"
+  }
+  color_blend additive
+  bin fixed
+  depth_write off
+}

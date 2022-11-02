@@ -1,0 +1,5 @@
+{
+  image circle1.tga
+  format srgb
+  wrap clamp
+}

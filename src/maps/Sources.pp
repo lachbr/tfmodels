@@ -1230,7 +1230,8 @@
     wall012.ptex \
     wall012_normal.ptex \
     concretewall012b.ptex \
-    computerwall006b.ptex
+    computerwall006b.ptex \
+    softglow.ptex circle1.ptex
 
 #end install_tex
 
