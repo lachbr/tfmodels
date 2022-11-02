@@ -1,0 +1,34 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture {
+      texture "../maps/flamethrowerfire102.ptex"
+      anims [
+        {
+          num_pages 19
+          interpolate 1
+        }
+        {
+          num_pages 21
+          interpolate 1
+        }
+        {
+          num_pages 18
+          interpolate 1
+        }
+        {
+          num_pages 19
+          interpolate 1
+        }
+        {
+          num_pages 19
+          interpolate 1
+        }
+      ]
+    }
+  }
+
+  color_blend additive
+  depth_write off
+  bin transparent
+}

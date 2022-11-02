@@ -1,0 +1,7 @@
+{
+  image "flamethrowerfire102_#.rgb"
+  type "2d_texture_array"
+  num_pages 96
+  format srgb
+  wrap clamp
+}

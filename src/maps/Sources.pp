@@ -1232,7 +1232,8 @@
     concretewall012b.ptex \
     computerwall006b.ptex \
     softglow.ptex circle1.ptex \
-    smoke2lit/smoke2lit.ptex
+    smoke2lit/smoke2lit.ptex \
+    flamethrowerfire102/flamethrowerfire102.ptex
 
 #end install_tex
 
