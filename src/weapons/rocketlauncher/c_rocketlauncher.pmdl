@@ -21,6 +21,16 @@
         }
       ]
     }
+    {
+      name backblast
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 6.69 -35.43 ]
+          hpr [ 0 -90 0 ]
+        }
+      ]
+    }
   ]
 
   lods [
