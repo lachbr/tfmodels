@@ -1,10 +1,27 @@
 {
   material SpriteParticleMaterial
   parameters {
-    base_texture "../maps/blood_goop3/blood_goop3.ptex"
-    num_frames_per_anim 14
-    animated 1
-    anim_interp 0
+    base_texture {
+      texture "../maps/blood_goop3/blood_goop3.ptex"
+      anims [
+        {
+          num_pages 14
+          interpolate 1
+        }
+        {
+          num_pages 14
+          interpolate 1
+        }
+        {
+          num_pages 14
+          interpolate 1
+        }
+        {
+          num_pages 14
+          interpolate 1
+        }
+      ]
+    }
   }
   transparency alpha
 }
