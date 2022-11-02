@@ -30,7 +30,7 @@ for i in range(numRows):
         frameImg.write(Filename(inFile).getBasenameWoExtension() + "_" + str(imgIndex) + ".rgb")
 
         x += frameSize
-        if x >= xSize:
+        if x + frameSize > xSize:
             y += frameSize
             x = 0
 
