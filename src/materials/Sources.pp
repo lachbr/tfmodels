@@ -89,7 +89,8 @@
     windmill001.pmat \
     spool_rope.pmat \
     wooden_barrel.pmat \
-    wood_pile.pmat \
+    wood_pile_forest.pmat \
+    wood_pile_farm.pmat \
     haypile001.pmat \
     haypile001_card.pmat \
     wall_clock.pmat \

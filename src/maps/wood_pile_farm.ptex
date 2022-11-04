@@ -1,7 +1,7 @@
 
 {
-  "image"   "wood_pile.tga"
-  "format"   "srgb_alpha"
+  "image"   "wood_pile_farm.tga"
+  "format"   "srgb"
   "type"   "2d_texture"
   "wrap_u"   "repeat"
   "wrap_v"   "repeat"

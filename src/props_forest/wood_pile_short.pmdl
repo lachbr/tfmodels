@@ -1,24 +1,24 @@
 
 {
   "model"   "wood_pile_short.egg"
-  "hpr" 
+  "hpr"
   [
     180
     0
     0
   ]
-  "material_groups" 
+  "material_groups"
   [
 
     {
       "name"       "unnamed0"
-      "materials" 
+      "materials"
       [
-        "../materials/wood_pile.pmat"
+        "../materials/wood_pile_forest.pmat"
       ]
     }
   ]
-  "physics_model" 
+  "physics_model"
   {
     "mesh"     "wood_pile_short_physics"
     "mass"     10
@@ -26,16 +26,16 @@
     "rot_damping"     0
     "concave"     1
   }
-  "custom_data" 
+  "custom_data"
   {
     "contents"     "solid"
     "surfaceprop"     "wood"
-    "bodygroups" 
+    "bodygroups"
     [
 
       {
         "name"         "body"
-        "nodes" 
+        "nodes"
         [
           "wood_pile_short_reference*"
         ]

@@ -104,7 +104,8 @@
     windmill001.ptex \
     spool_rope.ptex \
     wooden_barrel.ptex \
-    wood_pile.ptex \
+    wood_pile_forest.ptex \
+    wood_pile_farm.ptex \
     haypile001_card.ptex \
     wall_clock.ptex \
     wall_clock_glass.ptex \
