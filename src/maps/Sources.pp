@@ -1233,7 +1233,11 @@
     computerwall006b.ptex \
     softglow.ptex circle1.ptex \
     smoke2lit/smoke2lit.ptex \
-    flamethrowerfire102/flamethrowerfire102.ptex
+    flamethrowerfire102/flamethrowerfire102.ptex \
+    sun_sheet.ptex \
+    sun_ray1.ptex \
+    sun_ray2.ptex \
+    door_slide_noentry.ptex
 
 #end install_tex
 

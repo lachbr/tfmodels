@@ -62,3 +62,4 @@
 #include $[THISDIRPREFIX]Sources.bottle001.pp
 #include $[THISDIRPREFIX]Sources.sewer_entrance02.pp
 #include $[THISDIRPREFIX]Sources.sewer_entrance01.pp
+#include $[THISDIRPREFIX]Sources.door_slide_door.pp

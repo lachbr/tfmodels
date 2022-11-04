@@ -1,6 +1,20 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/props_2fort
 
+// Animated chimney.
+#define chimney007_optchar_opts \
+  -flag Chimney007_reference,Chimney007_reference_lod1
+#call tf_char_egg chimney007,idle,$[chimney007_optchar_opts]
+
+#begin install_mdl
+  #define SOURCES \
+    chimney007.pmdl
+
+#end install_mdl
+
+// Below is auto-generated from the port_mdl.py script, currently used for
+// porting static props.
+
 #include $[THISDIRPREFIX]Sources.window004d.pp
 #include $[THISDIRPREFIX]Sources.window004c.pp
 #include $[THISDIRPREFIX]Sources.nail002.pp

@@ -395,6 +395,9 @@ if translucent:
             # translucent.  Use alpha blending.
             pmatData.setAttribute("transparency", "alpha")
 
+if vmtShaderName in ('unlitgeneric', 'unlittwotexture'):
+    pmatData.setAttribute("light", "off")
+
 if materialName == 'SourceLightmappedMaterial':
     # Get a surface prop for audio reverb.
     if not "surface_prop" in tags or tags["surface_prop"] == "default":

@@ -1,0 +1,58 @@
+{
+  model "optchar/chimney007-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  lods [
+    {
+      distance 0
+      groups [
+        Chimney007_reference
+      ]
+    }
+    {
+      distance 50
+      groups [
+        Chimney007_reference_lod1
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/chimney007-idle.egg"
+      fps 10
+      loop true
+    }
+    {
+      name spinslow
+      // Weird way to reuse animation data but play it at a different
+      // frame rate.
+      layers [
+        {
+          sequence idle
+        }
+      ]
+      fps 3
+      loop true
+    }
+    {
+      name spinfast
+      // Weird way to reuse animation data but play it at a different
+      // frame rate.
+      layers [
+        {
+          sequence idle
+        }
+      ]
+      fps 20
+      loop true
+    }
+  ]
+}

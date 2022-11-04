@@ -1159,6 +1159,9 @@
     concretewall012b.pmat \
     computerwall006b.pmat \
     sc_softglow.pmat circle1.pmat \
-    smoke2lit.pmat flamethrowerfire102.pmat
+    smoke2lit.pmat flamethrowerfire102.pmat \
+    sun_sheet.pmat \
+    sun_ray1.pmat \
+    door_slide_noentry.pmat
 
 #end install_mat
