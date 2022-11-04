@@ -1585,6 +1585,91 @@
       anim "optchar/demo-selectionmenu_idle.egg"
       loop true
     }
+
+    {
+      name layer_taunt02
+      anim "optchar/demo-layer_taunt01.egg"
+    }
+    {
+      name taunt02
+      num_frames 120
+      events [
+        {
+          frame 25 type 2 event Client_Play_Sound
+          data "Taunt.Demo01FootStompLight"
+        }
+        {
+          frame 41 type 2 event Client_Play_Sound
+          data "Taunt.Demo01FootSpin"
+        }
+        {
+          frame 66 type 2 event Client_Play_Sound
+          data "Taunt.Demo01HandClap"
+        }
+        {
+          frame 72 type 2 event Client_Play_Sound
+          data "Taunt.Demo01HandClap2"
+        }
+      ]
+      layers [
+        {
+          sequence layer_taunt02
+          start 0 peak 5 tail 110 end 120
+        }
+      ]
+    }
+    {
+      name layer_taunt01
+      anim "optchar/demo-layer_taunt02.egg"
+    }
+    {
+      name taunt01
+      num_frames 65
+      layers [
+        {
+          sequence layer_taunt01
+          start 0 peak 5 tail 60 end 65
+        }
+      ]
+      events [
+        {
+          frame 20 type 2 event Client_Bodygroup_Set_Value
+          data "smiley 1"
+        }
+        {
+          frame 60 type 2 event Client_Bodygroup_Set_Value
+          data "smiley 0"
+        }
+      ]
+    }
+    {
+      name layer_taunt03
+      anim "optchar/demo-layer_taunt03.egg"
+    }
+    {
+      name taunt03
+      num_frames 135
+      layers [
+        {
+          sequence layer_taunt03
+          start 0 peak 5 tail 128 end 135
+        }
+      ]
+      events [
+        {
+          frame 23 type 2 event Client_Play_Sound
+          data "Taunt.Demo03BottleCatch"
+        }
+        {
+          frame 48 type 2 event Client_Play_Sound
+          data "Taunt.Demo03BottleSlosh"
+        }
+        {
+          frame 111 type 2 event Client_Play_Sound
+          data "Taunt.Demo03BottleAh"
+        }
+      ]
+    }
   ]
 
   physics_model {
