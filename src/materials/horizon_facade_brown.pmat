@@ -1,9 +1,10 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/horizon_facade_brown.ptex"
   }
   "cull"   "double_sided"
+  light off
 }

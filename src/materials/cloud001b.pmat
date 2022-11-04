@@ -1,10 +1,15 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/Cloud001b.ptex"
   }
   "fog"   "off"
   "transparency"   "alpha"
+  light off
+
+  tags {
+    ignore_lightmap_hack 1
+  }
 }
