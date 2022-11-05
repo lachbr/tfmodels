@@ -12,4 +12,5 @@
   "color_blend"   "additive"
   "transparency"   "dual"
   light off
+  color_scale [ 1.414 1.414 1.414 1 ]
 }
