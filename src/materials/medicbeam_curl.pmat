@@ -6,4 +6,5 @@
   color_blend additive
   depth_write off
   bin fixed
+  color_scale [ 1.732 1.732 1.732 1 ]
 }
