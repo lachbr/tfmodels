@@ -1,0 +1,5 @@
+{
+  image blood_decal1.tga
+  format rgb
+  wrap clamp
+}

@@ -1,0 +1,5 @@
+{
+  image concrete_decal_shot5.tga
+  format rgb
+  wrap clamp
+}
