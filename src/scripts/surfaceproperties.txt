@@ -66,6 +66,8 @@
 	"jumpfactor" "1.0"
 	"maxspeedfactor" "1.0"
 	"climbable"	"0"
+
+	"impactdecal" "concrete"
 }
 
 // NOTE: Almost nothing is solid metal - so "metal" is sheet metal
@@ -86,6 +88,8 @@
 	// "strain"		"SolidMetal.Strain"
 
 	"gamematerial"	"I"
+
+	"impactdecal" "metal"
 }
 
 // metal box - smaller metal box (< 2' width/height/depth)
@@ -159,6 +163,8 @@
 	// "strain"		"Metal_Box.Strain"
 
 	"gamematerial"	"I"
+
+	"impactdecal" ""
 }
 
 // ~1mm thick metal
@@ -213,6 +219,8 @@
 	"audiohardnessfactor" "0.25"
 
 	"gamematerial"	"I"
+
+	"impactdecal" "dirt"
 }
 
 "mud"
@@ -263,6 +271,8 @@
 
 	"bulletimpact"	"Tile.BulletImpact"
 	"gamematerial"	"I"
+
+	"impactdecal" "concrete"
 }
 
 // generic wood (NOTE: materials should use wood_box, wood_crate, wood_plank, wood_panel etc)
@@ -288,6 +298,8 @@
 	"audiohardnessfactor" "0.25"
 
 	"gamematerial"	"I"
+
+	"impactdecal" "wood"
 }
 
 "Wood_lowdensity"
@@ -509,6 +521,8 @@
 
 	"audioroughnessfactor" "0.0"
 	"gamematerial"	"I"
+
+	"impactdecal" "glass"
 }
 
 // computer case, tech equipment case
@@ -541,6 +555,8 @@
 	"audioreflectivity" "0.66"
 
 	"gamematerial"	"I"
+
+	"impactdecal" "concrete"
 }
 
 // Solid rock (small sounds)
@@ -609,6 +625,8 @@
 	"scrapesmooth"	"ChainLink.ScrapeSmooth"
 	"bulletimpact"	"ChainLink.BulletImpact"
 	"gamematerial"	"I"
+
+	"impactdecal" ""
 }
 
 // metal chain
@@ -646,6 +664,8 @@
 	"audioroughnessfactor" "0.1"
 
 	"gamematerial"	"I"
+
+	"impactdecal" "blood_flesh"
 }
 
 // gibs

@@ -1,0 +1,10 @@
+{
+  material SourceMaterial
+  parameters {
+    basetexture "../maps/decals_mod2x.ptex"
+  }
+  light off
+  color_blend modulate
+  bin decal
+  depth_write off
+}
