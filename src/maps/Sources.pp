@@ -1238,7 +1238,10 @@
     sun_sheet.ptex \
     sun_ray1.ptex \
     sun_ray2.ptex \
-    door_slide_noentry.ptex
+    door_slide_noentry.ptex \
+    decals_mod2x.ptex \
+    blood_decal1.ptex blood_decal2.ptex blood_decal3.ptex \
+    blood_decal4.ptex blood_decal5.ptex blood_decal6.ptex
 
 #end install_tex
 

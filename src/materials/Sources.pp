@@ -1163,6 +1163,9 @@
     smoke2lit.pmat flamethrowerfire102.pmat \
     sun_sheet.pmat \
     sun_ray1.pmat \
-    door_slide_noentry.pmat
+    door_slide_noentry.pmat \
+    decals_mod2x.pmat \
+    decal_blood1.pmat decal_blood2.pmat decal_blood3.pmat \
+    decal_blood4.pmat decal_blood5.pmat decal_blood6.pmat
 
 #end install_mat
