@@ -6,4 +6,6 @@
 
   light off
   color_blend modulate
+  bin decal
+  depth_write off
 }
