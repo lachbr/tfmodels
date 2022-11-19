@@ -1573,9 +1573,6 @@
         {
           chain rfoot type lock
         }
-        {
-          chain lhand type touch joint weapon_bone
-        }
       ]
       weight_list weights_PRIMARY_aimmatrix_idle
     }
@@ -1607,9 +1604,6 @@
         }
         {
           chain rfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone
         }
       ]
     }

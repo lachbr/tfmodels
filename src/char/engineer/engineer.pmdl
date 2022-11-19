@@ -863,6 +863,11 @@
       anim "optchar/engineer-bodylayer_Melee_Swing.egg"
       weight_list melee_hips_torso
       delta true
+      ik_events [
+        {
+          type release chain lhand
+        }
+      ]
     }
 
     {
@@ -1012,18 +1017,6 @@
         }
         {
           type lock chain lfoot
-        }
-        {
-          type touch chain lhand joint weapon_bone
-          // We need this IK event when we are firing while running backwards.
-          // Blend in the IK event the same way that the reverse aimmatrix is
-          // blended in.
-          pose_parameter move_y
-          spline true
-          start -2
-          peak -1
-          tail -0.8
-          end -0.2
         }
       ]
     }
@@ -2162,6 +2155,12 @@
           sequence BUILDING_aimmatrix_swim
         }
       ]
+    }
+
+    {
+      name layer_gesture_primary_go_armL
+      anim "optchar/engineer-layer_gesture_primary_go_armL.egg"
+
     }
   ]
 

@@ -829,57 +829,7 @@
       ]
       loop true
     }
-    {
-      name SECONDARY_reload_airwalk
-      anim "optchar/demo-PRIMARY_reload_airwalk.egg"
-      activity Secondary_Reload_Air_Walk
-      delta true
-      ik_events [
-        {
-          chain rfoot type lock
-        }
-        {
-          chain lfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone
-        }
-      ]
-    }
-    {
-      name a_SECONDARY_reload_airwalk_loop
-      anim "optchar/demo-a_PRIMARY_reload_airwalk_loop.egg"
-      delta true
-      activity Secondary_Reload_Air_Walk_Loop
-      ik_events [
-        {
-          chain rfoot type lock
-        }
-        {
-          chain lfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone
-        }
-      ]
-    }
-    {
-      name a_SECONDARY_reload_airwalk_end
-      anim "optchar/demo-a_PRIMARY_reload_airwalk_end.egg"
-      delta true
-      activity Secondary_Reload_Air_Walk_End
-      ik_events [
-        {
-          chain rfoot type lock
-        }
-        {
-          chain lfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone
-        }
-      ]
-    }
+
     {
       name PRIMARY_reload_airwalk
       anim "optchar/demo-SECONDARY_reload_airwalk.egg"
@@ -894,6 +844,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -911,6 +862,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -928,6 +880,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1050,9 +1003,6 @@
         {
           chain rfoot type lock
         }
-        {
-          chain lhand type touch joint weapon_bone_1
-        }
       ]
     }
 
@@ -1068,6 +1018,10 @@
         {
           chain rfoot type lock
         }
+        {
+          chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
+        }
       ]
     }
     {
@@ -1082,6 +1036,10 @@
         {
           chain rfoot type lock
         }
+        {
+          chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
+        }
       ]
     }
     {
@@ -1095,6 +1053,10 @@
         }
         {
           chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1123,9 +1085,6 @@
         }
         {
           chain rfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone_1
         }
       ]
     }
@@ -1310,6 +1269,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_SECONDARY
         }
       ]
     }
@@ -1327,6 +1287,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_SECONDARY
         }
       ]
     }
@@ -1344,6 +1305,61 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_SECONDARY
+        }
+      ]
+    }
+    {
+      name SECONDARY_reload_airwalk
+      anim "optchar/demo-PRIMARY_reload_airwalk.egg"
+      activity Secondary_Reload_Air_Walk
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+          ref_anim stand_SECONDARY
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_airwalk_loop
+      anim "optchar/demo-a_PRIMARY_reload_airwalk_loop.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk_Loop
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim stand_SECONDARY
+        }
+      ]
+    }
+    {
+      name a_SECONDARY_reload_airwalk_end
+      anim "optchar/demo-a_PRIMARY_reload_airwalk_end.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim stand_SECONDARY
         }
       ]
     }
@@ -1371,9 +1387,6 @@
         }
         {
           chain rfoot type lock
-        }
-        {
-          chain lhand type touch joint weapon_bone_1
         }
       ]
     }

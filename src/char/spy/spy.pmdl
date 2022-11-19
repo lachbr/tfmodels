@@ -929,12 +929,13 @@
       name layer_reload_standing_arms_SECONDARY
       anim "optchar/spy-layer_reload_standing_arms_SECONDARY.egg"
       weight_list weights_layer_reload_standing_arms_SECONDARY
-      ik_events [
-        {
-          chain lhand type touch joint weapon_bone
-          start 6 peak 14 tail 35 end 40 spline true
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand type touch joint weapon_bone
+      //    ref_anim stand_SECONDARY
+      //    //start 6 peak 14 tail 35 end 40 spline true
+      //  }
+      //]
     }
     {
       name ReloadStand_SECONDARY
