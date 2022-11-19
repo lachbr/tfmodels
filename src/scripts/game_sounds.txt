@@ -404,7 +404,7 @@
 "Item.Materialize"
 {
 	"channel"	"CHAN_STATIC"
-	"volume"	"1.0"
+	"volume"	"0.25"
 	"soundlevel"  "SNDLVL_75dB"
 	"wave"	"items/spawn_item.wav"
 }
