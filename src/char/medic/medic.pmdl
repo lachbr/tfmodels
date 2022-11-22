@@ -1169,6 +1169,7 @@
         {
           chain rhand type touch
           joint joint_lever
+          ref_anim stand_SECONDARY
         }
       ]
       activity Secondary_Attack_Stand_Prefire
@@ -1187,6 +1188,7 @@
         {
           chain rhand type touch
           joint joint_lever
+          ref_anim stand_SECONDARY
         }
       ]
       loop true
@@ -1206,6 +1208,7 @@
         {
           chain rhand type touch
           joint joint_lever
+          ref_anim stand_SECONDARY
         }
       ]
       weight_list weights_SECONDARY_aimmatrix_idle

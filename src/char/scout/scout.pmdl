@@ -502,9 +502,10 @@
         {
           chain lfoot type lock
         }
-        {
-          chain lhand type touch joint weapon_bone
-        }
+        //{
+        //  chain lhand type touch joint weapon_bone
+        //  ref_anim "optchar/scout-stand_PRIMARY.egg"
+        //}
       ]
     }
     {
@@ -607,6 +608,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -920,6 +922,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
       layers [
@@ -944,6 +947,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
       loop true
@@ -967,6 +971,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
       layers [
@@ -1144,24 +1149,25 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_SECONDARY
         }
       ]
     }
     {
       name layer_reload_standing_arms_secondary
       anim "optchar/scout-layer_reload_standing_arms_secondary.egg"
-      ik_events [
-        {
-          chain lhand type touch joint bip_pelvis
-          start 3 peak 9 tail 13 end 19
-          spline true
-        }
-        {
-          chain lhand type touch joint bip_hand_R
-          start 19 peak 22 tail 23 end 28
-          spline true
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand type touch joint bip_pelvis
+      //    start 3 peak 9 tail 13 end 19
+      //    spline true
+      //  }
+      //  {
+      //    chain lhand type touch joint bip_hand_R
+      //    start 19 peak 22 tail 23 end 28
+      //    spline true
+      //  }
+      //]
       weight_list weights_layer_reload_standing_arms_primary_start
     }
     {
@@ -1175,6 +1181,9 @@
         }
         {
           chain lfoot type lock
+        }
+        {
+          chain lhand type release
         }
       ]
       layers [

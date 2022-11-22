@@ -1210,6 +1210,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1227,6 +1228,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_deployed_PRIMARY
         }
       ]
     }
@@ -1244,6 +1246,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1261,6 +1264,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_deployed_PRIMARY
         }
       ]
     }
@@ -1488,12 +1492,12 @@
       name layer_reload_standing_arms_SECONDARY
       anim "optchar/sniper-layer_reload_standing_arms_SECONDARY.egg"
       weight_list weights_layer_reload_standing_arms_SECONDARY
-      ik_events [
-        {
-          chain lhand type touch joint weapon_bone
-          start 0 peak 5 tail 35 end 40
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand type touch joint weapon_bone
+      //    start 0 peak 5 tail 35 end 40
+      //  }
+      //]
     }
     {
       name ReloadStand_SECONDARY
@@ -1506,6 +1510,9 @@
         }
         {
           chain lfoot type lock
+        }
+        {
+          chain lhand type release
         }
       ]
       layers [

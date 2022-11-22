@@ -698,6 +698,7 @@
         }
         {
           type touch chain lhand joint weapon_bone_1
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1542,6 +1543,7 @@
         }
         {
           chain lhand type touch joint weapon_bone
+          ref_anim stand_BUILDING
         }
       ]
     }
@@ -1597,6 +1599,7 @@
         }
         {
           type touch chain lhand joint weapon_bone_1
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1825,13 +1828,13 @@
     {
       name layer_reload_arms_PRIMARY
       anim "optchar/engineer-layer_reload_arms_PRIMARY.egg"
-      ik_events [
-        {
-          chain lhand
-          type touch
-          joint weapon_bone_1
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand
+      //    type touch
+      //    joint weapon_bone_1
+      //  }
+      //]
       weight_list weights_layer_reload_arms_PRIMARY
     }
     {
@@ -1846,18 +1849,23 @@
           spline true
         }
       ]
+      ik_events [
+        {
+          chain lhand type release
+        }
+      ]
     }
     {
       name layer_reload_arms_PRIMARY_loop
       anim "optchar/engineer-layer_reload_arms_PRIMARY_loop.egg"
       weight_list weights_layer_reload_arms_PRIMARY
-      ik_events [
-        {
-          chain lhand
-          type touch
-          joint weapon_bone_1
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand
+      //    type touch
+      //    joint weapon_bone_1
+      //  }
+      //]
     }
     {
       name PRIMARY_reload_airwalk_loop
@@ -1880,16 +1888,19 @@
           chain lfoot
           type lock
         }
+        {
+          chain lhand type release
+        }
       ]
     }
     {
       name layer_reload_arms_PRIMARY_end
       anim "optchar/engineer-layer_reload_arms_PRIMARY_end.egg"
-      ik_events [
-        {
-          chain lhand type touch joint weapon_bone_1
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand type touch joint weapon_bone_1
+      //  }
+      //]
       weight_list weights_layer_reload_arms_PRIMARY
     }
     {
@@ -1917,12 +1928,12 @@
     {
       name layer_reload_airwalk_arms_SECONDARY
       anim "optchar/engineer-layer_reload_airwalk_arms_SECONDARY.egg"
-      ik_events [
-        {
-          chain lhand type touch joint weapon_bone
-          start 5 peak 9 tail 23 end 1
-        }
-      ]
+      //ik_events [
+      //  {
+      //    chain lhand type touch joint weapon_bone
+      //    start 5 peak 9 tail 23 end 1
+       // }
+      //]
     }
     {
       name ReloadAirwalk_SECONDARY
@@ -1935,6 +1946,9 @@
         }
         {
           chain lfoot type lock
+        }
+        {
+          chain lhand type release
         }
       ]
       layers [

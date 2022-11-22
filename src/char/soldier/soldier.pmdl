@@ -821,6 +821,7 @@
         }
         {
           chain lhand type touch joint weapon_bone_1
+          ref_anim stand_PRIMARY
         }
       ]
     }
@@ -1008,6 +1009,9 @@
         {
           chain rfoot type lock
         }
+        {
+          chain lhand type release
+        }
       ]
     }
 
@@ -1034,6 +1038,9 @@
         }
         {
           chain rfoot type lock
+        }
+        {
+          chain lhand type release
         }
       ]
     }
@@ -1066,6 +1073,9 @@
         {
           chain rfoot type lock
         }
+        {
+          chain lhand type release
+        }
       ]
     }
 
@@ -1083,6 +1093,7 @@
         }
         {
           chain lhand type touch joint weapon_bone_1
+          ref_anim stand_SECONDARY
         }
       ]
     }
@@ -1136,6 +1147,7 @@
         }
         {
           chain lhand type touch joint weapon_bone_1
+          ref_anim stand_SECONDARY
         }
       ]
     }
