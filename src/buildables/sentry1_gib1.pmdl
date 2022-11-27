@@ -42,14 +42,18 @@
     }
   ]
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../materials/sentry1_gibs.pmat" ]
+      materials [ "sentry1_gibs.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/sentry1_gibs_blue.pmat" ]
+      materials [ "sentry1_gibs_blue.pmat" ]
     }
   ]
 

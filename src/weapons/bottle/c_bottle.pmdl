@@ -1,6 +1,10 @@
 {
   model "optchar/c_bottle-zero.egg"
 
+  material_paths [
+    "../../materials"
+  ]
+
   custom_data {
     surfaceprop glass
     contents solid

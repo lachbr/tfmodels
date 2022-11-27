@@ -71,23 +71,27 @@
     }
   ]
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../materials/teleporter.pmat"
-        "../materials/teleporterspin_red.pmat"
-        "../materials/tp_direction.pmat"
-        "../materials/toolbox_red.pmat"
+        "teleporter.pmat"
+        "teleporterspin_red.pmat"
+        "tp_direction.pmat"
+        "toolbox_red.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../materials/teleporter_blue.pmat"
-        "../materials/teleporterspin_blue.pmat"
-        "../materials/tp_direction1.pmat"
-        "../materials/toolbox_blue.pmat"
+        "teleporter_blue.pmat"
+        "teleporterspin_blue.pmat"
+        "tp_direction1.pmat"
+        "toolbox_blue.pmat"
       ]
     }
   ]

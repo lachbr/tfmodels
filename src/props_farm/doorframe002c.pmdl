@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_farm"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/wood_bridge002.pmat"
-        "../materials/wood_bridge001.pmat"
+        "wood_bridge002.pmat"
+        "wood_bridge001.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/wood_bridge001.pmat"
-        "../materials/wood_bridge001.pmat"
+        "wood_bridge001.pmat"
+        "wood_bridge001.pmat"
       ]
     }
   ]

@@ -152,24 +152,28 @@
     ]
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../../materials/sniper_red.pmat"
-        "../../materials/sniper_lens.pmat"
+        "sniper_red.pmat"
+        "sniper_lens.pmat"
         "eyeball_l_sniper.pmat"
-        "../../materials/sniper_head_red.pmat"
+        "sniper_head_red.pmat"
         "eyeball_r_sniper.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../../materials/sniper_blue.pmat"
-        "../../materials/sniper_lens.pmat"
+        "sniper_blue.pmat"
+        "sniper_lens.pmat"
         "eyeball_l_sniper.pmat"
-        "../../materials/sniper_head_blue.pmat"
+        "sniper_head_blue.pmat"
         "eyeball_r_sniper.pmat"
       ]
     }

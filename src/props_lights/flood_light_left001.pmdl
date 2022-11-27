@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_lights"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/floodlight001.pmat"
-        "../materials/floodlight001b.pmat"
+        "floodlight001.pmat"
+        "floodlight001b.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/floodlight001b.pmat"
-        "../materials/floodlight001b.pmat"
+        "floodlight001b.pmat"
+        "floodlight001b.pmat"
       ]
     }
   ]

@@ -47,16 +47,20 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/hvyweapon_red.pmat" "../../materials/heavy_head_red.pmat"
+      materials [ "hvyweapon_red.pmat" "heavy_head_red.pmat"
                   eyeball_l_heavy.pmat
                   eyeball_r_heavy.pmat ]
     }
     {
       name blue
-      materials [ "../../materials/hvyweapon_blue.pmat" "../../materials/heavy_head_blue.pmat"
+      materials [ "hvyweapon_blue.pmat" "heavy_head_blue.pmat"
                   eyeball_l_heavy.pmat
                   eyeball_r_heavy.pmat ]
     }

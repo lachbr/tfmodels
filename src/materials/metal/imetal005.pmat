@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "imetal005.ptex"
+    "bumpmap"     "imetal001_normal.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/imetal005.vmt"
+  }
+}

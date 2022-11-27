@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "chicken_wire001.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "alpha_test_ref"   0.25
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/chicken_wire001.vmt"
+  }
+}

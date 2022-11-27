@@ -7,19 +7,23 @@
     omni true
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../../materials/medic_red.pmat"
-        "../../materials/medic_hands_red.pmat"
+        "medic_red.pmat"
+        "medic_hands_red.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../../materials/medic_blue.pmat"
-        "../../materials/medic_hands_blue.pmat"
+        "medic_blue.pmat"
+        "medic_hands_blue.pmat"
       ]
     }
   ]

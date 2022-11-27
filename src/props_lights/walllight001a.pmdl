@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_lights"
+  ]
   "material_groups" 
   [
 
@@ -14,12 +18,12 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/walllight001a.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
 
@@ -27,12 +31,12 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
 
@@ -40,12 +44,12 @@
       "name"       "unnamed2"
       "materials" 
       [
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
 
@@ -53,12 +57,12 @@
       "name"       "unnamed3"
       "materials" 
       [
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
 
@@ -66,12 +70,12 @@
       "name"       "unnamed4"
       "materials" 
       [
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
 
@@ -79,12 +83,12 @@
       "name"       "unnamed5"
       "materials" 
       [
-        "../materials/walllight001a_grey_off.pmat"
-        "../materials/walllight001a_off.pmat"
-        "../materials/walllight001a_blue.pmat"
-        "../materials/walllight001a_blue_off.pmat"
-        "../materials/walllight001a_grey.pmat"
-        "../materials/walllight001a_grey_off.pmat"
+        "walllight001a_grey_off.pmat"
+        "walllight001a_off.pmat"
+        "walllight001a_blue.pmat"
+        "walllight001a_blue_off.pmat"
+        "walllight001a_grey.pmat"
+        "walllight001a_grey_off.pmat"
       ]
     }
   ]

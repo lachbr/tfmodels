@@ -248,16 +248,20 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/soldier_red.pmat" "../../materials/soldier_head.pmat"
+      materials [ "soldier_red.pmat" "soldier_head.pmat"
                   eyeball_l_soldier.pmat
                   eyeball_r_soldier.pmat ]
     }
     {
       name blue
-      materials [ "../../materials/soldier_blue.pmat" "../../materials/soldier_head.pmat"
+      materials [ "soldier_blue.pmat" "soldier_head.pmat"
                   eyeball_l_soldier.pmat
                   eyeball_r_soldier.pmat ]
     }

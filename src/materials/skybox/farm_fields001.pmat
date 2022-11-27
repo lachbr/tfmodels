@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "farm_fields001.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "skybox/farm_fields001.vmt"
+  }
+}

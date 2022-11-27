@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "floodlight001.ptex"
+    "selfillum"     1
+  }
+}

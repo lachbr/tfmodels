@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "time_card_machine.ptex"
+  }
+  "cull"   "double_sided"
+}

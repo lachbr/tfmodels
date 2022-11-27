@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wall016d.ptex"
+    "bumpmap"     "wall016d_bump-ssbump.ptex"
+    "ssbump"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/wall016d.vmt"
+  }
+}

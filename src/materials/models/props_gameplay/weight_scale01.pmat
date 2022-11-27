@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "weight_scale01.ptex"
+    "phong"     1
+    "phongexponent"     50
+    "phongboost"     0.125
+    "phongfresnelranges" 
+    [
+      2
+      1
+      0.8
+    ]
+    "bumpmap"     "../effects/flat_normal.ptex"
+  }
+}

@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
   "material_groups" 
   [
 
@@ -14,9 +18,9 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/window002.pmat"
-        "../materials/window002b.pmat"
-        "../materials/window002_warm1.pmat"
+        "window002.pmat"
+        "window002b.pmat"
+        "window002_warm1.pmat"
       ]
     }
 
@@ -24,9 +28,9 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/window002b.pmat"
-        "../materials/window002b.pmat"
-        "../materials/window002_warm1.pmat"
+        "window002b.pmat"
+        "window002b.pmat"
+        "window002_warm1.pmat"
       ]
     }
 
@@ -34,9 +38,9 @@
       "name"       "unnamed2"
       "materials" 
       [
-        "../materials/window002_warm1.pmat"
-        "../materials/window002b.pmat"
-        "../materials/window002_warm1.pmat"
+        "window002_warm1.pmat"
+        "window002b.pmat"
+        "window002_warm1.pmat"
       ]
     }
   ]

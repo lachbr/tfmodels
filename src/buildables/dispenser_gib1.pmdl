@@ -7,14 +7,18 @@
     surfaceprop metal
   }
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../materials/dispenser_gibs.pmat" ]
+      materials [ "dispenser_gibs.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/dispenser_gibs_blue.pmat" ]
+      materials [ "dispenser_gibs_blue.pmat" ]
     }
   ]
 

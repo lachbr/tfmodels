@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "train_signal003.ptex"
+    "selfillum"     1
+  }
+}

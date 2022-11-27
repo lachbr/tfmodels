@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_farm"
+  ]
   "material_groups" 
   [
 
@@ -14,10 +18,10 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/building001.pmat"
-        "../materials/steeldoor001.pmat"
-        "../materials/building001_metal.pmat"
-        "../materials/building001_woodtrim.pmat"
+        "building001.pmat"
+        "steeldoor001.pmat"
+        "building001_metal.pmat"
+        "building001_woodtrim.pmat"
       ]
     }
   ]

@@ -1,4 +1,5 @@
 #define DIR_TYPE models
+#define INSTALL_TO materials/eyes
 
 #begin install_tex
   #define SOURCES \

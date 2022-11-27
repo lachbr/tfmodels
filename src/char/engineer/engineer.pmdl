@@ -171,14 +171,18 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/engineer_red.pmat" "../../materials/engineer_head.pmat" ]
+      materials [ "engineer_red.pmat" "engineer_head.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/engineer_blue.pmat" "../../materials/engineer_head.pmat" ]
+      materials [ "engineer_blue.pmat" "engineer_head.pmat" ]
     }
   ]
 

@@ -7,17 +7,21 @@
     omni true
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../../materials/pyro_red.pmat"
+        "pyro_red.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../../materials/pyro_blue.pmat"
+        "pyro_blue.pmat"
       ]
     }
   ]

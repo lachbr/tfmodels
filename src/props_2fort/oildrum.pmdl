@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
   "material_groups" 
   [
 
@@ -14,12 +18,12 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/oildrum001.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum001.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
 
@@ -27,12 +31,12 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum002.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
 
@@ -40,12 +44,12 @@
       "name"       "unnamed2"
       "materials" 
       [
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum003.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
 
@@ -53,12 +57,12 @@
       "name"       "unnamed3"
       "materials" 
       [
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum004.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
 
@@ -66,12 +70,12 @@
       "name"       "unnamed4"
       "materials" 
       [
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum005.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
 
@@ -79,12 +83,12 @@
       "name"       "unnamed5"
       "materials" 
       [
-        "../materials/oildrum006.pmat"
-        "../materials/oildrum002.pmat"
-        "../materials/oildrum003.pmat"
-        "../materials/oildrum004.pmat"
-        "../materials/oildrum005.pmat"
-        "../materials/oildrum006.pmat"
+        "oildrum006.pmat"
+        "oildrum002.pmat"
+        "oildrum003.pmat"
+        "oildrum004.pmat"
+        "oildrum005.pmat"
+        "oildrum006.pmat"
       ]
     }
   ]

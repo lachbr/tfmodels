@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "world_map001.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "signs/world_map001a.vmt"
+  }
+}

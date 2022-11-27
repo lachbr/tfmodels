@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "reflectivity_70b.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "concrete"
+    "original"     "dev/reflectivity_70b.vmt"
+  }
+}

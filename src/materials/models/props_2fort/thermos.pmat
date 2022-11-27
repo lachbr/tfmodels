@@ -1,0 +1,11 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "thermos.ptex"
+    "selfillum"     0
+    "envmap"     1
+    "envmapmask"     "thermos_spec01.ptex"
+  }
+}

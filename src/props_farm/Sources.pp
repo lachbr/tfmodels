@@ -1,9 +1,6 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/props_farm
 
-#include $[THISDIRPREFIX]Sources.spool_rope.pp
-#include $[THISDIRPREFIX]Sources.wood_pile.pp
-#include $[THISDIRPREFIX]Sources.conduit01.pp
 #include $[THISDIRPREFIX]Sources.tools_shovel.pp
 #include $[THISDIRPREFIX]Sources.tools_fork.pp
 #include $[THISDIRPREFIX]Sources.tools_rope.pp
@@ -32,8 +29,11 @@
 #include $[THISDIRPREFIX]Sources.rafter_01a.pp
 #include $[THISDIRPREFIX]Sources.rafter_01b.pp
 #include $[THISDIRPREFIX]Sources.spawnroom_door_right.pp
+#include $[THISDIRPREFIX]Sources.spool_rope.pp
+#include $[THISDIRPREFIX]Sources.conduit01.pp
 #include $[THISDIRPREFIX]Sources.wooden_barrel.pp
 #include $[THISDIRPREFIX]Sources.air_intake.pp
+#include $[THISDIRPREFIX]Sources.wood_pile.pp
 #include $[THISDIRPREFIX]Sources.water_spigot.pp
 #include $[THISDIRPREFIX]Sources.haypile001.pp
 #include $[THISDIRPREFIX]Sources.tractor_tire001.pp
@@ -79,12 +79,3 @@
 #include $[THISDIRPREFIX]Sources.barn_tower001.pp
 #include $[THISDIRPREFIX]Sources.barn_tower001b.pp
 #include $[THISDIRPREFIX]Sources.barn_loft002b.pp
-#include $[THISDIRPREFIX]Sources.concrete_block001.pp
-#include $[THISDIRPREFIX]Sources.paint_can001.pp
-#include $[THISDIRPREFIX]Sources.pallet001.pp
-#include $[THISDIRPREFIX]Sources.powertower02_skybox.pp
-#include $[THISDIRPREFIX]Sources.silo_skybox001.pp
-#include $[THISDIRPREFIX]Sources.powertower01_skybox.pp
-#include $[THISDIRPREFIX]Sources.silo_skybox003.pp
-#include $[THISDIRPREFIX]Sources.sewer_grate_end01.pp
-#include $[THISDIRPREFIX]Sources.shelf_props01.pp

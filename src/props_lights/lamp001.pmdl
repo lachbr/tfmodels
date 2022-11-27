@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_lights"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/lamp001.pmat"
-        "../materials/lamp001_off.pmat"
+        "lamp001.pmat"
+        "lamp001_off.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/lamp001_off.pmat"
-        "../materials/lamp001_off.pmat"
+        "lamp001_off.pmat"
+        "lamp001_off.pmat"
       ]
     }
   ]

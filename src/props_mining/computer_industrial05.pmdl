@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/computer_industrial05.pmat"
-        "../materials/computer_industrial05_skin2.pmat"
+        "computer_industrial05.pmat"
+        "computer_industrial05_skin2.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/computer_industrial05_skin2.pmat"
-        "../materials/computer_industrial05_skin2.pmat"
+        "computer_industrial05_skin2.pmat"
+        "computer_industrial05_skin2.pmat"
       ]
     }
   ]

@@ -9,9 +9,9 @@
 #end blender_char_egg
 
 #begin blender_char_egg
-  #define BLENDER_PREFIX w_grenade_grenadelauncher
-  #define EGG_PREFIX w_grenade_grenadelauncher
-  #define POLY_MODEL
+  #define BLENDER_PREFIX w_grenade_grenadelauncher-
+  #define EGG_PREFIX w_grenade_grenadelauncher-
+  #define POLY_MODEL zero
   #define CHAR_NAME w_grenade_grenadelauncher.qc_skeleton
 #end blender_char_egg
 
@@ -35,7 +35,7 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    w_grenade_grenadelauncher.egg
+    w_grenade_grenadelauncher-zero.egg
   #define OPTCHAR_OPTS \
     -keepall \
     -flag w_grenade_grenadelauncher_reference \

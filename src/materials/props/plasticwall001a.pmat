@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "plasticwall001a.ptex"
+    "bumpmap"     "plasticwall001a_normal.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "props/plasticwall001a.vmt"
+  }
+}

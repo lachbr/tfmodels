@@ -44,14 +44,18 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/w_stickybomb_red.pmat" ]
+      materials [ "w_stickybomb_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/w_stickybomb_blue.pmat" ]
+      materials [ "w_stickybomb_blue.pmat" ]
     }
   ]
 

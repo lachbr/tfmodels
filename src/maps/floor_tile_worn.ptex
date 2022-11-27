@@ -1,8 +1,0 @@
-
-{
-  "image"   "floor_tile_worn.tga"
-  "format"   "srgb"
-  "type"   "2d_texture"
-  "wrap_u"   "repeat"
-  "wrap_v"   "repeat"
-}

@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "telephone001.ptex"
+    "phong"     1
+    "phongexponent"     150
+    "phongboost"     1
+    "phongfresnelranges" 
+    [
+      0.7
+      15
+      20
+    ]
+    "bumpmap"     "../effects/flat_normal.ptex"
+  }
+}

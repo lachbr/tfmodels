@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "floor_tile_005c.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "tile/floor_tile_005c.vmt"
+  }
+}

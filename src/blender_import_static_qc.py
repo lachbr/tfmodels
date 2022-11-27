@@ -48,6 +48,15 @@ if 'VTA vertices' in bpy.data.objects:
     bpy.data.objects['VTA vertices'].select_set(True)
     bpy.ops.object.delete()
 
+# Convert all material names to lower case.
+allMaterials = set()
+for obj in context.scene.objects:
+    for material in obj.material_slots:
+        allMaterials.add(material)
+for material in allMaterials:
+    print(material.material.name, "->", material.material.name.lower())
+    material.material.name = material.material.name.lower()
+
 deselect_all()
 # Also delete the armature since it's intended to be a static model.
 if collName + '.qc_skeleton' in bpy.data.objects:

@@ -27,14 +27,18 @@
     ]
   }
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../materials/teleporter_gibs.pmat" ]
+      materials [ "teleporter_gibs.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/teleporter_gibs_blue.pmat" ]
+      materials [ "teleporter_gibs_blue.pmat" ]
     }
   ]
 

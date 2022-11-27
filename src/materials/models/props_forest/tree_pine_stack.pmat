@@ -1,0 +1,19 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "tree_pine_stack.ptex"
+    "bumpmap"     "tree_pine_stack_normal.ptex"
+    "lightwarptexture"     "../lightwarps/weapon_lightwarp.ptex"
+    "phong"     1
+    "phongexponent"     2
+    "phongboost"     0.1
+    "phongfresnelranges" 
+    [
+      0.1
+      0.5
+      1
+    ]
+  }
+}

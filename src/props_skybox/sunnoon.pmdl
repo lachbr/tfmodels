@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_skybox"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/sun_sheet.pmat"
-        "../materials/sun_ray1.pmat"
+        "sun_sheet.pmat"
+        "sun_ray1.pmat"
       ]
     }
   ]

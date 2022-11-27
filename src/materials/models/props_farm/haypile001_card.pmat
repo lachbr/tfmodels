@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "haypile001_card.ptex"
+  }
+  "transparency"   "dual"
+}

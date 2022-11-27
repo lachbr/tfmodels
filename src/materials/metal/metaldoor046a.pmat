@@ -1,0 +1,24 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "metaldoor046a.ptex"
+    "envmap"     1
+    "bumpmap"     "metaldoor046a_normal.ptex"
+    "normalmapalphaenvmapmask"     1
+    "envmapcontrast"     1
+    "envmapsaturation"     1
+    "envmaptint" 
+    [
+      0.25
+      0.25
+      0.25
+    ]
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/metaldoor046a.vmt"
+  }
+}

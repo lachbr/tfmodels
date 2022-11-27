@@ -1,24 +1,28 @@
 
 {
   "model"   "wood_pile.egg"
-  "hpr"
+  "hpr" 
   [
     180
     0
     0
   ]
-  "material_groups"
+  "material_paths" 
+  [
+    "../materials/models/props_farm"
+  ]
+  "material_groups" 
   [
 
     {
       "name"       "unnamed0"
-      "materials"
+      "materials" 
       [
-        "../materials/wood_pile_farm.pmat"
+        "wood_pile.pmat"
       ]
     }
   ]
-  "physics_model"
+  "physics_model" 
   {
     "mesh"     "wood_pile_physics"
     "mass"     1
@@ -26,16 +30,16 @@
     "rot_damping"     0
     "concave"     1
   }
-  "custom_data"
+  "custom_data" 
   {
     "contents"     "solid"
     "surfaceprop"     "wood"
-    "bodygroups"
+    "bodygroups" 
     [
 
       {
         "name"         "Body"
-        "nodes"
+        "nodes" 
         [
           "wood_pile_reference*"
         ]

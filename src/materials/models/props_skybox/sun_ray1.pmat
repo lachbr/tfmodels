@@ -1,0 +1,16 @@
+
+{
+  "material"   "TwoTextureMaterial"
+  "parameters"
+  {
+    "basetexture"     "sun_ray1.ptex"
+    "basetexturescroll" [ 0.03 0 ]
+    "texture2"     "sun_ray2.ptex"
+    "texture2scroll" [ -0.03 0 ]
+  }
+  "fog"   "off"
+  "color_blend"   "additive"
+  "transparency"   "dual"
+  "light"   "off"
+  color_scale [ 1.414 1.414 1.414 1 ]
+}

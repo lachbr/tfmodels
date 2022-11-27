@@ -5,6 +5,10 @@
     surfaceprop metal
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   attachments [
     {
       name muzzle

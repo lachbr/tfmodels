@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "computerwall003d.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "concrete/computerwall003d.vmt"
+  }
+}

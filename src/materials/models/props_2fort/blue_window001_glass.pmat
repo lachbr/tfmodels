@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "blue_window001_glass.ptex"
+  }
+  "transparency"   "alpha"
+}

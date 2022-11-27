@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "horizon_facade.ptex"
+  }
+  "cull"   "double_sided"
+  "light"   "off"
+}

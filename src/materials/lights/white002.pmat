@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "white002.ptex"
+    "selfillum"     1
+  }
+  "light"   "off"
+}

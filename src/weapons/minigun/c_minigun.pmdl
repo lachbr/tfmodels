@@ -1,6 +1,10 @@
 {
   model "optchar/c_minigun-zero.egg"
 
+  material_paths [
+    "../../materials"
+  ]
+
   attachments [
     {
       name muzzle

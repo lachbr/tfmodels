@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "shrub_03.ptex"
+  }
+  "alpha_test"   "greater_equal"
+}

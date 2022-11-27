@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "computer_wall02b.ptex"
+    "selfillum"     1
+  }
+}

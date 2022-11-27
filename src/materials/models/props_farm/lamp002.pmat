@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "lamp002.ptex"
+    "selfillum"     1
+  }
+  "cull"   "double_sided"
+}

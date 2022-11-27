@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_farm"
+  ]
   "material_groups" 
   [
 
@@ -14,7 +18,7 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/rafter_01a.pmat"
+        "rafter_01a.pmat"
       ]
     }
   ]

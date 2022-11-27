@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "metalgrate011a.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "alpha_test_ref"   0.55
+  "tags" 
+  {
+    "surface_prop"     "metalgrate"
+    "original"     "metal/metalgrate011a.vmt"
+  }
+}

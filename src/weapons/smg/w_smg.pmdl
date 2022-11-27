@@ -8,6 +8,10 @@
     surfaceprop metal
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   lods [
     {
       distance 0

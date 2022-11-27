@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/wood_bridge001.pmat"
-        "../materials/roof_metal_bridge001.pmat"
+        "wood_bridge001.pmat"
+        "roof_metal_bridge001.pmat"
       ]
     }
   ]

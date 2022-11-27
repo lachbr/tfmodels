@@ -17,14 +17,18 @@
     ]
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/demoman_red.pmat" ]
+      materials [ "demoman_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/demoman_blue.pmat" ]
+      materials [ "demoman_blue.pmat" ]
     }
   ]
 

@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "walllight001a_blue.ptex"
+    "selfillum"     1
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../models/props_c17/fence_alpha.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "alpha_test_ref"   0.3
+  "tags" 
+  {
+    "surface_prop"     "chainlink"
+    "original"     "metal/metalfence004a.vmt"
+  }
+}

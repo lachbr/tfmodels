@@ -69,9 +69,9 @@ def convertMaterial(name):
         return None
 
     outFilename = Filename.fromOsSpecific(output)
-    outFilename.makeRelativeTo(srcFolder)
+    #outFilename.makeRelativeTo(srcFolder)
     print(outFilename)
-    return outFilename.getFullpath()
+    return outFilename.getBasename()
 
 def processLod(toks):
     toks.nextToken()
@@ -233,6 +233,17 @@ def writePmdl(filename):
     hpr = PDXValue()
     hpr.fromVec3((180, 0, 0))
     elem.setAttribute("hpr", hpr)
+
+    pmdlDir = filename.getDirname()
+    if not matSearchPath.isEmpty():
+        matPathList = PDXList()
+        for i in range(matSearchPath.getNumDirectories()):
+            matPath = Filename(matSearchPath.getDirectory(i))
+            matPath.makeRelativeTo(tfModels / Filename("built_src"))
+            matPath.makeAbsolute(tfModels / Filename("src"))
+            matPath.makeRelativeTo(pmdlDir)
+            matPathList.append(matPath.getFullpath())
+        elem.setAttribute("material_paths", matPathList)
 
     if skins:
         matGroups = PDXList()

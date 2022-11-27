@@ -38,14 +38,18 @@
     "handle_bone"
   ]
 
+  material_paths [
+    "../../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../../materials/soldier_sleeves_red.pmat" ]
+      materials [ "soldier_sleeves_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../../materials/soldier_sleeves_blue.pmat" ]
+      materials [ "soldier_sleeves_blue.pmat" ]
     }
   ]
 

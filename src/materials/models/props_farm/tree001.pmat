@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "tree001.ptex"
+    "envmapmask"     "tree001_envmap.ptex"
+  }
+  "alpha_test"   "greater_equal"
+}

@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "silo001.ptex"
+  }
+  "cull"   "double_sided"
+}

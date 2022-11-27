@@ -8,6 +8,10 @@
     contents solid
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   attachments [
     {
       name bloodpoint

@@ -1,8 +1,0 @@
-
-{
-  "material"   "SourceLightmappedMaterial"
-  "parameters"
-  {
-    "basetexture"     "../maps/floor_tile_007a.ptex"
-  }
-}

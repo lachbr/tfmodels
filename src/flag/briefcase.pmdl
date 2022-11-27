@@ -1,99 +1,102 @@
 
 {
   "model"   "briefcase.egg"
-  "hpr" 
+  "hpr"
   [
     180
     0
     0
   ]
-  "material_groups" 
+  material_paths [
+    "../materials"
+  ]
+  "material_groups"
   [
 
     {
       "name"       "unnamed0"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
 
     {
       "name"       "unnamed1"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
 
     {
       "name"       "unnamed2"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
 
     {
       "name"       "unnamed3"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
 
     {
       "name"       "unnamed4"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
 
     {
       "name"       "unnamed5"
-      "materials" 
+      "materials"
       [
-        "../materials/briefcase_pickedup_ntr.pmat"
-        "../materials/briefcase_blue.pmat"
-        "../materials/briefcase_ntr.pmat"
-        "../materials/briefcase_pickedup.pmat"
-        "../materials/briefcase_pickedup_blue.pmat"
-        "../materials/briefcase_pickedup_ntr.pmat"
+        "briefcase_pickedup_ntr.pmat"
+        "briefcase_blue.pmat"
+        "briefcase_ntr.pmat"
+        "briefcase_pickedup.pmat"
+        "briefcase_pickedup_blue.pmat"
+        "briefcase_pickedup_ntr.pmat"
       ]
     }
   ]
-  "lods" 
+  "lods"
   [
 
     {
       "distance"       0
-      "groups" 
+      "groups"
       [
         "briefcase_reference"
       ]
@@ -101,7 +104,7 @@
 
     {
       "distance"       20
-      "groups" 
+      "groups"
       [
         "briefcase_reference_lod1"
       ]
@@ -109,13 +112,13 @@
 
     {
       "distance"       45
-      "groups" 
+      "groups"
       [
         "briefcase_reference_lod2"
       ]
     }
   ]
-  "physics_model" 
+  "physics_model"
   {
     "mesh"     "briefcase_physics"
     "mass"     8
@@ -123,16 +126,16 @@
     "rot_damping"     0
     "concave"     1
   }
-  "custom_data" 
+  "custom_data"
   {
     "contents"     "solid"
     "surfaceprop"     "metal"
-    "bodygroups" 
+    "bodygroups"
     [
 
       {
         "name"         "Body"
-        "nodes" 
+        "nodes"
         [
           "briefcase_reference*"
         ]

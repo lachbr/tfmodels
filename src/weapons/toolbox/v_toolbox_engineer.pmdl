@@ -7,16 +7,20 @@
     omni true
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/v_toolbox_red.pmat" "../../materials/engineer_red.pmat"
-                  "../../materials/engineer_handr_red.pmat" ]
+      materials [ "v_toolbox_red.pmat" "engineer_red.pmat"
+                  "engineer_handr_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/v_toolbox_blue.pmat" "../../materials/engineer_blue.pmat"
-                  "../../materials/engineer_handr_blue.pmat" ]
+      materials [ "v_toolbox_blue.pmat" "engineer_blue.pmat"
+                  "engineer_handr_blue.pmat" ]
     }
   ]
 

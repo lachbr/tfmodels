@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "dirtground003.ptex"
+    "basetexture2"     "dirtground004.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+    "original"     "nature/blendgroundtograss003_nodetail.vmt"
+  }
+}

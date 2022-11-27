@@ -1,6 +1,10 @@
 {
   model "optchar/c_grenadelauncher-zero.egg"
 
+  material_paths [
+    "../../materials"
+  ]
+
   custom_data {
     surfaceprop metal
 

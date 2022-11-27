@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_spytech"
+  ]
   "material_groups" 
   [
 
@@ -14,10 +18,10 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/computer_wall.pmat"
-        "../materials/computer_wallb.pmat"
-        "../materials/computer_wall_red_worn.pmat"
-        "../materials/computer_wall_blue_worn.pmat"
+        "computer_wall.pmat"
+        "computer_wallb.pmat"
+        "computer_wall_red_worn.pmat"
+        "computer_wall_blue_worn.pmat"
       ]
     }
 
@@ -25,10 +29,10 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/computer_wallb.pmat"
-        "../materials/computer_wallb.pmat"
-        "../materials/computer_wall_red_worn.pmat"
-        "../materials/computer_wall_blue_worn.pmat"
+        "computer_wallb.pmat"
+        "computer_wallb.pmat"
+        "computer_wall_red_worn.pmat"
+        "computer_wall_blue_worn.pmat"
       ]
     }
 
@@ -36,10 +40,10 @@
       "name"       "unnamed2"
       "materials" 
       [
-        "../materials/computer_wall_red_worn.pmat"
-        "../materials/computer_wallb.pmat"
-        "../materials/computer_wall_red_worn.pmat"
-        "../materials/computer_wall_blue_worn.pmat"
+        "computer_wall_red_worn.pmat"
+        "computer_wallb.pmat"
+        "computer_wall_red_worn.pmat"
+        "computer_wall_blue_worn.pmat"
       ]
     }
 
@@ -47,10 +51,10 @@
       "name"       "unnamed3"
       "materials" 
       [
-        "../materials/computer_wall_blue_worn.pmat"
-        "../materials/computer_wallb.pmat"
-        "../materials/computer_wall_red_worn.pmat"
-        "../materials/computer_wall_blue_worn.pmat"
+        "computer_wall_blue_worn.pmat"
+        "computer_wallb.pmat"
+        "computer_wall_red_worn.pmat"
+        "computer_wall_blue_worn.pmat"
       ]
     }
   ]

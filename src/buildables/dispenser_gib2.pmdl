@@ -3,6 +3,10 @@
 
   hpr [ 180 0 0 ]
 
+  material_paths [
+    "../materials"
+  ]
+
   custom_data {
     surfaceprop metal
   }
@@ -10,11 +14,11 @@
   material_groups [
     {
       name red
-      materials [ "../materials/dispenser_gibs.pmat" ]
+      materials [ "dispenser_gibs.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/dispenser_gibs_blue.pmat" ]
+      materials [ "dispenser_gibs_blue.pmat" ]
     }
   ]
 

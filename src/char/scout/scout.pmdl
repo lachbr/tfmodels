@@ -3,18 +3,22 @@
 
   hpr [ 180 0 0 ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../../materials/scout_red.pmat" "../../materials/scout_head_red.pmat"
+        "scout_red.pmat" "scout_head_red.pmat"
         "materials/eyeball_l_scout.pmat" "materials/eyeball_r_scout.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../../materials/scout_blue.pmat" "../../materials/scout_head_blue.pmat"
+        "scout_blue.pmat" "scout_head_blue.pmat"
         "materials/eyeball_l_scout.pmat" "materials/eyeball_r_scout.pmat"
       ]
     }

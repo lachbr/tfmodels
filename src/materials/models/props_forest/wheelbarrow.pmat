@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wheelbarrow.ptex"
+    "bumpmap"     "../effects/flat_normal.ptex"
+    "phong"     1
+    "phongexponent"     12
+    "phongboost"     1
+    "phongfresnelranges" 
+    [
+      0.2
+      0.5
+      1
+    ]
+  }
+}

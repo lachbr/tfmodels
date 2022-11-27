@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../props_foliage/tree_pine01.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "color_scale" 
+  [
+    0
+    0
+    0
+    1
+  ]
+  "transparency"   "dual"
+  "light"   "off"
+}

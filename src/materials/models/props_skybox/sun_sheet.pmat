@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "sun_sheet.ptex"
+  }
+  "fog"   "off"
+  "light"   "off"
+}

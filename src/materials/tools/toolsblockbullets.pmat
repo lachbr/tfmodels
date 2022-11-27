@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters"
+  {
+    "basetexture"     "toolsblockbullets.ptex"
+  }
+  "transparency"   "alpha"
+  "tags"
+  {
+    "surface_prop"     "default"
+    compile_skip 1
+    collide_type blockbullets
+  }
+}

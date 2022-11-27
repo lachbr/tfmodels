@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "tree001_card_skin2.ptex"
+  }
+  "transparency"   "dual"
+}

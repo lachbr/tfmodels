@@ -237,13 +237,17 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../../materials/medic_red.pmat"
-        "../../materials/medic_head_red.pmat"
-        "../../materials/medic_backpack_red.pmat"
+        "medic_red.pmat"
+        "medic_head_red.pmat"
+        "medic_backpack_red.pmat"
         "eyeball_l_medic.pmat"
         "eyeball_r_medic.pmat"
       ]
@@ -251,9 +255,9 @@
     {
       name blue
       materials [
-        "../../materials/medic_blue.pmat"
-        "../../materials/medic_head_blue.pmat"
-        "../../materials/medic_backpack_blue.pmat"
+        "medic_blue.pmat"
+        "medic_head_blue.pmat"
+        "medic_backpack_blue.pmat"
         "eyeball_l_medic.pmat"
         "eyeball_r_medic.pmat"
       ]

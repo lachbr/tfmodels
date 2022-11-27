@@ -14,14 +14,18 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/toolbox_red.pmat" ]
+      materials [ "toolbox_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/toolbox_blue.pmat" ]
+      materials [ "toolbox_blue.pmat" ]
     }
   ]
 

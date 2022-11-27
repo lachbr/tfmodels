@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "tree_pine01_snow.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "cull"   "double_sided"
+}

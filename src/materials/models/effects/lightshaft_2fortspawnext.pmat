@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters"
+  {
+    "basetexture"     "lightshaft_2fortspawnext.ptex"
+  }
+  "color_blend"   "additive"
+  "cull"   "double_sided"
+  "light"   "off"
+  depth_write off
+  light off
+  bin transparent
+}

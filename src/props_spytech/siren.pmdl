@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_spytech"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/siren.pmat"
-        "../materials/siren_skin2.pmat"
+        "siren.pmat"
+        "siren_skin2.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/siren_skin2.pmat"
-        "../materials/siren_skin2.pmat"
+        "siren_skin2.pmat"
+        "siren_skin2.pmat"
       ]
     }
   ]

@@ -3,6 +3,10 @@
 
   hpr [ 180 0 0 ]
 
+  material_paths [
+    "../materials"
+  ]
+
   custom_data {
     surfaceprop metal
     contents solid

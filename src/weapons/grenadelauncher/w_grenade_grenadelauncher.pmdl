@@ -1,5 +1,5 @@
 {
-  model "optchar/w_grenade_grenadelauncher.egg"
+  model "optchar/w_grenade_grenadelauncher-zero.egg"
 
   hpr [ 180 0 0 ]
 
@@ -7,14 +7,18 @@
     surfaceprop demoman_grenade
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name "red"
-      materials [ "../../materials/w_grenade_red.pmat" ]
+      materials [ "w_grenade_red.pmat" ]
     }
     {
       name "blue"
-      materials [ "../../materials/w_grenade_blue.pmat" ]
+      materials [ "w_grenade_blue.pmat" ]
     }
   ]
 

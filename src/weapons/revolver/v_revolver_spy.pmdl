@@ -20,14 +20,18 @@
     }
   ]
 
+  material_paths [
+    "../../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../../materials/spy_hands_red.pmat" ]
+      materials [ "spy_hands_red.pmat" ]
     }
     {
       name blue
-      materials [ "../../materials/spy_hands_blue.pmat" ]
+      materials [ "spy_hands_blue.pmat" ]
     }
   ]
 

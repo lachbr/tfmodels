@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "floor_tile_006a.ptex"
+    "bumpmap"     "floor_tile_006a_normal.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "tile"
+    "original"     "tile/floor_tile_006a.vmt"
+  }
+}

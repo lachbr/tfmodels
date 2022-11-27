@@ -5,6 +5,10 @@
     surfaceprop metal
   }
 
+  material_paths [
+    "../../materials"
+  ]
+
   physics_model {
     mesh c_pistol_physics
     mass 0.964329

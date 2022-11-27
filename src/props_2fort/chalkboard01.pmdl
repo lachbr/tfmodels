@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/chalkboard01.pmat"
-        "../materials/chalkboard01_skin1.pmat"
+        "chalkboard01.pmat"
+        "chalkboard01_skin1.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/chalkboard01_skin1.pmat"
-        "../materials/chalkboard01_skin1.pmat"
+        "chalkboard01_skin1.pmat"
+        "chalkboard01_skin1.pmat"
       ]
     }
   ]

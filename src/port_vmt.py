@@ -20,7 +20,7 @@ if not vmtKv:
     sys.exit(1)
 vmtData = vmtKv.getChild(0)
 
-outDir = tfModels / Filename("src/materials")
+outDir = tfModels / Filename("src/materials") / Filename(vmtFilename.getDirname())
 if not os.path.isdir(outDir.toOsSpecific()):
     os.makedirs(outDir.toOsSpecific())
 
@@ -81,12 +81,20 @@ def alphaChannelHasOpaqueAndTranslucentTexels(img):
 def portTexture(vtf, sRGB, is1D=False):
     print("Porting " + vtf, file=sys.stderr)
 
-    vtfFilenameFull = tfModels / Filename("built_src/materials") / Filename.fromOsSpecific(vtf)
+    vtfFilename = Filename.fromOsSpecific(vtf.lower())
+
+    vtfFilenameFull = tfModels / Filename("built_src/materials") / vtfFilename.getFullpathWoExtension()
     if vtfFilenameFull.getExtension() == "":
         vtfFilenameFull.setExtension("vtf")
 
-    tgaOutFull = tfModels / Filename("src/maps") / vtfFilenameFull.getBasenameWoExtension()
+    tgaOutFull = tfModels / Filename("src/materials") / vtfFilename.getFullpathWoExtension()
     tgaOutFull += ".tga"
+    tgaOutDir = Filename(tgaOutFull.getDirname())
+    if not os.path.isdir(tgaOutDir.toOsSpecific()):
+        os.makedirs(tgaOutDir.toOsSpecific())
+    #if tgaOutFull.isRegularFile():
+    #    print("\tAlready ported", file=sys.stderr)
+    #    return
 
     process = Popen([vtf2tga, "-i", vtfFilenameFull.toOsSpecific(), "-o", tgaOutFull.toOsSpecific()], stdout=PIPE)
     (output, err) = process.communicate()
@@ -400,31 +408,8 @@ if vmtShaderName in ('unlitgeneric', 'unlittwotexture'):
 
 if materialName == 'SourceLightmappedMaterial':
     # Get a surface prop for audio reverb.
-    if not "surface_prop" in tags or tags["surface_prop"] == "default":
-        # Material doesn't have surface prop or its just given default.
-        # Infer from material name
-        matBnLower = vmtFilename.getFullpathWoExtension().lower()
-        if "concrete" in matBnLower:
-            tags["surface_prop"] = "concrete"
-        elif "brick" in matBnLower:
-            tags["surface_prop"] = "brick"
-        elif "wood" in matBnLower:
-            tags["surface_prop"] = "wood"
-        elif "metal" in matBnLower:
-            tags["surface_prop"] = "metal"
-        elif "rock" in matBnLower:
-            tags["surface_prop"] = "rock"
-        elif "glass" in matBnLower:
-            tags["surface_prop"] = "glass"
-        elif "plaster" in matBnLower:
-            tags["surface_prop"] = "plaster"
-        elif "tile" in matBnLower or "ceramic" in matBnLower:
-            tags["surface_prop"] = "ceramic"
-        elif "dirt" in matBnLower:
-            tags["surface_prop"] = "gravel"
-        else:
-            tags["surface_prop"] = "default"
-
+    if not "surface_prop" in tags:
+        tags["surface_prop"] = "default"
         print("Gave automatic surface prop:", tags["surface_prop"])
     else:
         print("Converted surface prop:", tags["surface_prop"])
@@ -480,8 +465,11 @@ def genSources(scopeName, folder, filename):
                 sourcesFile.write(line)
             sourcesFile.close()
 
-genSources("install_mat", outDir, pmatFilename)
-for tex in portedTextures:
-    genSources("install_tex", Filename(tex.getDirname()), tex)
+#sourcesDir = tfModels / Filename("src/")
+#pmatRelativeToSrcMaterials = Filename(pmatFilename)
+#pmatRelativeToSrcMaterials.makeRelativeTo()
+#genSources("install_mat", tfModels / Filename("src/materials"), pmatFilename)
+#for tex in portedTextures:
+#    genSources("install_tex", Filename(tex.getDirname()), tex)
 
 print(pmatFilename.getFullpath(), end="")

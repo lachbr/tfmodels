@@ -17,6 +17,7 @@ if not kv:
 
 ported = []
 portedSideMaterials = []
+propDynamicModels = set()
 
 tfModels = Filename.fromOsSpecific(os.environ.get("TFMODELS"))
 
@@ -27,6 +28,10 @@ def runCommand(cmd):
 def parseEntity(ent):
     classname = ent.getValue("classname")
     print("classname", classname)
+    if classname == "prop_dynamic":
+        propDynamicModels.add(ent.getValue("model").replace("models/", "").lower())
+        return
+
     if classname != "prop_static":
         print("return")
         return
@@ -36,7 +41,7 @@ def parseEntity(ent):
         print("\tDoesn't have model?")
         return
 
-    modelFile = ent.getValue("model").replace("models/", "")
+    modelFile = ent.getValue("model").replace("models/", "").lower()
     print("modelFile", modelFile)
     if modelFile in ported:
         print("return")
@@ -65,7 +70,7 @@ def parseSide(side):
         return
 
     # Skip it if we already have a .pmat for it.
-    pmatFilename = tfModels / Filename("src/materials/" + material.getBasenameWoExtension() + ".pmat")
+    pmatFilename = tfModels / Filename("src/materials/" + material.getFullpathWoExtension() + ".pmat")
     print(pmatFilename)
     if pmatFilename.isRegularFile():
         return
@@ -84,3 +89,6 @@ def parseBlock(block):
         parseBlock(child)
 
 parseBlock(kv)
+
+print("prop_dynamic models:")
+print(propDynamicModels)

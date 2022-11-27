@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_spytech"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/control_room_consoles.pmat"
-        "../materials/control_room_consoles_skin2.pmat"
+        "control_room_consoles.pmat"
+        "control_room_consoles_skin2.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/control_room_consoles_skin2.pmat"
-        "../materials/control_room_consoles_skin2.pmat"
+        "control_room_consoles_skin2.pmat"
+        "control_room_consoles_skin2.pmat"
       ]
     }
   ]

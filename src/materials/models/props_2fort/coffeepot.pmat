@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "coffeepot.ptex"
+    "selfillum"     0
+    "envmap"     1
+  }
+}

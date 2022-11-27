@@ -1,0 +1,19 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "vent.ptex"
+    "phong"     1
+    "phongexponent"     31
+    "phongboost"     1
+    "phongfresnelranges" 
+    [
+      1
+      1
+      1
+    ]
+    "halflambert"     0
+    "bumpmap"     "../effects/flat_normal.ptex"
+  }
+}

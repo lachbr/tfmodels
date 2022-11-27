@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/spytech_roofbeam02.pmat"
-        "../materials/spytech_roofbeam02b.pmat"
+        "spytech_roofbeam02.pmat"
+        "spytech_roofbeam02b.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/spytech_roofbeam02b.pmat"
-        "../materials/spytech_roofbeam02b.pmat"
+        "spytech_roofbeam02b.pmat"
+        "spytech_roofbeam02b.pmat"
       ]
     }
   ]

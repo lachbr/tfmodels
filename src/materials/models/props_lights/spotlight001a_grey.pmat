@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "spotlight001a_grey.ptex"
+    "selfillum"     1
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters"
+  {
+    "basetexture"     "cloud001a.ptex"
+  }
+  "fog"   "off"
+  "transparency"   "dual"
+  "light"   "off"
+}

@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_gameplay"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/door_slide.pmat"
-        "../materials/door_slide_noentry.pmat"
+        "door_slide.pmat"
+        "door_slide_noentry.pmat"
       ]
     }
 
@@ -23,8 +27,8 @@
       "name"       "unnamed1"
       "materials" 
       [
-        "../materials/door_slide_noentry.pmat"
-        "../materials/door_slide_noentry.pmat"
+        "door_slide_noentry.pmat"
+        "door_slide_noentry.pmat"
       ]
     }
   ]

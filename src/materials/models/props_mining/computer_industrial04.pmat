@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "computer_industrial04.ptex"
+    "selfillum"     1
+  }
+}

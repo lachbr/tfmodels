@@ -1,0 +1,20 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wall027.ptex"
+  }
+  "color_scale" 
+  [
+    0.239216
+    0.345098
+    0.431373
+    1
+  ]
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/wall027b.vmt"
+  }
+}

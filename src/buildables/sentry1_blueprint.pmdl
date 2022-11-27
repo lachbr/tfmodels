@@ -3,14 +3,18 @@
 
   hpr [ 180 0 0 ]
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../materials/sentry_pulse3.pmat" ]
+      materials [ "sentry_pulse3.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/sentry_pulse_blue.pmat" ]
+      materials [ "sentry_pulse_blue.pmat" ]
     }
   ]
 

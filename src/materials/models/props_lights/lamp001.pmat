@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "lamp001.ptex"
+    "selfillum"     1
+  }
+}

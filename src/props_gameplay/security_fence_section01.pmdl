@@ -7,6 +7,10 @@
     0
     0
   ]
+  "material_paths" 
+  [
+    "../materials/models/props_gameplay"
+  ]
   "material_groups" 
   [
 
@@ -14,8 +18,8 @@
       "name"       "unnamed0"
       "materials" 
       [
-        "../materials/security_fence_big.pmat"
-        "../materials/security_fence_alpha.pmat"
+        "security_fence_big.pmat"
+        "security_fence_alpha.pmat"
       ]
     }
   ]

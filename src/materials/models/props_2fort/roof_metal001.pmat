@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "roof_metal001.ptex"
+  }
+  "cull"   "double_sided"
+}

@@ -8,14 +8,18 @@
     contents solid
   }
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
-      materials [ "../materials/sentry2_gibs.pmat" ]
+      materials [ "sentry2_gibs.pmat" ]
     }
     {
       name blue
-      materials [ "../materials/sentry2_gibs_blue.pmat" ]
+      materials [ "sentry2_gibs_blue.pmat" ]
     }
   ]
 

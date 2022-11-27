@@ -65,21 +65,25 @@
     }
   ]
 
+  material_paths [
+    "../materials"
+  ]
+
   material_groups [
     {
       name red
       materials [
-        "../materials/sentry1.pmat"
-        "../materials/sentry2.pmat"
-        "../materials/sentry3.pmat"
+        "sentry1.pmat"
+        "sentry2.pmat"
+        "sentry3.pmat"
       ]
     }
     {
       name blue
       materials [
-        "../materials/sentry1_blue.pmat"
-        "../materials/sentry2_blue.pmat"
-        "../materials/sentry3_blue.pmat"
+        "sentry1_blue.pmat"
+        "sentry2_blue.pmat"
+        "sentry3_blue.pmat"
       ]
     }
   ]

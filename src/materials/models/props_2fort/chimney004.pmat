@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "chimney004.ptex"
+  }
+  "cull"   "double_sided"
+}
