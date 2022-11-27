@@ -1,30 +1,6 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/char
 
-#begin install_tex
-  #define SOURCES \
-    //engineer_blue.ptex \
-    //engineer_red.ptex \
-    //engineer_head.ptex \
-    engineer_roughness.ptex \
-    engineer_gloss.ptex \
-    //engineer_normal.ptex \
-    engineer_mech_hand.ptex \
-    engineer_mech_hand_blue.ptex \
-    engineer_mech_hand_roughness.ptex \
-    engineer_mech_hand_metalness.ptex \
-    engineer_mech_hand_emission.ptex
-#end install_tex
-
-#begin install_mat
-  #define SOURCES \
-    //engineer_blue.pmat \
-    //engineer_red.pmat \
-    //engineer_head.pmat \
-    engineer_mech_hand.pmat \
-    engineer_mech_hand_blue.pmat
-#end install_mat
-
 #define ENGINEER_ANIMS \
   a_PDA_aimmatrix_run_mid_right \
   a_ITEM1_aimmatrix_crouch_idle_mid_center \
