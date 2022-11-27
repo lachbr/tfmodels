@@ -1,14 +1,14 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/w_revolver01.ptex"
     "phong"     1
     "phongexponent"     25
     "phongboost"     10
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       1.5
       0.5

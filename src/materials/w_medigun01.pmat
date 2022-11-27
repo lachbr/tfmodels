@@ -1,14 +1,14 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/w_medigun01.ptex"
     "phong"     1
     "phongexponent"     15
     "phongboost"     5
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       1.5
       0.5
@@ -16,7 +16,7 @@
     ]
     "halflambert"     1
     "selfillum"     1
-    "selfillumtint" 
+    "selfillumtint"
     [
       1
       0.55

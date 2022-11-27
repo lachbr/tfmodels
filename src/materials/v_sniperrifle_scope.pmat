@@ -1,13 +1,13 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/v_sniperrifle_scope.ptex"
     "basemapalphaphongmask"     1
     "basealphaenvmapmask"     1
     "envmap"     1
-    "envmaptint" 
+    "envmaptint"
     [
       0.4
       0.4
@@ -16,8 +16,8 @@
     "phong"     1
     "phongexponent"     15
     "phongboost"     5
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       0.25
       0.5

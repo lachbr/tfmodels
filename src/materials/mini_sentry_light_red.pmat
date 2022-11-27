@@ -1,16 +1,16 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/mini_sentry_light_red.ptex"
-    "bumpmap"     "../maps/flat_normal.ptex"
+    "bumpmap"     "models/effects/flat_normal.ptex"
     "basemapalphaphongmask"     1
     "phong"     1
     "phongboost"     10
     "phongexponent"     25
     "lightwarptexture"     "../maps/Sentry1_lightwarp.ptex"
-    "phongfresnelranges" 
+    "phongfresnelranges"
     [
       0.5
       1.5

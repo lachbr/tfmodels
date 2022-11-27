@@ -7,7 +7,7 @@
     "phong"     1
     "phongexponent"     50
     "phongboost"     0.1
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
     "phongfresnelranges"
     [
       0.05

@@ -1,14 +1,14 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/v_shovel.ptex"
     "phong"     1
     "phongexponent"     25
     "phongboost"     5
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       0.3
       0.5

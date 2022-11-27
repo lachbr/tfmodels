@@ -1,15 +1,15 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/v_grenadelauncher.ptex"
     "bumpmap"     "../maps/v_grenadelauncher_phongmask.ptex"
     "phong"     1
     "phongexponent"     20
     "phongboost"     2
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       0.25
       0.5

@@ -1,11 +1,11 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/v_bonesaw.ptex"
     "envmap"     1
-    "envmaptint" 
+    "envmaptint"
     [
       0.5
       0.5
@@ -14,8 +14,8 @@
     "phong"     1
     "phongexponent"     30
     "phongboost"     10
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       0.25
       0.5

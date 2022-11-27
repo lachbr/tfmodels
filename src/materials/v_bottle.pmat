@@ -1,11 +1,11 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "../maps/v_bottle.ptex"
     "envmap"     1
-    "envmaptint" 
+    "envmaptint"
     [
       0.45
       0.45
@@ -14,8 +14,8 @@
     "phong"     1
     "phongexponent"     60
     "phongboost"     20
-    "lightwarptexture"     "../maps/weapon_lightwarp.ptex"
-    "phongfresnelranges" 
+    "lightwarptexture"     "models/lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges"
     [
       0.25
       0.5
