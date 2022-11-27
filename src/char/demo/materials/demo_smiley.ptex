@@ -1,5 +1,5 @@
 {
-  image smiley.tga
+  image demo_smiley.tga
   format srgb
   wrap clamp
 }

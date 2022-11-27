@@ -2,6 +2,8 @@
 #define INSTALL_TO models/char
 
 #begin install_mat
+  #define INSTALL_TO materials/eyes
+  #define FLAT_INSTALL 1
   #define SOURCES \
     materials/eyeball_l_scout.pmat \
     materials/eyeball_r_scout.pmat

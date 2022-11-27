@@ -2,12 +2,14 @@
 #define INSTALL_TO models/weapons
 
 #begin install_tex
+  #define INSTALL_TO maps
   #define SOURCES \
     all_shells.ptex \
     all_shells_normal.ptex
 #end install_tex
 
 #begin install_mat
+  #define INSTALL_TO materials
   #define SOURCES \
     all_shells.pmat
 #end install_mat

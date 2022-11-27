@@ -2,6 +2,7 @@
 #define INSTALL_TO models/gui
 
 #begin install_tex
+  #define INSTALL_TO maps
   #define SOURCES \
     crosshair1.ptex \
     crosshair2.ptex \

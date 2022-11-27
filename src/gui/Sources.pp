@@ -2,6 +2,7 @@
 #define INSTALL_TO models/gui
 
 #begin install_tex
+  #define INSTALL_TO maps
   #define SOURCES \
     title_team_widescreen.ptex \
     background01.ptex background01_widescreen.ptex \

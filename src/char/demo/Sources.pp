@@ -2,13 +2,22 @@
 #define INSTALL_TO models/char
 
 #begin install_tex
+  #define INSTALL_TO maps
+  #define FLAT_INSTALL 1
   #define SOURCES \
-    materials/smiley.ptex
+    materials/demo_smiley.ptex
 #end install_tex
 
 #begin install_mat
-  #define SOURCES \
-    materials/smiley.pmat materials/eyeball_r_demo.pmat
+  #define INSTALL_TO materials
+  #define FLAT_INSTALL 1
+  #define SOURCES materials/smiley.pmat
+#end install_mat
+
+#begin install_mat
+  #define INSTALL_TO materials/eyes
+  #define FLAT_INSTALL 1
+  #define SOURCES materials/eyeball_r_demo.pmat
 #end install_mat
 
 #define DEMO_ANIMS \

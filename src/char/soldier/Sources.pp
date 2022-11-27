@@ -2,6 +2,7 @@
 #define INSTALL_TO models/char
 
 #begin install_mat
+  #define INSTALL_TO materials/eyes
   #define SOURCES \
     eyeball_r_soldier.pmat eyeball_l_soldier.pmat
 #end install_mat
