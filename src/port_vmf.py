@@ -6,6 +6,7 @@ p = argparse.ArgumentParser(description="Port models and materials referenced by
 p.add_argument('-i', '--input', help='Input .vmf filename', required=True)
 p.add_argument('-b', '--brushes', action='store_true', default=False, help='Port brush materials.')
 p.add_argument('-p', '--props', action='store_true', default=False, help='Port static_prop models and materials.')
+p.add_argument('-o', '--overlays', action='store_true', default=False, help='Port info_overlay materials')
 args = p.parse_args()
 
 from panda3d.core import *
@@ -27,24 +28,22 @@ def runCommand(cmd):
 
 def parseEntity(ent):
     classname = ent.getValue("classname")
-    print("classname", classname)
     if classname == "prop_dynamic":
         propDynamicModels.add(ent.getValue("model").replace("models/", "").lower())
         return
 
-    if classname != "prop_static":
-        print("return")
+    if args.overlays and classname == "info_overlay":
+        parseSide(ent)
         return
-    print("id", ent.getValue("id"))
+
+    if not args.props or classname != "prop_static":
+        return
 
     if not ent.hasKey("model"):
-        print("\tDoesn't have model?")
         return
 
     modelFile = ent.getValue("model").replace("models/", "").lower()
-    print("modelFile", modelFile)
     if modelFile in ported:
-        print("return")
         return
 
     modelFilename = Filename.fromOsSpecific(modelFile)
@@ -79,7 +78,7 @@ def parseSide(side):
     portedSideMaterials.append(material)
 
 def parseBlock(block):
-    if args.props and block.getName() == "entity":
+    if block.getName() == "entity":
         parseEntity(block)
     elif args.brushes and block.getName() == "side":
         parseSide(block)
