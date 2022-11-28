@@ -1,0 +1,48 @@
+
+{
+  "model"   "tree_pine_singlelog.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_forest"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "tree_pine_stack.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "tree_pine_singlelog_physics"
+    "mass"     5073.08
+    "damping"     0
+    "rot_damping"     0
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "wood"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "tree_pine_singlelog_reference*"
+        ]
+      }
+    ]
+  }
+}

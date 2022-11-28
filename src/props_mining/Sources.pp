@@ -48,3 +48,7 @@
 #include $[THISDIRPREFIX]Sources.ceiling_pipe02_thick.pp
 #include $[THISDIRPREFIX]Sources.ceiling_pipe05_thick.pp
 #include $[THISDIRPREFIX]Sources.conduit_outdoor256.pp
+#include $[THISDIRPREFIX]Sources.mining_shack001a.pp
+#include $[THISDIRPREFIX]Sources.factory_pipe001.pp
+#include $[THISDIRPREFIX]Sources.billboard001.pp
+#include $[THISDIRPREFIX]Sources.rock006c.pp

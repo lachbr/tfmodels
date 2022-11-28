@@ -1,0 +1,68 @@
+
+{
+  "model"   "wheelbarrow.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_forest"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "wheelbarrow.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "wheelbarrow_reference"
+      ]
+    }
+
+    {
+      "distance"       40
+      "groups" 
+      [
+        "wheelbarrow_reference_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "wheelbarrow_physics"
+    "mass"     10
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "wheelbarrow_reference*"
+        ]
+      }
+    ]
+  }
+}

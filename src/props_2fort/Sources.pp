@@ -92,3 +92,11 @@
 #include $[THISDIRPREFIX]Sources.tracks001b.pp
 #include $[THISDIRPREFIX]Sources.bridge_cover001.pp
 #include $[THISDIRPREFIX]Sources.bridge_cover_sides001.pp
+#include $[THISDIRPREFIX]Sources.window004.pp
+#include $[THISDIRPREFIX]Sources.window004c_glass.pp
+#include $[THISDIRPREFIX]Sources.window004d.pp
+#include $[THISDIRPREFIX]Sources.roof_metal001.pp
+#include $[THISDIRPREFIX]Sources.roof_metal002.pp
+#include $[THISDIRPREFIX]Sources.roof_metal003.pp
+#include $[THISDIRPREFIX]Sources.window009.pp
+#include $[THISDIRPREFIX]Sources.chimney001.pp

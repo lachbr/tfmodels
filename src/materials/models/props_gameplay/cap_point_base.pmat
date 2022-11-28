@@ -3,8 +3,8 @@
   "material"   "SourceMaterial"
   "parameters" 
   {
-    "basetexture"     "../maps/cap_point_base.ptex"
-    "bumpmap"     "../maps/cap_point_base_normal.ptex"
+    "basetexture"     "cap_point_base.ptex"
+    "bumpmap"     "cap_point_base_normal.ptex"
     "envmap"     1
     "normalmapalphaenvmapmask"     1
     "envmaptint" 

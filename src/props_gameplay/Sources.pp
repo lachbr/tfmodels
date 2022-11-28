@@ -42,3 +42,5 @@
 #include $[THISDIRPREFIX]Sources.sign_gameplay01.pp
 #include $[THISDIRPREFIX]Sources.sign_gameplay01_hanging01.pp
 #include $[THISDIRPREFIX]Sources.door_slide_door.pp
+#include $[THISDIRPREFIX]Sources.door_slide_large_frame.pp
+#include $[THISDIRPREFIX]Sources.cap_point_base.pp

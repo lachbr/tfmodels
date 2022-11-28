@@ -7,3 +7,7 @@
 #include $[THISDIRPREFIX]Sources.farm_barn.pp
 #include $[THISDIRPREFIX]Sources.horizon_facade001.pp
 #include $[THISDIRPREFIX]Sources.sunnoon.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest512bump.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest512dip.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest128bump.pp
+#include $[THISDIRPREFIX]Sources.skycards_forest128dip.pp
