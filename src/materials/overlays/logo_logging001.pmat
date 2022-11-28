@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "logo_logging001.ptex"
+  }
+  "transparency"   "alpha"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "overlays/logo_logging001.vmt"
+  }
+}

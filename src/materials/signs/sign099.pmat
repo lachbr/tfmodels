@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "sign099.ptex"
+  }
+  "transparency"   "alpha"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "signs/sign099.vmt"
+  }
+}
