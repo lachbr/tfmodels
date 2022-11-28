@@ -3,6 +3,6 @@
   "material"   "SourceMaterial"
   "parameters" 
   {
-    "basetexture"     "../maps/main_entrance_door_red.ptex"
+    "basetexture"     "main_entrance_door_red.ptex"
   }
 }

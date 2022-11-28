@@ -1,0 +1,44 @@
+{
+  model "optchar/main_entrance_door-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  material_paths [
+    "../materials/models/props_well"
+  ]
+
+  material_groups [
+    {
+      name default
+      materials [
+        "main_entrance_door_red.pmat"
+      ]
+    }
+    {
+      name noentry
+      materials [
+        "main_entrance_door_red_noentry.pmat"
+      ]
+    }
+  ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  sequences [
+    {
+      name idle
+      anim "optchar/main_entrance_door-idle.egg"
+    }
+    {
+      name open
+      anim "optchar/main_entrance_door-open.egg"
+    }
+    {
+      name close
+      anim "optchar/main_entrance_door-close.egg"
+    }
+  ]
+}
