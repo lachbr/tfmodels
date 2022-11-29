@@ -5,7 +5,7 @@
   {
     "basetexture"     "white002.ptex"
     "selfillum"     1
-    "selfillumtint" [ 2 2 2 ]
+    "selfillumtint" [ 3 3 3 ]
   }
   "light"   "off"
 }
