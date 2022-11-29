@@ -1,0 +1,21 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "patch001.ptex"
+  }
+  "color_scale" 
+  [
+    1
+    1
+    1
+    0.5
+  ]
+  "transparency"   "alpha"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "overlays/patch001.vmt"
+  }
+}

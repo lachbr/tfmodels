@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "shot1.ptex"
+  }
+  "transparency"   "dual"
+}

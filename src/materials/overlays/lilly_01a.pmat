@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "lilly_01a.ptex"
+  }
+  "transparency"   "dual"
+  "light"   "off"
+}
