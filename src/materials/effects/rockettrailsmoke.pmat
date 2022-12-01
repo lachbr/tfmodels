@@ -1,0 +1,31 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture {
+      texture "smokelit/smokelit.ptex"
+
+      // TODO: make it simpler to specify single-frame
+      // animations.
+      anims [
+        {
+          num_pages 1
+        }
+        {
+          num_pages 1
+        }
+        {
+          num_pages 1
+        }
+        {
+          num_pages 1
+        }
+        {
+          num_pages 1
+        }
+      ]
+    }
+  }
+
+  depth_write off
+  transparency alpha
+}

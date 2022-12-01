@@ -1,0 +1,9 @@
+{
+  material SpriteParticleMaterial
+  parameters {
+    base_texture "brightglow_y.ptex"
+  }
+  color_blend additive
+  depth_write off
+  bin fixed
+}

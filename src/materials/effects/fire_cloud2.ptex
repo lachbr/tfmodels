@@ -1,0 +1,5 @@
+{
+  image fire_cloud2.tga
+  format srgb
+  wrap clamp
+}

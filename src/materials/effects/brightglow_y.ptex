@@ -1,0 +1,5 @@
+{
+  image brightglow_y.tga
+  format srgb
+  wrap clamp
+}

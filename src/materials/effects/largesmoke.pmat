@@ -1,0 +1,13 @@
+
+{
+  "material"   "SpriteParticleMaterial"
+  "parameters"
+  {
+    "base_texture" "largesmoke.ptex"
+  }
+  transparency alpha
+  //color_blend modulate
+  //bin fixed
+  //light off
+  depth_write off
+}

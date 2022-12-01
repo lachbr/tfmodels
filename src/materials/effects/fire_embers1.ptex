@@ -1,0 +1,9 @@
+
+{
+  "image"   "fire_embers1_#.rgb"
+  "type"   "2d_texture_array"
+  num_pages 4
+  "format"   "srgb"
+  "wrap_u"   "repeat"
+  "wrap_v"   "repeat"
+}

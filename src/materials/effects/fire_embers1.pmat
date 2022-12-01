@@ -1,0 +1,20 @@
+
+{
+  "material"   "SpriteParticleMaterial"
+  "parameters"
+  {
+    "base_texture" {
+      texture "fire_embers1.ptex"
+      anims [
+        {
+          num_pages 4
+          interpolate 1
+          loop 1
+        }
+      ]
+    }
+  }
+  "color_blend"   "additive"
+  bin fixed
+  depth_write off
+}

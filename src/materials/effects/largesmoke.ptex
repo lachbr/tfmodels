@@ -1,0 +1,5 @@
+{
+  image largesmoke.tga
+  format srgb_alpha
+  wrap clamp
+}

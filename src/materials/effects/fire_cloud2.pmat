@@ -1,0 +1,11 @@
+
+{
+  "material"   "SpriteParticleMaterial"
+  "parameters"
+  {
+    "base_texture" "fire_cloud2.ptex"
+  }
+  "color_blend"   "additive"
+  bin fixed
+  depth_write off
+}
