@@ -6,10 +6,10 @@
 //-----------------------------------------------------------------------------
 //
 // DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f
 //	ATTN_IDLE		2.0f
-//	ATTN_STATIC		1.25f 
+//	ATTN_STATIC		1.25f
 //	ATTN_RICOCHET	1.5f
 //	ATTN_GUNFIRE	0.27f
 //
@@ -54,7 +54,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/demoman_PainSevere01.mp3"
 		"wave"		"vo/demoman_PainSevere02.mp3"
@@ -71,7 +71,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/demoman_PainCrticialDeath01.mp3"
 		"wave"		"vo/demoman_PainCrticialDeath02.mp3"
@@ -89,7 +89,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/demoman_PainCrticialDeath01.mp3"
 		"wave"		"vo/demoman_PainCrticialDeath02.mp3"
@@ -107,7 +107,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/demoman_PainSharp01.mp3"
 		"wave"		"vo/demoman_PainSharp02.mp3"
@@ -127,7 +127,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/engineer_PainSevere01.mp3"
 		"wave"		"vo/engineer_PainSevere02.mp3"
@@ -147,7 +147,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/engineer_PainCrticialDeath01.mp3"
 		"wave"		"vo/engineer_PainCrticialDeath02.mp3"
@@ -166,7 +166,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/engineer_PainCrticialDeath01.mp3"
 		"wave"		"vo/engineer_PainCrticialDeath02.mp3"
@@ -185,7 +185,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/engineer_PainSharp01.mp3"
 		"wave"		"vo/engineer_PainSharp02.mp3"
@@ -208,7 +208,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/heavy_PainSevere01.mp3"
 		"wave"		"vo/heavy_PainSevere02.mp3"
@@ -224,7 +224,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/heavy_PainCrticialDeath01.mp3"
 		"wave"		"vo/heavy_PainCrticialDeath02.mp3"
@@ -240,7 +240,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/heavy_PainCrticialDeath01.mp3"
 		"wave"		"vo/heavy_PainCrticialDeath02.mp3"
@@ -256,7 +256,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/heavy_PainSharp01.mp3"
 		"wave"		"vo/heavy_PainSharp02.mp3"
@@ -276,7 +276,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/medic_PainSevere01.mp3"
 		"wave"		"vo/medic_PainSevere02.mp3"
@@ -293,7 +293,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/medic_PainCrticialDeath01.mp3"
 		"wave"		"vo/medic_PainCrticialDeath02.mp3"
@@ -310,7 +310,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/medic_PainCrticialDeath01.mp3"
 		"wave"		"vo/medic_PainCrticialDeath02.mp3"
@@ -327,7 +327,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/medic_PainSharp01.mp3"
 		"wave"		"vo/medic_PainSharp02.mp3"
@@ -350,7 +350,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/pyro_PainSevere01.mp3"
 		"wave"		"vo/pyro_PainSevere02.mp3"
@@ -369,7 +369,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/pyro_PainCrticialDeath01.mp3"
 		"wave"		"vo/pyro_PainCrticialDeath02.mp3"
@@ -385,7 +385,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/pyro_PainCrticialDeath01.mp3"
 		"wave"		"vo/pyro_PainCrticialDeath02.mp3"
@@ -401,7 +401,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/pyro_PainSharp01.mp3"
 		"wave"		"vo/pyro_PainSharp02.mp3"
@@ -422,7 +422,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainSevere01.mp3"
 		"wave"		"vo/scout_PainSevere02.mp3"
@@ -441,7 +441,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainCrticialDeath01.mp3"
 		"wave"		"vo/scout_PainCrticialDeath02.mp3"
@@ -457,7 +457,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainCrticialDeath01.mp3"
 		"wave"		"vo/scout_PainCrticialDeath02.mp3"
@@ -473,7 +473,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainSharp01.mp3"
 		"wave"		"vo/scout_PainSharp02.mp3"
@@ -495,7 +495,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/sniper_PainSevere01.mp3"
 		"wave"		"vo/sniper_PainSevere02.mp3"
@@ -512,7 +512,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/sniper_PainCrticialDeath01.mp3"
 		"wave"		"vo/sniper_PainCrticialDeath02.mp3"
@@ -529,7 +529,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/sniper_PainCrticialDeath01.mp3"
 		"wave"		"vo/sniper_PainCrticialDeath02.mp3"
@@ -546,7 +546,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/sniper_PainSharp01.mp3"
 		"wave"		"vo/sniper_PainSharp02.mp3"
@@ -564,7 +564,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/spy_PainSevere01.mp3"
 		"wave"		"vo/Spy_PainSevere02.mp3"
@@ -582,7 +582,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/Spy_PainCrticialDeath01.mp3"
 		"wave"		"vo/Spy_PainCrticialDeath02.mp3"
@@ -598,7 +598,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/Spy_PainCrticialDeath01.mp3"
 		"wave"		"vo/Spy_PainCrticialDeath02.mp3"
@@ -614,7 +614,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/spy_PainSharp01.mp3"
 		"wave"		"vo/spy_PainSharp02.mp3"
@@ -632,7 +632,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/soldier_PainSevere01.mp3"
 		"wave"		"vo/soldier_PainSevere02.mp3"
@@ -651,7 +651,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/soldier_PainCrticialDeath01.mp3"
 		"wave"		"vo/soldier_PainCrticialDeath02.mp3"
@@ -668,7 +668,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/soldier_PainCrticialDeath01.mp3"
 		"wave"		"vo/soldier_PainCrticialDeath02.mp3"
@@ -685,7 +685,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/soldier_PainSharp01.mp3"
 		"wave"		"vo/soldier_PainSharp02.mp3"
@@ -706,7 +706,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainSevere01.mp3"
 		"wave"		"vo/scout_PainSevere02.mp3"
@@ -725,7 +725,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainCrticialDeath01.mp3"
 		"wave"		"vo/scout_PainCrticialDeath02.mp3"
@@ -741,7 +741,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainCrticialDeath01.mp3"
 		"wave"		"vo/scout_PainCrticialDeath02.mp3"
@@ -757,7 +757,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/scout_PainSharp01.mp3"
 		"wave"		"vo/scout_PainSharp02.mp3"
@@ -829,7 +829,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/announcer_tournament_started1.mp3"
@@ -846,7 +846,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/announcer_we_secured_control.mp3"
@@ -861,7 +861,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
-		
+
 	"wave"			"vo/announcer_we_lost_control.mp3"
 }
 
@@ -1294,7 +1294,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"ambience/goal_1.wav"
+	"wave"			"ambience/goal_1.ogg"
 }
 
 "AttackDefend.Captured.vo"
@@ -1527,7 +1527,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"items/itembk2.wav"
+	"wave"			"items/itembk2.ogg"
 }
 
 "CaptureFlag.TeamCaptured"
@@ -7679,7 +7679,7 @@
 		"wave"	"vo/intel_enemystolen4.mp3"
 	}
 }
- 
+
 "Resource.EnemyReturned"
 {
 	"channel"		"CHAN_VOICE"
@@ -7704,7 +7704,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"items/itembk2.wav"
+	"wave"			"items/itembk2.ogg"
 }
 
 "Resource.TeamDropped"
@@ -15354,53 +15354,53 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_medicfollow01.mp3"
 }
- 
+
 "sniper.MedicFollow02"
 {
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_medicfollow02.mp3"
 }
- 
+
 "sniper.MedicFollow03"
 {
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_medicfollow03.mp3"
 }
- 
+
 "sniper.MedicFollow04"
 {
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_medicfollow04.mp3"
 }
- 
+
 "sniper.MedicFollow05"
 {
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_medicfollow05.mp3"
 }
 
@@ -15409,9 +15409,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare01.mp3"
 }
 
@@ -15420,9 +15420,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare02.mp3"
 }
 
@@ -15431,9 +15431,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare03.mp3"
 }
 
@@ -15442,9 +15442,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare04.mp3"
 }
 
@@ -15453,9 +15453,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare05.mp3"
 }
 
@@ -15464,9 +15464,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare06.mp3"
 }
 
@@ -15475,9 +15475,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare07.mp3"
 }
 
@@ -15486,9 +15486,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare08.mp3"
 }
 
@@ -15497,9 +15497,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_meleedare09.mp3"
 }
 
@@ -15508,9 +15508,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award01.mp3"
 }
 
@@ -15519,9 +15519,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award02.mp3"
 }
 
@@ -15530,9 +15530,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award03.mp3"
 }
 
@@ -15541,9 +15541,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award04.mp3"
 }
 
@@ -15552,9 +15552,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award05.mp3"
 }
 
@@ -15563,9 +15563,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award06.mp3"
 }
 
@@ -15574,9 +15574,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award07.mp3"
 }
 
@@ -15585,9 +15585,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award08.mp3"
 }
 
@@ -15596,9 +15596,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award09.mp3"
 }
 
@@ -15607,9 +15607,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award10.mp3"
 }
 
@@ -15618,9 +15618,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award11.mp3"
 }
 
@@ -15629,9 +15629,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award12.mp3"
 }
 
@@ -15640,9 +15640,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award13.mp3"
 }
 
@@ -15651,9 +15651,9 @@
 	"channel"  "CHAN_VOICE"
 	"volume"  "0.820"
 	"pitch"  "PITCH_NORM"
-	
+
 	"soundlevel"  "SNDLVL_95dB"
-	
+
 	"wave"  "vo/sniper_award14.mp3"
 }
 
@@ -19694,7 +19694,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award01.mp3"
 }
- 
+
 "Heavy.Award02"
 {
  "channel"  "CHAN_VOICE"
@@ -19703,7 +19703,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award02.mp3"
 }
- 
+
 "Heavy.Award03"
 {
  "channel"  "CHAN_VOICE"
@@ -19712,7 +19712,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award03.mp3"
 }
- 
+
 "Heavy.Award04"
 {
  "channel"  "CHAN_VOICE"
@@ -19721,7 +19721,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award04.mp3"
 }
- 
+
 "Heavy.Award05"
 {
  "channel"  "CHAN_VOICE"
@@ -19730,7 +19730,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award05.mp3"
 }
- 
+
 "Heavy.Award07"
 {
  "channel"  "CHAN_VOICE"
@@ -19739,7 +19739,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award07.mp3"
 }
- 
+
 "Heavy.Award08"
 {
  "channel"  "CHAN_VOICE"
@@ -19748,7 +19748,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award08.mp3"
 }
- 
+
 "Heavy.Award09"
 {
  "channel"  "CHAN_VOICE"
@@ -19757,7 +19757,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award09.mp3"
 }
- 
+
 "Heavy.Award10"
 {
  "channel"  "CHAN_VOICE"
@@ -19766,7 +19766,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award10.mp3"
 }
- 
+
 "Heavy.Award11"
 {
  "channel"  "CHAN_VOICE"
@@ -19775,7 +19775,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award11.mp3"
 }
- 
+
 "Heavy.Award12"
 {
  "channel"  "CHAN_VOICE"
@@ -19784,7 +19784,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award12.mp3"
 }
- 
+
 "Heavy.Award13"
 {
  "channel"  "CHAN_VOICE"
@@ -19793,7 +19793,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award13.mp3"
 }
- 
+
 "Heavy.Award16"
 {
  "channel"  "CHAN_VOICE"
@@ -19802,7 +19802,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award16.mp3"
 }
- 
+
 "Heavy.Award14"
 {
  "channel"  "CHAN_VOICE"
@@ -19811,7 +19811,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award14.mp3"
 }
- 
+
 "Heavy.Award15"
 {
  "channel"  "CHAN_VOICE"
@@ -19820,7 +19820,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award15.mp3"
 }
- 
+
 "Heavy.Award06"
 {
  "channel"  "CHAN_VOICE"
@@ -19829,7 +19829,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Award06.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense01"
 {
  "channel"  "CHAN_VOICE"
@@ -19838,7 +19838,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense01.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense02"
 {
  "channel"  "CHAN_VOICE"
@@ -19847,7 +19847,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense02.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense03"
 {
  "channel"  "CHAN_VOICE"
@@ -19856,7 +19856,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense03.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense04"
 {
  "channel"  "CHAN_VOICE"
@@ -19865,7 +19865,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense04.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense05"
 {
  "channel"  "CHAN_VOICE"
@@ -19874,7 +19874,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense05.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense06"
 {
  "channel"  "CHAN_VOICE"
@@ -19883,7 +19883,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense06.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense07"
 {
  "channel"  "CHAN_VOICE"
@@ -19892,7 +19892,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense07.mp3"
 }
- 
+
 "Heavy.CartGoingBackDefense08"
 {
  "channel"  "CHAN_VOICE"
@@ -19901,7 +19901,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackDefense08.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense01"
 {
  "channel"  "CHAN_VOICE"
@@ -19910,7 +19910,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense01.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense02"
 {
  "channel"  "CHAN_VOICE"
@@ -19919,7 +19919,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense02.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense03"
 {
  "channel"  "CHAN_VOICE"
@@ -19928,7 +19928,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense03.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense04"
 {
  "channel"  "CHAN_VOICE"
@@ -19937,7 +19937,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense04.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense05"
 {
  "channel"  "CHAN_VOICE"
@@ -19946,7 +19946,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense05.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense06"
 {
  "channel"  "CHAN_VOICE"
@@ -19955,7 +19955,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense06.mp3"
 }
- 
+
 "Heavy.CartGoingBackOffense07"
 {
  "channel"  "CHAN_VOICE"
@@ -19964,7 +19964,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartGoingBackOffense07.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense01"
 {
  "channel"  "CHAN_VOICE"
@@ -19973,7 +19973,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense01.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense02"
 {
  "channel"  "CHAN_VOICE"
@@ -19982,7 +19982,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense02.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense04"
 {
  "channel"  "CHAN_VOICE"
@@ -19991,7 +19991,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense04.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense05"
 {
  "channel"  "CHAN_VOICE"
@@ -20000,7 +20000,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense05.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense03"
 {
  "channel"  "CHAN_VOICE"
@@ -20009,7 +20009,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense03.mp3"
 }
- 
+
 "Heavy.CartMovingForwardDefense06"
 {
  "channel"  "CHAN_VOICE"
@@ -20018,7 +20018,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardDefense06.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense01"
 {
  "channel"  "CHAN_VOICE"
@@ -20027,7 +20027,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense01.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense02"
 {
  "channel"  "CHAN_VOICE"
@@ -20036,7 +20036,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense02.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense03"
 {
  "channel"  "CHAN_VOICE"
@@ -20045,7 +20045,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense03.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense04"
 {
  "channel"  "CHAN_VOICE"
@@ -20054,7 +20054,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense04.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense05"
 {
  "channel"  "CHAN_VOICE"
@@ -20063,7 +20063,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense05.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense06"
 {
  "channel"  "CHAN_VOICE"
@@ -20072,7 +20072,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense06.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense07"
 {
  "channel"  "CHAN_VOICE"
@@ -20081,7 +20081,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense07.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense08"
 {
  "channel"  "CHAN_VOICE"
@@ -20090,7 +20090,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense08.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense09"
 {
  "channel"  "CHAN_VOICE"
@@ -20099,7 +20099,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense09.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense11"
 {
  "channel"  "CHAN_VOICE"
@@ -20108,7 +20108,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense11.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense12"
 {
  "channel"  "CHAN_VOICE"
@@ -20117,7 +20117,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense12.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense13"
 {
  "channel"  "CHAN_VOICE"
@@ -20126,7 +20126,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense13.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense14"
 {
  "channel"  "CHAN_VOICE"
@@ -20135,7 +20135,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense14.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense15"
 {
  "channel"  "CHAN_VOICE"
@@ -20144,7 +20144,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense15.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense16"
 {
  "channel"  "CHAN_VOICE"
@@ -20153,7 +20153,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense16.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense17"
 {
  "channel"  "CHAN_VOICE"
@@ -20162,7 +20162,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense17.mp3"
 }
- 
+
 "Heavy.CartMovingForwardOffense10"
 {
  "channel"  "CHAN_VOICE"
@@ -20171,7 +20171,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartMovingForwardOffense10.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense01"
 {
  "channel"  "CHAN_VOICE"
@@ -20180,7 +20180,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense01.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense02"
 {
  "channel"  "CHAN_VOICE"
@@ -20189,7 +20189,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense02.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense03"
 {
  "channel"  "CHAN_VOICE"
@@ -20198,7 +20198,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense03.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense06"
 {
  "channel"  "CHAN_VOICE"
@@ -20207,7 +20207,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense06.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense05"
 {
  "channel"  "CHAN_VOICE"
@@ -20216,7 +20216,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense05.mp3"
 }
- 
+
 "Heavy.CartStayCloseOffense04"
 {
  "channel"  "CHAN_VOICE"
@@ -20225,7 +20225,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStayCloseOffense04.mp3"
 }
- 
+
 "Heavy.CartStopItDefense01"
 {
  "channel"  "CHAN_VOICE"
@@ -20234,7 +20234,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStopItDefense01.mp3"
 }
- 
+
 "Heavy.CartStopItDefense02"
 {
  "channel"  "CHAN_VOICE"
@@ -20243,7 +20243,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStopItDefense02.mp3"
 }
- 
+
 "Heavy.CartStopItDefense03"
 {
  "channel"  "CHAN_VOICE"
@@ -20252,7 +20252,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStopItDefense03.mp3"
 }
- 
+
 "Heavy.CartStopItDefense04"
 {
  "channel"  "CHAN_VOICE"
@@ -20261,7 +20261,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStopItDefense04.mp3"
 }
- 
+
 "Heavy.CartStoppedOffense01"
 {
  "channel"  "CHAN_VOICE"
@@ -20270,7 +20270,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStoppedOffense01.mp3"
 }
- 
+
 "Heavy.CartStoppedOffense02"
 {
  "channel"  "CHAN_VOICE"
@@ -20279,7 +20279,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStoppedOffense02.mp3"
 }
- 
+
 "Heavy.CartStoppedOffense04"
 {
  "channel"  "CHAN_VOICE"
@@ -20288,7 +20288,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStoppedOffense04.mp3"
 }
- 
+
 "Heavy.CartStoppedOffense03"
 {
  "channel"  "CHAN_VOICE"
@@ -20297,7 +20297,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_CartStoppedOffense03.mp3"
 }
- 
+
 "Heavy.Domination01"
 {
  "channel"  "CHAN_VOICE"
@@ -20306,7 +20306,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination01.mp3"
 }
- 
+
 "Heavy.Domination02"
 {
  "channel"  "CHAN_VOICE"
@@ -20315,7 +20315,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination02.mp3"
 }
- 
+
 "Heavy.Domination03"
 {
  "channel"  "CHAN_VOICE"
@@ -20324,7 +20324,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination03.mp3"
 }
- 
+
 "Heavy.Domination04"
 {
  "channel"  "CHAN_VOICE"
@@ -20333,7 +20333,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination04.mp3"
 }
- 
+
 "Heavy.Domination05"
 {
  "channel"  "CHAN_VOICE"
@@ -20342,7 +20342,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination05.mp3"
 }
- 
+
 "Heavy.Domination06"
 {
  "channel"  "CHAN_VOICE"
@@ -20351,7 +20351,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination06.mp3"
 }
- 
+
 "Heavy.Domination07"
 {
  "channel"  "CHAN_VOICE"
@@ -20360,7 +20360,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination07.mp3"
 }
- 
+
 "Heavy.Domination08"
 {
  "channel"  "CHAN_VOICE"
@@ -20369,7 +20369,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination08.mp3"
 }
- 
+
 "Heavy.Domination09"
 {
  "channel"  "CHAN_VOICE"
@@ -20378,7 +20378,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination09.mp3"
 }
- 
+
 "Heavy.Domination10"
 {
  "channel"  "CHAN_VOICE"
@@ -20387,7 +20387,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination10.mp3"
 }
- 
+
 "Heavy.Domination11"
 {
  "channel"  "CHAN_VOICE"
@@ -20396,7 +20396,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination11.mp3"
 }
- 
+
 "Heavy.Domination12"
 {
  "channel"  "CHAN_VOICE"
@@ -20405,7 +20405,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination12.mp3"
 }
- 
+
 "Heavy.Domination13"
 {
  "channel"  "CHAN_VOICE"
@@ -20414,7 +20414,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination13.mp3"
 }
- 
+
 "Heavy.Domination14"
 {
  "channel"  "CHAN_VOICE"
@@ -20423,7 +20423,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination14.mp3"
 }
- 
+
 "Heavy.Domination15"
 {
  "channel"  "CHAN_VOICE"
@@ -20432,7 +20432,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination15.mp3"
 }
- 
+
 "Heavy.Domination16"
 {
  "channel"  "CHAN_VOICE"
@@ -20441,7 +20441,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination16.mp3"
 }
- 
+
 "Heavy.Domination17"
 {
  "channel"  "CHAN_VOICE"
@@ -20450,7 +20450,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination17.mp3"
 }
- 
+
 "Heavy.Domination18"
 {
  "channel"  "CHAN_VOICE"
@@ -20459,7 +20459,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Domination18.mp3"
 }
- 
+
 "Heavy.FightOnCap04"
 {
  "channel"  "CHAN_VOICE"
@@ -20468,7 +20468,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_FightOnCap04.mp3"
 }
- 
+
 "Heavy.FightOnCap01"
 {
  "channel"  "CHAN_VOICE"
@@ -20477,7 +20477,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_FightOnCap01.mp3"
 }
- 
+
 "Heavy.FightOnCap02"
 {
  "channel"  "CHAN_VOICE"
@@ -20486,7 +20486,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_FightOnCap02.mp3"
 }
- 
+
 "Heavy.FightOnCap03"
 {
  "channel"  "CHAN_VOICE"
@@ -20495,7 +20495,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_FightOnCap03.mp3"
 }
- 
+
 "Heavy.LaughterBig02"
 {
  "channel"  "CHAN_VOICE"
@@ -20504,7 +20504,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_LaughterBig02.mp3"
 }
- 
+
 "Heavy.LaughterBig01"
 {
  "channel"  "CHAN_VOICE"
@@ -20513,7 +20513,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_LaughterBig01.mp3"
 }
- 
+
 "Heavy.LaughterBig03"
 {
  "channel"  "CHAN_VOICE"
@@ -20522,7 +20522,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_LaughterBig03.mp3"
 }
- 
+
 "Heavy.LaughterBig04"
 {
  "channel"  "CHAN_VOICE"
@@ -20531,7 +20531,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_LaughterBig04.mp3"
 }
- 
+
 "Heavy.MedicFollow01"
 {
  "channel"  "CHAN_VOICE"
@@ -20540,7 +20540,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow01.mp3"
 }
- 
+
 "Heavy.MedicFollow02"
 {
  "channel"  "CHAN_VOICE"
@@ -20549,7 +20549,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow02.mp3"
 }
- 
+
 "Heavy.MedicFollow03"
 {
  "channel"  "CHAN_VOICE"
@@ -20558,7 +20558,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow03.mp3"
 }
- 
+
 "Heavy.MedicFollow04"
 {
  "channel"  "CHAN_VOICE"
@@ -20567,7 +20567,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow04.mp3"
 }
- 
+
 "Heavy.MedicFollow05"
 {
  "channel"  "CHAN_VOICE"
@@ -20576,7 +20576,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow05.mp3"
 }
- 
+
 "Heavy.MedicFollow06"
 {
  "channel"  "CHAN_VOICE"
@@ -20585,7 +20585,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow06.mp3"
 }
- 
+
 "Heavy.MedicFollow07"
 {
  "channel"  "CHAN_VOICE"
@@ -20594,7 +20594,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MedicFollow07.mp3"
 }
- 
+
 "Heavy.MeleeDare01"
 {
  "channel"  "CHAN_VOICE"
@@ -20603,7 +20603,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare01.mp3"
 }
- 
+
 "Heavy.MeleeDare02"
 {
  "channel"  "CHAN_VOICE"
@@ -20612,7 +20612,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare02.mp3"
 }
- 
+
 "Heavy.MeleeDare03"
 {
  "channel"  "CHAN_VOICE"
@@ -20621,7 +20621,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare03.mp3"
 }
- 
+
 "Heavy.MeleeDare04"
 {
  "channel"  "CHAN_VOICE"
@@ -20630,7 +20630,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare04.mp3"
 }
- 
+
 "Heavy.MeleeDare05"
 {
  "channel"  "CHAN_VOICE"
@@ -20639,7 +20639,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare05.mp3"
 }
- 
+
 "Heavy.MeleeDare06"
 {
  "channel"  "CHAN_VOICE"
@@ -20648,7 +20648,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare06.mp3"
 }
- 
+
 "Heavy.MeleeDare07"
 {
  "channel"  "CHAN_VOICE"
@@ -20657,7 +20657,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare07.mp3"
 }
- 
+
 "Heavy.MeleeDare08"
 {
  "channel"  "CHAN_VOICE"
@@ -20666,7 +20666,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare08.mp3"
 }
- 
+
 "Heavy.MeleeDare09"
 {
  "channel"  "CHAN_VOICE"
@@ -20675,7 +20675,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare09.mp3"
 }
- 
+
 "Heavy.MeleeDare10"
 {
  "channel"  "CHAN_VOICE"
@@ -20684,7 +20684,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare10.mp3"
 }
- 
+
 "Heavy.MeleeDare11"
 {
  "channel"  "CHAN_VOICE"
@@ -20693,7 +20693,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare11.mp3"
 }
- 
+
 "Heavy.MeleeDare12"
 {
  "channel"  "CHAN_VOICE"
@@ -20702,7 +20702,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare12.mp3"
 }
- 
+
 "Heavy.MeleeDare13"
 {
  "channel"  "CHAN_VOICE"
@@ -20711,7 +20711,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_MeleeDare13.mp3"
 }
- 
+
 "Heavy.Meleeing01"
 {
  "channel"  "CHAN_VOICE"
@@ -20720,7 +20720,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing01.mp3"
 }
- 
+
 "Heavy.Meleeing02"
 {
  "channel"  "CHAN_VOICE"
@@ -20729,7 +20729,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing02.mp3"
 }
- 
+
 "Heavy.Meleeing03"
 {
  "channel"  "CHAN_VOICE"
@@ -20738,7 +20738,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing03.mp3"
 }
- 
+
 "Heavy.Meleeing04"
 {
  "channel"  "CHAN_VOICE"
@@ -20747,7 +20747,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing04.mp3"
 }
- 
+
 "Heavy.Meleeing05"
 {
  "channel"  "CHAN_VOICE"
@@ -20756,7 +20756,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing05.mp3"
 }
- 
+
 "Heavy.Meleeing06"
 {
  "channel"  "CHAN_VOICE"
@@ -20765,7 +20765,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing06.mp3"
 }
- 
+
 "Heavy.Meleeing07"
 {
  "channel"  "CHAN_VOICE"
@@ -20774,7 +20774,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing07.mp3"
 }
- 
+
 "Heavy.Meleeing08"
 {
  "channel"  "CHAN_VOICE"
@@ -20783,7 +20783,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Meleeing08.mp3"
 }
- 
+
 "Heavy.Revenge01"
 {
  "channel"  "CHAN_VOICE"
@@ -20792,7 +20792,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge01.mp3"
 }
- 
+
 "Heavy.Revenge02"
 {
  "channel"  "CHAN_VOICE"
@@ -20801,7 +20801,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge02.mp3"
 }
- 
+
 "Heavy.Revenge03"
 {
  "channel"  "CHAN_VOICE"
@@ -20810,7 +20810,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge03.mp3"
 }
- 
+
 "Heavy.Revenge04"
 {
  "channel"  "CHAN_VOICE"
@@ -20819,7 +20819,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge04.mp3"
 }
- 
+
 "Heavy.Revenge05"
 {
  "channel"  "CHAN_VOICE"
@@ -20828,7 +20828,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge05.mp3"
 }
- 
+
 "Heavy.Revenge06"
 {
  "channel"  "CHAN_VOICE"
@@ -20837,7 +20837,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge06.mp3"
 }
- 
+
 "Heavy.Revenge07"
 {
  "channel"  "CHAN_VOICE"
@@ -20846,7 +20846,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge07.mp3"
 }
- 
+
 "Heavy.Revenge08"
 {
  "channel"  "CHAN_VOICE"
@@ -20855,7 +20855,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge08.mp3"
 }
- 
+
 "Heavy.Revenge09"
 {
  "channel"  "CHAN_VOICE"
@@ -20864,7 +20864,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge09.mp3"
 }
- 
+
 "Heavy.Revenge10"
 {
  "channel"  "CHAN_VOICE"
@@ -20873,7 +20873,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge10.mp3"
 }
- 
+
 "Heavy.Revenge11"
 {
  "channel"  "CHAN_VOICE"
@@ -20882,7 +20882,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge11.mp3"
 }
- 
+
 "Heavy.Revenge12"
 {
  "channel"  "CHAN_VOICE"
@@ -20891,7 +20891,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge12.mp3"
 }
- 
+
 "Heavy.Revenge13"
 {
  "channel"  "CHAN_VOICE"
@@ -20900,7 +20900,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge13.mp3"
 }
- 
+
 "Heavy.Revenge14"
 {
  "channel"  "CHAN_VOICE"
@@ -20909,7 +20909,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge14.mp3"
 }
- 
+
 "Heavy.Revenge15"
 {
  "channel"  "CHAN_VOICE"
@@ -20918,7 +20918,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Revenge15.mp3"
 }
- 
+
 "Heavy.Singing01"
 {
  "channel"  "CHAN_VOICE"
@@ -20927,7 +20927,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Singing01.mp3"
 }
- 
+
 "Heavy.Singing02"
 {
  "channel"  "CHAN_VOICE"
@@ -20936,7 +20936,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Singing02.mp3"
 }
- 
+
 "Heavy.Singing03"
 {
  "channel"  "CHAN_VOICE"
@@ -20945,7 +20945,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Singing03.mp3"
 }
- 
+
 "Heavy.Singing04"
 {
  "channel"  "CHAN_VOICE"
@@ -20954,7 +20954,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Singing04.mp3"
 }
- 
+
 "Heavy.Singing05"
 {
  "channel"  "CHAN_VOICE"
@@ -20963,7 +20963,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Singing05.mp3"
 }
- 
+
 "Heavy.Specials01"
 {
  "channel"  "CHAN_VOICE"
@@ -20972,7 +20972,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Specials01.mp3"
 }
- 
+
 "Heavy.Specials02"
 {
  "channel"  "CHAN_VOICE"
@@ -20981,7 +20981,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Specials02.mp3"
 }
- 
+
 "Heavy.Specials03"
 {
  "channel"  "CHAN_VOICE"
@@ -20990,7 +20990,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Specials03.mp3"
 }
- 
+
 "Heavy.Specials04"
 {
  "channel"  "CHAN_VOICE"
@@ -20999,7 +20999,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Specials04.mp3"
 }
- 
+
 "Heavy.Specials05"
 {
  "channel"  "CHAN_VOICE"
@@ -21008,7 +21008,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_Specials05.mp3"
 }
- 
+
 "Heavy.SpecialWeapon04"
 {
  "channel"  "CHAN_VOICE"
@@ -21017,7 +21017,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon04.mp3"
 }
- 
+
 "Heavy.SpecialWeapon01"
 {
  "channel"  "CHAN_VOICE"
@@ -21026,7 +21026,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon01.mp3"
 }
- 
+
 "Heavy.SpecialWeapon02"
 {
  "channel"  "CHAN_VOICE"
@@ -21035,7 +21035,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon02.mp3"
 }
- 
+
 "Heavy.SpecialWeapon03"
 {
  "channel"  "CHAN_VOICE"
@@ -21044,7 +21044,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon03.mp3"
 }
- 
+
 "Heavy.SpecialWeapon05"
 {
  "channel"  "CHAN_VOICE"
@@ -21053,7 +21053,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon05.mp3"
 }
- 
+
 "Heavy.SpecialWeapon06"
 {
  "channel"  "CHAN_VOICE"
@@ -21062,7 +21062,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon06.mp3"
 }
- 
+
 "Heavy.SpecialWeapon07"
 {
  "channel"  "CHAN_VOICE"
@@ -21071,7 +21071,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon07.mp3"
 }
- 
+
 "Heavy.SpecialWeapon08"
 {
  "channel"  "CHAN_VOICE"
@@ -21080,7 +21080,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon08.mp3"
 }
- 
+
 "Heavy.SpecialWeapon09"
 {
  "channel"  "CHAN_VOICE"
@@ -21089,7 +21089,7 @@
  "soundlevel"  "SNDLVL_95dB"
  "wave"  "vo/heavy_SpecialWeapon09.mp3"
 }
-  
+
 "Heavy.SandwichEat"
 {
  "channel"  "CHAN_VOICE"
@@ -23438,7 +23438,7 @@
 	"soundlevel"	"SNDLVL_NORM"
 
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_CapEnabled01.mp3"
 		"wave"		"vo/announcer_AM_CapEnabled02.mp3"
@@ -23545,7 +23545,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_FirstBlood01.mp3"
 		"wave"		"vo/announcer_AM_FirstBlood02.mp3"
@@ -23635,7 +23635,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_FlawlessDefeat01.mp3"
 		"wave"		"vo/announcer_AM_FlawlessDefeat02.mp3"
@@ -23652,7 +23652,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_FlawlessVictory01.mp3"
 		"wave"		"vo/announcer_AM_FlawlessVictory02.mp3"
@@ -23947,7 +23947,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_RoundStart01.mp3"
 		"wave"		"vo/announcer_AM_RoundStart03.mp3"
@@ -23999,7 +23999,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_AM_TeamScramble01.mp3"
 		"wave"		"vo/announcer_AM_TeamScramble02.mp3"
@@ -25175,7 +25175,7 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_moan1.mp3"
 		"wave"		"vo/halloween_moan2.mp3"
@@ -25191,7 +25191,7 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_boo1.mp3"
 		"wave"		"vo/halloween_boo2.mp3"
@@ -25210,7 +25210,7 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_scream2.mp3"
 		"wave"		"vo/halloween_scream3.mp3"
@@ -25229,7 +25229,7 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_haunted1.mp3"
 		"wave"		"vo/halloween_haunted2.mp3"
@@ -25246,7 +25246,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned_fx.wav"
+	"wave"		")ui/halloween_boss_summoned_fx.ogg"
 }
 
 "Halloween.MerasmusBossSpawn"
@@ -25256,7 +25256,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned.wav"
+	"wave"		")ui/halloween_boss_summoned.ogg"
 }
 
 "Halloween.MonoculusBossSpawn"
@@ -25266,7 +25266,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned_monoculus.wav"
+	"wave"		")ui/halloween_boss_summoned_monoculus.ogg"
 }
 
 "Halloween.MonoculusBossDeath"
@@ -25276,7 +25276,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_defeated_monoculus.wav"
+	"wave"		"ui/halloween_boss_defeated_monoculus.ogg"
 }
 
 "Halloween.HeadlessBossSpawnRumble"
@@ -25286,7 +25286,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_100dB"
 
-	"wave"		")ui/halloween_boss_summon_rumble.wav"
+	"wave"		")ui/halloween_boss_summon_rumble.ogg"
 }
 
 "Halloween.HeadlessBossAttack"
@@ -25296,7 +25296,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_boss/knight_attack01.mp3"
 		"wave"		"vo/halloween_boss/knight_attack02.mp3"
@@ -25351,7 +25351,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_boss/knight_laugh01.mp3"
 		"wave"		"vo/halloween_boss/knight_laugh02.mp3"
@@ -25377,7 +25377,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_defeated_fx.wav"
+	"wave"		"ui/halloween_boss_defeated_fx.ogg"
 }
 
 
@@ -25389,7 +25389,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_eyeball/eyeball05.mp3"
 		"wave"		"vo/halloween_eyeball/eyeball06.mp3"
@@ -25453,7 +25453,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_eyeball/eyeball_mad01.mp3"
 		"wave"		"vo/halloween_eyeball/eyeball_mad03.mp3"
@@ -25477,7 +25477,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_eyeball/eyeball_laugh01.mp3"
 		"wave"		"vo/halloween_eyeball/eyeball_laugh02.mp3"
@@ -25501,7 +25501,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape_sixty.wav"
+	"wave"		")ui/halloween_boss_escape_sixty.ogg"
 }
 
 "Halloween.EyeballBossEscapeImminent"
@@ -25511,7 +25511,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape_ten.wav"
+	"wave"		")ui/halloween_boss_escape_ten.ogg"
 }
 
 "Halloween.EyeballBossEscaped"
@@ -25521,7 +25521,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape.wav"
+	"wave"		")ui/halloween_boss_escape.ogg"
 }
 
 "Halloween.EyeballBossTeleport"
@@ -25555,7 +25555,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_player_becomes_it.wav"
+	"wave"		"ui/halloween_boss_player_becomes_it.ogg"
 }
 
 
@@ -27037,7 +27037,7 @@
 
 	"soundlevel"		"SNDLVL_NONE"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/announcer_am_killstreak02.mp3"
 		"wave"		"vo/announcer_am_killstreak03.mp3"
@@ -31558,7 +31558,7 @@
 
 	"rndwave"
 	{
-		"wave"	"vo/announcer_sd_possession03.mp3"		
+		"wave"	"vo/announcer_sd_possession03.mp3"
 		"wave"	"vo/announcer_sd_possession07.mp3"
 		"wave"	"vo/announcer_sd_possession13.mp3"
 	}
@@ -31662,7 +31662,7 @@
 	"rndwave"
 	{
 		"wave"	"vo/announcer_sd_rocket_warnings02.mp3"
-		"wave"	"vo/announcer_sd_rocket_warnings06.mp3"		
+		"wave"	"vo/announcer_sd_rocket_warnings06.mp3"
 		"wave"	"vo/announcer_sd_rocket_warnings07.mp3"
 	}
 }
@@ -35269,7 +35269,7 @@
 	"channel"	"CHAN_VOICE"
 	"soundlevel"	"SNDLVL_TALKING"
 	"volume"	"VOL_NORM"
-	"wave"		"misc/null.wav"
+	"wave"		"misc/null.ogg"
 }
 "Psap.Attached"
 {
@@ -36269,7 +36269,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01.wav"
+	"wave"	"misc\ks_tier_01.ogg"
 }
 
 "Announcer.KillStreak_Level1_death"
@@ -36278,7 +36278,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_death.wav"
+	"wave"	"misc\ks_tier_01_death.ogg"
 }
 
 "Announcer.KillStreak_Level1_kill"
@@ -36287,7 +36287,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_kill.wav"
+	"wave"	"misc\ks_tier_01_kill.ogg"
 }
 
 
@@ -36297,7 +36297,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_02.wav"
+	"wave"	"misc\ks_tier_02.ogg"
 
 }
 
@@ -36307,7 +36307,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_death.wav"
+	"wave"	"misc\ks_tier_01_death.ogg"
 }
 
 "Announcer.KillStreak_Level2_kill"
@@ -36318,8 +36318,8 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"rndwave"
 	{
-		"wave"		"misc\ks_tier_02_kill_01.wav"
-		"wave"		"misc\ks_tier_02_kill_02.wav"
+		"wave"		"misc\ks_tier_02_kill_01.ogg"
+		"wave"		"misc\ks_tier_02_kill_02.ogg"
 	}
 }
 
@@ -36329,7 +36329,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_03.wav"
+	"wave"	"misc\ks_tier_03.ogg"
 
 }
 
@@ -36339,7 +36339,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_03_death.wav"
+	"wave"	"misc\ks_tier_03_death.ogg"
 }
 
 "Announcer.KillStreak_Level3_kill"
@@ -36348,7 +36348,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"		"misc\ks_tier_03_kill_01.wav"
+	"wave"		"misc\ks_tier_03_kill_01.ogg"
 
 }
 
@@ -36358,7 +36358,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_04.wav"
+	"wave"	"misc\ks_tier_04.ogg"
 }
 
 "Announcer.KillStreak_Level4_death"
@@ -36367,7 +36367,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_04_death.wav"
+	"wave"	"misc\ks_tier_04_death.ogg"
 }
 
 "Announcer.KillStreak_Level4_kill"
@@ -36376,7 +36376,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"		"misc\ks_tier_04_kill_01.wav"
+	"wave"		"misc\ks_tier_04_kill_01.ogg"
 }
 // End Announcer KillStreak
 //-----------------------------------------------------------------------------
@@ -44968,7 +44968,7 @@
 	"volume"	"VOL_NORM"
 	"pitch"	"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_bombinomicon/sf13_bcon_intro03.mp3"
 		"wave"		"vo/halloween_bombinomicon/sf13_bcon_intro04.mp3"
@@ -45054,7 +45054,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_blutarch_lose01_music.mp3"
 	}
@@ -45066,7 +45066,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_blutarch_win02_music.mp3"
 	}
@@ -45078,7 +45078,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_redmond_win02_music.mp3"
 	}
@@ -45091,7 +45091,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_redmond_lose08_music.mp3"
 	}
@@ -45103,7 +45103,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_redmond_losing19_music.mp3"
 	}
@@ -45115,7 +45115,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"vo/halloween_mann_brothers/sf13_blutarch_almost_lost06_music.mp3"
 	}
@@ -45132,7 +45132,7 @@
 //-----------------------------------------------------------------------------
 //end of spy batch 52
 //-----------------------------------------------------------------------------
- 
+
 //-----------------------------------------------------------------------------
 //Begin of Merasmus added for Halloween 2014
 //-----------------------------------------------------------------------------
@@ -45154,7 +45154,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_possession_18.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_OurTeamDroppedFlag"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45167,10 +45167,10 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_possession_12.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_possession_13.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_possession_19.mp3"
-			
+
 	}
 }
-// 
+//
 "Announcer.SD_Event_TheirTeamHasFlag"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45186,7 +45186,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_possession_20.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_TheirTeamDroppedFlag"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45202,7 +45202,7 @@
 
 	}
 }
-// 
+//
 "Announcer.SD_Event_MurderedToStalemate"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45212,10 +45212,10 @@
 	"rndwave"
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_round_start_stalemate_01.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_stalemate_01.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_stalemate_01.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_CappedRed"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45233,10 +45233,10 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_strongman_end_19.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_strongman_end_20.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_strongman_end_21.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_strongman_end_22.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_strongman_end_22.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_CappedBlu"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45274,7 +45274,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_drop_site_06.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_FlagNags"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45290,7 +45290,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_misc_nags_05.mp3"
 	}
 }
-// 
+//
 "Announcer.SD_Event_TheirFlagOnElevator"
 {
 	"channel"		"CHAN_VOICE2"
@@ -45331,17 +45331,17 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_09.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_14.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_18.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_20.mp3"							
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_20.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_21.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_22.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_23.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_24.mp3"			
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_41.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_42.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_24.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_41.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_42.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_41.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_42.mp3"				
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_42.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_41.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_42.mp3"
 	}
 }
 //
@@ -45353,38 +45353,38 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"rndwave"
 	{
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_31.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_40.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_25.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_26.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_27.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_28.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_29.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_32.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_35.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_36.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_31.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_40.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_44.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"			
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_44.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"			
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_44.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"					
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_warnings_45.mp3"
 	}
 }
 //
@@ -45476,9 +45476,9 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_07.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_04.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_06.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_07.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_04.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_06.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_bighead_rare_07.mp3"
 	}
 }
 //
@@ -45503,7 +45503,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_noguns_rare_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_noguns_rare_02.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_noguns_rare_03.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_noguns_rare_04.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_noguns_rare_04.mp3"
 	}
 }
 //
@@ -45526,7 +45526,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_05.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_06.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_06.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_rare_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_rare_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_effect_swimming_rare_04.mp3"
@@ -45542,16 +45542,16 @@
 	"rndwave"
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_01.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_03.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_04.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_05.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_06.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_07.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_08.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_09.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_11.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_12.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_13.mp3"				
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_03.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_04.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_05.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_06.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_07.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_08.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_09.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_11.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_12.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_13.mp3"
 	}
 }
 //
@@ -45574,7 +45574,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_miss_11.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_miss_12.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_miss_13.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_miss_14.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_necromasher_miss_14.mp3"
 	}
 }
 //
@@ -45594,7 +45594,7 @@
 	}
 }
 // PLATFORM MINIGAME
-// 
+//
 "sf14.Merasmus.FP.Intro"
 {
 	"channel"	"CHAN_VOICE2"
@@ -45673,8 +45673,8 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_01.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"						
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"
 	}
 }
 "sf14.Merasmus.FP.WinBlue"
@@ -45689,12 +45689,12 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_bluwin_02.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_bluwin_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_01.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"
 	}
 }
 // SOCCER MINIGAME
-// 
+//
 "sf14.Merasmus.Soccer.Intro"
 {
 	"channel"	"CHAN_VOICE2"
@@ -45724,13 +45724,13 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_start_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_start_06.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_start_07.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_start_08.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_start_08.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_02.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_06.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_07.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_08.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_09.mp3"			
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_09.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_10.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_11.mp3"
 	}
@@ -45744,11 +45744,11 @@
 	"rndwave"
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_03.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_04.mp3"			
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_05.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_06.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_04.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_05.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_06.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_08.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_throwup_01.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_throwup_01.mp3"
 	}
 }
 "sf14.Merasmus.Soccer.GoalBlue"
@@ -45761,10 +45761,10 @@
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_07.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_07.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_09.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_10.mp3"			
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_throwup_02.mp3"							
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_10.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_goal_throwup_02.mp3"
 	}
 }
 "sf14.Merasmus.Soccer.WinAllDead"
@@ -45786,9 +45786,9 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_06.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_07.mp3"		
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"								
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_07.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_03.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_otherteamdead_04.mp3"
 	}
 }
 "sf14.Merasmus.Soccer.WinRed"
@@ -45802,7 +45802,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_02.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_03.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_04.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_04.mp3"
 	}
 }
 "sf14.Merasmus.Soccer.WinBlue"
@@ -45832,10 +45832,10 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_FP_hhh_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_FP_hhh_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_FP_hhh_07.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_01.mp3"				
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_05.mp3"	
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_06.mp3"			
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_05.mp3"
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_06.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_07.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_08.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_soccer_hhh_09.mp3"
@@ -45845,7 +45845,7 @@
 	}
 }
 // MINIGAME DUCKHUNT
-// 
+//
 "sf14.Merasmus.DuckHunt.Intro"
 {
 	"channel"	"CHAN_VOICE2"
@@ -45859,7 +45859,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_06.mp3"
@@ -45868,7 +45868,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_start_06.mp3"
@@ -45880,7 +45880,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_17.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_18.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_19.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_20.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_start_20.mp3"
 	}
 }
 "sf14.Merasmus.DuckHunt.BonusDucks"
@@ -45893,7 +45893,7 @@
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_03.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_03.mp3"
 	}
 }
 "sf14.Merasmus.DuckHunt.DucksHaveMoved"
@@ -45910,9 +45910,9 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_06.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_07.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_07.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_08.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_09.mp3"	
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_duckmove_09.mp3"
 	}
 }
 "sf14.Merasmus.DuckHunt.WinRed"
@@ -45928,7 +45928,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_02.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_03.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_04.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_all_redwin_04.mp3"
 	}
 }
 "sf14.Merasmus.DuckHunt.WinBlue"
@@ -45970,9 +45970,9 @@
 	{
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_01.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_02.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_03.mp3"		
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_03.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_04.mp3"
-		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_05.mp3"						
+		"wave"	"vo/halloween_merasmus/sf14_merasmus_minigame_overtime_05.mp3"
 	}
 }
 //
@@ -45991,7 +45991,7 @@
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_round_start_04.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_round_start_05.mp3"
 		"wave"	"vo/halloween_merasmus/sf14_merasmus_round_start_06.mp3"
-		"wave" "vo/halloween_merasmus/sf14_merasmus_round_start_short_03.mp3"		
+		"wave" "vo/halloween_merasmus/sf14_merasmus_round_start_short_03.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_start_short_07.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_start_short_08.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_start_short_09.mp3"
@@ -46094,7 +46094,7 @@
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_return_23.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_return_24.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_return_25.mp3"
-		"wave" "vo/halloween_merasmus/sf14_merasmus_round_return_26.mp3"		
+		"wave" "vo/halloween_merasmus/sf14_merasmus_round_return_26.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_second_return_01.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_second_return_02.mp3"
 		"wave" "vo/halloween_merasmus/sf14_merasmus_round_second_return_03.mp3"
@@ -46184,7 +46184,7 @@
 		"wave"			"vo/compmode/cm_admin_compbegins10_01.mp3"
 		"wave"			"vo/compmode/cm_admin_compbegins10_02.mp3"
 		"wave"			"vo/compmode/cm_admin_compbegins10_01.mp3"
-		"wave"			"vo/compmode/cm_admin_compbegins10_02.mp3"									
+		"wave"			"vo/compmode/cm_admin_compbegins10_02.mp3"
 		"wave"			"vo/compmode/cm_admin_compbegins10_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_compbegins10_rare_02.mp3"
 		"wave"			"vo/compmode/cm_admin_compbegins10_rare_03.mp3"
@@ -46270,10 +46270,10 @@
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_03.mp3"						
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_03.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_02.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_04.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_01.mp3"			
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_01.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_06.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_07.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
@@ -46281,12 +46281,12 @@
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_03.mp3"						
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_03.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_02.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_04.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_01.mp3"			
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_01.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_06.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_07.mp3"		
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_07.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_03.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_03.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_04.mp3"
@@ -46296,7 +46296,7 @@
 		"wave"			"vo/compmode/cm_admin_round_start_07.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_07.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_08.mp3"
-		"wave"			"vo/compmode/cm_admin_round_start_09.mp3"		
+		"wave"			"vo/compmode/cm_admin_round_start_09.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_01.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_05.mp3"
 		"wave"			"vo/compmode/cm_admin_round_start_10.mp3"
@@ -46317,11 +46317,11 @@
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"	
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
-		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"		
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
+		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compbeginsstart_05.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_03.mp3"
@@ -46329,7 +46329,7 @@
 		"wave"			"vo/compmode/cm_admin_compfinalstart_03.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_04.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_03.mp3"
-		"wave"			"vo/compmode/cm_admin_compfinalstart_04.mp3"		
+		"wave"			"vo/compmode/cm_admin_compfinalstart_04.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_03.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_04.mp3"
 		"wave"			"vo/compmode/cm_admin_compfinalstart_01.mp3"
@@ -46401,7 +46401,7 @@
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_admin_teamwipe_07.mp3"
-		"wave"			"vo/compmode/cm_admin_teamwipe_10.mp3"		
+		"wave"			"vo/compmode/cm_admin_teamwipe_10.mp3"
 	}
 }
 "Announcer.KillingSpreeRed"
@@ -46416,7 +46416,7 @@
 	{
 		"wave"			"vo/compmode/cm_admin_killstreak_01.mp3"
 		"wave"			"vo/compmode/cm_admin_killstreak_02.mp3"
-		"wave"			"vo/compmode/cm_admin_killstreak_07.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_07.mp3"
 	}
 }
 "Announcer.UnstoppableRed"
@@ -46430,7 +46430,7 @@
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_admin_killstreak_04.mp3"
-		"wave"			"vo/compmode/cm_admin_killstreak_05.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_05.mp3"
 	}
 }
 "Announcer.RampageRed"
@@ -46443,7 +46443,7 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/compmode/cm_admin_killstreak_03.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_03.mp3"
 	}
 }
 "Announcer.GodLikeRed"
@@ -46456,7 +46456,7 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/compmode/cm_admin_killstreak_06.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_06.mp3"
 	}
 }
 "Announcer.KillingSpreeBlu"
@@ -46469,7 +46469,7 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/compmode/cm_admin_killstreak_08.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_08.mp3"
 	}
 }
 "Announcer.UnstoppableBlu"
@@ -46483,7 +46483,7 @@
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_admin_killstreak_10.mp3"
-		"wave"			"vo/compmode/cm_admin_killstreak_11.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_11.mp3"
 	}
 }
 "Announcer.RampageBlu"
@@ -46496,7 +46496,7 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/compmode/cm_admin_killstreak_09.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_09.mp3"
 	}
 }
 "Announcer.GodLikeBlu"
@@ -46509,7 +46509,7 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/compmode/cm_admin_killstreak_12.mp3"	
+		"wave"			"vo/compmode/cm_admin_killstreak_12.mp3"
 	}
 }
 "Announcer.CompRoundWinBlu"
@@ -46538,9 +46538,9 @@
 		"wave"			"vo/compmode/cm_admin_roundwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_roundwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_roundwin_blu_06.mp3"
-		"wave"			"vo/compmode/cm_admin_roundwin_blu_07.mp3"				
+		"wave"			"vo/compmode/cm_admin_roundwin_blu_07.mp3"
 		"wave"			"vo/compmode/cm_admin_roundwin_blu_08.mp3"
-		"wave"			"vo/compmode/cm_admin_roundwin_blu_09.mp3"						
+		"wave"			"vo/compmode/cm_admin_roundwin_blu_09.mp3"
 	}
 }
 "Announcer.CompRoundWinRed"
@@ -46557,17 +46557,17 @@
  		"wave"			"vo/compmode/cm_admin_roundwin_red_03.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_03.mp3"
- 		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3" 		
+ 		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3"
- 		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3" 		
+ 		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_01.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_02.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_03.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_03.mp3"
- 		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3" 		
+ 		"wave"			"vo/compmode/cm_admin_roundwin_red_04.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3"
- 		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3" 		
+ 		"wave"			"vo/compmode/cm_admin_roundwin_red_06.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_07.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_08.mp3"
  		"wave"			"vo/compmode/cm_admin_roundwin_red_10.mp3"
@@ -46597,60 +46597,60 @@
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"				
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"	
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"										
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_01.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_02.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_03.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_04.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_05.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_blu_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_02.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"		
-		"wave"			"vo/compmode/cm_admin_matchwin_rare_04.mp3"				
+		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_rare_04.mp3"
 	}
 }
 "Announcer.CompMatchWinRed"
@@ -46715,14 +46715,14 @@
 		"wave"			"vo/compmode/cm_admin_matchwin_red_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_red_04.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_red_05.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_red_06.mp3"														
+		"wave"			"vo/compmode/cm_admin_matchwin_red_06.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_02.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_matchwin_rare_02.mp3"
-		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"		
-		"wave"			"vo/compmode/cm_admin_matchwin_rare_04.mp3"		
+		"wave"			"vo/compmode/cm_admin_matchwin_rare_03.mp3"
+		"wave"			"vo/compmode/cm_admin_matchwin_rare_04.mp3"
 	}
 }
 "Announcer.CompRoundStalemate"
@@ -46787,10 +46787,10 @@
 		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_04.mp3"
 		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_05.mp3"
 		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_06.mp3"
-		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_07.mp3"		
-    "wave"			"vo/compmode/cm_admin_summary_screen_cheers_09.mp3"	
+		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_07.mp3"
+    "wave"			"vo/compmode/cm_admin_summary_screen_cheers_09.mp3"
 		"wave"			"vo/compmode/cm_admin_summary_screen_cheers_10.mp3"
-		"wave"			"vo/compmode/cm_admin_summarycheer_07.mp3"		
+		"wave"			"vo/compmode/cm_admin_summarycheer_07.mp3"
 	}
 }
 "Announcer.CompSummaryScreenOutlierQuestion"
@@ -46814,16 +46814,16 @@
 		"wave"			"vo/compmode/cm_admin_outlier_question_01.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_02.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_06.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_question_07.mp3"		
-		"wave"			"vo/compmode/cm_admin_outlier_question_01.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_question_02.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_question_06.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_07.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_01.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_02.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_06.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_question_07.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_question_09.mp3"		
+		"wave"			"vo/compmode/cm_admin_outlier_question_01.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_question_02.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_question_06.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_question_07.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_question_09.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_01.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_04.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_05.mp3"
@@ -46850,12 +46850,12 @@
 		"wave"			"vo/compmode/cm_admin_callout_question_10.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_13.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_15.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_question_16.mp3"		
+		"wave"			"vo/compmode/cm_admin_callout_question_16.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_02.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_11.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_question_12.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_question_14.mp3"								
+		"wave"			"vo/compmode/cm_admin_callout_question_14.mp3"
 	}
 }
 "Announcer.CompSummaryScreenOutlierYes"
@@ -46885,7 +46885,7 @@
 		"wave"			"vo/compmode/cm_admin_outlier_yes_09.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_10.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_13.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"		
+		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_01.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_04.mp3"
@@ -46903,7 +46903,7 @@
 		"wave"			"vo/compmode/cm_admin_outlier_yes_09.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_10.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_13.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"	
+		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_01.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_04.mp3"
@@ -46921,7 +46921,7 @@
 		"wave"			"vo/compmode/cm_admin_outlier_yes_09.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_10.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_yes_13.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"			
+		"wave"			"vo/compmode/cm_admin_outlier_yes_14.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_09.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_12.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_14.mp3"
@@ -46929,7 +46929,7 @@
 		"wave"			"vo/compmode/cm_admin_callout_yes_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_rare_02.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_rare_03.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_yes_rare_05.mp3"		
+		"wave"			"vo/compmode/cm_admin_callout_yes_rare_05.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_09.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_12.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_yes_14.mp3"
@@ -46952,10 +46952,7 @@
 	"soundlevel"	"SNDLVL_NONE"
 
 	"rndwave"
-	{					
-		"wave"			"vo/compmode/cm_admin_outlier_no_01.mp3"
-		"wave"			"vo/compmode/cm_admin_outlier_no_03.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"	
+	{
 		"wave"			"vo/compmode/cm_admin_outlier_no_01.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"
@@ -46973,68 +46970,71 @@
 		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_01.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_03.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"						
+		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_01.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_03.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"						
-		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"	
-		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"				
-		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"		
+		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_01.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_03.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_06.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_04.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"	
+		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_04.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_07.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"						
-		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"	
-		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"				
-		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"		
+		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_04.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"	
+		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_04.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_07.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"	
-		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"				
-		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"		
+		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_10.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_11.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_05.mp3"
+		"wave"			"vo/compmode/cm_admin_outlier_no_02.mp3"
 		"wave"			"vo/compmode/cm_admin_outlier_no_04.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"	
+		"wave"			"vo/compmode/cm_admin_callout_no_01.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_04.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_07.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"		
-		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"	
-		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"			
-		"wave"			"vo/compmode/cm_admin_callout_no_08.mp3"				
-		"wave"			"vo/compmode/cm_admin_callout_no_05.mp3"			
-		"wave"			"vo/compmode/cm_admin_callout_no_12.mp3"				
+		"wave"			"vo/compmode/cm_admin_callout_no_13.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_14.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_18.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_20.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_21.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_22.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_23.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_08.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_05.mp3"
+		"wave"			"vo/compmode/cm_admin_callout_no_12.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_15.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_16.mp3"							
+		"wave"			"vo/compmode/cm_admin_callout_no_16.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_rare_01.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_rare_02.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_rare_03.mp3"
 		"wave"			"vo/compmode/cm_admin_callout_no_rare_04.mp3"
-		"wave"			"vo/compmode/cm_admin_callout_no_rare_05.mp3"								
+		"wave"			"vo/compmode/cm_admin_callout_no_rare_05.mp3"
 	}
 }
 //-----------------------------------------------------------------------------
@@ -51431,7 +51431,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_soldier_rankup_01.mp3"
@@ -51466,7 +51466,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_sniper_rankup_01.mp3"
@@ -51494,7 +51494,7 @@
 		"wave"			"vo/compmode/cm_sniper_summary_callout_10.mp3"
 		"wave"			"vo/compmode/cm_sniper_summary_callout_11.mp3"
 		"wave"			"vo/compmode/cm_sniper_summary_callout_12.mp3"
-		"wave"			"vo/compmode/cm_sniper_summary_callout_13.mp3"	
+		"wave"			"vo/compmode/cm_sniper_summary_callout_13.mp3"
 	}
 }
 "Spy.CompRankUp"
@@ -51504,7 +51504,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_spy_rankup_01.mp3"
@@ -51541,7 +51541,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_demo_rankup_01.mp3"
@@ -51589,13 +51589,13 @@
 		"wave"			"vo/compmode/cm_heavy_rankup_15.mp3"
 		"wave"			"vo/compmode/cm_heavy_rankup_16.mp3"
 		"wave"			"vo/compmode/cm_heavy_rankup_rare_01.mp3"
-		"wave"			"vo/compmode/cm_heavy_rankup_rare_02.mp3"	
+		"wave"			"vo/compmode/cm_heavy_rankup_rare_02.mp3"
 		"wave"			"vo/compmode/cm_heavy_summary_callout_01.mp3"
 		"wave"			"vo/compmode/cm_heavy_summary_callout_02.mp3"
 		"wave"			"vo/compmode/cm_heavy_summary_callout_03.mp3"
 		"wave"			"vo/compmode/cm_heavy_summary_callout_04.mp3"
 		"wave"			"vo/compmode/cm_heavy_summary_callout_05.mp3"
-		"wave"			"vo/compmode/cm_heavy_summary_callout_06.mp3"	
+		"wave"			"vo/compmode/cm_heavy_summary_callout_06.mp3"
 	}
 }
 "Engineer.CompRankUp"
@@ -51632,7 +51632,7 @@
 		"wave"			"vo/compmode/cm_engie_summary_callout_08.mp3"
 		"wave"			"vo/compmode/cm_engie_summary_callout_09.mp3"
 		"wave"			"vo/compmode/cm_engie_summary_callout_10.mp3"
-		"wave"			"vo/compmode/cm_engie_summary_callout_11.mp3"	
+		"wave"			"vo/compmode/cm_engie_summary_callout_11.mp3"
 	}
 }
 "Pyro.CompRankUp"
@@ -51658,7 +51658,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_scout_rankup_01.mp3"
@@ -51672,7 +51672,7 @@
 		"wave"			"vo/compmode/cm_scout_rankup_09.mp3"
 		"wave"			"vo/compmode/cm_scout_rankup_10.mp3"
 		"wave"			"vo/compmode/cm_scout_rankup_11.mp3"
-		"wave"			"vo/compmode/cm_scout_rankup_12.mp3"		
+		"wave"			"vo/compmode/cm_scout_rankup_12.mp3"
 		"wave"			"vo/compmode/cm_scout_summary_callout_01.mp3"
 		"wave"			"vo/compmode/cm_scout_summary_callout_02.mp3"
 		"wave"			"vo/compmode/cm_scout_summary_callout_03.mp3"
@@ -51686,7 +51686,7 @@
 		"wave"			"vo/compmode/cm_scout_summary_callout_13.mp3"
 		"wave"			"vo/compmode/cm_scout_summary_callout_14.mp3"
 		"wave"			"vo/compmode/cm_scout_summary_callout_15.mp3"
-		"wave"			"vo/compmode/cm_scout_summary_callout_16.mp3"	
+		"wave"			"vo/compmode/cm_scout_summary_callout_16.mp3"
 	}
 }
 
@@ -51700,7 +51700,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_soldier_rankup_highest_01.mp3"
@@ -51713,7 +51713,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_sniper_rankup_highest_01.mp3"
@@ -51726,7 +51726,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_spy_rankup_highest_01.mp3"
@@ -51739,7 +51739,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_demo_rankup_highest_01.mp3"
@@ -51791,7 +51791,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_scout_rankup_highest_01.mp3"
@@ -51808,7 +51808,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_soldier_summary_callout_01.mp3"
@@ -51830,7 +51830,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_sniper_summary_callout_01.mp3"
@@ -51845,7 +51845,7 @@
 		"wave"			"vo/compmode/cm_sniper_summary_callout_10.mp3"
 		"wave"			"vo/compmode/cm_sniper_summary_callout_11.mp3"
 		"wave"			"vo/compmode/cm_sniper_summary_callout_12.mp3"
-		"wave"			"vo/compmode/cm_sniper_summary_callout_13.mp3"	
+		"wave"			"vo/compmode/cm_sniper_summary_callout_13.mp3"
 	}
 }
 "Spy.CompSummaryScreenOutlier"
@@ -51855,7 +51855,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_spy_summary_callout_01.mp3"
@@ -51873,7 +51873,7 @@
 		"wave"			"vo/compmode/cm_spy_summary_callout_14.mp3"
 		"wave"			"vo/compmode/cm_spy_summary_callout_15.mp3"
 		"wave"			"vo/compmode/cm_spy_summary_callout_16.mp3"
-		"wave"			"vo/compmode/cm_spy_summary_callout_17.mp3"	
+		"wave"			"vo/compmode/cm_spy_summary_callout_17.mp3"
 	}
 }
 "Demoman.CompSummaryScreenOutlier"
@@ -51883,7 +51883,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_demo_summary_callout_01.mp3"
@@ -51933,7 +51933,7 @@
 		"wave"			"vo/compmode/cm_engie_summary_callout_08.mp3"
 		"wave"			"vo/compmode/cm_engie_summary_callout_09.mp3"
 		"wave"			"vo/compmode/cm_engie_summary_callout_10.mp3"
-		"wave"			"vo/compmode/cm_engie_summary_callout_11.mp3"	
+		"wave"			"vo/compmode/cm_engie_summary_callout_11.mp3"
 	}
 }
 "Pyro.CompSummaryScreenOutlier"
@@ -51958,7 +51958,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_95dB"
-	
+
 	"rndwave"
 	{
 		"wave"			"vo/compmode/cm_scout_summary_callout_01.mp3"
@@ -52048,8 +52048,8 @@
 		"wave"			"vo/compmode/cm_soldier_gamewon_06.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_07.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_08.mp3"
-		"wave"			"vo/taunts/soldier/soldier_tank_12.wav"
-		"wave"			"vo/taunts/soldier/soldier_tank_14.wav"
+		"wave"			"vo/taunts/soldier/soldier_tank_12.ogg"
+		"wave"			"vo/taunts/soldier/soldier_tank_14.ogg"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_02.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_03.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_04.mp3"

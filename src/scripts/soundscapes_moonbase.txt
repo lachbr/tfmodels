@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -65,13 +65,13 @@
 {
 	//"dsp" "136"
 	//"dsp_volume" "50"
-	
+
 	"playlooping"
 	{
 		"volume"	"0.8"
 		"pitch"		"100"
-		"wave"		"ambient/spacebase/spacebase_outdoors.wav"
-	}	
+		"wave"		"ambient/spacebase/spacebase_outdoors.ogg"
+	}
 	"playrandom"
 	{
 		"time"		"15,25"
@@ -85,7 +85,7 @@
 			"wave"		"ambient_mp3/spacebase/spacebase_bang_04.mp3"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"10,20"
@@ -104,7 +104,7 @@
 			"wave"		"ambient_mp3/spacebase/spacebase_rumble_09.mp3"
 		}
 	}
-	
+
 }
 
 "Moonbase.Underground"
@@ -115,9 +115,9 @@
 	{
 		"volume"	"1.0"
 		"pitch"		"100"
-		"wave"		"ambient/spacebase/spacebase_indoors.wav"
+		"wave"		"ambient/spacebase/spacebase_indoors.ogg"
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"15,30"
@@ -131,7 +131,7 @@
 			"wave"		"ambient_mp3/spacebase/spacebase_bang_04.mp3"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"10,20"
@@ -150,14 +150,14 @@
 			"wave"		"ambient_mp3/spacebase/spacebase_rumble_09.mp3"
 		}
 	}
-	
+
 	// "playlooping"
 	// {
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"0"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/machine_hum.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/machine_hum.ogg"
 	// }
 
 	// "playlooping"
@@ -165,8 +165,8 @@
 		// "volume"	".4"
 		// "pitch"		"100"
 		// "position"	"1"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_tape.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_tape.ogg"
 	// }
 
 	// "playlooping"
@@ -174,8 +174,8 @@
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"2"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_working.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_working.ogg"
 	// }
 
 	// "playlooping"
@@ -183,8 +183,8 @@
 		// "volume"	".4"
 		// "pitch"		"100"
 		// "position"	"3"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_tape2.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_tape2.ogg"
 	// }
 
 	// "playlooping"
@@ -192,8 +192,8 @@
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"4"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/command_center.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/command_center.ogg"
 	// }
 
 	// "playlooping"
@@ -201,8 +201,8 @@
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"5"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/printer.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/printer.ogg"
 	// }
 }
 
@@ -219,23 +219,23 @@
 	// {
 		// "volume"	".6"
 		// "pitch"		"100"
-		// "wave"		"ambient/underground.wav"
+		// "wave"		"ambient/underground.ogg"
 	// }
 
 	// "playlooping"
 	// {
 		// "volume"	".3"
 		// "pitch"		"100"
-		// "wave"		"ambient/machine_hum2.wav"
+		// "wave"		"ambient/machine_hum2.ogg"
 	// }
-	
+
 	// "playlooping"
 	// {
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"0"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/machine_hum.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/machine_hum.ogg"
 	// }
 
 	// "playlooping"
@@ -243,8 +243,8 @@
 		// "volume"	".4"
 		// "pitch"		"100"
 		// "position"	"1"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_tape.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_tape.ogg"
 	// }
 
 	// "playlooping"
@@ -252,8 +252,8 @@
 		// "volume"	".75"
 		// "pitch"		"100"
 		// "position"	"2"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_working.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_working.ogg"
 	// }
 
 	// "playlooping"
@@ -261,8 +261,8 @@
 		// "volume"	".4"
 		// "pitch"		"100"
 		// "position"	"3"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/computer_tape2.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/computer_tape2.ogg"
 	// }
 
 	// "playlooping"
@@ -270,8 +270,8 @@
 		// "volume"	".85"
 		// "pitch"		"100"
 		// "position"	"4"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/command_center.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/command_center.ogg"
 	// }
 
 	// "playlooping"
@@ -279,8 +279,8 @@
 		// "volume"	".85"
 		// "pitch"		"100"
 		// "position"	"5"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/printer.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/printer.ogg"
 	// }
 // }
 
@@ -292,28 +292,28 @@
 	// {
 		// "volume"		".35"
 		// "pitch"		"100"
-		// "wave"		"ambient/outdoors_quiet_birds.wav"
+		// "wave"		"ambient/outdoors_quiet_birds.ogg"
 	// }
 
 	// "playlooping"
 	// {
 		// "volume"		".35"
 		// "pitch"		"100"
-		// "wave"		"ambient/outdoors.wav"
+		// "wave"		"ambient/outdoors.ogg"
 	// }
 
 	// "playlooping"
 	// {
 		// "volume"		".45"
 		// "pitch"		"100"
-		// "wave"		"ambient/pondlife.wav"
+		// "wave"		"ambient/pondlife.ogg"
 	// }
-	
+
 	// "playlooping"
 	// {
 		// "volume"		".15"
 		// "pitch"		"100"
-		// "wave"		"ambient/pondwater.wav"
+		// "wave"		"ambient/pondwater.ogg"
 	// }
 
 	// "playrandom"
@@ -322,7 +322,7 @@
 		// "volume"	".35"
 		// "pitch"		"100"
 		// "position"	"0"
-		// "attenuation"	"0.25"	
+		// "attenuation"	"0.25"
 		// "rndwave"
 		// {
 			// "wave"		"ambient_mp3/cow1.mp3"
@@ -339,8 +339,8 @@
 		// "volume"	".35"
 		// "pitch"		"100"
 		// "position"	"1"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/train_engine_idle.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/train_engine_idle.ogg"
 	// }
 
 	// "playlooping"
@@ -348,8 +348,8 @@
 		// "volume"	".35"
 		// "pitch"		"100"
 		// "position"	"2"
-		// "attenuation"	"0.7"	
-		// "wave"		"ambient/engine_idle.wav"
+		// "attenuation"	"0.7"
+		// "wave"		"ambient/engine_idle.ogg"
 	// }
 
 // }
@@ -363,14 +363,14 @@
 	// {
 		// "volume"		".35"
 		// "pitch"		"100"
-		// "wave"		"ambient/outdoors_quiet_birds.wav"
+		// "wave"		"ambient/outdoors_quiet_birds.ogg"
 	// }
 
 	// "playlooping"
 	// {
 		// "volume"		".35"
 		// "pitch"		"100"
-		// "wave"		"ambient/outdoors.wav"
+		// "wave"		"ambient/outdoors.ogg"
 	// }
 
 
@@ -380,7 +380,7 @@
 		// "volume"	".35"
 		// "pitch"		"100"
 		// "position"	"0"
-		// "attenuation"	"0.7"	
+		// "attenuation"	"0.7"
 		// "rndwave"
 		// {
 			// "wave"		"ambient_mp3/cow1.mp3"
@@ -392,14 +392,14 @@
 		// }
 	// }
 
-	
+
 	// "playlooping"
 	// {
 		// "volume"	".35"
 		// "pitch"		"100"
 		// "position"	"1"
-		// "attenuation"	".07"	
-		// "wave"		"ambient/factory_outdoor.wav"
+		// "attenuation"	".07"
+		// "wave"		"ambient/factory_outdoor.ogg"
 	// }
 // }
 
@@ -411,6 +411,6 @@
 	// {
 		// "volume"	"1"
 		// "pitch"		"100"
-		// "wave"		"ambient/indoors.wav"
+		// "wave"		"ambient/indoors.ogg"
 	// }
 // }

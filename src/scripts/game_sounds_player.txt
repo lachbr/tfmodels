@@ -5,7 +5,7 @@
 //	CHAN_ITEM		= 3,
 //	CHAN_BODY		= 4,
 //	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
-//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+//	CHAN_STATIC		= 6,		// allocate channel from the static area
 // these can be set with "channel" "2" or "channel" "chan_voice"
 
 //-----------------------------------------------------------------------------
@@ -13,10 +13,10 @@
 //-----------------------------------------------------------------------------
 
 // DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f
 //	ATTN_IDLE		2.0f
-//	ATTN_STATIC		1.25f 
+//	ATTN_STATIC		1.25f
 //	ATTN_RICOCHET	1.5f
 //	ATTN_GUNFIRE	0.27f
 
@@ -55,7 +55,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_can_open.wav"
+	"wave"		"player/pl_scout_dodge_can_open.ogg"
 }
 
 "Scout.DodgeCanDrinkFast"
@@ -64,7 +64,7 @@
 	"volume"		".25"
 	"soundlevel"	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_can_drink_fast.wav"
+	"wave"		"player/pl_scout_dodge_can_drink_fast.ogg"
 }
 
 "Scout.DodgeCanDrink"
@@ -73,7 +73,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_can_drink.wav"
+	"wave"		"player/pl_scout_dodge_can_drink.ogg"
 }
 
 "Scout.DodgeCanCrush"
@@ -82,7 +82,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_can_crush.wav"
+	"wave"		"player/pl_scout_dodge_can_crush.ogg"
 }
 
 "Scout.DodgeCanPitch"
@@ -91,7 +91,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_can_pitch.wav"
+	"wave"		"player/pl_scout_dodge_can_pitch.ogg"
 }
 
 
@@ -101,7 +101,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_74dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/pl_scout_dodge_tired.wav"
+	"wave"		"player/pl_scout_dodge_tired.ogg"
 }
 
 "Player.Spawn"
@@ -110,7 +110,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/null.wav"
+	"wave"			"misc/null.ogg"
 }
 
 "Player.UseDeny"
@@ -119,7 +119,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"	"common/wpn_denyselect.wav"
+	"wave"	"common/wpn_denyselect.ogg"
 }
 
 "Player.WeaponSelected"
@@ -129,7 +129,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"common/wpn_select.wav"
+	"wave"	"common/wpn_select.ogg"
 }
 
 "Player.DenyWeaponSelection"
@@ -138,7 +138,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"	"common/wpn_denyselect.wav"
+	"wave"	"common/wpn_denyselect.ogg"
 }
 
 "Player.WeaponSelectionOpen"
@@ -148,7 +148,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"common/null.wav"
+	"wave"	"common/null.ogg"
 }
 
 "Player.WeaponSelectionClose"
@@ -158,7 +158,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"common/null.wav"
+	"wave"	"common/null.ogg"
 }
 
 "Player.WeaponSelectionMoveSlot"
@@ -168,7 +168,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"common/wpn_moveselect.wav"
+	"wave"	"common/wpn_moveselect.ogg"
 }
 
 "Player.FallGib"
@@ -177,7 +177,7 @@
 	"volume"	"VOL_NORM"
 	"pitch"		"92,96"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"player/pl_fleshbreak.wav"
+	"wave"		"player/pl_fleshbreak.ogg"
 }
 
 "Player.FallDamage"
@@ -185,7 +185,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"player/pl_fallpain.wav"
+	"wave"		"player/pl_fallpain.ogg"
 }
 
 "Player.PlasmaDamage"
@@ -194,7 +194,7 @@
 	"volume"	"0.5"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"		"player/general/flesh_burn.wav"
+	"wave"		"player/general/flesh_burn.ogg"
 }
 
 "Player.SonicDamage"
@@ -202,7 +202,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"0.7"
 	"soundlevel"  "SNDLVL_75dB"
-	"wave"	"player/pain.wav"
+	"wave"	"player/pain.ogg"
 }
 
 "Player.DrownStart"
@@ -212,7 +212,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"		"90,110"
 
-	"wave"	"player/pl_drown1.wav"
+	"wave"	"player/pl_drown1.ogg"
 }
 
 "Player.DrownContinue"
@@ -224,9 +224,9 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_drown1.wav"
-		"wave"	"player/pl_drown2.wav"
-		"wave"	"player/pl_drown3.wav"
+		"wave"	"player/pl_drown1.ogg"
+		"wave"	"player/pl_drown2.ogg"
+		"wave"	"player/pl_drown3.ogg"
 	}
 }
 
@@ -236,7 +236,7 @@
 	"volume"	"0.22"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"ambient/water/underwater.wav"
+	"wave"	"ambient/water/underwater.ogg"
 }
 
 "Player.PickupWeapon"
@@ -245,7 +245,7 @@
 	"volume"	"0.8"
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"	"95,105"
-	"wave"	"items/ammo_pickup.wav"
+	"wave"	"items/ammo_pickup.ogg"
 }
 
 
@@ -257,8 +257,8 @@
 
 	"rndwave"
 	{
-		"wave"	"player/geiger1.wav"
-		"wave"	"player/geiger2.wav"
+		"wave"	"player/geiger1.ogg"
+		"wave"	"player/geiger2.ogg"
 	}
 }
 
@@ -266,13 +266,13 @@
 {
 	"channel"	"CHAN_BODY"
 	"volume"	"0.8"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"		"PITCH_NORM"
 
 	"rndwave"
 	{
-		"wave"	"ambient/fire/fire_small_loop1.wav"
-		"wave"	"ambient/fire/fire_small_loop2.wav"
+		"wave"	"ambient/fire/fire_small_loop1.ogg"
+		"wave"	"ambient/fire/fire_small_loop2.ogg"
 	}
 }
 
@@ -280,14 +280,14 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"		"PITCH_NORM"
 
 	"rndwave"
 	{
-		"wave"	"player/souls_receive1.wav"
-		"wave"	"player/souls_receive2.wav"
-		"wave"	"player/souls_receive3.wav"
+		"wave"	"player/souls_receive1.ogg"
+		"wave"	"player/souls_receive2.ogg"
+		"wave"	"player/souls_receive3.ogg"
 	}
 }
 
@@ -295,15 +295,15 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"			"90, 110"
 
 	"rndwave"
 	{
-		"wave"		")player/resistance_light1.wav"
-		"wave"		")player/resistance_light2.wav"
-		"wave"		")player/resistance_light3.wav"
-		"wave"		")player/resistance_light4.wav"
+		"wave"		")player/resistance_light1.ogg"
+		"wave"		")player/resistance_light2.ogg"
+		"wave"		")player/resistance_light3.ogg"
+		"wave"		")player/resistance_light4.ogg"
 	}
 }
 
@@ -311,15 +311,15 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"			"90, 110"
 
 	"rndwave"
 	{
-		"wave"		")player/resistance_medium1.wav"
-		"wave"		")player/resistance_medium2.wav"
-		"wave"		")player/resistance_medium3.wav"
-		"wave"		")player/resistance_medium4.wav"
+		"wave"		")player/resistance_medium1.ogg"
+		"wave"		")player/resistance_medium2.ogg"
+		"wave"		")player/resistance_medium3.ogg"
+		"wave"		")player/resistance_medium4.ogg"
 	}
 }
 
@@ -327,15 +327,15 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"			"90, 110"
 
 	"rndwave"
 	{
-		"wave"		")player/resistance_heavy1.wav"
-		"wave"		")player/resistance_heavy2.wav"
-		"wave"		")player/resistance_heavy3.wav"
-		"wave"		")player/resistance_heavy4.wav"
+		"wave"		")player/resistance_heavy1.ogg"
+		"wave"		")player/resistance_heavy2.ogg"
+		"wave"		")player/resistance_heavy3.ogg"
+		"wave"		")player/resistance_heavy4.ogg"
 	}
 }
 
@@ -348,7 +348,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_85dB"
 	"pitch"	"PITCH_NORM"
-	"wave"	")player/flow.wav"
+	"wave"	")player/flow.ogg"
 }
 
 "TFPlayer.StunImpact"
@@ -357,7 +357,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_85dB"
 	"pitch"	"PITCH_NORM"
-	"wave"	"player/pl_impact_stun.wav"
+	"wave"	"player/pl_impact_stun.ogg"
 }
 
 "TFPlayer.StunImpactRange"
@@ -366,7 +366,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_105dB"
 	"pitch"	"PITCH_NORM"
-	"wave"	"player/pl_impact_stun_range.wav"
+	"wave"	"player/pl_impact_stun_range.ogg"
 }
 
 "TFPlayer.AirBlastImpact"
@@ -376,10 +376,10 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/pl_impact_airblast1.wav"
-		"wave"		"player/pl_impact_airblast2.wav"
-		"wave"		"player/pl_impact_airblast3.wav"
-		"wave"		"player/pl_impact_airblast4.wav"
+		"wave"		"player/pl_impact_airblast1.ogg"
+		"wave"		"player/pl_impact_airblast2.ogg"
+		"wave"		"player/pl_impact_airblast3.ogg"
+		"wave"		"player/pl_impact_airblast4.ogg"
 	}
 }
 
@@ -390,9 +390,9 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/pl_impact_flare1.wav"
-		"wave"		"player/pl_impact_flare2.wav"
-		"wave"		"player/pl_impact_flare3.wav"
+		"wave"		"player/pl_impact_flare1.ogg"
+		"wave"		"player/pl_impact_flare2.ogg"
+		"wave"		"player/pl_impact_flare3.ogg"
 	}
 }
 
@@ -405,9 +405,9 @@
 
 	"rndwave"
 	{
-		"wave"	"player/drown1.wav"	
-		"wave"	"player/drown2.wav"
-		"wave"	"player/drown3.wav"	
+		"wave"	"player/drown1.ogg"
+		"wave"	"player/drown2.ogg"
+		"wave"	"player/drown3.ogg"
 	}
 }
 
@@ -417,7 +417,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
-	"wave"		"player/pain.wav"
+	"wave"		"player/pain.ogg"
 }
 
 "TFPlayer.FlameOut"
@@ -426,7 +426,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"PITCh_NORM"
-	"wave"		")player/flame_out.wav"
+	"wave"		")player/flame_out.ogg"
 }
 
 
@@ -436,7 +436,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"92,96"
-	"wave"		"player/death.wav"
+	"wave"		"player/death.ogg"
 }
 
 "TFPlayer.FirePain"
@@ -445,7 +445,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"92,96"
-	"wave"		"player/fire.wav"
+	"wave"		"player/fire.ogg"
 }
 
 "TFPlayer.CritPain"
@@ -454,12 +454,12 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"95,105"
-	
+
 	"rndwave"
 	{
-		"wave"		"player/crit_received1.wav"
-		"wave"		"player/crit_received2.wav"
-		"wave"		"player/crit_received3.wav"
+		"wave"		"player/crit_received1.ogg"
+		"wave"		"player/crit_received2.ogg"
+		"wave"		"player/crit_received3.ogg"
 
 	}
 }
@@ -470,7 +470,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/death.wav"
+	"wave"		"player/death.ogg"
 }
 
 "TFPlayer.MedicChargedDeath"
@@ -479,7 +479,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"		"PITCH_NORM"
-	"wave"		"player/medic_charged_death.wav"
+	"wave"		"player/medic_charged_death.ogg"
 }
 
 "Player.Death"
@@ -488,7 +488,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
-	"wave"		"player/pain.wav"
+	"wave"		"player/pain.ogg"
 }
 
 "Player.MeleeDeath"
@@ -497,7 +497,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
-	"wave"		"player/death.wav"
+	"wave"		"player/death.ogg"
 
 }
 
@@ -507,7 +507,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"92,96"
-	"wave"		"player/pain.wav"
+	"wave"		"player/pain.ogg"
 }
 
 "TFPlayer.GrenadeTimer"
@@ -516,7 +516,7 @@
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/timer.wav"
+	"wave"		"weapons/timer.ogg"
 }
 
 "Player.Spy_Disguise"
@@ -524,7 +524,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"		"player/spy_disguise.wav"
+	"wave"		"player/spy_disguise.ogg"
 }
 
 "Player.Spy_Shield_Break"
@@ -532,7 +532,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/spy_shield_break.wav"
+	"wave"		"player/spy_shield_break.ogg"
 }
 
 "Player.Spy_Cloak"
@@ -540,7 +540,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"		"player/spy_cloak.wav"
+	"wave"		"player/spy_cloak.ogg"
 }
 
 "Player.Spy_UnCloakReduced"
@@ -548,7 +548,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.5"
 	"soundlevel"  	"SNDLVL_40dB"
-	"wave"		"player/spy_uncloak.wav"
+	"wave"		"player/spy_uncloak.ogg"
 }
 
 "Player.Spy_UnCloak"
@@ -556,7 +556,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"		"player/spy_uncloak.wav"
+	"wave"		"player/spy_uncloak.ogg"
 }
 
 "Player.Spy_UnCloakFeignDeath"
@@ -564,26 +564,26 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.7"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/spy_uncloak_feigndeath.wav"
+	"wave"		"player/spy_uncloak_feigndeath.ogg"
 }
 
 "Player.ScoutShove"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"	
+	"soundlevel"  	"SNDLVL_75dB"
 	"rndwave"
 	{
-		"wave"		"player/shove1.wav"
-		"wave"		"player/shove2.wav"
-		"wave"		"player/shove3.wav"
-		"wave"		"player/shove4.wav"
-		"wave"		"player/shove5.wav"
-		"wave"		"player/shove6.wav"	
-		"wave"		"player/shove7.wav"
-		"wave"		"player/shove8.wav"
-		"wave"		"player/shove9.wav"
-		"wave"		"player/shove10.wav"
+		"wave"		"player/shove1.ogg"
+		"wave"		"player/shove2.ogg"
+		"wave"		"player/shove3.ogg"
+		"wave"		"player/shove4.ogg"
+		"wave"		"player/shove5.ogg"
+		"wave"		"player/shove6.ogg"
+		"wave"		"player/shove7.ogg"
+		"wave"		"player/shove8.ogg"
+		"wave"		"player/shove9.ogg"
+		"wave"		"player/shove10.ogg"
 	}
 }
 
@@ -605,7 +605,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_86dB"
-	"wave"		"player/invulnerable_on.wav"
+	"wave"		"player/invulnerable_on.ogg"
 }
 
 "TFPlayer.QuickFixInvulnerableOn"
@@ -613,7 +613,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_86dB"
-	"wave"		"player/quickfix_invulnerable_on.wav"
+	"wave"		"player/quickfix_invulnerable_on.ogg"
 }
 
 "TFPlayer.InvulnerableOff"
@@ -621,7 +621,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_86dB"
-	"wave"		"player/invulnerable_off.wav"
+	"wave"		"player/invulnerable_off.ogg"
 }
 
 "TFPlayer.MegaHealOn"
@@ -629,7 +629,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	"1"
-	"wave"		")weapons/weapon_crit_charged_on.wav"
+	"wave"		")weapons/weapon_crit_charged_on.ogg"
 }
 
 "TFPlayer.MegaHealOff"
@@ -637,7 +637,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	"1"
-	"wave"		")weapons/weapon_crit_charged_off.wav"
+	"wave"		")weapons/weapon_crit_charged_off.ogg"
 }
 
 "TFPlayer.CritHit"
@@ -647,11 +647,11 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"player/crit_hit.wav"
-		"wave"		"player/crit_hit2.wav"
-		"wave"		"player/crit_hit3.wav"
-		"wave"		"player/crit_hit4.wav"
-		"wave"		"player/crit_hit5.wav"
+		"wave"		"player/crit_hit.ogg"
+		"wave"		"player/crit_hit2.ogg"
+		"wave"		"player/crit_hit3.ogg"
+		"wave"		"player/crit_hit4.ogg"
+		"wave"		"player/crit_hit5.ogg"
 	}
 }
 
@@ -662,11 +662,11 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"player/crit_hit_mini.wav"
-		"wave"		"player/crit_hit_mini2.wav"
-		"wave"		"player/crit_hit_mini3.wav"
-		"wave"		"player/crit_hit_mini4.wav"
-		"wave"		"player/crit_hit_mini5.wav"
+		"wave"		"player/crit_hit_mini.ogg"
+		"wave"		"player/crit_hit_mini2.ogg"
+		"wave"		"player/crit_hit_mini3.ogg"
+		"wave"		"player/crit_hit_mini4.ogg"
+		"wave"		"player/crit_hit_mini5.ogg"
 	}
 }
 
@@ -675,7 +675,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"		")player\doubledonk.wav"
+	"wave"		")player\doubledonk.ogg"
 }
 
 "TFPlayer.FreezeCam"
@@ -683,7 +683,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"misc/freeze_cam.wav"
+	"wave"		"misc/freeze_cam.ogg"
 }
 
 "TFPlayer.ReCharged"
@@ -691,7 +691,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/recharged.wav"
+	"wave"		"player/recharged.ogg"
 }
 
 "TFPlayer.Dissolve"
@@ -699,7 +699,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/dissolve.wav"
+	"wave"		"player/dissolve.ogg"
 }
 
 //-----------------------------------------------------------------------------
@@ -710,7 +710,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")player/taunt_eng_gunslinger.wav"
+	"wave"		")player/taunt_eng_gunslinger.ogg"
 }
 
 "Taunt.EngineerSwoosh"
@@ -718,7 +718,7 @@
 	"channel"	"CHAN_WEAPON"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")player/taunt_eng_swoosh.wav"
+	"wave"		")player/taunt_eng_swoosh.ogg"
 }
 
 "Taunt.EngineerSmash"
@@ -728,9 +728,9 @@
 	"soundlevel"  	"SNDLVL_75dB"
 	"rndwave"
 	{
-		"wave"		")player/taunt_eng_smash1.wav"
-		"wave"		")player/taunt_eng_smash2.wav"
-		"wave"		")player/taunt_eng_smash3.wav"
+		"wave"		")player/taunt_eng_smash1.ogg"
+		"wave"		")player/taunt_eng_smash2.ogg"
+		"wave"		")player/taunt_eng_smash3.ogg"
 	}
 }
 
@@ -739,7 +739,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")player/taunt_eng_strum.wav"
+	"wave"		")player/taunt_eng_strum.ogg"
 }
 
 "Taunt.Engineer01HandClap"
@@ -747,7 +747,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_hand_clap.wav"
+	"wave"		"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Engineer01HandClap2"
@@ -755,7 +755,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_hand_clap2.wav"
+	"wave"		"player/taunt_hand_clap2.ogg"
 }
 
 "Taunt.Engineer01FootStomp"
@@ -763,7 +763,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_foot_stomp.wav"
+	"wave"		"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Engineer01FootStompLight"
@@ -771,7 +771,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_foot_stomp_light.wav"
+	"wave"		"player/taunt_foot_stomp_light.ogg"
 }
 
 "Taunt.Engineer02PistolTwirl"
@@ -779,7 +779,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_pistol_twirl.wav"
+	"wave"		"player/taunt_pistol_twirl.ogg"
 }
 
 "Taunt.Engineer_Western_Shoot1"
@@ -787,7 +787,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1,0"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")player/taunt_western_shoot1.wav"
+	"wave"		")player/taunt_western_shoot1.ogg"
 }
 
 "Taunt.Engineer_Western_Shoot2"
@@ -795,7 +795,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")player/taunt_western_shoot2.wav"
+	"wave"		")player/taunt_western_shoot2.ogg"
 }
 
 "Selection.EngineerWrenchShoulder"
@@ -803,7 +803,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_shotgun_shoulder.wav"
+	"wave"		"player/taunt_shotgun_shoulder.ogg"
 }
 
 "Selection.EngineerFootStomp"
@@ -811,7 +811,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_foot_stomp.wav"
+	"wave"		"player/taunt_foot_stomp.ogg"
 }
 
 "Selection.EngineerClothesRustle"
@@ -819,7 +819,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_clothes_rustle.wav"
+	"wave"		"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Demo01FootStompLight"
@@ -827,7 +827,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_foot_stomp_light.wav"
+	"wave"		"player/taunt_foot_stomp_light.ogg"
 }
 
 "Taunt.Demo01FootSpin"
@@ -835,7 +835,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_foot_spin.wav"
+	"wave"		"player/taunt_foot_spin.ogg"
 }
 
 "Taunt.Demo01HandClap"
@@ -843,7 +843,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_hand_clap.wav"
+	"wave"		"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Demo01HandClap2"
@@ -851,7 +851,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_hand_clap2.wav"
+	"wave"		"player/taunt_hand_clap2.ogg"
 }
 
 "Taunt.Demo02EquipmentJingle"
@@ -859,7 +859,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_jingle.wav"
+	"wave"		"player/taunt_equipment_jingle.ogg"
 }
 
 "Taunt.Demo02EquipmentJingle2"
@@ -867,7 +867,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_jingle2.wav"
+	"wave"		"player/taunt_equipment_jingle2.ogg"
 }
 
 "Taunt.Demo02EquipmentJingle3"
@@ -875,7 +875,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_jingle3.wav"
+	"wave"		"player/taunt_equipment_jingle3.ogg"
 }
 
 "Taunt.Demo02EquipmentJingle4"
@@ -883,7 +883,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_jingle4.wav"
+	"wave"		"player/taunt_equipment_jingle4.ogg"
 }
 
 "Taunt.Demo03BottleCatch"
@@ -891,7 +891,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_hand_clap.wav"
+	"wave"		"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Demo03BottleSlosh"
@@ -899,7 +899,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_bottle_slosh.wav"
+	"wave"		"player/taunt_bottle_slosh.ogg"
 }
 
 "Taunt.Demo03BottleAh"
@@ -907,7 +907,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_bottle_ah.wav"
+	"wave"		"player/taunt_bottle_ah.ogg"
 }
 
 "Selection.DemoEquipment1"
@@ -915,7 +915,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_equipment_gun2.wav"
+	"wave"		"player/taunt_equipment_gun2.ogg"
 }
 
 "Selection.DemoEquipment2"
@@ -923,7 +923,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_equipment_gun1.wav"
+	"wave"		"player/taunt_equipment_gun1.ogg"
 }
 
 "Selection.DemoClipSpin"
@@ -931,7 +931,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_clip_spin.wav"
+	"wave"		"player/taunt_clip_spin.ogg"
 }
 
 "Selection.DemoClipSpinLong"
@@ -939,7 +939,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_clip_spin_long.wav"
+	"wave"		"player/taunt_clip_spin_long.ogg"
 }
 
 "Taunt.DemoShakeIt"
@@ -947,7 +947,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"player/taunt_shake_it.wav"
+	"wave"		"player/taunt_shake_it.ogg"
 }
 
 "Taunt.Demo_Burp"
@@ -955,7 +955,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"		")player/taunt_burp.wav"
+	"wave"		")player/taunt_burp.ogg"
 }
 
 "Taunt.MedicGloveStretch"
@@ -964,7 +964,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	"player/taunt_rubberglove_stretch.wav"
+		"wave"	"player/taunt_rubberglove_stretch.ogg"
 }
 
 "Taunt.MedicHardClap1"
@@ -973,7 +973,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap1.wav"
+		"wave"	")player/taunt_hard_clap1.ogg"
 }
 
 "Taunt.MedicHardClap2"
@@ -982,7 +982,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap2.wav"
+		"wave"	")player/taunt_hard_clap2.ogg"
 }
 
 "Taunt.MedicHardClap3"
@@ -991,7 +991,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap3.wav"
+		"wave"	")player/taunt_hard_clap3.ogg"
 }
 
 "Taunt.MedicHardClap4"
@@ -1000,7 +1000,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap1.wav"
+		"wave"	")player/taunt_hard_clap1.ogg"
 }
 
 "Taunt.MedicHardClap5"
@@ -1009,7 +1009,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap2.wav"
+		"wave"	")player/taunt_hard_clap2.ogg"
 }
 
 "Taunt.MedicHardClap6"
@@ -1018,7 +1018,7 @@
 	"volume"	".05"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	")player/taunt_hard_clap3.wav"
+		"wave"	")player/taunt_hard_clap3.ogg"
 }
 
 "Taunt.MedicGloveSnap"
@@ -1027,7 +1027,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	"player/taunt_rubberglove_snap.wav"
+		"wave"	"player/taunt_rubberglove_snap.ogg"
 }
 
 "Taunt.MedicViolin"
@@ -1037,14 +1037,14 @@
 	"soundlevel"  	"SNDLVL_75dB"
 
 	"rndwave"
-	{	
-		"wave"	"player/taunt_v01.wav"
-		"wave"	"player/taunt_v02.wav"
-		"wave"	"player/taunt_v03.wav"
-		"wave"	"player/taunt_v04.wav"
-		"wave"	"player/taunt_v05.wav"
-		"wave"	"player/taunt_v06.wav"
-		"wave"	"player/taunt_v07.wav"
+	{
+		"wave"	"player/taunt_v01.ogg"
+		"wave"	"player/taunt_v02.ogg"
+		"wave"	"player/taunt_v03.ogg"
+		"wave"	"player/taunt_v04.ogg"
+		"wave"	"player/taunt_v05.ogg"
+		"wave"	"player/taunt_v06.ogg"
+		"wave"	"player/taunt_v07.ogg"
 	}
 }
 "Taunt.MedicViolinUber"
@@ -1054,14 +1054,14 @@
 	"soundlevel"  	"SNDLVL_75dB"
 
 	"rndwave"
-	{	
-		"wave"	"player/uberTaunt_v01.wav"
-		"wave"	"player/uberTaunt_v02.wav"
-		"wave"	"player/uberTaunt_v03.wav"
-		"wave"	"player/uberTaunt_v04.wav"
-		"wave"	"player/uberTaunt_v05.wav"
-		"wave"	"player/uberTaunt_v06.wav"
-		"wave"	"player/uberTaunt_v07.wav"
+	{
+		"wave"	"player/uberTaunt_v01.ogg"
+		"wave"	"player/uberTaunt_v02.ogg"
+		"wave"	"player/uberTaunt_v03.ogg"
+		"wave"	"player/uberTaunt_v04.ogg"
+		"wave"	"player/uberTaunt_v05.ogg"
+		"wave"	"player/uberTaunt_v06.ogg"
+		"wave"	"player/uberTaunt_v07.ogg"
 	}
 }
 
@@ -1071,7 +1071,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_95dB"
 
-	"wave"		")player/taunt_medic_heroic.wav"
+	"wave"		")player/taunt_medic_heroic.ogg"
 }
 
 "Taunt.GuitarRiff"
@@ -1080,7 +1080,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_95dB"
 
-	"wave"		")player\brutal_legend_taunt.wav"
+	"wave"		")player\brutal_legend_taunt.ogg"
 }
 
 "Taunt.WormsHHG"
@@ -1090,8 +1090,8 @@
 	"soundlevel"  	"SNDLVL_75dB"
 
 	"rndwave"
-	{	
-		"wave"	"player/taunt_wormsHHG.wav"
+	{
+		"wave"	"player/taunt_wormsHHG.ogg"
 	}
 }
 
@@ -1101,7 +1101,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
 
-	"wave"	"player/taunt_heel_click.wav"
+	"wave"	"player/taunt_heel_click.ogg"
 }
 
 "Selection.MedicFootStomp"
@@ -1110,7 +1110,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
 
-	"wave"	"player/taunt_foot_stomp.wav"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Selection.MedicFootSlide"
@@ -1119,7 +1119,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
 
-	"wave"	"player/taunt_foot_spin.wav"
+	"wave"	"player/taunt_foot_spin.ogg"
 }
 
 "Taunt.Scout01Run"
@@ -1128,7 +1128,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	"player/taunt_foot_stomp.wav"
+		"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Scout01HandSmack"
@@ -1137,23 +1137,23 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"
 
-		"wave"	"player/taunt_hand_clap.wav"
+		"wave"	"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Scout02Run"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Scout03Run"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Selection.ScoutShotgunShoulder"
@@ -1161,7 +1161,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_shotgun_shoulder.wav"
+	"wave"		"player/taunt_shotgun_shoulder.ogg"
 }
 
 "Selection.ScoutShotgunTwirl"
@@ -1169,47 +1169,47 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/taunt_shotgun_twirl.wav"
+	"wave"		"player/taunt_shotgun_twirl.ogg"
 }
 
 "Taunt.Sniper02HealClick"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Sniper02FootStomp"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".50"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Sniper02FootSlide"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_spin.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_spin.ogg"
 }
 
 "Taunt.Sniper03MacheteUnsheath"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_machete_draw.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_machete_draw.ogg"
 }
 
 "Taunt.Sniper03MacheteCatch"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_machete_catch.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_machete_catch.ogg"
 }
 
 "Selection.SniperHatTip"
@@ -1217,47 +1217,47 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_swipe.wav"
+	"wave"	"player/taunt_clothes_swipe.ogg"
 }
 
 "Taunt.Spy01TieFix"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_tie_fix.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_tie_fix.ogg"
 }
 
 "Taunt.Spy03FootStomp"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Spy03KnifeCatch"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_grenade_catch.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_grenade_catch.ogg"
 }
 
 "Taunt.Spy04CigFlick"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_cig_flick.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_cig_flick.ogg"
 }
 
 "Taunt.SpyCigCaseClose"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_cig_case_close.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_cig_case_close.ogg"
 }
 
 "Selection.SpyClothesRustle1"
@@ -1265,7 +1265,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_swipe.wav"
+	"wave"	"player/taunt_clothes_swipe.ogg"
 }
 
 "Selection.SpyClothesRustle2"
@@ -1273,7 +1273,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_swipe2.wav"
+	"wave"	"player/taunt_clothes_swipe2.ogg"
 }
 
 "Taunt.SoldierClothesRustle"
@@ -1281,7 +1281,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"  	"SNDLVL_NORM"
-	"wave"	"player/taunt_clothes_swipe2.wav"
+	"wave"	"player/taunt_clothes_swipe2.ogg"
 }
 
 "Selection.SpyPuff"
@@ -1289,7 +1289,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_puff.wav"
+	"wave"	"player/taunt_puff.ogg"
 }
 
 "Selection.SpyPuffAh"
@@ -1297,54 +1297,54 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_puff_ah.wav"
+	"wave"	"player/taunt_puff_ah.ogg"
 }
 
 "Taunt.Soldier01HeelClick"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Soldier01ClothesSwipe"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_swipe.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_swipe.ogg"
 }
 
 "Taunt.Soldier01ClothesRustle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Soldier01HelmetJostle"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Taunt.SoldierKnuckleCrack"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.25"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_knuckle_crack.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_knuckle_crack.ogg"
 }
 
 "Taunt.TauntChestThumpYell"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
+	"soundlevel"  	"SNDLVL_NORM"
 	"wave"	"vo/soldier_DirectHitTaunt02.mp3"
 }
 
@@ -1352,24 +1352,24 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.25"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_chest_thump.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_chest_thump.ogg"
 }
 
 "Taunt.SoldierChestThumpAlt"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.25"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_chest_thump_alt.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_chest_thump_alt.ogg"
 }
 
 "Taunt.SoldierChestThumpLow"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.1"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_chest_thump.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_chest_thump.ogg"
 }
 
 
@@ -1377,40 +1377,40 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Taunt.SoldierShotgunFire"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"weapons/shotgun_shoot.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"weapons/shotgun_shoot.ogg"
 }
 
 "Taunt.SoldierShotgunCockBack"
 {
 	"channel"	"CHAN_WEAPON"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"weapons/shotgun_cock_back.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"weapons/shotgun_cock_back.ogg"
 }
 
 "Taunt.SoldierShotgunCockForward"
 {
 	"channel"	"CHAN_WEAPON"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"weapons/shotgun_cock_forward.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"weapons/shotgun_cock_forward.ogg"
 }
 
 "Taunt.SoldierSaluteSwish"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	"1.0"
-	"soundlevel"  	"SNDLVL_NORM"		
-	"wave"	"player/taunt_clothes_swipe2.wav"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"	"player/taunt_clothes_swipe2.ogg"
 }
 
 "Taunt.SoldierTaps"
@@ -1418,71 +1418,71 @@
             "channel"          "CHAN_STATIC"
             "volume"           "1.0"
             "soundlevel"      "SNDLVL_NORM"
-             "wave"              ")misc/taps_02.wav"
+             "wave"              ")misc/taps_02.ogg"
 }
 
 "Taunt.Soldier02GrenadeCatch"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_grenade_catch.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_grenade_catch.ogg"
 }
 
 "Taunt.Soldier02ClothesRustle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Soldier02ShovelCatch"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_hand_clap.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Soldier03FootStomp"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Soldier03HelmetHit"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_helmet_hit.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_helmet_hit.ogg"
 }
 
 "Taunt.Soldier03ClothesSwipe"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_swipe.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_swipe.ogg"
 }
 
 "Taunt.Soldier03ClothesRustle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Soldier03HelmetJostle"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Selection.SoldierLauncherGrab"
@@ -1490,7 +1490,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_grenade_catch.wav"
+	"wave"	"player/taunt_grenade_catch.ogg"
 }
 
 "Selection.SoldierClothesRustle"
@@ -1498,7 +1498,7 @@
 	"channel"	"CHAN_ITEM"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Selection.SoldierEquipment"
@@ -1506,7 +1506,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Selection.SoldierLauncherSetStart"
@@ -1514,7 +1514,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".55"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_gun2.wav"
+	"wave"	"player/taunt_equipment_gun2.ogg"
 }
 
 "Selection.SoldierLauncherHitGround"
@@ -1522,7 +1522,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_launcher_hit.wav"
+	"wave"	"player/taunt_launcher_hit.ogg"
 }
 
 "Selection.SoldierLauncherSetStop"
@@ -1530,79 +1530,79 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".55"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_gun1.wav"
+	"wave"	"player/taunt_equipment_gun1.ogg"
 }
 
 "Taunt.HeavyUpperCut"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_heavy_upper_cut.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_heavy_upper_cut.ogg"
 }
 
 "Taunt.HeavyBell"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_bell.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_bell.ogg"
 }
 
 "Taunt.Heavy01HoldGun"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_grenade_catch.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_grenade_catch.ogg"
 }
 
 "Taunt.Heavy01HoldGunLight"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_hand_clap2.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_hand_clap2.ogg"
 }
 
 "Taunt.Heavy01ClothesRustle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Heavy01EquipmentGun"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_gun1.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_gun1.ogg"
 }
 
 "Taunt.Heavy01EquipmentGun2"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_gun2.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_gun2.ogg"
 }
 
 "Taunt.Heavy01EquipmentRustleHeavy"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle2.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle2.ogg"
 }
 
 "Taunt.Heavy02ShotgunSpin"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_shotgun_spin.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_shotgun_spin.ogg"
 }
 
 
@@ -1610,48 +1610,48 @@
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_hand_clap.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_hand_clap.ogg"
 }
 
 "Taunt.Heavy02EquipmentJingle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Taunt.Heavy03ClothesRustle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Heavy03ClothesSwipe"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_clothes_swipe.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_clothes_swipe.ogg"
 }
 
 "Taunt.Heavy03EquipmentJingle"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Taunt.Heavy03EquipmentJingleShort"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_equipment_jingle3short.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_equipment_jingle3short.ogg"
 }
 
 "Selection.HeavyFootStomp"
@@ -1659,7 +1659,7 @@
 	"channel"	"CHAN_ITEM"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_foot_stomp.wav"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Selection.HeavyEquipment1"
@@ -1667,7 +1667,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_gun2.wav"
+	"wave"	"player/taunt_equipment_gun2.ogg"
 }
 
 "Selection.HeavyEquipment2"
@@ -1675,7 +1675,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_gun1.wav"
+	"wave"	"player/taunt_equipment_gun1.ogg"
 }
 
 "Selection.HeavyClothesRustle"
@@ -1683,15 +1683,15 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.Pyro01FootStomp"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_foot_stomp.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.Pyro01Equipment1"
@@ -1699,7 +1699,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".20"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_gun2.wav"
+	"wave"		"player/taunt_equipment_gun2.ogg"
 }
 
 "Taunt.Pyro01Equipment2"
@@ -1707,31 +1707,31 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".35"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"player/taunt_equipment_gun1.wav"
+	"wave"		"player/taunt_equipment_gun1.ogg"
 }
 
 "Taunt.Pyro02Fire"
 {
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_fire.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_fire.ogg"
 }
 
 "Taunt.Pyro03RockStar"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_rockstar.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_rockstar.ogg"
 }
 
 "Taunt.Pyro03RockStarEnd"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_rockstar_end.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_rockstar_end.ogg"
 }
 
 "Selection.PyroClothesRustle"
@@ -1739,7 +1739,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Selection.PyroEquipment1"
@@ -1747,7 +1747,7 @@
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_jingle3.wav"
+	"wave"	"player/taunt_equipment_jingle3.ogg"
 }
 
 "Selection.PyroEquipment2"
@@ -1755,7 +1755,7 @@
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_equipment_jingle2.wav"
+	"wave"	"player/taunt_equipment_jingle2.ogg"
 }
 
 
@@ -1764,22 +1764,22 @@
 	"channel"	"CHAN_ITEM"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"	"player/taunt_foot_stomp.wav"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 "Taunt.PyroBalloonicorn"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_pyro_balloonicorn.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_pyro_balloonicorn.ogg"
 
 }
 "Taunt.PyroHellicorn"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".75"
-	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_pyro_hellicorn.wav"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	"player/taunt_pyro_hellicorn.ogg"
 }
 
 
@@ -1788,56 +1788,56 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_sit.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_sit.ogg"
 }
 
 "Taunt.Taunt.SpringRiderSqueak1"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_squeak1.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_squeak1.ogg"
 }
 
 "Taunt.Taunt.SpringRiderSqueak2"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_squeak2.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_squeak2.ogg"
 }
 
 "Taunt.Taunt.SpringRiderSqueak3"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_squeak3.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_squeak3.ogg"
 }
 
 "Taunt.Taunt.SpringRiderSqueak4"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_squeak4.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_squeak4.ogg"
 }
 
 "Taunt.Taunt.SpringRiderSqueak5"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_squeak5.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_squeak5.ogg"
 }
 
 "Taunt.Taunt.SpringRiderGetUp"
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
-	"soundlevel"  	"SNDLVL_85dB"		
-	"wave"	")player/taunt_springrider_getup.wav"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")player/taunt_springrider_getup.ogg"
 }
 
 //-----------------------------------------------------------------------------
@@ -1849,7 +1849,7 @@
 	"channel"	"CHAN_VOICE"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_86dBM"
-	"wave"		")ui/medic_alert.wav"
+	"wave"		")ui/medic_alert.ogg"
 }
 
 "Halloween.CrazyLaugh"
@@ -1860,9 +1860,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/crazy01.wav"
-		"wave"		"items/halloween/crazy02.wav"
-		"wave"		"items/halloween/crazy03.wav"
+		"wave"		"items/halloween/crazy01.ogg"
+		"wave"		"items/halloween/crazy02.ogg"
+		"wave"		"items/halloween/crazy03.ogg"
 	}
 }
 "Halloween.BlackCat"
@@ -1873,9 +1873,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/cat01.wav"
-		"wave"		"items/halloween/cat02.wav"
-		"wave"		"items/halloween/cat03.wav"
+		"wave"		"items/halloween/cat01.ogg"
+		"wave"		"items/halloween/cat02.ogg"
+		"wave"		"items/halloween/cat03.ogg"
 	}
 }
 "Halloween.Gremlin"
@@ -1886,9 +1886,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/gremlin01.wav"
-		"wave"		"items/halloween/gremlin02.wav"
-		"wave"		"items/halloween/gremlin03.wav"
+		"wave"		"items/halloween/gremlin01.ogg"
+		"wave"		"items/halloween/gremlin02.ogg"
+		"wave"		"items/halloween/gremlin03.ogg"
 	}
 }
 "Halloween.Werewolf"
@@ -1899,9 +1899,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/werewolf01.wav"
-		"wave"		"items/halloween/werewolf02.wav"
-		"wave"		"items/halloween/werewolf03.wav"
+		"wave"		"items/halloween/werewolf01.ogg"
+		"wave"		"items/halloween/werewolf02.ogg"
+		"wave"		"items/halloween/werewolf03.ogg"
 	}
 }
 "Halloween.Banshee"
@@ -1912,9 +1912,9 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/banshee01.wav"
-		"wave"		"items/halloween/banshee02.wav"
-		"wave"		"items/halloween/banshee03.wav"
+		"wave"		"items/halloween/banshee01.ogg"
+		"wave"		"items/halloween/banshee02.ogg"
+		"wave"		"items/halloween/banshee03.ogg"
 	}
 }
 "Halloween.SFX"
@@ -1925,9 +1925,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/spooky01.wav"
-		"wave"		"items/halloween/spooky02.wav"
-		"wave"		"items/halloween/spooky03.wav"
+		"wave"		"items/halloween/spooky01.ogg"
+		"wave"		"items/halloween/spooky02.ogg"
+		"wave"		"items/halloween/spooky03.ogg"
 	}
 }
 "Halloween.Stabby"
@@ -1936,7 +1936,7 @@
 	"volume"	"1"
 	"pitch"		"90, 110"
 	"soundlevel"	"SNDLVL_90dB"
-	"wave"		"items/halloween/stabby.wav"
+	"wave"		"items/halloween/stabby.ogg"
 }
 "Halloween.Witch"
 {
@@ -1946,9 +1946,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items/halloween/witch01.wav"
-		"wave"		"items/halloween/witch02.wav"
-		"wave"		"items/halloween/witch03.wav"
+		"wave"		"items/halloween/witch01.ogg"
+		"wave"		"items/halloween/witch02.ogg"
+		"wave"		"items/halloween/witch03.ogg"
 	}
 }
 
@@ -1958,7 +1958,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/halloween_boss_chosen_it.wav"
+	"wave"			"ui/halloween_boss_chosen_it.ogg"
 }
 
 "Player.TaggedOtherIT"
@@ -1967,7 +1967,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/halloween_boss_tagged_other_it.wav"
+	"wave"			"ui/halloween_boss_tagged_other_it.ogg"
 }
 
 "Player.IsNowIT"
@@ -1976,7 +1976,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/halloween_boss_player_becomes_it.wav"
+	"wave"			"ui/halloween_boss_player_becomes_it.ogg"
 }
 
 "Samurai.Exaltation"
@@ -1987,9 +1987,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		")items\samurai\TF_samurai_noisemaker_setA_01.wav"
-		"wave"		")items\samurai\TF_samurai_noisemaker_setA_02.wav"
-		"wave"		")items\samurai\TF_samurai_noisemaker_setA_03.wav"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setA_01.ogg"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setA_02.ogg"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setA_03.ogg"
 	}
 }
 
@@ -2000,9 +2000,9 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		")items\samurai\TF_samurai_noisemaker_setB_01.wav"
-		"wave"		")items\samurai\TF_samurai_noisemaker_setB_02.wav"
-		"wave"		")items\samurai\TF_samurai_noisemaker_setB_03.wav"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setB_01.ogg"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setB_02.ogg"
+		"wave"		")items\samurai\TF_samurai_noisemaker_setB_03.ogg"
 	}
 }
 
@@ -2011,7 +2011,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_140dB"
-	"wave"			")items\samurai\TF_conch.wav"
+	"wave"			")items\samurai\TF_conch.ogg"
 }
 
 "Fundraiser.Bell"
@@ -2021,11 +2021,11 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		")items\japan_fundraiser\TF_zen_bell_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_bell_02.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_bell_03.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_bell_04.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_bell_05.wav"
+		"wave"		")items\japan_fundraiser\TF_zen_bell_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_bell_02.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_bell_03.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_bell_04.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_bell_05.ogg"
 	}
 }
 
@@ -2036,12 +2036,12 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.wav"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_tingsha_01.ogg"
 	}
 }
 
@@ -2052,9 +2052,9 @@
 	"soundlevel"	"SNDLVL_130dB"
 	"rndwave"
 	{
-		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_01.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_02.wav"
-		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_03.wav"
+		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_01.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_02.ogg"
+		"wave"		")items\japan_fundraiser\TF_zen_prayer_bowl_03.ogg"
 	}
 }
 
@@ -2065,10 +2065,10 @@
 	"soundlevel"	"SNDLVL_100dB"
 	"rndwave"
 	{
-		"wave"		")items/summer/summer_fireworks1.wav"
-		"wave"		")items/summer/summer_fireworks2.wav"
-		"wave"		")items/summer/summer_fireworks3.wav"
-		"wave"		")items/summer/summer_fireworks4.wav"
+		"wave"		")items/summer/summer_fireworks1.ogg"
+		"wave"		")items/summer/summer_fireworks2.ogg"
+		"wave"		")items/summer/summer_fireworks3.ogg"
+		"wave"		")items/summer/summer_fireworks4.ogg"
 	}
 }
 
@@ -2077,7 +2077,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_100dB"
-	"wave"			")misc\high_five.wav"
+	"wave"			")misc\high_five.ogg"
 }
 
 "soccer.vuvezela"
@@ -2087,23 +2087,23 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		")items\football_manager\vuvezela_01.wav"
-		"wave"		")items\football_manager\vuvezela_02.wav"
-		"wave"		")items\football_manager\vuvezela_03.wav"
-		"wave"		")items\football_manager\vuvezela_04.wav"
-		"wave"		")items\football_manager\vuvezela_05.wav"
-		"wave"		")items\football_manager\vuvezela_06.wav"
-		"wave"		")items\football_manager\vuvezela_07.wav"
-		"wave"		")items\football_manager\vuvezela_08.wav"
-		"wave"		")items\football_manager\vuvezela_09.wav"
-		"wave"		")items\football_manager\vuvezela_10.wav"
-		"wave"		")items\football_manager\vuvezela_11.wav"
-		"wave"		")items\football_manager\vuvezela_12.wav"
-		"wave"		")items\football_manager\vuvezela_13.wav"
-		"wave"		")items\football_manager\vuvezela_14.wav"
-		"wave"		")items\football_manager\vuvezela_15.wav"
-		"wave"		")items\football_manager\vuvezela_16.wav"
-		"wave"		")items\football_manager\vuvezela_17.wav"
+		"wave"		")items\football_manager\vuvezela_01.ogg"
+		"wave"		")items\football_manager\vuvezela_02.ogg"
+		"wave"		")items\football_manager\vuvezela_03.ogg"
+		"wave"		")items\football_manager\vuvezela_04.ogg"
+		"wave"		")items\football_manager\vuvezela_05.ogg"
+		"wave"		")items\football_manager\vuvezela_06.ogg"
+		"wave"		")items\football_manager\vuvezela_07.ogg"
+		"wave"		")items\football_manager\vuvezela_08.ogg"
+		"wave"		")items\football_manager\vuvezela_09.ogg"
+		"wave"		")items\football_manager\vuvezela_10.ogg"
+		"wave"		")items\football_manager\vuvezela_11.ogg"
+		"wave"		")items\football_manager\vuvezela_12.ogg"
+		"wave"		")items\football_manager\vuvezela_13.ogg"
+		"wave"		")items\football_manager\vuvezela_14.ogg"
+		"wave"		")items\football_manager\vuvezela_15.ogg"
+		"wave"		")items\football_manager\vuvezela_16.ogg"
+		"wave"		")items\football_manager\vuvezela_17.ogg"
 	}
 }
 
@@ -2112,7 +2112,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		")misc\wolf_howl_01.wav"
+	"wave"		")misc\wolf_howl_01.ogg"
 }
 
 "halloween.wolf_02"
@@ -2120,7 +2120,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		")misc\wolf_howl_02.wav"
+	"wave"		")misc\wolf_howl_02.ogg"
 }
 
 "halloween.wolf_03"
@@ -2128,7 +2128,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		")misc\wolf_howl_03.wav"
+	"wave"		")misc\wolf_howl_03.ogg"
 }
 
 "xmas.jingle"
@@ -2138,16 +2138,16 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_01.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_02.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_03.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_04.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_05.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_06.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_07.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_08.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_09.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_10.wav"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_01.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_02.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_03.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_04.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_05.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_06.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_07.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_08.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_09.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_10.ogg"
 	}
 }
 
@@ -2159,16 +2159,16 @@
 	"pitch"	"115"
 	"rndwave"
 	{
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_11.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_12.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_13.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_14.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_15.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_16.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_17.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_18.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_19.wav"
-		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_20.wav"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_11.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_12.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_13.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_14.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_15.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_16.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_17.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_18.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_19.ogg"
+		"wave"		")player\sleigh_bells\tf_xmas_sleigh_bells_20.ogg"
 	}
 }
 
@@ -2177,7 +2177,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		"items\pyro_guitar_solo_no_verb.wav"
+	"wave"		"items\pyro_guitar_solo_no_verb.ogg"
 }
 
 "pyro.guitar_shred_02"
@@ -2185,7 +2185,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		")items\pyro_guitar_solo_with_verb.wav"
+	"wave"		")items\pyro_guitar_solo_with_verb.ogg"
 }
 
 "xmas.jingle_noisemaker"
@@ -2196,11 +2196,11 @@
 	"pitch"		"100,105"
 	"rndwave"
 	{
-		"wave"		"misc\jingle_bells\jingle_bells_nm_01.wav"
-		"wave"		"misc\jingle_bells\jingle_bells_nm_02.wav"
-		"wave"		"misc\jingle_bells\jingle_bells_nm_03.wav"
-		"wave"		"misc\jingle_bells\jingle_bells_nm_04.wav"
-		"wave"		"misc\jingle_bells\jingle_bells_nm_05.wav"
+		"wave"		"misc\jingle_bells\jingle_bells_nm_01.ogg"
+		"wave"		"misc\jingle_bells\jingle_bells_nm_02.ogg"
+		"wave"		"misc\jingle_bells\jingle_bells_nm_03.ogg"
+		"wave"		"misc\jingle_bells\jingle_bells_nm_04.ogg"
+		"wave"		"misc\jingle_bells\jingle_bells_nm_05.ogg"
 	}
 }
 
@@ -2211,10 +2211,10 @@
 	"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
-		"wave"		"items\scout_boombox_02.wav"
-		"wave"		"items\scout_boombox_03.wav"
-		"wave"		"items\scout_boombox_04.wav"
-		"wave"		"items\scout_boombox_05.wav"
+		"wave"		"items\scout_boombox_02.ogg"
+		"wave"		"items\scout_boombox_03.ogg"
+		"wave"		"items\scout_boombox_04.ogg"
+		"wave"		"items\scout_boombox_05.ogg"
 	}
 }
 
@@ -2223,7 +2223,7 @@
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_85dB"
 	"volume"		"0.8"
-	"wave"			"misc/grenade_jump_lp_01.wav"
+	"wave"			"misc/grenade_jump_lp_01.ogg"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2649,7 +2649,7 @@
 }
 
 // ------------------------------------------------------------------------------------ //
-// 
+//
 // ------------------------------------------------------------------------------------ //
 
 "pyro.music_backpack"
@@ -2657,7 +2657,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_85dB"
-	"wave"		")items/pyro_music_tube.wav"
+	"wave"		")items/pyro_music_tube.ogg"
 }
 
 "Taunt.PyroAnnihilator"
@@ -2665,7 +2665,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".35"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"	"player/sign_bass_solo.wav"
+	"wave"	"player/sign_bass_solo.ogg"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2677,7 +2677,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_bomb_attach.wav"
+	"wave"			"misc/halloween/hwn_bomb_attach.ogg"
 }
 
 "Player.bomb_fuse"
@@ -2685,7 +2685,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.5"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_bomb_fuse.wav"
+	"wave"			"misc/halloween/hwn_bomb_fuse.ogg"
 }
 
 "Player.bomb_flash"
@@ -2693,7 +2693,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.2"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_bomb_flash.wav"
+	"wave"			"misc/halloween/hwn_bomb_flash.ogg"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2705,7 +2705,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"pitch"			"PITCH_NORM"
-	"wave"			"player/taunt_sfx_flip_01.wav"
+	"wave"			"player/taunt_sfx_flip_01.ogg"
 }
 
 "taunt.single_bell"
@@ -2713,7 +2713,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"pitch"			"PITCH_NORM"
-	"wave"			"player/taunt_sfx_bell_single.wav"
+	"wave"			"player/taunt_sfx_bell_single.ogg"
 }
 
 "taunt.dbl_bell"
@@ -2721,7 +2721,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"pitch"			"PITCH_NORM"
-	"wave"			"player/taunt_bell.wav"
+	"wave"			"player/taunt_bell.ogg"
 }
 
 "taunt.hawk"
@@ -2729,7 +2729,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"pitch"			"PITCH_NORM"
-	"wave"			"player/sniper_taunt_hawk.wav"
+	"wave"			"player/sniper_taunt_hawk.ogg"
 }
 
 "taunt.broomfly"
@@ -2740,7 +2740,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"player/taunt_broom_fly.wav"
+	"wave"			"player/taunt_broom_fly.ogg"
 }
 
 "taunt.broomflyfade"
@@ -2751,7 +2751,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"player/taunt_broom_fly_fade.wav"
+	"wave"			"player/taunt_broom_fly_fade.ogg"
 }
 
 "taunt.disco"
@@ -2762,7 +2762,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"player/taunt_disco.wav"
+	"wave"			"player/taunt_disco.ogg"
 }
 
 "Taunt.BumperCarSpawn"
@@ -2770,7 +2770,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".5"
-	"wave"		")player/taunt_bumper_car_spawn.wav"
+	"wave"		")player/taunt_bumper_car_spawn.ogg"
 }
 
 "Taunt.BumperCarGoLoop"
@@ -2778,7 +2778,7 @@
 	"channel"	"CHAN_BODY"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".5"
-	"wave"		")player/taunt_bumper_car_go_loop.wav"
+	"wave"		")player/taunt_bumper_car_go_loop.ogg"
 }
 
 "Taunt.BumperCarHorn"
@@ -2786,7 +2786,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".5"
-	"wave"		")player/taunt_bumper_car_horn.wav"
+	"wave"		")player/taunt_bumper_car_horn.ogg"
 }
 
 "Taunt.BumperCarQuit"
@@ -2794,7 +2794,7 @@
 	"channel"	"CHAN_BODY"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".5"
-	"wave"		")player/taunt_bumper_car_quit.wav"
+	"wave"		")player/taunt_bumper_car_quit.ogg"
 }
 
 "Taunt.secondrate_sorcery_spell_fail"
@@ -2805,7 +2805,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_sorcery_fail.wav"
+	"wave"			")player/taunt_sorcery_fail.ogg"
 }
 
 "Taunt.secondrate_sorcery_spell_staff_drop"
@@ -2816,7 +2816,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_sorcery_staff_drop.wav"
+	"wave"			")player/taunt_sorcery_staff_drop.ogg"
 }
 
 "Taunt.secondrate_sorcery_spell_fail_staff_break"
@@ -2827,7 +2827,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_sorcery_staff_break.wav"
+	"wave"			")player/taunt_sorcery_staff_break.ogg"
 }
 
 "Taunt.Party_Trick"
@@ -2838,7 +2838,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_party_trick.wav"
+	"wave"			")player/taunt_party_trick.ogg"
 }
 
 "Taunt.Party_Trick_Pyro_Vision"
@@ -2849,7 +2849,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_party_trick_pyro_vision.wav"
+	"wave"			")player/taunt_party_trick_pyro_vision.ogg"
 }
 
 "Player.FallDamageIndicator"
@@ -2859,8 +2859,8 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
-	
-	"wave"			")player/fall_damage_indicator.wav"
+
+	"wave"			")player/fall_damage_indicator.ogg"
 }
 
 "Player.FallDamageDealt"
@@ -2871,7 +2871,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/fall_damage_dealt.wav"
+	"wave"			")player/fall_damage_dealt.ogg"
 }
 
 "Taunt.TableFlipBubblyPotWater"
@@ -2882,7 +2882,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_table_flip_bubbly_pot_water.wav"
+	"wave"			")player/taunt_table_flip_bubbly_pot_water.ogg"
 }
 
 "Taunt.TableFlipNotification"
@@ -2893,7 +2893,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_table_flip_notification.wav"
+	"wave"			")player/taunt_table_flip_notification.ogg"
 }
 
 "Taunt.TableFlipFlippingTable"
@@ -2904,7 +2904,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_table_flip_flipping_table.wav"
+	"wave"			")player/taunt_table_flip_flipping_table.ogg"
 }
 
 "Taunt.DidgeridooStart"
@@ -2915,7 +2915,7 @@
 
 	"soundlevel"	"SNDLVL_68dB"
 
-	"wave"			")player/taunt_didgeridoo_start.wav"
+	"wave"			")player/taunt_didgeridoo_start.ogg"
 }
 
 "Taunt.DidgeridooStop"
@@ -2926,7 +2926,7 @@
 
 	"soundlevel"	"SNDLVL_68dB"
 
-	"wave"			")player/taunt_didgeridoo_stop.wav"
+	"wave"			")player/taunt_didgeridoo_stop.ogg"
 }
 
 "Taunt.DidgeridooSitDown"
@@ -2937,7 +2937,7 @@
 
 	"soundlevel"	"SNDLVL_68dB"
 
-	"wave"			")player/taunt_didgeridoo_sit_down.wav"
+	"wave"			")player/taunt_didgeridoo_sit_down.ogg"
 }
 
 "Taunt.DidgeridooStandUp"
@@ -2948,7 +2948,7 @@
 
 	"soundlevel"	"SNDLVL_68dB"
 
-	"wave"			")player/taunt_didgeridoo_stand_up.wav"
+	"wave"			")player/taunt_didgeridoo_stand_up.ogg"
 }
 
 "Taunt.DemoStaggerSlosh1"
@@ -2959,7 +2959,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_demo_stagger_slosh1.wav"
+	"wave"			")player/taunt_demo_stagger_slosh1.ogg"
 }
 
 "Taunt.DemoStaggerSlosh2"
@@ -2970,7 +2970,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_demo_stagger_slosh2.wav"
+	"wave"			")player/taunt_demo_stagger_slosh2.ogg"
 }
 
 "Taunt.DemoStaggerSlosh3"
@@ -2981,7 +2981,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_demo_stagger_slosh3.wav"
+	"wave"			")player/taunt_demo_stagger_slosh3.ogg"
 }
 
 "Taunt.DemoStaggerSlosh4"
@@ -2992,7 +2992,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_demo_stagger_slosh4.wav"
+	"wave"			")player/taunt_demo_stagger_slosh4.ogg"
 }
 
 "Taunt.GasBlast"
@@ -3003,7 +3003,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_gas_blast.wav"
+	"wave"			")player/taunt_gas_blast.ogg"
 }
 
 "Taunt.GasBlastPyrovision"
@@ -3014,7 +3014,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_gas_blast_pyrovision.wav"
+	"wave"			")player/taunt_gas_blast_pyrovision.ogg"
 }
 
 "Taunt.TankForward"
@@ -3025,7 +3025,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_forward.wav"
+	"wave"			")player/taunt_tank_forward.ogg"
 }
 
 "Taunt.TankIdle"
@@ -3036,7 +3036,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_idle.wav"
+	"wave"			")player/taunt_tank_idle.ogg"
 }
 
 "Taunt.TankReverse"
@@ -3047,7 +3047,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_reverse.wav"
+	"wave"			")player/taunt_tank_reverse.ogg"
 }
 
 "Taunt.TankShoot"
@@ -3058,7 +3058,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_shoot.wav"
+	"wave"			")player/taunt_tank_shoot.ogg"
 }
 
 "Taunt.TankEnd"
@@ -3069,7 +3069,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_end.wav"
+	"wave"			")player/taunt_tank_end.ogg"
 }
 
 "Taunt.TankEndEngineStop"
@@ -3080,7 +3080,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_tank_end_engine_stop.wav"
+	"wave"			")player/taunt_tank_end_engine_stop.ogg"
 }
 
 "Taunt.TankStartClothesRustle"
@@ -3089,8 +3089,8 @@
 	"volume"		"0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_tank_start_clothes_rustle.wav"
+
+	"wave"		"player/taunt_tank_start_clothes_rustle.ogg"
 }
 
 "Taunt.TankHeelClick"
@@ -3099,8 +3099,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_tank_heel_click.wav"
+
+	"wave"		"player/taunt_tank_heel_click.ogg"
 }
 
 "Taunt.TankDrop"
@@ -3109,8 +3109,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_tank_drop.wav"
+
+	"wave"		"player/taunt_tank_drop.ogg"
 }
 
 "Taunt.TankAppear"
@@ -3119,8 +3119,8 @@
 	"volume"		".5"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_tank_appear.wav"
+
+	"wave"		")player/taunt_tank_appear.ogg"
 }
 
 "Taunt.RunnersRhythmBongoSlide"
@@ -3129,8 +3129,8 @@
 	"volume"		".5"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_runners_rhythm_bongo_slide.wav"
+
+	"wave"		")player/taunt_runners_rhythm_bongo_slide.ogg"
 }
 
 "Taunt.SkatingScorcherStride"
@@ -3139,21 +3139,21 @@
 	"volume"		".25"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 		"rndwave"
 		{
-			"wave"	")player/taunt_skating_scorcher_stride1.wav"
-			"wave"	")player/taunt_skating_scorcher_stride2.wav"
-			"wave"	")player/taunt_skating_scorcher_stride3.wav"
-			"wave"	")player/taunt_skating_scorcher_stride4.wav"
-			"wave"	")player/taunt_skating_scorcher_stride5.wav"
-			"wave"	")player/taunt_skating_scorcher_stride6.wav"
-			"wave"	")player/taunt_skating_scorcher_stride7.wav"
-			"wave"	")player/taunt_skating_scorcher_stride8.wav"
-			"wave"	")player/taunt_skating_scorcher_stride9.wav"
+			"wave"	")player/taunt_skating_scorcher_stride1.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride2.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride3.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride4.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride5.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride6.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride7.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride8.ogg"
+			"wave"	")player/taunt_skating_scorcher_stride9.ogg"
 		}
 }
-	
+
 "Taunt.SkatingScorcherLand"
 {
 	"channel"		"CHAN_STATIC"
@@ -3161,7 +3161,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"	")player/taunt_skating_scorcher_land.wav"
+	"wave"	")player/taunt_skating_scorcher_land.ogg"
 
 }
 
@@ -3171,16 +3171,16 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 		"rndwave"
 		{
-			"wave"	")player/taunt_bunnyhopper_hop1.wav"
-			"wave"	")player/taunt_bunnyhopper_hop2.wav"
-			"wave"	")player/taunt_bunnyhopper_hop3.wav"
-			"wave"	")player/taunt_bunnyhopper_hop4.wav"
-			"wave"	")player/taunt_bunnyhopper_hop5.wav"
-			"wave"	")player/taunt_bunnyhopper_hop6.wav"
-			"wave"	")player/taunt_bunnyhopper_hop7.wav"
+			"wave"	")player/taunt_bunnyhopper_hop1.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop2.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop3.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop4.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop5.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop6.ogg"
+			"wave"	")player/taunt_bunnyhopper_hop7.ogg"
 		}
 }
 
@@ -3191,7 +3191,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"	")player/taunt_bunnyhopper_catch.wav"
+	"wave"	")player/taunt_bunnyhopper_catch.ogg"
 
 }
 
@@ -3201,8 +3201,8 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_74dB"
 	"pitch"			"100,110"
-	
-	"wave"	"player/taunt_bunnyhopper_step.wav"
+
+	"wave"	"player/taunt_bunnyhopper_step.ogg"
 
 }
 
@@ -3211,8 +3211,8 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_74dB"
-	
-	"wave"	")player/taunt_bunnyhopper_discard.wav"
+
+	"wave"	")player/taunt_bunnyhopper_discard.ogg"
 }
 
 "Taunt.MopedStartHandleGrab"
@@ -3221,8 +3221,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_moped_start_handle_grab.wav"
+
+	"wave"		")player/taunt_moped_start_handle_grab.ogg"
 }
 
 "Taunt.MopedStartShake"
@@ -3231,8 +3231,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_moped_start_shake.wav"
+
+	"wave"		")player/taunt_moped_start_shake.ogg"
 }
 
 "Taunt.MopedStartLand"
@@ -3241,8 +3241,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_moped_start_land.wav"
+
+	"wave"		")player/taunt_moped_start_land.ogg"
 }
 
 "Taunt.MopedStartSwoosh1"
@@ -3251,8 +3251,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_moped_start_swoosh1.wav"
+
+	"wave"		")player/taunt_moped_start_swoosh1.ogg"
 }
 
 "Taunt.MopedStartSwoosh2"
@@ -3261,8 +3261,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_moped_start_swoosh2.wav"
+
+	"wave"		")player/taunt_moped_start_swoosh2.ogg"
 }
 
 "Taunt.MopedForward"
@@ -3273,7 +3273,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_forward.wav"
+	"wave"			")player/taunt_moped_forward.ogg"
 }
 
 "Taunt.MopedEndEngineOff"
@@ -3284,7 +3284,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_end_engine_off.wav"
+	"wave"			")player/taunt_moped_end_engine_off.ogg"
 }
 
 "Taunt.MopedEndScoutFoot1"
@@ -3295,7 +3295,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_end_scout_foot1.wav"
+	"wave"			")player/taunt_moped_end_scout_foot1.ogg"
 }
 
 "Taunt.MopedEndScoutFoot2"
@@ -3306,7 +3306,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_end_scout_foot2.wav"
+	"wave"			")player/taunt_moped_end_scout_foot2.ogg"
 }
 
 "Taunt.MopedEndShake"
@@ -3317,7 +3317,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_end_shake.wav"
+	"wave"			")player/taunt_moped_end_shake.ogg"
 }
 
 "Taunt.MopedWheelieEngineRev"
@@ -3328,7 +3328,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_wheelie_engine_rev.wav"
+	"wave"			")player/taunt_moped_wheelie_engine_rev.ogg"
 }
 
 "Taunt.MopedWheelieLand1"
@@ -3339,7 +3339,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_wheelie_land1.wav"
+	"wave"			")player/taunt_moped_wheelie_land1.ogg"
 }
 
 "Taunt.MopedWheelieLand2"
@@ -3350,7 +3350,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_moped_wheelie_land2.wav"
+	"wave"			")player/taunt_moped_wheelie_land2.ogg"
 }
 
 
@@ -3362,7 +3362,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_chair_appear.wav"
+	"wave"			")player/taunt_luxury_lounge_chair_appear.ogg"
 }
 
 "Taunt.LuxuryLoungeChairLand"
@@ -3373,7 +3373,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_chair_land.wav"
+	"wave"			")player/taunt_luxury_lounge_chair_land.ogg"
 }
 
 "Taunt.LuxuryLoungeChairCreak"
@@ -3384,7 +3384,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_chair_creak.wav"
+	"wave"			")player/taunt_luxury_lounge_chair_creak.ogg"
 }
 
 "Taunt.LuxuryLoungeSit"
@@ -3395,7 +3395,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_sit.wav"
+	"wave"			")player/taunt_luxury_lounge_sit.ogg"
 }
 
 "Taunt.LuxuryLoungeGetUp"
@@ -3406,7 +3406,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_get_up.wav"
+	"wave"			")player/taunt_luxury_lounge_get_up.ogg"
 }
 
 "Taunt.LuxuryLoungeBookOpen"
@@ -3417,7 +3417,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_book_open.wav"
+	"wave"			")player/taunt_luxury_lounge_book_open.ogg"
 }
 
 "Taunt.LuxuryLoungeBookClose"
@@ -3428,7 +3428,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_book_close.wav"
+	"wave"			")player/taunt_luxury_lounge_book_close.ogg"
 }
 
 "Taunt.LuxuryLoungeBookPageTurn"
@@ -3439,7 +3439,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_book_page_turn.wav"
+	"wave"			")player/taunt_luxury_lounge_book_page_turn.ogg"
 }
 
 "Taunt.LuxuryLoungeSip"
@@ -3450,7 +3450,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_luxury_lounge_sip.wav"
+	"wave"			")player/taunt_luxury_lounge_sip.ogg"
 }
 
 "Taunt.SurgeonsSqueezeboxMusic"
@@ -3461,7 +3461,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_surgeons_squeezebox_music.wav"
+	"wave"			")player/taunt_surgeons_squeezebox_music.ogg"
 }
 
 "Taunt.SurgeonsSqueezeboxDrawClothes"
@@ -3472,7 +3472,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			"player/taunt_surgeons_squeezebox_draw_clothes.wav"
+	"wave"			"player/taunt_surgeons_squeezebox_draw_clothes.ogg"
 }
 
 "Taunt.SurgeonsSqueezeboxDrawAccordion"
@@ -3483,7 +3483,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			"player/taunt_surgeons_squeezebox_draw_accordion.wav"
+	"wave"			"player/taunt_surgeons_squeezebox_draw_accordion.ogg"
 }
 
 "Taunt.SurgeonsSqueezeboxStep"
@@ -3496,8 +3496,8 @@
 
 	"rndwave"
 	{
-		"wave"	")player/taunt_surgeons_squeezebox_step1.wav"
-		"wave"	")player/taunt_surgeons_squeezebox_step2.wav"
+		"wave"	")player/taunt_surgeons_squeezebox_step1.ogg"
+		"wave"	")player/taunt_surgeons_squeezebox_step2.ogg"
 	}
 }
 
@@ -3509,7 +3509,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_soviet_strongarm_roll.wav"
+	"wave"			")player/taunt_soviet_strongarm_roll.ogg"
 }
 
 "Taunt.SovietStrongArmCatch"
@@ -3520,7 +3520,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_soviet_strongarm_roll_catch.wav"
+	"wave"			")player/taunt_soviet_strongarm_roll_catch.ogg"
 }
 
 "Taunt.SovietStrongArmRep"
@@ -3533,10 +3533,10 @@
 
 	"rndwave"
 	{
-		"wave"	")player/taunt_soviet_strongarm_rep1.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep2.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep3.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep4.wav"
+		"wave"	")player/taunt_soviet_strongarm_rep1.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep2.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep3.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep4.ogg"
 	}
 }
 
@@ -3546,13 +3546,13 @@
 	"volume"		".5"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 	"rndwave"
 	{
-		"wave"	")player/taunt_soviet_strongarm_rep_light1.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep_light2.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep_light3.wav"
-		"wave"	")player/taunt_soviet_strongarm_rep_light4.wav"
+		"wave"	")player/taunt_soviet_strongarm_rep_light1.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep_light2.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep_light3.ogg"
+		"wave"	")player/taunt_soviet_strongarm_rep_light4.ogg"
 	}
 }
 
@@ -3563,7 +3563,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"	"player/taunt_soviet_strongarm_rep_stretch.wav"
+	"wave"	"player/taunt_soviet_strongarm_rep_stretch.ogg"
 }
 
 "Taunt.SovietStrongArmRepStretchDone"
@@ -3573,7 +3573,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"	")player/taunt_soviet_strongarm_rep_stretch_done.wav"
+	"wave"	")player/taunt_soviet_strongarm_rep_stretch_done.ogg"
 }
 
 "Taunt.SovietStrongArmDrop1"
@@ -3584,7 +3584,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_soviet_strongarm_drop1.wav"
+	"wave"			")player/taunt_soviet_strongarm_drop1.ogg"
 }
 
 "Taunt.SovietStrongArmDrop2"
@@ -3595,7 +3595,7 @@
 
 	"soundlevel"	"SNDLVL_74dB"
 
-	"wave"			")player/taunt_soviet_strongarm_drop2.wav"
+	"wave"			")player/taunt_soviet_strongarm_drop2.ogg"
 }
 
 "Taunt.MediumClap"
@@ -3604,13 +3604,13 @@
 	"volume"		"1"
 	"pitch"			"95,105"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 	"rndwave"
 		{
-			"wave"	")player/taunt_medium_clap1.wav"
-			"wave"	")player/taunt_medium_clap2.wav"
-			"wave"	")player/taunt_medium_clap3.wav"
-			"wave"	")player/taunt_medium_clap4.wav"
+			"wave"	")player/taunt_medium_clap1.ogg"
+			"wave"	")player/taunt_medium_clap2.ogg"
+			"wave"	")player/taunt_medium_clap3.ogg"
+			"wave"	")player/taunt_medium_clap4.ogg"
 		}
 }
 
@@ -3620,8 +3620,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_pyro_twirl.wav"
+
+	"wave"		")player/taunt_pyro_twirl.ogg"
 }
 
 "Taunt.YetiAppearSnow"
@@ -3630,8 +3630,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_94dB"
-	
-	"wave"		")player/taunt_yeti_appear_snow.wav"
+
+	"wave"		")player/taunt_yeti_appear_snow.ogg"
 }
 
 "Taunt.YetiLand"
@@ -3640,8 +3640,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
-	
-	"wave"		")player/taunt_yeti_land.wav"
+
+	"wave"		")player/taunt_yeti_land.ogg"
 }
 
 "Taunt.YetiRoarBeginning"
@@ -3650,8 +3650,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
-	
-	"wave"		")player/taunt_yeti_roar_beginning.wav"
+
+	"wave"		")player/taunt_yeti_roar_beginning.ogg"
 }
 
 "Taunt.YetiRoarFirst"
@@ -3660,8 +3660,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
-	
-	"wave"		")player/taunt_yeti_roar_first.wav"
+
+	"wave"		")player/taunt_yeti_roar_first.ogg"
 }
 
 "Taunt.YetiRoarSecond"
@@ -3670,8 +3670,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
-	
-	"wave"		")player/taunt_yeti_roar_second.wav"
+
+	"wave"		")player/taunt_yeti_roar_second.ogg"
 }
 
 "Taunt.YetiChestHit"
@@ -3680,18 +3680,18 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 	"rndwave"
 		{
-			"wave"	")player/taunt_yeti_chest_hit1.wav"
-			"wave"	")player/taunt_yeti_chest_hit2.wav"
-			"wave"	")player/taunt_yeti_chest_hit3.wav"
-			"wave"	")player/taunt_yeti_chest_hit4.wav"
-			"wave"	")player/taunt_yeti_chest_hit5.wav"
-			"wave"	")player/taunt_yeti_chest_hit6.wav"
-			"wave"	")player/taunt_yeti_chest_hit7.wav"
-			"wave"	")player/taunt_yeti_chest_hit8.wav"
-			"wave"	")player/taunt_yeti_chest_hit9.wav"
+			"wave"	")player/taunt_yeti_chest_hit1.ogg"
+			"wave"	")player/taunt_yeti_chest_hit2.ogg"
+			"wave"	")player/taunt_yeti_chest_hit3.ogg"
+			"wave"	")player/taunt_yeti_chest_hit4.ogg"
+			"wave"	")player/taunt_yeti_chest_hit5.ogg"
+			"wave"	")player/taunt_yeti_chest_hit6.ogg"
+			"wave"	")player/taunt_yeti_chest_hit7.ogg"
+			"wave"	")player/taunt_yeti_chest_hit8.ogg"
+			"wave"	")player/taunt_yeti_chest_hit9.ogg"
 		}
 }
 
@@ -3701,8 +3701,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
-	
-	"wave"		")player/taunt_yeti_ground_pound.wav"
+
+	"wave"		")player/taunt_yeti_ground_pound.ogg"
 }
 
 "Taunt.YetiStandeeSniperHands1"
@@ -3711,8 +3711,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_sniper_hands1.wav"
+
+	"wave"		")player/taunt_yeti_standee_sniper_hands1.ogg"
 }
 
 "Taunt.YetiStandeeSniperHands2"
@@ -3721,8 +3721,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_sniper_hands2.wav"
+
+	"wave"		")player/taunt_yeti_standee_sniper_hands2.ogg"
 }
 
 "Taunt.YetiStandeeSniperHands3"
@@ -3731,8 +3731,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_sniper_hands3.wav"
+
+	"wave"		")player/taunt_yeti_standee_sniper_hands3.ogg"
 }
 
 "Taunt.YetiStandeeSniperHands4"
@@ -3741,8 +3741,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_sniper_hands4.wav"
+
+	"wave"		")player/taunt_yeti_standee_sniper_hands4.ogg"
 }
 
 "Taunt.YetiStandeeSniperHands"
@@ -3751,13 +3751,13 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 		"rndwave"
 		{
-						"wave"		")player/taunt_yeti_standee_sniper_hands1.wav"
-						"wave"		")player/taunt_yeti_standee_sniper_hands2.wav"
-						"wave"		")player/taunt_yeti_standee_sniper_hands3.wav"
-						"wave"		")player/taunt_yeti_standee_sniper_hands4.wav"
+						"wave"		")player/taunt_yeti_standee_sniper_hands1.ogg"
+						"wave"		")player/taunt_yeti_standee_sniper_hands2.ogg"
+						"wave"		")player/taunt_yeti_standee_sniper_hands3.ogg"
+						"wave"		")player/taunt_yeti_standee_sniper_hands4.ogg"
 		}
 }
 
@@ -3767,8 +3767,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_break.wav"
+
+	"wave"		")player/taunt_yeti_standee_break.ogg"
 }
 
 "Taunt.YetiStandeeSpeakerGrowl"
@@ -3777,8 +3777,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_speaker_growl.wav"
+
+	"wave"		")player/taunt_yeti_standee_speaker_growl.ogg"
 }
 
 "Taunt.YetiStandeeSpeakerGrowlBroken"
@@ -3787,8 +3787,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_speaker_growl_broken.wav"
+
+	"wave"		")player/taunt_yeti_standee_speaker_growl_broken.ogg"
 }
 
 "Taunt.YetiStandeeSwoosh"
@@ -3797,8 +3797,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_swoosh.wav"
+
+	"wave"		")player/taunt_yeti_standee_swoosh.ogg"
 }
 
 "Taunt.YetiStandeeLand"
@@ -3807,8 +3807,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_land.wav"
+
+	"wave"		")player/taunt_yeti_standee_land.ogg"
 }
 
 "Taunt.YetiStandeeLand2"
@@ -3817,8 +3817,8 @@
 	"volume"		".75"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_land2.wav"
+
+	"wave"		")player/taunt_yeti_standee_land2.ogg"
 }
 
 "Taunt.YetiStandeeScoutStep"
@@ -3827,7 +3827,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"100,110"
-	"wave"	"player/taunt_foot_stomp.wav"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.YetiStandeeScoutEquipmentJingle"
@@ -3836,13 +3836,13 @@
 	"volume"		".5"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 		"rndwave"
 		{
-						"wave"		"player/taunt_yeti_standee_equipment_jingle.wav"
-						"wave"		"player/taunt_yeti_standee_equipment_jingle2.wav"
-						"wave"		"player/taunt_yeti_standee_equipment_jingle3.wav"
-						"wave"		"player/taunt_yeti_standee_equipment_jingle4.wav"
+						"wave"		"player/taunt_yeti_standee_equipment_jingle.ogg"
+						"wave"		"player/taunt_yeti_standee_equipment_jingle2.ogg"
+						"wave"		"player/taunt_yeti_standee_equipment_jingle3.ogg"
+						"wave"		"player/taunt_yeti_standee_equipment_jingle4.ogg"
 		}
 }
 
@@ -3852,7 +3852,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_74dB"
 	"pitch"		"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_scout_swing.wav"
+	"wave"	")player/taunt_yeti_standee_scout_swing.ogg"
 }
 
 "Taunt.YetiStandeeScoutHit"
@@ -3860,7 +3860,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_74dB"
-	"wave"	")player/taunt_yeti_standee_scout_hit.wav"
+	"wave"	")player/taunt_yeti_standee_scout_hit.ogg"
 }
 
 "Taunt.YetiStandeeDemoStep"
@@ -3869,13 +3869,13 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	
+
 	"rndwave"
 	{
-					"wave"	"player/taunt_yeti_standee_demo_step1.wav"
-					"wave"	"player/taunt_yeti_standee_demo_step2.wav"
-					"wave"	"player/taunt_yeti_standee_demo_step3.wav"
-					"wave"	"player/taunt_yeti_standee_demo_step4.wav"
+					"wave"	"player/taunt_yeti_standee_demo_step1.ogg"
+					"wave"	"player/taunt_yeti_standee_demo_step2.ogg"
+					"wave"	"player/taunt_yeti_standee_demo_step3.ogg"
+					"wave"	"player/taunt_yeti_standee_demo_step4.ogg"
 	}
 }
 
@@ -3885,7 +3885,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_74dB"
 	"pitch"		"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_demo_swing.wav"
+	"wave"	")player/taunt_yeti_standee_demo_swing.ogg"
 }
 
 
@@ -3895,8 +3895,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_yeti_standee_demo_equipment_jingle.wav"
+
+	"wave"		"player/taunt_yeti_standee_demo_equipment_jingle.ogg"
 }
 
 "Taunt.YetiStandeeDemoClothesRustle"
@@ -3905,8 +3905,8 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_yeti_standee_demo_clothes_rustle.wav"
+
+	"wave"		"player/taunt_yeti_standee_demo_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeHeavyClap"
@@ -3915,8 +3915,8 @@
 	"volume"		".8"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		"player/taunt_yeti_standee_heavy_clap.wav"
+
+	"wave"		"player/taunt_yeti_standee_heavy_clap.ogg"
 }
 
 "Taunt.YetiStandeeLandHeavy"
@@ -3925,8 +3925,8 @@
 	"volume"		".65"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_land.wav"
+
+	"wave"		")player/taunt_yeti_standee_land.ogg"
 }
 
 "Taunt.YetiStandeeHeavyStep"
@@ -3935,13 +3935,13 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"90,100"
-	
+
 	"rndwave"
 	{
-					"wave"	"player/taunt_yeti_standee_heavy_step1.wav"
-					"wave"	"player/taunt_yeti_standee_heavy_step2.wav"
-					"wave"	"player/taunt_yeti_standee_heavy_step3.wav"
-					"wave"	"player/taunt_yeti_standee_heavy_step4.wav"
+					"wave"	"player/taunt_yeti_standee_heavy_step1.ogg"
+					"wave"	"player/taunt_yeti_standee_heavy_step2.ogg"
+					"wave"	"player/taunt_yeti_standee_heavy_step3.ogg"
+					"wave"	"player/taunt_yeti_standee_heavy_step4.ogg"
 	}
 }
 
@@ -3951,8 +3951,8 @@
 	"volume"		".3"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_heavy_equipment.wav"
+
+	"wave"		")player/taunt_yeti_standee_heavy_equipment.ogg"
 }
 
 "Taunt.YetiStandeeHeavyEquipmentLight1"
@@ -3961,8 +3961,8 @@
 	"volume"		".65"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_heavy_equipment_light1.wav"
+
+	"wave"		")player/taunt_yeti_standee_heavy_equipment_light1.ogg"
 }
 
 "Taunt.YetiStandeeHeavyEquipmentLight2"
@@ -3971,8 +3971,8 @@
 	"volume"		".65"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	
-	"wave"		")player/taunt_yeti_standee_heavy_equipment_light2.wav"
+
+	"wave"		")player/taunt_yeti_standee_heavy_equipment_light2.ogg"
 }
 
 "Taunt.YetiStandeeSpyStep"
@@ -3981,7 +3981,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/taunt_foot_stomp.wav"
+	"wave"	"player/taunt_foot_stomp.ogg"
 }
 
 "Taunt.YetiStandeeSpySwing1"
@@ -3990,7 +3990,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_spy_swing1.wav"
+	"wave"	")player/taunt_yeti_standee_spy_swing1.ogg"
 }
 
 "Taunt.YetiStandeeSpySwing2"
@@ -3999,7 +3999,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_spy_swing2.wav"
+	"wave"	")player/taunt_yeti_standee_spy_swing2.ogg"
 }
 
 "Taunt.YetiStandeeSpySwing"
@@ -4008,7 +4008,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_spy_swing.wav"
+	"wave"	")player/taunt_yeti_standee_spy_swing.ogg"
 }
 
 "Taunt.YetiStandeeSpyClothesRustle"
@@ -4017,7 +4017,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_spy_clothes_rustle.wav"
+	"wave"	")player/taunt_yeti_standee_spy_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeMedicSwing1"
@@ -4026,7 +4026,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_medic_swing1.wav"
+	"wave"	")player/taunt_yeti_standee_medic_swing1.ogg"
 }
 
 "Taunt.YetiStandeeMedicSwing2"
@@ -4035,7 +4035,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_medic_swing2.wav"
+	"wave"	")player/taunt_yeti_standee_medic_swing2.ogg"
 }
 
 "Taunt.YetiStandeeMedicStep"
@@ -4044,7 +4044,7 @@
 	"volume"	".7"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/taunt_yeti_standee_medic_step.wav"
+	"wave"	"player/taunt_yeti_standee_medic_step.ogg"
 }
 
 "Taunt.YetiStandeeMedicClothesRustleSwing"
@@ -4053,7 +4053,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_medic_clothes_rustle_swing.wav"
+	"wave"	")player/taunt_yeti_standee_medic_clothes_rustle_swing.ogg"
 }
 
 "Taunt.YetiStandeeMedicGloveStretch"
@@ -4062,7 +4062,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_medic_glove_stretch.wav"
+	"wave"	"player/taunt_yeti_standee_medic_glove_stretch.ogg"
 }
 
 "Taunt.YetiStandeeMedicGloveSnap"
@@ -4071,7 +4071,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_medic_glove_snap.wav"
+	"wave"	"player/taunt_yeti_standee_medic_glove_snap.ogg"
 }
 
 "Taunt.YetiStandeePyroSwing1"
@@ -4080,7 +4080,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_pyro_swing1.wav"
+	"wave"	")player/taunt_yeti_standee_pyro_swing1.ogg"
 }
 
 "Taunt.YetiStandeePyroStep"
@@ -4089,7 +4089,7 @@
 	"volume"	".7"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/taunt_yeti_standee_pyro_step.wav"
+	"wave"	"player/taunt_yeti_standee_pyro_step.ogg"
 }
 
 "Taunt.YetiStandeePyroEquipment"
@@ -4098,7 +4098,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_pyro_equipment.wav"
+	"wave"	"player/taunt_yeti_standee_pyro_equipment.ogg"
 }
 
 "Taunt.YetiStandeePyroClothesRustle"
@@ -4107,7 +4107,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_pyro_clothes_rustle.wav"
+	"wave"	"player/taunt_yeti_standee_pyro_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeEngineerHopStep"
@@ -4116,7 +4116,7 @@
 	"volume"	".7"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_engineer_step.wav"
+	"wave"	"player/taunt_yeti_standee_engineer_step.ogg"
 }
 
 "Taunt.YetiStandeeEngineerDanceStep"
@@ -4126,11 +4126,11 @@
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
 	"rndwave"
-	{   
-					"wave"	"player/taunt_yeti_standee_engineer_step_dance1.wav"
-					"wave"	"player/taunt_yeti_standee_engineer_step_dance2.wav"
-					"wave"	"player/taunt_yeti_standee_engineer_step_dance3.wav"
-					"wave"	"player/taunt_yeti_standee_engineer_step_dance4.wav"
+	{
+					"wave"	"player/taunt_yeti_standee_engineer_step_dance1.ogg"
+					"wave"	"player/taunt_yeti_standee_engineer_step_dance2.ogg"
+					"wave"	"player/taunt_yeti_standee_engineer_step_dance3.ogg"
+					"wave"	"player/taunt_yeti_standee_engineer_step_dance4.ogg"
 	}
 }
 
@@ -4140,7 +4140,7 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_74dB"
-	"wave"			")player/taunt_yeti_standee_engineer_boot_slap.wav"
+	"wave"			")player/taunt_yeti_standee_engineer_boot_slap.ogg"
 
 }
 
@@ -4151,7 +4151,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
-	"wave"	")player/taunt_yeti_standee_engineer_kick.wav"
+	"wave"	")player/taunt_yeti_standee_engineer_kick.ogg"
 }
 
 "Taunt.YetiStandeeEngineerEquipment"
@@ -4160,7 +4160,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_engineer_equipment.wav"
+	"wave"	"player/taunt_yeti_standee_engineer_equipment.ogg"
 }
 
 "Taunt.YetiStandeeEngineerClothesRustle"
@@ -4169,7 +4169,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_engineer_clothes_rustle.wav"
+	"wave"	"player/taunt_yeti_standee_engineer_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeEngineerMusic"
@@ -4179,7 +4179,7 @@
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"	")player/taunt_yeti_standee_engineer_music.wav"
+	"wave"	")player/taunt_yeti_standee_engineer_music.ogg"
 
 }
 
@@ -4189,13 +4189,13 @@
 	"volume"		"1"
 	"pitch"			"95,105"
 	"soundlevel"	"SNDLVL_74dB"
-	
+
 	"rndwave"
 		{
-			"wave"	")player/taunt_medium_clap1.wav"
-			"wave"	")player/taunt_medium_clap2.wav"
-			"wave"	")player/taunt_medium_clap3.wav"
-			"wave"	")player/taunt_medium_clap4.wav"
+			"wave"	")player/taunt_medium_clap1.ogg"
+			"wave"	")player/taunt_medium_clap2.ogg"
+			"wave"	")player/taunt_medium_clap3.ogg"
+			"wave"	")player/taunt_medium_clap4.ogg"
 		}
 }
 
@@ -4205,7 +4205,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_sniper_step.wav"
+	"wave"	"player/taunt_yeti_standee_sniper_step.ogg"
 }
 
 "Taunt.YetiStandeeSniperClothesRustle"
@@ -4214,7 +4214,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_sniper_clothes_rustle.wav"
+	"wave"	"player/taunt_yeti_standee_sniper_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeSoldierStep"
@@ -4223,13 +4223,13 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	"player/taunt_yeti_standee_soldier_step1.wav"
-					"wave"	"player/taunt_yeti_standee_soldier_step2.wav"
-					"wave"	"player/taunt_yeti_standee_soldier_step3.wav"
-					"wave"	"player/taunt_yeti_standee_soldier_step4.wav"
+					"wave"	"player/taunt_yeti_standee_soldier_step1.ogg"
+					"wave"	"player/taunt_yeti_standee_soldier_step2.ogg"
+					"wave"	"player/taunt_yeti_standee_soldier_step3.ogg"
+					"wave"	"player/taunt_yeti_standee_soldier_step4.ogg"
 	}
 }
 
@@ -4239,7 +4239,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_soldier_equipment.wav"
+	"wave"	"player/taunt_yeti_standee_soldier_equipment.ogg"
 }
 
 "Taunt.YetiStandeeSoldierEquipmentLight"
@@ -4248,7 +4248,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_soldier_equipment.wav"
+	"wave"	"player/taunt_yeti_standee_soldier_equipment.ogg"
 }
 
 "Taunt.YetiStandeeSoldierClothesRustle"
@@ -4257,7 +4257,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_soldier_clothes_rustle.wav"
+	"wave"	"player/taunt_yeti_standee_soldier_clothes_rustle.ogg"
 }
 
 "Taunt.YetiStandeeSoldierClothesRustleLight"
@@ -4266,7 +4266,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_soldier_clothes_rustle_light.wav"
+	"wave"	"player/taunt_yeti_standee_soldier_clothes_rustle_light.ogg"
 }
 
 "Taunt.YetiStandeeSoldierStandeeGrab"
@@ -4275,7 +4275,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_yeti_standee_soldier_standee_grab.wav"
+	"wave"	"player/taunt_yeti_standee_soldier_standee_grab.ogg"
 }
 
 "PDA.SoldierDrop1"
@@ -4284,7 +4284,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_soldier_drop1.wav"
+	"wave"	")player/cyoa_pda_soldier_drop1.ogg"
 }
 
 "PDA.SoldierDrop2"
@@ -4293,7 +4293,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_soldier_drop2.wav"
+	"wave"	")player/cyoa_pda_soldier_drop2.ogg"
 }
 
 "PDA.SoldierEquipment"
@@ -4302,7 +4302,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment.wav"
+	"wave"	"player/cyoa_pda_equipment.ogg"
 }
 
 "PDA.SoldierClothesRustleLight"
@@ -4311,7 +4311,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.SoldierClothesRustle"
@@ -4320,7 +4320,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle.ogg"
 }
 
 "PDA.SoldierGrab"
@@ -4329,7 +4329,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.SoldierShake"
@@ -4338,7 +4338,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_shake.wav"
+	"wave"	"player/cyoa_pda_shake.ogg"
 }
 
 "PDA.SoldierHolster"
@@ -4347,7 +4347,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster_light.wav"
+	"wave"	")player/cyoa_pda_holster_light.ogg"
 }
 
 "PDA.MedicClothesRustleLong"
@@ -4356,7 +4356,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_long.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_long.ogg"
 }
 
 "PDA.MedicClothesRustleLight"
@@ -4365,7 +4365,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.Swipe"
@@ -4374,7 +4374,7 @@
 	"volume"	".3"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_swipe.wav"
+	"wave"	"player/cyoa_pda_swipe.ogg"
 }
 
 "PDA.MedicGrab"
@@ -4383,7 +4383,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.MedicGrabLight"
@@ -4392,7 +4392,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.MedicHolster"
@@ -4401,7 +4401,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster_light.wav"
+	"wave"	")player/cyoa_pda_holster_light.ogg"
 }
 
 
@@ -4412,7 +4412,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment.wav"
+	"wave"	"player/cyoa_pda_equipment.ogg"
 }
 
 "PDA.HeavyGrabLight"
@@ -4421,7 +4421,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.HeavyClothesRustleLight"
@@ -4430,7 +4430,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.HeavyDraw"
@@ -4439,7 +4439,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_draw.wav"
+	"wave"	"player/cyoa_pda_draw.ogg"
 }
 
 "PDA.HeavyBeep"
@@ -4448,16 +4448,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4467,7 +4467,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.HeavySpin"
@@ -4476,7 +4476,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_spin.wav"
+	"wave"	")player/cyoa_pda_spin.ogg"
 }
 
 "PDA.HeavyHolster"
@@ -4485,7 +4485,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.EngineerEquipment"
@@ -4494,7 +4494,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment.wav"
+	"wave"	"player/cyoa_pda_equipment.ogg"
 }
 
 "PDA.EngineerClothesRustleLight"
@@ -4503,7 +4503,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.EngineerUnHolster"
@@ -4512,7 +4512,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_unholster.wav"
+	"wave"	")player/cyoa_pda_unholster.ogg"
 }
 
 "PDA.EngineerGrab"
@@ -4521,7 +4521,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.EngineerEquipmentLight"
@@ -4530,7 +4530,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment_light.wav"
+	"wave"	"player/cyoa_pda_equipment_light.ogg"
 }
 
 "PDA.EngineerHit"
@@ -4539,7 +4539,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.EngineerHitEquipment"
@@ -4548,7 +4548,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment_light.wav"
+	"wave"	"player/cyoa_pda_equipment_light.ogg"
 }
 
 "PDA.EngineerHolster"
@@ -4557,7 +4557,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.EngineerGrabLight"
@@ -4566,7 +4566,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"95,105"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.SniperGrabLight"
@@ -4575,7 +4575,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.SniperClothesRustleLight"
@@ -4584,7 +4584,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.SniperEquipmentLight"
@@ -4593,7 +4593,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment_light.wav"
+	"wave"	"player/cyoa_pda_equipment_light.ogg"
 }
 
 "PDA.SniperClothesRustle"
@@ -4602,7 +4602,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle.ogg"
 }
 
 "PDA.SniperBeep"
@@ -4611,16 +4611,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4630,7 +4630,7 @@
 	"volume"	".1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_spin.wav"
+	"wave"	")player/cyoa_pda_spin.ogg"
 }
 
 "PDA.SniperHolster"
@@ -4639,7 +4639,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.PyroClothesRustleLight"
@@ -4648,7 +4648,7 @@
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.PyroEquipmentLight"
@@ -4657,7 +4657,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment_light.wav"
+	"wave"	"player/cyoa_pda_equipment_light.ogg"
 }
 
 "PDA.PyroSpin"
@@ -4666,7 +4666,7 @@
 	"volume"	".2"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_spin.wav"
+	"wave"	")player/cyoa_pda_spin.ogg"
 }
 
 "PDA.PyroGrab"
@@ -4675,7 +4675,7 @@
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.PyroBeep"
@@ -4684,16 +4684,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4703,7 +4703,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.SpyGrabLight"
@@ -4712,7 +4712,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.SpyGrab"
@@ -4721,7 +4721,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.SpyClothesRustleLight"
@@ -4730,7 +4730,7 @@
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.SpySpin"
@@ -4739,7 +4739,7 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_spin.wav"
+	"wave"	")player/cyoa_pda_spin.ogg"
 }
 
 "PDA.SpyBeep"
@@ -4748,16 +4748,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4767,14 +4767,14 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_dial1.wav"
-					"wave"	")player/cyoa_pda_dial2.wav"
-					"wave"	")player/cyoa_pda_dial3.wav"
-					"wave"	")player/cyoa_pda_dial4.wav"
-					"wave"	")player/cyoa_pda_dial5.wav"
+					"wave"	")player/cyoa_pda_dial1.ogg"
+					"wave"	")player/cyoa_pda_dial2.ogg"
+					"wave"	")player/cyoa_pda_dial3.ogg"
+					"wave"	")player/cyoa_pda_dial4.ogg"
+					"wave"	")player/cyoa_pda_dial5.ogg"
 	}
 }
 
@@ -4784,8 +4784,8 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
-}	
+	"wave"	")player/cyoa_pda_holster.ogg"
+}
 
 "PDA.DemoHolster"
 {
@@ -4793,7 +4793,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.DemoClothesRustleLight"
@@ -4802,7 +4802,7 @@
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.DemoEquipment"
@@ -4811,7 +4811,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_equipment.wav"
+	"wave"	"player/cyoa_pda_equipment.ogg"
 }
 
 "PDA.DemoFlySwoosh"
@@ -4820,7 +4820,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_fly_swoosh.wav"
+	"wave"	"player/cyoa_pda_fly_swoosh.ogg"
 }
 
 "PDA.DemoGrab"
@@ -4829,7 +4829,7 @@
 	"volume"	".5"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.DemoBeep"
@@ -4838,16 +4838,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4857,7 +4857,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.ScoutGrab"
@@ -4866,7 +4866,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_grab.wav"
+	"wave"	"player/cyoa_pda_grab.ogg"
 }
 
 "PDA.ScoutHolster"
@@ -4875,7 +4875,7 @@
 	"volume"	".35"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/cyoa_pda_holster.wav"
+	"wave"	")player/cyoa_pda_holster.ogg"
 }
 
 "PDA.ScoutClothesRustleLight"
@@ -4884,7 +4884,7 @@
 	"volume"	".45"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/cyoa_pda_clothes_rustle_light.wav"
+	"wave"	"player/cyoa_pda_clothes_rustle_light.ogg"
 }
 
 "PDA.ScoutBeep"
@@ -4893,16 +4893,16 @@
 	"volume"	".15"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	
+
 	"rndwave"
 	{
-					"wave"	")player/cyoa_pda_beep2.wav"
-					"wave"	")player/cyoa_pda_beep3.wav"
-					"wave"	")player/cyoa_pda_beep4.wav"
-					"wave"	")player/cyoa_pda_beep5.wav"
-					"wave"	")player/cyoa_pda_beep6.wav"
-					"wave"	")player/cyoa_pda_beep7.wav"
-					"wave"	")player/cyoa_pda_beep8.wav"
+					"wave"	")player/cyoa_pda_beep2.ogg"
+					"wave"	")player/cyoa_pda_beep3.ogg"
+					"wave"	")player/cyoa_pda_beep4.ogg"
+					"wave"	")player/cyoa_pda_beep5.ogg"
+					"wave"	")player/cyoa_pda_beep6.ogg"
+					"wave"	")player/cyoa_pda_beep7.ogg"
+					"wave"	")player/cyoa_pda_beep8.ogg"
 	}
 }
 
@@ -4912,7 +4912,7 @@
 	"volume"	".25"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_equipment_gun1.wav"
+	"wave"	"player/taunt_equipment_gun1.ogg"
 }
 
 "Taunt.BumpkinsBanjoSitClothes"
@@ -4921,7 +4921,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	"player/taunt_clothes_rustle.wav"
+	"wave"	"player/taunt_clothes_rustle.ogg"
 }
 
 "Taunt.BumpkinsBanjoMusic"
@@ -4930,7 +4930,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_bumpkins_banjo_music.wav"
+	"wave"	")player/taunt_bumpkins_banjo_music.ogg"
 }
 
 "Taunt.BumpkinsBanjoMusicFast"
@@ -4939,7 +4939,7 @@
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_bumpkins_banjo_music_fast.wav"
+	"wave"	")player/taunt_bumpkins_banjo_music_fast.ogg"
 }
 
 "Taunt.BumpkinsBanjoMusicStop"
@@ -4948,7 +4948,7 @@
 	"volume"	".85"
 	"soundlevel"  	"SNDLVL_84dB"
 	"pitch"			"PITCH_NORM"
-	"wave"	")player/taunt_bumpkins_banjo_music_stop.wav"
+	"wave"	")player/taunt_bumpkins_banjo_music_stop.ogg"
 }
 
 "Taunt.RocketHoverStart"
@@ -4959,7 +4959,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_rocket_hover_start.wav"
+	"wave"			")player/taunt_rocket_hover_start.ogg"
 }
 
 "Taunt.RocketHoverLoop"
@@ -4970,7 +4970,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_rocket_hover_loop.wav"
+	"wave"			")player/taunt_rocket_hover_loop.ogg"
 }
 
 "Taunt.RocketHoverStop"
@@ -4981,7 +4981,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_rocket_hover_stop.wav"
+	"wave"			")player/taunt_rocket_hover_stop.ogg"
 }
 
 "Taunt.RocketHoverStopThruster"
@@ -4992,7 +4992,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			")player/taunt_rocket_hover_stop_thruster.wav"
+	"wave"			")player/taunt_rocket_hover_stop_thruster.ogg"
 }
 
 "Croc.SwimBurst"
@@ -5002,8 +5002,8 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_115dB"
-	
-	"wave"			")ambient/lair/crocs_swim_burst.wav"
+
+	"wave"			")ambient/lair/crocs_swim_burst.ogg"
 }
 
 "Crocs.Growl"
@@ -5013,7 +5013,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_88dB"
-	
+
 		"rndwave"
 	{
 					"wave"	")ambient_mp3/lair/crocs_growl1.mp3"
@@ -5021,7 +5021,7 @@
 					//"wave"	")ambient_mp3/lair/crocs_growl3.mp3"
 					//"wave"	")ambient_mp3/lair/crocs_growl4.mp3"
 					"wave"	")ambient_mp3/lair/crocs_growl5.mp3"
-					"wave"	"common/null.wav"
+					"wave"	"common/null.ogg"
 	}
 }
 
@@ -5032,14 +5032,14 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_80dB"
-	
+
 		"rndwave"
 	{
 					"wave"	")ambient_mp3/lair/crocs_hiss1.mp3"
 					//"wave"	")ambient_mp3/lair/crocs_hiss2.mp3"
 					"wave"	")ambient_mp3/lair/crocs_hiss3.mp3"
 					//"wave"	")ambient_mp3/lair/crocs_hiss4.mp3"
-					"wave"	"common/null.wav"
+					"wave"	"common/null.ogg"
 	}
 }
 
@@ -5050,8 +5050,8 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_88dB"
-	
-	"wave"			")ambient/lair/crocs_jump_out.wav"
+
+	"wave"			")ambient/lair/crocs_jump_out.ogg"
 }
 
 "Crocs.JumpIn"
@@ -5061,8 +5061,8 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_88dB"
-	
-	"wave"			")ambient/lair/crocs_jump_in.wav"
+
+	"wave"			")ambient/lair/crocs_jump_in.ogg"
 }
 
 "Crocs.JumpBite"
@@ -5072,6 +5072,6 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_88dB"
-	
-	"wave"			")ambient/lair/crocs_jump_bite.wav"
+
+	"wave"			")ambient/lair/crocs_jump_bite.ogg"
 }

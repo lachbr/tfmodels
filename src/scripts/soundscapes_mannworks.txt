@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -63,10 +63,10 @@
 	"dsp"	"1"
 
 	"playlooping"
-	{  
+	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
@@ -74,35 +74,35 @@
 		"volume"	".30"
 		"position"	"1"
 		"pitch"		"100"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working2.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_working2.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".30"
 		"pitch"		"100"
 		"position"	"2"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_working.ogg"
 	}
 }
 
 "Mannworks.InsideWood"
-{ 
+{
 	"dsp"	"1"
 
 	"playlooping"
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.wav"
+		"wave"		"ambient/lightwindcreaks.ogg"
 	}
 		"playlooping"
 	{
 		"volume"		".4"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.wav"
+		"wave"		"ambient/outdoors.ogg"
 	}
 }
 
@@ -114,14 +114,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.wav"
+		"wave"		"ambient/windwinterinside.ogg"
 	}
 }
 
@@ -134,14 +134,14 @@
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_quiet_birds.wav"
+		"wave"		"ambient/outdoors_quiet_birds.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.wav"
+		"wave"		"ambient/outdoors.ogg"
 	}
 
 	"playrandom"

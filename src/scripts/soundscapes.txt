@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -64,26 +64,26 @@
 	"dsp"	"1"
 
 	"playlooping"
-	{  
+	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".30"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.wav"
+		"wave"		"ambient/machine_hum2.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".75"
 		"pitch"		"100"
 		"position"	"0"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/machine_hum.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/machine_hum.ogg"
 	}
 }
 
@@ -96,6 +96,6 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.wav"
+		"wave"		"ambient/outdoors_well.ogg"
 	}
 }

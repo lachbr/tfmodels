@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -68,28 +68,28 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.wav"
+		"wave"		"ambient/nucleus_electricity.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.wav"
+		"wave"		"ambient/desert_indoors.ogg"
 	}
 }
 
@@ -102,27 +102,27 @@
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.wav"
+		"wave"		"ambient/nucleus_electricity.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.wav"
+		"wave"		"ambient/outdoors_well.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.wav"
+		"wave"		"ambient/desert_indoors.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 }

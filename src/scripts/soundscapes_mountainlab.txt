@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -68,22 +68,22 @@
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 		"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.wav"
+		"wave"		"ambient/windwinterinside.ogg"
 	}
 
 		"playlooping"
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 }
 
 "mountainlab.Outside1"
@@ -94,14 +94,14 @@
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.wav"
+		"wave"		"ambient/forest_life.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".65"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"wave"		"ambient/desert_rustle.ogg"
 	}
 
 
@@ -109,9 +109,9 @@
 	{
 		"volume"	"0.10"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 		"playrandom"
 	{
 		"time"		"10,20"
@@ -141,14 +141,14 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.wav"
+		"wave"		"ambient/forest_life.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"wave"		"ambient/desert_rustle.ogg"
 	}
 
 
@@ -156,9 +156,9 @@
 	{
 		"volume"	"0.1"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 		"playrandom"
 	{
 		"time"		"15,30"
@@ -176,15 +176,15 @@
 			"wave"		"ambient_mp3/bird2.mp3"
 			"wave"		"ambient_mp3/bird3.mp3"
 		}
-	}	
-	
+	}
+
 	"playlooping"
 	{
 		"volume"	"0.2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.wav"
-	}	
-		
+		"wave"		"ambient/desert_wind_low.ogg"
+	}
+
 }
 
 "mountainlab.Outside3"
@@ -195,14 +195,14 @@
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.wav"
+		"wave"		"ambient/forest_life.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.wav"
+		"wave"		"ambient/lightwindcreaks.ogg"
 	}
 
 
@@ -210,9 +210,9 @@
 	{
 		"volume"	"0.15"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 		"playrandom"
 	{
 		"time"		"10,35"
@@ -242,19 +242,19 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.wav"
+		"wave"		"ambient/forest_life.ogg"
 	}
 	"playlooping"
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.wav"
-	}	
+		"wave"		"ambient/desert_wind_low.ogg"
+	}
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.wav"
+		"wave"		"ambient/machine_hum2.ogg"
 	}
 
 
@@ -262,9 +262,9 @@
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 		"playrandom"
 	{
 		"time"		"10,35"
@@ -283,7 +283,7 @@
 			"wave"		"ambient_mp3/bird2.mp3"
 			"wave"		"ambient_mp3/bird3.mp3"
 		}
-	}	
+	}
 }
 
 "mountainlab.Bluspawn"
@@ -292,29 +292,29 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.wav"
+		"wave"		"ambient/waterfalloutside.ogg"
 	}
-	
+
 		"playlooping"
 	{
-		"volume"	".35" 
+		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/drips1.wav"
-	} 
+		"wave"		"ambient/drips1.ogg"
+	}
 			"playlooping"
 	{
 		"volume"	"0.15"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.wav"
-	}	
-	
+		"wave"		"ambient/desert_wind_low.ogg"
+	}
+
 		"playlooping"
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 }
 "mountainlab.Cpoint"
 {
@@ -324,29 +324,29 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.wav"
+		"wave"		"ambient/desert_wind_low.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"wave"		"ambient/desert_rustle.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.wav"
+		"wave"		"ambient/machine_hum2.ogg"
 	}
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.wav"
+		"wave"		"ambient/nucleus_electricity.ogg"
 
 	}
-	
+
 }
 

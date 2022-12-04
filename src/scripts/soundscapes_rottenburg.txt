@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -67,7 +67,7 @@
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_town.wav"
+		"wave"		"ambient/rottenburg/rottenburg_town.ogg"
 	}
 
 	"playrandom"
@@ -87,7 +87,7 @@
 			"wave"		"ambient_mp3/dog6.mp3"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"10, 15"
@@ -97,10 +97,10 @@
 		{
 			"wave"		"ambient_mp3/owl3.mp3"
 			"wave"		"ambient_mp3/owl4.mp3"
-			"wave"		"misc/null.wav"
+			"wave"		"misc/null.ogg"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"5,9"
@@ -115,32 +115,32 @@
 			"wave"		"ambient_mp3/rottenburg/dove_05.mp3"
 		}
 	}
-	
+
 	"playlooping"
 	{
 		"volume"		"1"
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"0"
-		"wave"			"ambient/rottenburg/rottenburg_moat.wav"
+		"wave"			"ambient/rottenburg/rottenburg_moat.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"		"1"
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"1"
-		"wave"			"ambient/windwinterinside.wav"
+		"wave"			"ambient/windwinterinside.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"		"1"
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"2"
-		"wave"			"ambient/windwinterinside.wav"
+		"wave"			"ambient/windwinterinside.ogg"
 	}
 }
 
@@ -152,7 +152,7 @@
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_alcove.wav"
+		"wave"		"ambient/rottenburg/rottenburg_alcove.ogg"
 	}
 
 	"playrandom"
@@ -172,7 +172,7 @@
 			"wave"		"ambient_mp3/dog6.mp3"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"8,12"
@@ -197,7 +197,7 @@
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_clearing.wav"
+		"wave"		"ambient/rottenburg/rottenburg_clearing.ogg"
 	}
 
 	"playrandom"
@@ -221,26 +221,26 @@
 "Rottenburg.Spawn"
 {
 	"dsp"	"17"
-	
+
 	"playlooping"
 	{
 		"volume"	"0.7"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.wav"
+		"wave"		"ambient/lighthum.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 }
 

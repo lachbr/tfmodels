@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -65,19 +65,19 @@
 	"dsp"	"1"
 
 	"playlooping"
-	{  
+	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
 		"position"	"1"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_working.ogg"
 	}
 }
 
@@ -86,10 +86,10 @@
 	"dsp"	"1"
 
 	"playlooping"
-	{  
+	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
@@ -97,8 +97,8 @@
 		"volume"	".25"
 		"position"	"1"
 		"pitch"		"100"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working2.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_working2.ogg"
 	}
 
 }
@@ -110,14 +110,14 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.wav"
+		"wave"		"ambient/desert_wind.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.wav"
+		"wave"		"ambient/lightwindcreaks.ogg"
 	}
 }
 
@@ -129,14 +129,14 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.wav"
+		"wave"		"ambient/desert_wind.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.wav"
+		"wave"		"ambient/desert_rustle.ogg"
 	}
 
 	"playrandom"
@@ -157,33 +157,33 @@
 			"wave"		"ambient_mp3/hawk.mp3"
 		}
 	}
-	
+
 		"playlooping"
 	{
 		"volume"	".5"
 		"position"	"1"
 		"pitch"		"100"
-		"soundlevel"	"SNDLVL_65dB"	
-		"wave"		"ambient/computer_working.wav"
+		"soundlevel"	"SNDLVL_65dB"
+		"wave"		"ambient/computer_working.ogg"
 	}
-	
+
 		"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
 		"position"	"2"
-		"soundlevel"	"SNDLVL_60dB"	
-		"wave"		"ambient/lighthum.wav"
+		"soundlevel"	"SNDLVL_60dB"
+		"wave"		"ambient/lighthum.ogg"
 	}
-	
+
 			"playlooping"
 	{
 		"volume"	".5"
 		"position"	"5"
 		"pitch"		"100"
-		"soundlevel"	"SNDLVL_65dB"	
-		"wave"		"ambient/computer_working2.wav"
+		"soundlevel"	"SNDLVL_65dB"
+		"wave"		"ambient/computer_working2.ogg"
 	}
-	
+
 }
 

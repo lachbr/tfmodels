@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -69,7 +69,7 @@
 		"volume"		"1"
 		"pitch"		"100"
 		"position"		"0"
-		"attenuation"	"1"	
+		"attenuation"	"1"
 		"rndwave"
 		{
 			"wave"		"ambient_mp3/cow1.mp3"
@@ -87,7 +87,7 @@
 		"volume"		"1"
 		"pitch"		"100"
 		"position"		"2"
-		"attenuation"	"1"	
+		"attenuation"	"1"
 		"rndwave"
 		{
 			"wave"		"ambient_mp3/cow1.mp3"
@@ -104,8 +104,8 @@
 		"volume"	".45"
 		"pitch"		"100"
 		"position"	"1"
-		"attenuation"	"1"	
-		"wave"		"ambient/factory_outdoor.wav"
+		"attenuation"	"1"
+		"wave"		"ambient/factory_outdoor.ogg"
 	}
 
 	"playlooping"
@@ -113,22 +113,22 @@
 		"volume"	".45"
 		"pitch"		"100"
 		"position"	"3"
-		"attenuation"	"1"	
-		"wave"		"ambient/factory_outdoor.wav"
+		"attenuation"	"1"
+		"wave"		"ambient/factory_outdoor.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_quiet_birds.wav"
+		"wave"		"ambient/outdoors_quiet_birds.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.wav"
+		"wave"		"ambient/outdoors.ogg"
 	}
 }
 
@@ -141,6 +141,6 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 }

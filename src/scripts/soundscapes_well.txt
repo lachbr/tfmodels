@@ -29,7 +29,7 @@
 // 27: "Weirdo 2"
 // 28: "Weirdo 3"
 
-//	ATTN_NONE		0.0f	
+//	ATTN_NONE		0.0f
 //	ATTN_NORM		0.8f	75dB
 //	ATTN_IDLE		2.0f	60dB
 //	ATTN_STATIC		1.25f	66dB
@@ -68,23 +68,23 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.wav"
+		"wave"		"ambient/machine_hum2.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".75"
 		"pitch"		"100"
 		"position"	"0"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/machine_hum.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/machine_hum.ogg"
 	}
 
 	"playlooping"
@@ -92,8 +92,8 @@
 		"volume"	".4"
 		"pitch"		"100"
 		"position"	"1"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_tape.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_tape.ogg"
 	}
 
 	"playlooping"
@@ -101,8 +101,8 @@
 		"volume"	".75"
 		"pitch"		"100"
 		"position"	"2"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_working.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_working.ogg"
 	}
 
 	"playlooping"
@@ -110,8 +110,8 @@
 		"volume"	".4"
 		"pitch"		"100"
 		"position"	"3"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/computer_tape2.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/computer_tape2.ogg"
 	}
 
 	"playlooping"
@@ -119,8 +119,8 @@
 		"volume"	".85"
 		"pitch"		"100"
 		"position"	"4"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/command_center.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/command_center.ogg"
 	}
 
 	"playlooping"
@@ -128,8 +128,8 @@
 		"volume"	".85"
 		"pitch"		"100"
 		"position"	"5"
-		"attenuation"	"0.7"	
-		"wave"		"ambient/printer.wav"
+		"attenuation"	"0.7"
+		"wave"		"ambient/printer.ogg"
 	}
 }
 
@@ -142,14 +142,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.wav"
+		"wave"		"ambient/lighthum.ogg"
 	}
 }
 
@@ -163,7 +163,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.wav"
+		"wave"		"ambient/outdoors_well.ogg"
 	}
 
 	"playlooping"
@@ -172,7 +172,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"soundlevel"	"SNDLVL_85dB"
-		"wave"		"ambient/factory_outdoor.wav"
+		"wave"		"ambient/factory_outdoor.ogg"
 	}
 
 	"playlooping"
@@ -180,7 +180,7 @@
 		"volume"	"1"
 		"pitch"		"100"
 		"position"	"0"
-		"soundlevel"	"SNDLVL_90dB"	
-		"wave"		"ambient/machine_hum.wav"
+		"soundlevel"	"SNDLVL_90dB"
+		"wave"		"ambient/machine_hum.ogg"
 	}
 }

@@ -7,30 +7,30 @@
 	{
 		"volume"		".4"
 		"pitch"		"100"
-		"wave"		"ambient\outdoors.wav"
+		"wave"		"ambient\outdoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"		".25"
 		"pitch"		"100"
-		"wave"		"ambient\forest_life.wav"
+		"wave"		"ambient\forest_life.ogg"
 	}
-	
+
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.wav"
+		"wave"		"ambient/waterfalloutside.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/rain.wav"
+		"wave"		"ambient/rain.ogg"
 	}
-	
+
 }
 
 
@@ -43,23 +43,23 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.wav"
+		"wave"		"ambient/indoors.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.wav"
+		"wave"		"ambient/waterfallinside.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.wav"
+		"wave"		"ambient/waterfalloutside.ogg"
 	}
-}	
+}
 
 "Nightfall.Cavern"
 {
@@ -70,23 +70,23 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.wav"
+		"wave"		"ambient/underground.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.wav"
+		"wave"		"ambient/waterfallinside.ogg"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.wav"
+		"wave"		"ambient/waterfalloutside.ogg"
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"2,6"
@@ -94,13 +94,13 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient/water/distant_drip1.wav"
-			"wave"		"ambient/water/distant_drip2.wav"
-			"wave"		"ambient/water/distant_drip3.wav"
-			"wave"		"ambient/water/distant_drip4.wav"
+			"wave"		"ambient/water/distant_drip1.ogg"
+			"wave"		"ambient/water/distant_drip2.ogg"
+			"wave"		"ambient/water/distant_drip3.ogg"
+			"wave"		"ambient/water/distant_drip4.ogg"
 		}
 	}
-	
+
 	"playrandom"
 	{
 		"time"		"2,6"
@@ -108,10 +108,10 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient/water/distant_drip1.wav"
-			"wave"		"ambient/water/distant_drip2.wav"
-			"wave"		"ambient/water/distant_drip3.wav"
-			"wave"		"ambient/water/distant_drip4.wav"
+			"wave"		"ambient/water/distant_drip1.ogg"
+			"wave"		"ambient/water/distant_drip2.ogg"
+			"wave"		"ambient/water/distant_drip3.ogg"
+			"wave"		"ambient/water/distant_drip4.ogg"
 		}
 	}
 
