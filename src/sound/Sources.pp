@@ -9,7 +9,7 @@
 #begin install_audio
   #define SOURCES $[wildcard **/*.wav]
   #define TARGET_EXT .ogg
-  #defer DO_CONVERT oggenc2 $[source] -o $[target]
+  #defer DO_CONVERT oggenc2 $[source] -q 5 -o $[target]
 
 #end install_audio
 
