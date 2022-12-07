@@ -1,11 +1,12 @@
 
 {
   "material"   "TwoTextureMaterial"
-  "parameters" 
+  "parameters"
   {
     "basetexture"     "computer_radar.ptex"
     "texture2"     "computer_radarsweep.ptex"
   }
   "color_blend"   "additive"
   "light"   "off"
+  fog off
 }
