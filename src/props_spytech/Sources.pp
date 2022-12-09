@@ -65,3 +65,5 @@
 #include $[THISDIRPREFIX]Sources.doorframe004a.pp
 #include $[THISDIRPREFIX]Sources.doorframe003c.pp
 #include $[THISDIRPREFIX]Sources.glass_door_handle001a.pp
+#include $[THISDIRPREFIX]Sources.vent_system_straight_128_small.pp
+#include $[THISDIRPREFIX]Sources.vent_system_corner_small.pp

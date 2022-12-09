@@ -44,3 +44,6 @@
 #include $[THISDIRPREFIX]Sources.door_slide_door.pp
 #include $[THISDIRPREFIX]Sources.door_slide_large_frame.pp
 #include $[THISDIRPREFIX]Sources.cap_point_base.pp
+#include $[THISDIRPREFIX]Sources.sign_gameplay01_witharrow_r_sm.pp
+#include $[THISDIRPREFIX]Sources.sign_barricade001a.pp
+#include $[THISDIRPREFIX]Sources.security_fence64.pp

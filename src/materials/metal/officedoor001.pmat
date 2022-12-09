@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "officedoor001.ptex"
+    "selfillum"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/officedoor001.vmt"
+  }
+}

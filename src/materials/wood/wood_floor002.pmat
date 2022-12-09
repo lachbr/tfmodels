@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wood_floor002.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "wood"
+    "original"     "wood/wood_floor002.vmt"
+  }
+}

@@ -100,3 +100,4 @@
 #include $[THISDIRPREFIX]Sources.roof_metal003.pp
 #include $[THISDIRPREFIX]Sources.window009.pp
 #include $[THISDIRPREFIX]Sources.chimney001.pp
+#include $[THISDIRPREFIX]Sources.window004c.pp

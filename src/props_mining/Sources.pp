@@ -52,3 +52,5 @@
 #include $[THISDIRPREFIX]Sources.factory_pipe001.pp
 #include $[THISDIRPREFIX]Sources.billboard001.pp
 #include $[THISDIRPREFIX]Sources.rock006c.pp
+#include $[THISDIRPREFIX]Sources.track_straight_256.pp
+#include $[THISDIRPREFIX]Sources.track_arc_90degree_128.pp

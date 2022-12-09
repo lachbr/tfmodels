@@ -23,3 +23,4 @@
 #include $[THISDIRPREFIX]Sources.cliff_wall_02c.pp
 #include $[THISDIRPREFIX]Sources.windowframe001.pp
 #include $[THISDIRPREFIX]Sources.train_tunnel_01.pp
+#include $[THISDIRPREFIX]Sources.milk_crate.pp
