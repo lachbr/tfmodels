@@ -11,7 +11,7 @@
 
 #begin install_misc
   #define SOURCES \
-    $[if $[WINDOWS_PLATFORM],game.ico] \
+    $[if $[WINDOWS_PLATFORM],tfp2.ico] \
     $[if $[OSX_PLATFORM],game.icns] \
     $[if $[UNIX_PLATFORM],game.svg]
 
