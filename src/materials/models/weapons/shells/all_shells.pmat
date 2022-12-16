@@ -1,0 +1,27 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "all_shells.ptex"
+    "bumpmap"     "all_shells_normal.ptex"
+    "normalmapalphaenvmapmask"     1
+    "envmap"     1
+    "envmaptint" 
+    [
+      1
+      0.8
+      0.2
+    ]
+    "phong"     1
+    "phongexponent"     25
+    "phongboost"     8
+    "lightwarptexture"     "../../lightwarps/weapon_lightwarp.ptex"
+    "phongfresnelranges" 
+    [
+      0.25
+      0.5
+      1
+    ]
+  }
+}

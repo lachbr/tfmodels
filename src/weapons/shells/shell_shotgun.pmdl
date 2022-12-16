@@ -1,0 +1,19 @@
+{
+  model "shell_shotgun.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop shell
+    contents solid
+  }
+
+  material_paths [
+    "../../materials/models/weapons/shells"
+  ]
+
+  physics_model {
+    mesh shell_shotgun_physics
+    mass 1.0
+  }
+}
