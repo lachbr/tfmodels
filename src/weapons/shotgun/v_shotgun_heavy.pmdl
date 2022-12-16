@@ -22,6 +22,16 @@
         }
       ]
     }
+    {
+      name eject_brass
+      influences [
+        {
+          parent weapon_bone
+          pos [ -0.8 3.25 10.76 ]
+          hpr [ 72.02 11.66 -167.64 ]
+        }
+      ]
+    }
   ]
 
   sequences [
@@ -56,6 +66,10 @@
         {
           frame 13 type 2 event Client_Play_Sound
           data "Weapon_ShotgunEngineer.Cock_Forward"
+        }
+        {
+          frame 13 type 2 event Client_Eject_Brass
+          data "shell_shotgun"
         }
       ]
     }
