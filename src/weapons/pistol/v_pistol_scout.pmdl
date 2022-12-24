@@ -22,6 +22,16 @@
         }
       ]
     }
+    {
+      name eject_brass
+      influences [
+        {
+          parent Gun
+          pos [ 1.01 6.19 3.46 ]
+          hpr [ -45.11 0 -180 ]
+        }
+      ]
+    }
   ]
 
   sequences [
@@ -48,6 +58,12 @@
       anim "optchar/v_pistol_scout-fire.egg"
       snap true
       activity VM_Fire
+      events [
+        {
+          frame 1 type 2 event Client_Eject_Brass
+          data "shell_pistol"
+        }
+      ]
     }
     {
       name reload
