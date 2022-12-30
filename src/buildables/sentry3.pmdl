@@ -42,25 +42,25 @@
     {
       distance 0
       groups [
-        sentry3_optimized_reference Sentry3_rockets_reference sentry3_laser
+        sentry3_optimized_reference Sentry3_rockets_reference
       ]
     }
     {
       distance 18
       groups [
-        sentry3_optimized_reference_lod1 Sentry3_rockets_reference_lod1 sentry3_laser_lod1
+        sentry3_optimized_reference_lod1 Sentry3_rockets_reference_lod1
       ]
     }
     {
       distance 30
       groups [
-        sentry3_optimized_reference_lod2 Sentry3_rockets_reference_lod2 sentry3_laser_lod2
+        sentry3_optimized_reference_lod2 Sentry3_rockets_reference_lod2
       ]
     }
     {
       distance 40
       groups [
-        sentry3_optimized_reference_lod3 Sentry3_rockets_reference_lod3 sentry3_laser_lod3
+        sentry3_optimized_reference_lod3 Sentry3_rockets_reference_lod3
       ]
     }
   ]

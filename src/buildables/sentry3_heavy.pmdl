@@ -57,14 +57,14 @@
       distance 0
       groups [
         sentry3_reference Sentry3_S3_boxRocket Sentry3_S3_boxRocketArm
-        sentry3_S3_StabilizerPads sentry3_laser
+        sentry3_S3_StabilizerPads
       ]
     }
     {
       distance 18
       groups [
         sentry3_reference_lod1 Sentry3_S3_boxRocket_lod1 Sentry3_S3_boxRocketArm_lod1
-        sentry3_S3_StabilizerPads_lod1 sentry3_laser_lod1
+        sentry3_S3_StabilizerPads_lod1
       ]
     }
   ]
