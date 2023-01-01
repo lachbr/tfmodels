@@ -1,36 +1,29 @@
 
 {
   "model"   "train_gate001b.egg"
-  "hpr" 
+  "hpr"
   [
     180
     0
     0
   ]
-  "material_paths" 
+  "material_paths"
   [
     "../props_forest"
     "../materials/models/props_trainyard"
   ]
-  "material_groups" 
+  "material_groups"
   [
 
     {
       "name"       "unnamed0"
-      "materials" 
+      "materials"
       [
         "train_gate001.pmat"
       ]
     }
-
-    {
-      "name"       "unnamed1"
-      "materials" 
-      [
-      ]
-    }
   ]
-  "physics_model" 
+  "physics_model"
   {
     "mesh"     "train_gate001b_physics"
     "mass"     1000
@@ -38,16 +31,16 @@
     "rot_damping"     0
     "concave"     1
   }
-  "custom_data" 
+  "custom_data"
   {
     "contents"     "solid"
     "surfaceprop"     "metal"
-    "bodygroups" 
+    "bodygroups"
     [
 
       {
         "name"         "Body"
-        "nodes" 
+        "nodes"
         [
           "train_gate001b_reference*"
         ]
