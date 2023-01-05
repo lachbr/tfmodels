@@ -5,3 +5,4 @@
 #include $[THISDIRPREFIX]Sources.pickup03.pp
 #include $[THISDIRPREFIX]Sources.train_enginecar.pp
 #include $[THISDIRPREFIX]Sources.train_flatcar_leveltop.pp
+#include $[THISDIRPREFIX]Sources.train_flatcar_container.pp

@@ -11,3 +11,10 @@
 #include $[THISDIRPREFIX]Sources.cart_base_separate.pp
 #include $[THISDIRPREFIX]Sources.handrail128.pp
 #include $[THISDIRPREFIX]Sources.handrail28.pp
+#include $[THISDIRPREFIX]Sources.train_billboard001.pp
+#include $[THISDIRPREFIX]Sources.handrail608.pp
+#include $[THISDIRPREFIX]Sources.handrail216.pp
+#include $[THISDIRPREFIX]Sources.handrail480.pp
+#include $[THISDIRPREFIX]Sources.handrail_stairs.pp
+#include $[THISDIRPREFIX]Sources.ladder001.pp
+#include $[THISDIRPREFIX]Sources.awning001.pp

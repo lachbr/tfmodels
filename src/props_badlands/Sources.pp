@@ -3,3 +3,4 @@
 
 #include $[THISDIRPREFIX]Sources.barrel02.pp
 #include $[THISDIRPREFIX]Sources.waste_elevator_reference.pp
+#include $[THISDIRPREFIX]Sources.barrel01.pp

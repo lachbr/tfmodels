@@ -101,3 +101,5 @@
 #include $[THISDIRPREFIX]Sources.window009.pp
 #include $[THISDIRPREFIX]Sources.chimney001.pp
 #include $[THISDIRPREFIX]Sources.window004c.pp
+#include $[THISDIRPREFIX]Sources.ladder001.pp
+#include $[THISDIRPREFIX]Sources.window004b.pp

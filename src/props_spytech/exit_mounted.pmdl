@@ -1,0 +1,58 @@
+
+{
+  "model"   "exit_mounted.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_spytech"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "exit_mounted.pmat"
+        "exit_mounted_blue.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "exit_mounted_blue.pmat"
+        "exit_mounted_blue.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "exit_mounted_physics"
+    "mass"     24.7182
+    "damping"     0
+    "rot_damping"     0
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "exit_mounted_reference*"
+        ]
+      }
+    ]
+  }
+}

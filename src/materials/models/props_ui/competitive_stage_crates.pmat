@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "competitive_stage_crates.ptex"
+    "selfillum"     1
+  }
+}

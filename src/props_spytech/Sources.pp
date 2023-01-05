@@ -67,3 +67,8 @@
 #include $[THISDIRPREFIX]Sources.glass_door_handle001a.pp
 #include $[THISDIRPREFIX]Sources.vent_system_straight_128_small.pp
 #include $[THISDIRPREFIX]Sources.vent_system_corner_small.pp
+#include $[THISDIRPREFIX]Sources.exit_mounted.pp
+#include $[THISDIRPREFIX]Sources.doorframe004d.pp
+#include $[THISDIRPREFIX]Sources.control_room_console04.pp
+#include $[THISDIRPREFIX]Sources.fire_bell02.pp
+#include $[THISDIRPREFIX]Sources.radio_tower001.pp

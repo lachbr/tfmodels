@@ -54,3 +54,13 @@
 #include $[THISDIRPREFIX]Sources.rock006c.pp
 #include $[THISDIRPREFIX]Sources.track_straight_256.pp
 #include $[THISDIRPREFIX]Sources.track_arc_90degree_128.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_c_01.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_256_01.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_l_160_01.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_128_01.pp
+#include $[THISDIRPREFIX]Sources.generator01.pp
+#include $[THISDIRPREFIX]Sources.generator_pipe01.pp
+#include $[THISDIRPREFIX]Sources.junctionbox01.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_l_128_01.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_corner128_01.pp
+#include $[THISDIRPREFIX]Sources.factory_pipe005.pp

@@ -47,3 +47,12 @@
 #include $[THISDIRPREFIX]Sources.sign_gameplay01_witharrow_r_sm.pp
 #include $[THISDIRPREFIX]Sources.sign_barricade001a.pp
 #include $[THISDIRPREFIX]Sources.security_fence64.pp
+#include $[THISDIRPREFIX]Sources.door_grate003_floorplate.pp
+#include $[THISDIRPREFIX]Sources.door_slide_frame.pp
+#include $[THISDIRPREFIX]Sources.door_grate003_frame.pp
+#include $[THISDIRPREFIX]Sources.door_grate002_frame.pp
+#include $[THISDIRPREFIX]Sources.door_grate002_floorplate.pp
+#include $[THISDIRPREFIX]Sources.door_grate003_top.pp
+#include $[THISDIRPREFIX]Sources.door_grate003_bottom.pp
+#include $[THISDIRPREFIX]Sources.door_grate002_top.pp
+#include $[THISDIRPREFIX]Sources.door_grate002_bottom.pp

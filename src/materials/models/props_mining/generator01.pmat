@@ -1,0 +1,19 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "generator01.ptex"
+    "bumpmap"     "generator01_normal.ptex"
+    "phong"     1
+    "phongexponent"     50
+    "phongboost"     3
+    "phongfresnelranges" 
+    [
+      1
+      1
+      1
+    ]
+  }
+  "alpha_test"   "greater_equal"
+}

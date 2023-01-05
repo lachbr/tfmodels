@@ -1,0 +1,16 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "rockwall001forest.ptex"
+    "basetexture2"     "grass_07.ptex"
+    "bumpmap"     "rockwall001_normal.ptex"
+    "bumpmap2"     "rockground002_height-ssbump.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+    "original"     "nature/blendrockgroundwallforest.vmt"
+  }
+}

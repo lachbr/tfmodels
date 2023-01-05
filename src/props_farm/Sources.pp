@@ -81,3 +81,4 @@
 #include $[THISDIRPREFIX]Sources.barn_loft002b.pp
 #include $[THISDIRPREFIX]Sources.pallet001.pp
 #include $[THISDIRPREFIX]Sources.concrete_block001.pp
+#include $[THISDIRPREFIX]Sources.shelf_props01.pp
