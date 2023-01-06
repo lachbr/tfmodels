@@ -1,0 +1,9 @@
+{
+  material TwoTextureMaterial
+  parameters {
+  }
+  color_blend modulate
+  fog off
+  bin fixed
+  bin_sort 2
+}

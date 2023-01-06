@@ -1,0 +1,22 @@
+{
+  model "cappoint_hologram.egg"
+
+  hpr [ 180 0 0 ]
+
+  material_paths [
+    "../materials/models/effects"
+  ]
+
+  custom_data {
+    bodygroups [
+      {
+        name switch
+        nodes [
+          "cappoint_hologram_neutral_reference"
+          "cappoint_hologram_redteam_reference"
+          "cappoint_hologram_blueteam_reference"
+        ]
+      }
+    ]
+  }
+}

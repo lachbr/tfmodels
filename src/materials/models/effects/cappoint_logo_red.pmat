@@ -1,0 +1,16 @@
+
+{
+  "material"   "TwoTextureMaterial"
+  "parameters"
+  {
+    "basetexture"     "cappoint_logo_red.ptex"
+    "texture2"     "cappoint_beam_lines_r.ptex"
+    "texture2scroll" [ 0 0.1 ]
+  }
+  "color_blend"   "additive"
+  depth_write off
+  "light"   "off"
+  fog off
+  bin fixed
+  bin_sort 0
+}
