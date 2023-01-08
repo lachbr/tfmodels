@@ -1,0 +1,61 @@
+
+{
+  "model"   "lantern001.egg"
+  "hpr"
+  [
+    180
+    0
+    0
+  ]
+  "material_paths"
+  [
+    "../materials/models/props_2fort"
+  ]
+  "material_groups"
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials"
+      [
+        "lantern_glass001.pmat"
+        "lantern001.pmat"
+      ]
+    }
+  ]
+  "physics_model"
+  {
+    "mesh"     "lantern001_physics"
+    "mass"     65.689
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data"
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups"
+    [
+
+      {
+        "name"         "Body"
+        "nodes"
+        [
+          "lantern001_reference*"
+        ]
+      }
+    ]
+  }
+  attachments [
+    {
+      // Locator node for the flame particle.
+      name lanternflame
+      influences [
+        {
+          pos [ 0 0 8 ]
+        }
+      ]
+    }
+  ]
+}

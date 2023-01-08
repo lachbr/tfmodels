@@ -106,3 +106,4 @@
 #include $[THISDIRPREFIX]Sources.chimney002.pp
 #include $[THISDIRPREFIX]Sources.window004b_glass.pp
 #include $[THISDIRPREFIX]Sources.hardhat001.pp
+#include $[THISDIRPREFIX]Sources.lantern001.pp

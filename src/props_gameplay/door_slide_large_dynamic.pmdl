@@ -1,0 +1,29 @@
+{
+  model "optchar/door_slide_large_dynamic-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  material_paths [
+    "../materials/models/props_gameplay"
+  ]
+
+  sequences [
+    {
+      name idle
+      anim "optchar/door_slide_large_dynamic-idle.egg"
+    }
+    {
+      name open
+      anim "optchar/door_slide_large_dynamic-open.egg"
+    }
+    {
+      name close
+      anim "optchar/door_slide_large_dynamic-close.egg"
+    }
+  ]
+}

@@ -8,10 +8,14 @@
   -flag resupply_locker_reference_lod3,resupply_locker_reference_lod4
 #call tf_char_egg resupply_locker,idle close open,$[resupply_locker_optchar_opts]
 
+// Animated sliding door.
+#call tf_char_egg door_slide_large_dynamic,idle open close,
+
 // Bam file installation.
 #begin install_mdl
   #define SOURCES \
-    resupply_locker.pmdl
+    resupply_locker.pmdl \
+    door_slide_large_dynamic.pmdl
 
 #end install_mdl
 
@@ -64,3 +68,4 @@
 #include $[THISDIRPREFIX]Sources.security_fence256_gate02.pp
 #include $[THISDIRPREFIX]Sources.sewer_door01.pp
 #include $[THISDIRPREFIX]Sources.door_grate001_floorplate.pp
+#include $[THISDIRPREFIX]Sources.door_grate001_top.pp
