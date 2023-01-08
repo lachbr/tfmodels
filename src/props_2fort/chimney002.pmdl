@@ -1,0 +1,49 @@
+
+{
+  "model"   "chimney002.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_2fort"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "chimney002.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "chimney002_physics"
+    "mass"     79.4532
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "chimney002_reference*"
+        ]
+      }
+    ]
+  }
+}

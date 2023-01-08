@@ -82,3 +82,5 @@
 #include $[THISDIRPREFIX]Sources.pallet001.pp
 #include $[THISDIRPREFIX]Sources.concrete_block001.pp
 #include $[THISDIRPREFIX]Sources.shelf_props01.pp
+#include $[THISDIRPREFIX]Sources.grain_elevator_pipes02.pp
+#include $[THISDIRPREFIX]Sources.silo_skybox001.pp

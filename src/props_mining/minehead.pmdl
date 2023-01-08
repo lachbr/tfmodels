@@ -1,0 +1,76 @@
+
+{
+  "model"   "minehead.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "minehead.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "minehead"
+      ]
+    }
+
+    {
+      "distance"       45
+      "groups" 
+      [
+        "minehead_lod1"
+      ]
+    }
+
+    {
+      "distance"       60
+      "groups" 
+      [
+        "minehead_lod2"
+      ]
+    }
+
+    {
+      "distance"       75
+      "groups" 
+      [
+        "minehead_lod3"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "minehead*"
+        ]
+      }
+    ]
+  }
+}

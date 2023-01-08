@@ -1,0 +1,68 @@
+
+{
+  "model"   "tree02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_foliage"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "tree01.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "tree02"
+      ]
+    }
+
+    {
+      "distance"       40
+      "groups" 
+      [
+        "tree02_lod1"
+      ]
+    }
+
+    {
+      "distance"       100
+      "groups" 
+      [
+        "tree02_lod2"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "foliage"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "tree02*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+
+{
+  "model"   "dustbowl_roof02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "dustbowl_roof01.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "dustbowl_roof02"
+      ]
+    }
+
+    {
+      "distance"       80
+      "groups" 
+      [
+        "dustbowl_roof02_lod1"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metalpanel"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "dustbowl_roof02*"
+        ]
+      }
+    ]
+  }
+}

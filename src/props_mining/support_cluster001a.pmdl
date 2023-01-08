@@ -1,0 +1,50 @@
+
+{
+  "model"   "support_cluster001a.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "wood_beam03.pmat"
+        "wall020.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "support_cluster001a_physics"
+    "mass"     21707.4
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "Wood"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "support_cluster001a_reference*"
+        ]
+      }
+    ]
+  }
+}

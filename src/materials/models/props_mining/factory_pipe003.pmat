@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "factory_pipe003.ptex"
+  }
+  "cull"   "double_sided"
+}

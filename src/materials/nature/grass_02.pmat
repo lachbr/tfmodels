@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "grass_02.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+    "original"     "nature/grass_02.vmt"
+  }
+}

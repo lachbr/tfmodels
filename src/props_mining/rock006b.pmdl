@@ -1,0 +1,63 @@
+
+{
+  "model"   "rock006b.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "rock006.pmat"
+        "rock006a.pmat"
+        "rock006b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "rock006a.pmat"
+        "rock006a.pmat"
+        "rock006b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "rock006b.pmat"
+        "rock006a.pmat"
+        "rock006b.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "dirt"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "rock006b*"
+        ]
+      }
+    ]
+  }
+}

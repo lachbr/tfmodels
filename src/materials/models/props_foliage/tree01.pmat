@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "tree01.ptex"
+  }
+  "alpha_test"   "greater_equal"
+}

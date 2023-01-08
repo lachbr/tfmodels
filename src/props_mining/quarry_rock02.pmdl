@@ -1,0 +1,49 @@
+
+{
+  "model"   "quarry_rock02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "quarryrock02.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "quarry_rock02_physics"
+    "mass"     10
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "rock"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "quarry_rock02_reference*"
+        ]
+      }
+    ]
+  }
+}

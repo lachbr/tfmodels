@@ -1,0 +1,49 @@
+
+{
+  "model"   "rafter_cluster001a.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "wood_beam03.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "rafter_cluster001a_physics"
+    "mass"     26995.9
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "Wood"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "rafter_cluster001a_reference*"
+        ]
+      }
+    ]
+  }
+}

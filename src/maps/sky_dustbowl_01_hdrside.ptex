@@ -1,0 +1,7 @@
+{
+  image sky_dustbowl_01_hdrside.tga
+  format rgba
+  wrap clamp
+  minfilter nearest
+  magfilter nearest
+}

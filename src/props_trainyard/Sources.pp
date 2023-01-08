@@ -18,3 +18,5 @@
 #include $[THISDIRPREFIX]Sources.handrail_stairs.pp
 #include $[THISDIRPREFIX]Sources.ladder001.pp
 #include $[THISDIRPREFIX]Sources.awning001.pp
+#include $[THISDIRPREFIX]Sources.ladder002.pp
+#include $[THISDIRPREFIX]Sources.blast_furnace_skybox006.pp

@@ -6,3 +6,5 @@
 #include $[THISDIRPREFIX]Sources.train_enginecar.pp
 #include $[THISDIRPREFIX]Sources.train_flatcar_leveltop.pp
 #include $[THISDIRPREFIX]Sources.train_flatcar_container.pp
+#include $[THISDIRPREFIX]Sources.mining_car_metal.pp
+#include $[THISDIRPREFIX]Sources.train_rockets.pp

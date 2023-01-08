@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "vent001.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "metal/vent001.vmt"
+  }
+}

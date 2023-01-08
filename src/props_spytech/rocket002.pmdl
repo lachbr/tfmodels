@@ -1,0 +1,69 @@
+
+{
+  "model"   "rocket002.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_spytech"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "rocket002_bottom.pmat"
+        "rocket002.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "rocket002_reference"
+      ]
+    }
+
+    {
+      "distance"       300
+      "groups" 
+      [
+        "rocket002_reference_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "rocket002_physics"
+    "mass"     1773.72
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "rocket002_reference*"
+        ]
+      }
+    ]
+  }
+}

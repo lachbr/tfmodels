@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "dustbowl_roof01.ptex"
+    "bumpmap"     "dustbowl_roof01_normal.ptex"
+  }
+}

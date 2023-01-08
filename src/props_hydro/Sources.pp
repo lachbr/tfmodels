@@ -31,3 +31,4 @@
 #include $[THISDIRPREFIX]Sources.gorge_set5.pp
 #include $[THISDIRPREFIX]Sources.gorge_handrails2.pp
 #include $[THISDIRPREFIX]Sources.gorge_set2.pp
+#include $[THISDIRPREFIX]Sources.dumptruck.pp

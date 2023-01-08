@@ -72,3 +72,9 @@
 #include $[THISDIRPREFIX]Sources.control_room_console04.pp
 #include $[THISDIRPREFIX]Sources.fire_bell02.pp
 #include $[THISDIRPREFIX]Sources.radio_tower001.pp
+#include $[THISDIRPREFIX]Sources.rocket_tower_skybox.pp
+#include $[THISDIRPREFIX]Sources.rocket002_skybox.pp
+#include $[THISDIRPREFIX]Sources.satellite_dish001.pp
+#include $[THISDIRPREFIX]Sources.vent_system_vent02.pp
+#include $[THISDIRPREFIX]Sources.rocket002.pp
+#include $[THISDIRPREFIX]Sources.rocket_tower.pp

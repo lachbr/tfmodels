@@ -56,3 +56,11 @@
 #include $[THISDIRPREFIX]Sources.door_grate003_bottom.pp
 #include $[THISDIRPREFIX]Sources.door_grate002_top.pp
 #include $[THISDIRPREFIX]Sources.door_grate002_bottom.pp
+#include $[THISDIRPREFIX]Sources.sign_gameplay01_witharrow_l_sm.pp
+#include $[THISDIRPREFIX]Sources.security_fence256_lower.pp
+#include $[THISDIRPREFIX]Sources.security_fence512_lower.pp
+#include $[THISDIRPREFIX]Sources.security_fence128_lower.pp
+#include $[THISDIRPREFIX]Sources.security_fence64_lower.pp
+#include $[THISDIRPREFIX]Sources.security_fence256_gate02.pp
+#include $[THISDIRPREFIX]Sources.sewer_door01.pp
+#include $[THISDIRPREFIX]Sources.door_grate001_floorplate.pp

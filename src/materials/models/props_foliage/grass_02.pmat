@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "grass_02.ptex"
+  }
+  "alpha_test"   "greater_equal"
+}

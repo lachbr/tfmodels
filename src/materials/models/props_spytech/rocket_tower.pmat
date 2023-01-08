@@ -1,0 +1,17 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "rocket_tower.ptex"
+    "basemapalphaphongmask"     1
+    "phongexponent"     15
+    "phongboost"     1
+    "phongfresnelranges" 
+    [
+      0.2
+      1
+      2
+    ]
+  }
+}

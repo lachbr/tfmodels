@@ -11,3 +11,5 @@
 #include $[THISDIRPREFIX]Sources.skycards_forest512dip.pp
 #include $[THISDIRPREFIX]Sources.skycards_forest128bump.pp
 #include $[THISDIRPREFIX]Sources.skycards_forest128dip.pp
+#include $[THISDIRPREFIX]Sources.train_boxcar_noladder_skybox.pp
+#include $[THISDIRPREFIX]Sources.train_orecar_skybox.pp

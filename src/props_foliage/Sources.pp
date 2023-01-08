@@ -6,3 +6,13 @@
 #include $[THISDIRPREFIX]Sources.deadtree01.pp
 #include $[THISDIRPREFIX]Sources.tree_pine01_8cluster.pp
 #include $[THISDIRPREFIX]Sources.tree_pine_extrasmall.pp
+#include $[THISDIRPREFIX]Sources.grass_02_cluster01.pp
+#include $[THISDIRPREFIX]Sources.bramble001a.pp
+#include $[THISDIRPREFIX]Sources.shrub_01a.pp
+#include $[THISDIRPREFIX]Sources.tree01.pp
+#include $[THISDIRPREFIX]Sources.tree02.pp
+#include $[THISDIRPREFIX]Sources.shrub_03_card.pp
+#include $[THISDIRPREFIX]Sources.shrub_03_cluster02.pp
+#include $[THISDIRPREFIX]Sources.grass_02.pp
+#include $[THISDIRPREFIX]Sources.shrub_03c.pp
+#include $[THISDIRPREFIX]Sources.deadtree01_skybox.pp
