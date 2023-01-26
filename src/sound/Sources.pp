@@ -6,10 +6,13 @@
 // do this because the Waves are stored lossless in source form,
 // and we're only losing quality once (in comparison to if we converted
 // MP3 to Opus).
+//
+// Actually, compress to OGG Vorbis.  FMOD doesn't support playing Opus
+// yet.
 #begin install_audio
   #define SOURCES $[wildcard **/*.wav]
   #define TARGET_EXT .ogg
-  #defer DO_CONVERT oggenc2 $[source] -q 5 -o $[target]
+  #defer DO_CONVERT oggenc $[source] -q 5 -o $[target]
 
 #end install_audio
 
