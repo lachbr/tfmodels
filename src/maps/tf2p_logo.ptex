@@ -1,0 +1,5 @@
+{
+  image tf2p_logo.tga
+  format srgb_alpha
+  wrap clamp
+}

@@ -21,5 +21,6 @@
   #define UNPAL_SOURCES \
     tf2_logo.egg \
     tf2_logo_2.egg \
+    tf2p_logo.egg \
     title_team_widescreen.egg
 #end install_egg
