@@ -193,7 +193,7 @@
       name righteye
       material eyeball_r_medic
       parent bip_head
-      pos [ -1.04 3.836432 78.958725 ]
+      pos [ -1.04 -3.836432 78.958725 ]
       diameter 1.2
       z_offset 3
       iris_size 0.5
@@ -202,7 +202,7 @@
       name lefteye
       material eyeball_l_medic
       parent bip_head
-      pos [ 1.04 3.836432 78.958725 ]
+      pos [ 1.04 -3.836432 78.958725 ]
       diameter 1.2
       z_offset -3
       iris_size 0.5

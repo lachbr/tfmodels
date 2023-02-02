@@ -268,7 +268,7 @@
       name righteye
       material eyeball_r_sniper
       parent bip_head
-      pos [ -1.289406 -0.612206 79.838822 ]
+      pos [ -1.289406 0.612206 79.838822 ]
       diameter 1.4
       z_offset 4
       iris_size 0.6
@@ -277,7 +277,7 @@
       name lefteye
       material eyeball_l_sniper
       parent bip_head
-      pos [ 1.289406 -0.612206 79.838822 ]
+      pos [ 1.289406 0.612206 79.838822 ]
       diameter 1.4
       z_offset -4
       iris_size 0.6
