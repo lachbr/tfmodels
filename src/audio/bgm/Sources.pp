@@ -7,5 +7,5 @@
     gamestartup4.mp3 gamestartup5.mp3 gamestartup6.mp3 \
     gamestartup7.mp3 gamestartup8.mp3 gamestartup9.mp3 \
     gamestartup10.mp3 gamestartup11.mp3 gamestartup12.mp3 \
-    gamestartup13.mp3 gamestartup14.mp3
+    gamestartup13.mp3 gamestartup14.mp3 create_a_toon.mid
 #end install_audio
