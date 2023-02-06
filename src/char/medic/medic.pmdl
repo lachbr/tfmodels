@@ -1042,6 +1042,9 @@
         {
           chain rfoot type lock
         }
+        {
+          type touch chain rhand joint joint_lever
+        }
       ]
     }
     {
@@ -1072,6 +1075,9 @@
         }
         {
           chain rfoot type lock
+        }
+        {
+          type touch chain rhand joint joint_lever
         }
       ]
     }
