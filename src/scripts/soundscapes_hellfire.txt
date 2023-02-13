@@ -66,21 +66,21 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 		"playlooping"
@@ -89,14 +89,14 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_75dB"
-		"wave"		"ambient/waterfall.ogg"
+		"wave"		"ambient/waterfall.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/volcano_rumble.ogg"
+		"wave"		"ambient/volcano_rumble.wav"
 	}
 }
 
@@ -109,34 +109,34 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/hallowloop.ogg"
+		"wave"		"ambient/hallowloop.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"ambient/forest_high_wind.ogg"
+		"wave"		"ambient/forest_high_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/volcano_rumble.ogg"
+		"wave"		"ambient/volcano_rumble.wav"
 	}
 
 	"playlooping"
@@ -145,7 +145,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		"ambient/command_center_blue.ogg"
+		"wave"		"ambient/command_center_blue.wav"
 	}
 
 	"playlooping"
@@ -154,7 +154,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		"ambient/computer_working2_blue.ogg"
+		"wave"		"ambient/computer_working2_blue.wav"
 	}
 
 	"playlooping"
@@ -163,7 +163,7 @@
 		"pitch"		"100"
 		"position"	"3"
 		"soundlevel"  	"SNDLVL_85dB"
-		"wave"		"ambient/boiler_01.ogg"
+		"wave"		"ambient/boiler_01.wav"
 	}
 
 	"playlooping"
@@ -172,7 +172,7 @@
 		"pitch"		"100"
 		"position"	"4"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		"ambient/command_center_red.ogg"
+		"wave"		"ambient/command_center_red.wav"
 	}
 
 	"playlooping"
@@ -181,7 +181,7 @@
 		"pitch"		"100"
 		"position"	"6"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		"ambient/computer_working2_red.ogg"
+		"wave"		"ambient/computer_working2_red.wav"
 	}
 
 	"playlooping"
@@ -190,7 +190,7 @@
 		"pitch"		"100"
 		"position"	"7"
 		"soundlevel"  	"SNDLVL_85dB"
-		"wave"		"ambient/boiler_02.ogg"
+		"wave"		"ambient/boiler_02.wav"
 	}
 }
 
@@ -202,21 +202,21 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/forest_high_wind.ogg"
+		"wave"		"ambient/forest_high_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.ogg"
+		"wave"		"ambient/outdoors_well.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/volcano_rumble.ogg"
+		"wave"		"ambient/volcano_rumble.wav"
 	}
 
 	"playlooping"
@@ -225,7 +225,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_60dB"
-		"wave"		"ambient/computer_working3_red.ogg"
+		"wave"		"ambient/computer_working3_red.wav"
 	}
 
 	"playlooping"
@@ -234,6 +234,6 @@
 		"pitch"		"100"
 		"position"	"1"
 		"soundlevel"  	"SNDLVL_60dB"
-		"wave"		"ambient/computer_working3_blue.ogg"
+		"wave"		"ambient/computer_working3_blue.wav"
 	}
 }

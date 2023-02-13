@@ -68,7 +68,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
@@ -77,7 +77,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_working.ogg"
+		"wave"		"ambient/computer_working.wav"
 	}
 }
 
@@ -89,7 +89,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
@@ -98,7 +98,7 @@
 		"position"	"1"
 		"pitch"		"100"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_working2.ogg"
+		"wave"		"ambient/computer_working2.wav"
 	}
 
 }
@@ -110,14 +110,14 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 }
 
@@ -129,14 +129,14 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.ogg"
+		"wave"		"ambient/desert_rustle.wav"
 	}
 
 	"playrandom"
@@ -164,7 +164,7 @@
 		"position"	"1"
 		"pitch"		"100"
 		"soundlevel"	"SNDLVL_65dB"
-		"wave"		"ambient/computer_working.ogg"
+		"wave"		"ambient/computer_working.wav"
 	}
 
 		"playlooping"
@@ -173,7 +173,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"soundlevel"	"SNDLVL_60dB"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 			"playlooping"
@@ -182,7 +182,7 @@
 		"position"	"5"
 		"pitch"		"100"
 		"soundlevel"	"SNDLVL_65dB"
-		"wave"		"ambient/computer_working2.ogg"
+		"wave"		"ambient/computer_working2.wav"
 	}
 
 }

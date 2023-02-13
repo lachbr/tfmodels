@@ -68,21 +68,21 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 }
 
@@ -95,28 +95,28 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 }
 
@@ -129,21 +129,21 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 
 	"playrandom"
@@ -171,21 +171,21 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 
 	"playrandom"
@@ -211,21 +211,21 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/forest_high_wind.ogg"
+		"wave"		"ambient/forest_high_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 
 	"playrandom"
@@ -246,6 +246,6 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 }

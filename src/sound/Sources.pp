@@ -11,8 +11,8 @@
 // yet.
 #begin install_audio
   #define SOURCES $[wildcard **/*.wav]
-  #define TARGET_EXT .ogg
-  #defer DO_CONVERT oggenc $[source] -q 5 -o $[target]
+  //#define TARGET_EXT .ogg
+  //#defer DO_CONVERT oggenc $[source] -q 5 -o $[target]
 
 #end install_audio
 

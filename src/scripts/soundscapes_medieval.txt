@@ -67,7 +67,7 @@
 	{
 		"volume"		"1"
 		"pitch"		"100"
-		"wave"		"ambient/medieval_outside.ogg"
+		"wave"		"ambient/medieval_outside.wav"
 	}
 
 	"playrandom"
@@ -93,7 +93,7 @@
 	{
 		"volume"		"1"
 		"pitch"		"100"
-		"wave"		"ambient/medieval_outside.ogg"
+		"wave"		"ambient/medieval_outside.wav"
 	}
 
 	"playrandom"

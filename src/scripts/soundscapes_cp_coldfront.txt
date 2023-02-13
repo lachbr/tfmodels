@@ -66,14 +66,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 
 
@@ -81,14 +81,14 @@
 	{
 		"volume"	".20"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".30"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 	"playlooping"
@@ -97,7 +97,7 @@
 		"pitch"		"100"
 		"position"		"2"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_working2.ogg"
+		"wave"		"ambient/computer_working2.wav"
 	}
 
 	"playlooping"
@@ -106,7 +106,7 @@
 		"pitch"		"100"
 		"position"		"3"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -115,7 +115,7 @@
 		"pitch"		"100"
 		"position"		"4"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_working.ogg"
+		"wave"		"ambient/computer_working.wav"
 	}
 
 	"playlooping"
@@ -124,7 +124,7 @@
 		"pitch"		"100"
 		"position"		"5"
 		"attenuation"	"0.7"
-		"wave"		"ambient\alarms\alarm_citizen_loop1.ogg"
+		"wave"		"ambient\alarms\alarm_citizen_loop1.wav"
 	}
 }
 
@@ -138,7 +138,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/windwinter.ogg"
+		"wave"		"ambient/windwinter.wav"
 	}
 
 
@@ -146,7 +146,7 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/forest_cliff.ogg"
+		"wave"		"ambient/forest_cliff.wav"
 	}
 
 
@@ -154,7 +154,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 	"playrandom"
@@ -164,8 +164,8 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient\wind\windgust.ogg"
-			"wave"		"ambient\wind\windgust_strong.ogg"
+			"wave"		"ambient\wind\windgust.wav"
+			"wave"		"ambient\wind\windgust_strong.wav"
 		}
 	}
 }

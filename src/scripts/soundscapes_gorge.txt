@@ -67,14 +67,14 @@
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_quiet_birds.ogg"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.ogg"
+		"wave"		"ambient/outdoors.wav"
 	}
 
 
@@ -103,7 +103,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
@@ -112,7 +112,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -121,7 +121,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -130,7 +130,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -139,7 +139,7 @@
 		"pitch"		"100"
 		"position"	"3"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -148,7 +148,7 @@
 		"pitch"		"100"
 		"position"	"4"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 	"playlooping"
@@ -157,7 +157,7 @@
 		"pitch"		"100"
 		"position"	"5"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 	"playlooping"
@@ -166,6 +166,6 @@
 		"pitch"		"100"
 		"position"	"6"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 }

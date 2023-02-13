@@ -67,14 +67,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 }
@@ -88,14 +88,14 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/forest_high_wind.ogg"
+		"wave"		"ambient/forest_high_wind.wav"
 	}
 
 	"playrandom"

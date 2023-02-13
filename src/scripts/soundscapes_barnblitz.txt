@@ -66,21 +66,21 @@
 	{
 		"volume"	".9"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 
 	"playrandom"
@@ -109,7 +109,7 @@
 	{
 		"volume"	".75"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.ogg"
+		"wave"		"ambient/desert_rustle.wav"
 	}
 
 
@@ -117,14 +117,14 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/windwinter.ogg"
+		"wave"		"ambient/windwinter.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 	"playrandom"

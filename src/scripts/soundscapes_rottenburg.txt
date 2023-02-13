@@ -67,7 +67,7 @@
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_town.ogg"
+		"wave"		"ambient/rottenburg/rottenburg_town.wav"
 	}
 
 	"playrandom"
@@ -97,7 +97,7 @@
 		{
 			"wave"		"ambient_mp3/owl3.mp3"
 			"wave"		"ambient_mp3/owl4.mp3"
-			"wave"		"misc/null.ogg"
+			"wave"		"misc/null.wav"
 		}
 	}
 
@@ -122,7 +122,7 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"0"
-		"wave"			"ambient/rottenburg/rottenburg_moat.ogg"
+		"wave"			"ambient/rottenburg/rottenburg_moat.wav"
 	}
 
 	"playlooping"
@@ -131,7 +131,7 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"1"
-		"wave"			"ambient/windwinterinside.ogg"
+		"wave"			"ambient/windwinterinside.wav"
 	}
 
 	"playlooping"
@@ -140,7 +140,7 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_85dB"
 		"position"  		"2"
-		"wave"			"ambient/windwinterinside.ogg"
+		"wave"			"ambient/windwinterinside.wav"
 	}
 }
 
@@ -152,7 +152,7 @@
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_alcove.ogg"
+		"wave"		"ambient/rottenburg/rottenburg_alcove.wav"
 	}
 
 	"playrandom"
@@ -197,7 +197,7 @@
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"ambient/rottenburg/rottenburg_clearing.ogg"
+		"wave"		"ambient/rottenburg/rottenburg_clearing.wav"
 	}
 
 	"playrandom"
@@ -226,21 +226,21 @@
 	{
 		"volume"	"0.7"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 }
 

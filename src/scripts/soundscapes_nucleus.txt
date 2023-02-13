@@ -68,28 +68,28 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.ogg"
+		"wave"		"ambient/nucleus_electricity.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 }
 
@@ -102,27 +102,27 @@
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.ogg"
+		"wave"		"ambient/nucleus_electricity.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.ogg"
+		"wave"		"ambient/outdoors_well.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 }

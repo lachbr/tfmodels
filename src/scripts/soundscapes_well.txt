@@ -68,14 +68,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 	"playlooping"
@@ -84,7 +84,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 
 	"playlooping"
@@ -93,7 +93,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_tape.ogg"
+		"wave"		"ambient/computer_tape.wav"
 	}
 
 	"playlooping"
@@ -102,7 +102,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_working.ogg"
+		"wave"		"ambient/computer_working.wav"
 	}
 
 	"playlooping"
@@ -111,7 +111,7 @@
 		"pitch"		"100"
 		"position"	"3"
 		"attenuation"	"0.7"
-		"wave"		"ambient/computer_tape2.ogg"
+		"wave"		"ambient/computer_tape2.wav"
 	}
 
 	"playlooping"
@@ -120,7 +120,7 @@
 		"pitch"		"100"
 		"position"	"4"
 		"attenuation"	"0.7"
-		"wave"		"ambient/command_center.ogg"
+		"wave"		"ambient/command_center.wav"
 	}
 
 	"playlooping"
@@ -129,7 +129,7 @@
 		"pitch"		"100"
 		"position"	"5"
 		"attenuation"	"0.7"
-		"wave"		"ambient/printer.ogg"
+		"wave"		"ambient/printer.wav"
 	}
 }
 
@@ -142,14 +142,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 }
 
@@ -163,7 +163,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.ogg"
+		"wave"		"ambient/outdoors_well.wav"
 	}
 
 	"playlooping"
@@ -172,7 +172,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"soundlevel"	"SNDLVL_85dB"
-		"wave"		"ambient/factory_outdoor.ogg"
+		"wave"		"ambient/factory_outdoor.wav"
 	}
 
 	"playlooping"
@@ -181,6 +181,6 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"	"SNDLVL_90dB"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 }

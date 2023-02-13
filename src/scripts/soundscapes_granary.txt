@@ -105,7 +105,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"attenuation"	"1"
-		"wave"		"ambient/factory_outdoor.ogg"
+		"wave"		"ambient/factory_outdoor.wav"
 	}
 
 	"playlooping"
@@ -114,21 +114,21 @@
 		"pitch"		"100"
 		"position"	"3"
 		"attenuation"	"1"
-		"wave"		"ambient/factory_outdoor.ogg"
+		"wave"		"ambient/factory_outdoor.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_quiet_birds.ogg"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"		".75"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.ogg"
+		"wave"		"ambient/outdoors.wav"
 	}
 }
 
@@ -141,6 +141,6 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 }

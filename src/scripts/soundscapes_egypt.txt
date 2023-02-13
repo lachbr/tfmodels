@@ -67,14 +67,14 @@
 	{
 		"volume"		"1"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.ogg"
+		"wave"		"ambient/outdoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 
 
@@ -90,13 +90,13 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 }

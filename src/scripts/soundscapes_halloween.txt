@@ -8,13 +8,13 @@
 	{
 		"volume"		".2, .3"
 		"pitch"		"50"
-		"wave"		"ambient/desert_life.ogg"
+		"wave"		"ambient/desert_life.wav"
 	}
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/hallowloop.ogg"
+		"wave"		"ambient/hallowloop.wav"
 	}
 
 		"playrandom"
@@ -77,13 +77,13 @@
 	{
 		"volume"	".3"
 		"pitch"		"75"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 	"playrandom"
 	{
@@ -132,35 +132,35 @@
 	{
 		"volume"	".75"
 		"pitch"		"110"
-		"wave"		"ambient\halloween\Underground_wind_lp_01.ogg"
+		"wave"		"ambient\halloween\Underground_wind_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".85"
 		"pitch"		"100"
-		"wave"		"ambient\halloween\Underground_wind_lp_04.ogg"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1.0"
 		"pitch"		"100"
-		"wave"		"ambient\halloween\Underground_wind_lp_02.ogg"
+		"wave"		"ambient\halloween\Underground_wind_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1.0"
 		"pitch"		"100"
-		"wave"		"ambient\halloween\Underground_wind_lp_03.ogg"
+		"wave"		"ambient\halloween\Underground_wind_lp_03.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1.0"
 		"pitch"		"100"
-		"wave"		"ambient\halloween\Underground_water_lp_01.ogg"
+		"wave"		"ambient\halloween\Underground_water_lp_01.wav"
 	}
 
 	"playrandom"
@@ -318,7 +318,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient\hell\hell_atmos.ogg"
+		"wave"		"ambient\hell\hell_atmos.wav"
 	}
 
 	"playrandom"
@@ -435,13 +435,13 @@
 	{
 		"volume"		".1, .2"
 		"pitch"		"50"
-		"wave"		"ambient/desert_life.ogg"
+		"wave"		"ambient/desert_life.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"ambient/hallowloop.ogg"
+		"wave"		"ambient/hallowloop.wav"
 	}
 
 		"playrandom"
@@ -504,13 +504,13 @@
 	{
 		"volume"	".2"
 		"pitch"		"75"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 	"playrandom"
 	{

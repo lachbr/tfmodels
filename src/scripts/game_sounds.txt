@@ -65,7 +65,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/smallmedkit1.ogg"
+	"wave"		"items/smallmedkit1.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -77,7 +77,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/gunpickup2.ogg"
+	"wave"		"items/gunpickup2.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -89,7 +89,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/gunpickup2.ogg"
+	"wave"		"items/gunpickup2.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -101,7 +101,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/regenerate.ogg"
+	"wave"		"items/regenerate.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -113,7 +113,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"items/r_item1.ogg"
+	"wave"		"items/r_item1.wav"
 }
 
 "BaseCombatCharacter.CorpseGib"
@@ -123,7 +123,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_squishy_impact_hard2.ogg"
+		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
 	}
 }
 
@@ -133,7 +133,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"common/null.ogg"
+	"wave"	"common/null.wav"
 }
 
 "BaseCombatCharacter.AmmoPickup"
@@ -142,7 +142,7 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"items/ammo_pickup.ogg"
+	"wave"	"items/ammo_pickup.wav"
 }
 
 "General.BurningFlesh"
@@ -153,7 +153,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		 "npc/headcrab/headcrab_burning_loop2.ogg"
+	"wave"		 "npc/headcrab/headcrab_burning_loop2.wav"
 }
 
 "General.BurningObject"
@@ -164,7 +164,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		 "ambient/fire/fire_small_loop2.ogg"
+	"wave"		 "ambient/fire/fire_small_loop2.wav"
 }
 
 "General.StopBurning"
@@ -175,7 +175,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		 "common/null.ogg"
+	"wave"		 "common/null.wav"
 }
 
 "BaseCombatWeapon.WeaponDrop"
@@ -186,9 +186,9 @@
 	"pitch"	  "95,110"
 	"rndwave"
 	{
-		"wave"	"physics/metal/weapon_impact_hard1.ogg"
-		"wave"	"physics/metal/weapon_impact_hard2.ogg"
-		"wave"	"physics/metal/weapon_impact_hard3.ogg"
+		"wave"	"physics/metal/weapon_impact_hard1.wav"
+		"wave"	"physics/metal/weapon_impact_hard2.wav"
+		"wave"	"physics/metal/weapon_impact_hard3.wav"
 	}
 }
 
@@ -199,7 +199,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"	"150"
 
-	"wave"	"items/suitchargeok1.ogg"
+	"wave"	"items/suitchargeok1.wav"
 }
 
 "HudChat.Message"
@@ -219,7 +219,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/hint.ogg"
+	"wave"		"ui/hint.wav"
 }
 
 "Hud.ItemAcquired"
@@ -229,7 +229,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/item_acquired.ogg"
+	"wave"		"ui/item_acquired.wav"
 }
 
 "Hud.ProjectorScreenUp"
@@ -239,7 +239,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/projector_screen_up.ogg"
+	"wave"		"ui/projector_screen_up.wav"
 }
 
 "Hud.ProjectorScreenUpLong"
@@ -249,7 +249,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/projector_screen_up_long.ogg"
+	"wave"		"ui/projector_screen_up_long.wav"
 }
 
 "Hud.ProjectorScreenDown"
@@ -259,7 +259,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/projector_screen_down.ogg"
+	"wave"		"ui/projector_screen_down.wav"
 }
 
 "Hud.ProjectorMovie"
@@ -269,7 +269,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/projector_movie.ogg"
+	"wave"		"ui/projector_movie.wav"
 }
 
 "Hud.EndRoundScored"
@@ -279,7 +279,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/scored.ogg"
+	"wave"		"ui/scored.wav"
 }
 
 "Hud.PointCaptured"
@@ -289,7 +289,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/scored.ogg"
+	"wave"		"ui/scored.wav"
 }
 
 "Hud.Warning"
@@ -299,7 +299,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"misc/hud_warning.ogg"
+	"wave"		"misc/hud_warning.wav"
 }
 
 "Hud.TrainingPointSmall"
@@ -309,7 +309,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/training_point_small.ogg"
+	"wave"		"ui/training_point_small.wav"
 }
 
 "Hud.TrainingPointBig"
@@ -319,7 +319,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/training_point_big.ogg"
+	"wave"		"ui/training_point_big.wav"
 }
 
 "Hud.TrainingMsgUpdate"
@@ -329,7 +329,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ui/hint.ogg"
+	"wave"		"ui/hint.wav"
 }
 
 
@@ -339,7 +339,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  		"SNDLVL_NORM"
-	"wave"			"player/sprayer.ogg"
+	"wave"			"player/sprayer.wav"
 }
 
 
@@ -350,7 +350,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"common/null.ogg"
+	"wave"		"common/null.wav"
 }
 
 "DoorSound.DefaultMove"
@@ -358,7 +358,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/door_metal_rusty_move1.ogg"
+	"wave"		"doors/door_metal_rusty_move1.wav"
 }
 
 "DoorSound.DefaultArrive"
@@ -366,7 +366,7 @@
 	"channel"		"CHAN_BODY"
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/metal_stop1.ogg"
+	"wave"		"doors/metal_stop1.wav"
 }
 
 "DoorSound.DefaultLocked"
@@ -374,7 +374,7 @@
 	"channel"		"CHAN_BODY"
 	"volume"		"0.2"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/default_locked.ogg"
+	"wave"		"doors/default_locked.wav"
 }
 
 "RotDoorSound.DefaultMove"
@@ -382,7 +382,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/door_metal_rusty_move1.ogg"
+	"wave"		"doors/door_metal_rusty_move1.wav"
 }
 
 "RotDoorSound.DefaultArrive"
@@ -390,7 +390,7 @@
 	"channel"		"CHAN_BODY"
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/metal_stop1.ogg"
+	"wave"		"doors/metal_stop1.wav"
 }
 
 "RotDoorSound.DefaultLocked"
@@ -398,7 +398,7 @@
 	"channel"		"CHAN_BODY"
 	"volume"		"0.2"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"		"doors/default_locked.ogg"
+	"wave"		"doors/default_locked.wav"
 }
 
 "Item.Materialize"
@@ -406,7 +406,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.25"
 	"soundlevel"  "SNDLVL_75dB"
-	"wave"	"items/spawn_item.ogg"
+	"wave"	"items/spawn_item.wav"
 }
 
 "PropaneTank.Burst"
@@ -415,7 +415,7 @@
 	"volume"	"1.0"
 	"pitch"		"95,105"
 	"soundlevel"	"SNDLVL_90db"
-	"wave"		"ambient/fire/gascan_ignite1.ogg"
+	"wave"		"ambient/fire/gascan_ignite1.wav"
 }
 
 "NPC_CombineS.ElectrocuteScream"
@@ -424,7 +424,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"			"common/null.ogg"
+	"wave"			"common/null.wav"
 }
 
 
@@ -436,9 +436,9 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_pain5.ogg"
-		"wave"	"player/pl_pain6.ogg"
-		"wave"	"player/pl_pain7.ogg"
+		"wave"	"player/pl_pain5.wav"
+		"wave"	"player/pl_pain6.wav"
+		"wave"	"player/pl_pain7.wav"
 	}
 }
 
@@ -448,7 +448,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"			"ui/slide_down.ogg"
+	"wave"			"ui/slide_down.wav"
 }
 
 "Panel.SlideUp"
@@ -457,7 +457,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"			"ui/slide_up.ogg"
+	"wave"			"ui/slide_up.wav"
 }
 
 
@@ -471,7 +471,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_74dB"
-	"wave"		")ambient/drips1.ogg"
+	"wave"		")ambient/drips1.wav"
 }
 
 "Ambient.Drips2"
@@ -480,7 +480,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_74dB"
-	"wave"		")ambient/drips2.ogg"
+	"wave"		")ambient/drips2.wav"
 }
 
 "Ambient.Drips3"
@@ -489,7 +489,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_74dB"
-	"wave"		")ambient/drips3.ogg"
+	"wave"		")ambient/drips3.wav"
 }
 
 "Sawmill.Waterfall"
@@ -498,7 +498,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_84dB"
-	"wave"		"ambient/waterfall.ogg"
+	"wave"		"ambient/waterfall.wav"
 }
 
 "Ambient.MachineHum"
@@ -507,7 +507,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/machine_hum.ogg"
+	"wave"		")ambient/machine_hum.wav"
 }
 
 "Ambient.MachineHum2"
@@ -516,7 +516,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/machine_hum2.ogg"
+	"wave"		")ambient/machine_hum2.wav"
 }
 
 "Ambient.MachineWorking"
@@ -525,7 +525,7 @@
 	"volume"	".50"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/train_engine_idle.ogg"
+	"wave"		")ambient/train_engine_idle.wav"
 }
 
 
@@ -536,7 +536,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/computer_working.ogg"
+	"wave"		")ambient/computer_working.wav"
 }
 
 "Ambient.ComputerTape"
@@ -545,7 +545,7 @@
 	"volume"	".5"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/computer_tape.ogg"
+	"wave"		")ambient/computer_tape.wav"
 }
 
 "Ambient.ComputerTape3"
@@ -554,7 +554,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_70dB"
-	"wave"		"ambient/computer_tape3.ogg"
+	"wave"		"ambient/computer_tape3.wav"
 }
 
 "Ambient.ComputerTape4"
@@ -563,7 +563,7 @@
 	"volume"	"0"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_70dB"
-	"wave"		"ambient/computer_tape4.ogg"
+	"wave"		"ambient/computer_tape4.wav"
 }
 
 "Ambient.CommandCenter"
@@ -572,7 +572,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/command_center.ogg"
+	"wave"		")ambient/command_center.wav"
 }
 
 "Ambient.CommandCenter2"
@@ -581,7 +581,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"		")ambient/command_center2.ogg"
+	"wave"		")ambient/command_center2.wav"
 }
 
 "Ambient.Factory"
@@ -590,7 +590,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/factory_outdoor.ogg"
+	"wave"		")ambient/factory_outdoor.wav"
 }
 
 "Ambient.Generator"
@@ -599,7 +599,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		")ambient/generator.ogg"
+	"wave"		")ambient/generator.wav"
 }
 
 "Ambient.SteamDrum"
@@ -608,7 +608,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_80dB"
-	"wave"		")ambient/steam_drum.ogg"
+	"wave"		")ambient/steam_drum.wav"
 }
 
 "Ambient.TrainApproachAndPass"
@@ -627,7 +627,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_95dB"
-	"wave"		")ambient/train.ogg"
+	"wave"		")ambient/train.wav"
 }
 
 "Ambient.LairTramCap2"
@@ -636,7 +636,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_95dB"
-	"wave"		")ambient/lair/cap_2_tram.ogg"
+	"wave"		")ambient/lair/cap_2_tram.wav"
 }
 
 "Ambient.LairTramCap3"
@@ -645,7 +645,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_95dB"
-	"wave"		")ambient/lair/cap_3_tram.ogg"
+	"wave"		")ambient/lair/cap_3_tram.wav"
 }
 
 "Ambient.LairTramDoorOpen"
@@ -655,7 +655,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/lair/cap_2_tram_door_open.ogg"
+	"wave"		")ambient/lair/cap_2_tram_door_open.wav"
 }
 
 "Ambient.LairTramDoorClose"
@@ -665,7 +665,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/lair/cap_2_tram_door_open.ogg"
+	"wave"		")ambient/lair/cap_2_tram_door_open.wav"
 }
 
 "Ambient.RailroadBells"
@@ -674,7 +674,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_95dB"
-	"wave"		")ambient/railroad_bells.ogg"
+	"wave"		")ambient/railroad_bells.wav"
 }
 
 "Ambient.SlowTrain"
@@ -683,7 +683,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_150dB"
-	"wave"		")ambient/slow_train.ogg"
+	"wave"		")ambient/slow_train.wav"
 }
 
 "Ambient.SlowTrainLeadIn"
@@ -701,7 +701,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_75dB"
-	"wave"		"ambient/lighthum.ogg"
+	"wave"		"ambient/lighthum.wav"
 }
 
 "Ambient.LightHum"
@@ -710,7 +710,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"		"ambient/lighthum.ogg"
+	"wave"		"ambient/lighthum.wav"
 }
 
 "Ambient.Siren"
@@ -728,7 +728,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"		"SNDLVL_87dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")ambient/forest_cliff.ogg"
+	"wave"			")ambient/forest_cliff.wav"
 }
 
 "Ambient.Fireball"
@@ -737,7 +737,7 @@
 	"volume"		"1"
 	"soundlevel"	"SNDLVL_97dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")ambient/fireball.ogg"
+	"wave"			")ambient/fireball.wav"
 }
 
 "Game.SuddenDeath"
@@ -748,7 +748,7 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_suddendeath.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_suddendeath.ogg"	[$X360]
+	"wave"		"#misc/your_team_suddendeath.wav"	[$X360]
 }
 
 "Game.Stalemate"
@@ -759,7 +759,7 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_stalemate.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_stalemate.ogg"	[$X360]
+	"wave"		"#misc/your_team_stalemate.wav"	[$X360]
 }
 
 "Game.Overtime"
@@ -785,7 +785,7 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_lost.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_lost.ogg"	[$X360]
+	"wave"		"#misc/your_team_lost.wav"	[$X360]
 }
 
 "Game.YourTeamWon"
@@ -796,7 +796,7 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_won.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_won.ogg"	[$X360]
+	"wave"		"#misc/your_team_won.wav"	[$X360]
 }
 
 "Game.Revenge"
@@ -805,7 +805,7 @@
 	"volume"  ".65"
 	"pitch"  "100"
 	"soundlevel"   "SNDLVL_NORM"
-	"wave"  "#misc/tf_revenge.ogg"
+	"wave"  "#misc/tf_revenge.wav"
 }
 
 "Game.Domination"
@@ -814,7 +814,7 @@
  	"volume"  ".65"
  	"pitch"  "100"
  	"soundlevel"   "SNDLVL_NORM"
-	"wave"  "#misc/tf_domination.ogg"
+	"wave"  "#misc/tf_domination.wav"
 }
 
 "Game.Nemesis"
@@ -823,7 +823,7 @@
  	"volume"  ".65"
  	"pitch"  "100"
  	"soundlevel"   "SNDLVL_NORM"
-	"wave"  "#misc/tf_nemesis.ogg"
+	"wave"  "#misc/tf_nemesis.wav"
 }
 "Game.KillStreak"
 {
@@ -831,7 +831,7 @@
  	"volume"  ".65"
  	"pitch"  "100"
  	"soundlevel"   "SNDLVL_NORM"
-	"wave"  "#misc/killstreak.ogg"
+	"wave"  "#misc/killstreak.wav"
 }
 
 "Game.PenetrationKill"
@@ -840,7 +840,7 @@
  	"volume"	"0.8"
  	"pitch"		"100"
  	"soundlevel"   "SNDLVL_NORM"
-	"wave"	"misc\sniper_railgun_double_kill.ogg"
+	"wave"	"misc\sniper_railgun_double_kill.wav"
 }
 
 "Game.HappyBirthday"
@@ -849,7 +849,7 @@
  	"volume"  "1"
  	"pitch"  "100"
  	"soundlevel"   "SNDLVL_87dB"
-	"wave"  "misc/happy_birthday.ogg"
+	"wave"  "misc/happy_birthday.wav"
 }
 
 "Game.HappyBirthdayNoiseMaker"
@@ -860,35 +860,35 @@
  	"soundlevel"   "SNDLVL_87dB"
 	"rndwave"
 	{
-		"wave"	")misc\happy_birthday_tf_01.ogg"
-		"wave"	")misc\happy_birthday_tf_02.ogg"
-		"wave"	")misc\happy_birthday_tf_03.ogg"
-		"wave"	")misc\happy_birthday_tf_04.ogg"
-		"wave"	")misc\happy_birthday_tf_05.ogg"
-		"wave"	")misc\happy_birthday_tf_06.ogg"
-		"wave"	")misc\happy_birthday_tf_07.ogg"
-		"wave"	")misc\happy_birthday_tf_08.ogg"
-		"wave"	")misc\happy_birthday_tf_09.ogg"
-		"wave"	")misc\happy_birthday_tf_10.ogg"
-		"wave"	")misc\happy_birthday_tf_11.ogg"
-		"wave"	")misc\happy_birthday_tf_12.ogg"
-		"wave"	")misc\happy_birthday_tf_13.ogg"
-		"wave"	")misc\happy_birthday_tf_14.ogg"
-		"wave"	")misc\happy_birthday_tf_15.ogg"
-		"wave"	")misc\happy_birthday_tf_16.ogg"
-		"wave"	")misc\happy_birthday_tf_17.ogg"
-		"wave"	")misc\happy_birthday_tf_18.ogg"
-		"wave"	")misc\happy_birthday_tf_19.ogg"
-		"wave"	")misc\happy_birthday_tf_20.ogg"
-		"wave"	")misc\happy_birthday_tf_21.ogg"
-		"wave"	")misc\happy_birthday_tf_22.ogg"
-		"wave"	")misc\happy_birthday_tf_23.ogg"
-		"wave"	")misc\happy_birthday_tf_24.ogg"
-		"wave"	")misc\happy_birthday_tf_25.ogg"
-		"wave"	")misc\happy_birthday_tf_26.ogg"
-		"wave"	")misc\happy_birthday_tf_27.ogg"
-		"wave"	")misc\happy_birthday_tf_28.ogg"
-		"wave"	")misc\happy_birthday_tf_29.ogg"
+		"wave"	")misc\happy_birthday_tf_01.wav"
+		"wave"	")misc\happy_birthday_tf_02.wav"
+		"wave"	")misc\happy_birthday_tf_03.wav"
+		"wave"	")misc\happy_birthday_tf_04.wav"
+		"wave"	")misc\happy_birthday_tf_05.wav"
+		"wave"	")misc\happy_birthday_tf_06.wav"
+		"wave"	")misc\happy_birthday_tf_07.wav"
+		"wave"	")misc\happy_birthday_tf_08.wav"
+		"wave"	")misc\happy_birthday_tf_09.wav"
+		"wave"	")misc\happy_birthday_tf_10.wav"
+		"wave"	")misc\happy_birthday_tf_11.wav"
+		"wave"	")misc\happy_birthday_tf_12.wav"
+		"wave"	")misc\happy_birthday_tf_13.wav"
+		"wave"	")misc\happy_birthday_tf_14.wav"
+		"wave"	")misc\happy_birthday_tf_15.wav"
+		"wave"	")misc\happy_birthday_tf_16.wav"
+		"wave"	")misc\happy_birthday_tf_17.wav"
+		"wave"	")misc\happy_birthday_tf_18.wav"
+		"wave"	")misc\happy_birthday_tf_19.wav"
+		"wave"	")misc\happy_birthday_tf_20.wav"
+		"wave"	")misc\happy_birthday_tf_21.wav"
+		"wave"	")misc\happy_birthday_tf_22.wav"
+		"wave"	")misc\happy_birthday_tf_23.wav"
+		"wave"	")misc\happy_birthday_tf_24.wav"
+		"wave"	")misc\happy_birthday_tf_25.wav"
+		"wave"	")misc\happy_birthday_tf_26.wav"
+		"wave"	")misc\happy_birthday_tf_27.wav"
+		"wave"	")misc\happy_birthday_tf_28.wav"
+		"wave"	")misc\happy_birthday_tf_29.wav"
 	}
 }
 
@@ -898,7 +898,7 @@
 	"volume"	"VOL_NORM"
 	"pitch"	"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc/null.ogg"
+	"wave"	"misc/null.wav"
 }
 
 
@@ -912,7 +912,7 @@
 	"volume"		".65"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"doors/generic_door_open.ogg"
+	"wave"		"doors/generic_door_open.wav"
 }
 
 "Door.Close"
@@ -921,7 +921,7 @@
 	"volume"		".65"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"doors/generic_door_close.ogg"
+	"wave"		"doors/generic_door_close.wav"
 }
 
 "TV.Static"
@@ -930,7 +930,7 @@
 	"volume"		".15"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"misc/null.ogg"
+	"wave"		"misc/null.wav"
 }
 
 "TV.Tune"
@@ -948,9 +948,9 @@
 
 	"rndwave"	[$X360]
 	{
-		"wave"	"ui/tv_tune.ogg"
-		"wave"	"ui/tv_tune2.ogg"
-		"wave"	"ui/tv_tune3.ogg"
+		"wave"	"ui/tv_tune.wav"
+		"wave"	"ui/tv_tune2.wav"
+		"wave"	"ui/tv_tune3.wav"
 	}
 }
 
@@ -960,7 +960,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_73dB"
-	"wave"		"misc/hologram_start.ogg"
+	"wave"		"misc/hologram_start.wav"
 }
 
 "Hologram.Move"
@@ -969,7 +969,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_73dB"
-	"wave"		"misc/hologram_move.ogg"
+	"wave"		"misc/hologram_move.wav"
 }
 
 "Hologram.Stop"
@@ -978,7 +978,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_73dB"
-	"wave"		"misc/hologram_stop.ogg"
+	"wave"		"misc/hologram_stop.wav"
 }
 
 "Hologram.Interrupted"
@@ -987,7 +987,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_73dB"
-	"wave"		"misc/hologram_malfunction.ogg"
+	"wave"		"misc/hologram_malfunction.wav"
 }
 
 
@@ -997,7 +997,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_NORM"
-	"wave"		")misc/flame_engulf.ogg"
+	"wave"		")misc/flame_engulf.wav"
 }
 
 "Camera.SnapShot"
@@ -1006,7 +1006,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_NORM"
-	"wave"		"misc/freeze_cam_snapshot.ogg"
+	"wave"		"misc/freeze_cam_snapshot.wav"
 }
 
 "Camera.SnapShotMultiple"
@@ -1017,17 +1017,17 @@
 	"soundlevel"  	"SNDLVL_NORM"
 	"rndwave"
 	{
-		"wave"		"misc\tf_camera_01.ogg"
-		"wave"		"misc\tf_camera_02.ogg"
-		"wave"		"misc\tf_camera_03.ogg"
-		"wave"		"misc\tf_camera_04.ogg"
-		"wave"		"misc\tf_camera_05.ogg"
-		"wave"		"misc\tf_camera_06.ogg"
-		"wave"		"misc\tf_camera_07.ogg"
-		"wave"		"misc\tf_camera_08.ogg"
-		"wave"		"misc\tf_camera_09.ogg"
-		"wave"		"misc\tf_camera_10.ogg"
-		"wave"		"misc\tf_camera_11.ogg"
+		"wave"		"misc\tf_camera_01.wav"
+		"wave"		"misc\tf_camera_02.wav"
+		"wave"		"misc\tf_camera_03.wav"
+		"wave"		"misc\tf_camera_04.wav"
+		"wave"		"misc\tf_camera_05.wav"
+		"wave"		"misc\tf_camera_06.wav"
+		"wave"		"misc\tf_camera_07.wav"
+		"wave"		"misc\tf_camera_08.wav"
+		"wave"		"misc\tf_camera_09.wav"
+		"wave"		"misc\tf_camera_10.wav"
+		"wave"		"misc\tf_camera_11.wav"
 	}
 }
 
@@ -1037,7 +1037,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			")misc/achievement_earned.ogg"
+	"wave"			")misc/achievement_earned.wav"
 }
 
 
@@ -1047,7 +1047,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
-	"wave"			")items/cart_rolling.ogg"
+	"wave"			")items/cart_rolling.wav"
 }
 
 "Cart.Grind"
@@ -1058,10 +1058,10 @@
 	"soundlevel"  	"SNDLVL_84dB"
 	"rndwave"
 	{
-		"wave"	"items/cart_rolling_back_grind1.ogg"
-		"wave"	"items/cart_rolling_back_grind2.ogg"
-		"wave"	"items/cart_rolling_back_grind3.ogg"
-		"wave"	"items/cart_rolling_back_grind4.ogg"
+		"wave"	"items/cart_rolling_back_grind1.wav"
+		"wave"	"items/cart_rolling_back_grind2.wav"
+		"wave"	"items/cart_rolling_back_grind3.wav"
+		"wave"	"items/cart_rolling_back_grind4.wav"
 	}
 }
 
@@ -1071,7 +1071,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
-	"wave"			")items/cart_rolling_start.ogg"
+	"wave"			")items/cart_rolling_start.wav"
 }
 
 "Cart.RollStop"
@@ -1080,7 +1080,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
-	"wave"			")items/cart_rolling_stop.ogg"
+	"wave"			")items/cart_rolling_stop.wav"
 }
 
 "Cart.Explode"
@@ -1089,7 +1089,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"			")items/cart_explode.ogg"
+	"wave"			")items/cart_explode.wav"
 }
 
 "Cart.Trigger"
@@ -1098,7 +1098,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_150dB"
-	"wave"			")items/cart_explode_trigger.ogg"
+	"wave"			")items/cart_explode_trigger.wav"
 }
 
 "Cart.Falling"
@@ -1107,7 +1107,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_110dB"
-	"wave"			"items/cart_explode_falling.ogg"
+	"wave"			"items/cart_explode_falling.wav"
 }
 
 "Cart.Warning"
@@ -1116,7 +1116,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_104dB"
-	"wave"			")items/cart_warning.ogg"
+	"wave"			")items/cart_warning.wav"
 }
 
 "Cart.WarningSingle"
@@ -1125,7 +1125,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_104dB"
-	"wave"			")items/cart_warning_single.ogg"
+	"wave"			")items/cart_warning_single.wav"
 }
 
 "Hud.AchievementIncremented"
@@ -1135,7 +1135,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"		"160"
 
-	"wave"		"ui/scored.ogg"
+	"wave"		"ui/scored.wav"
 }
 
 
@@ -1159,7 +1159,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/sawblade.ogg"
+	"wave"		")ambient/sawblade.wav"
 }
 
 "Ambient.NucleusElectricity"
@@ -1169,7 +1169,7 @@
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/nucleus_electricity.ogg"
+	"wave"		")ambient/nucleus_electricity.wav"
 }
 
 "Nucleus.WalkWayMove"
@@ -1189,7 +1189,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/chamber_open.ogg"
+	"wave"		")ambient/chamber_open.wav"
 }
 
 "Medieval.DoorOpen"
@@ -1239,7 +1239,7 @@
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"ambient/medieval_flag.ogg"
+	"wave"		"ambient/medieval_flag.wav"
 }
 
 "Medieval.Brazier"
@@ -1249,7 +1249,7 @@
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")ambient/medieval_brazier.ogg"
+	"wave"		")ambient/medieval_brazier.wav"
 }
 
 "ArrowLight"
@@ -1270,12 +1270,12 @@
 	"pitch"		"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	")ambient/lair/yeti_statue_growl1.ogg"
-		"wave"	")ambient/lair/yeti_statue_growl2.ogg"
-		"wave"	")ambient/lair/yeti_statue_growl3.ogg"
-		"wave"	")ambient/lair/yeti_statue_growl4.ogg"
-		"wave"	")ambient/lair/yeti_statue_growl5.ogg"
-		"wave"	")ambient/lair/yeti_statue_growl6.ogg"
+		"wave"	")ambient/lair/yeti_statue_growl1.wav"
+		"wave"	")ambient/lair/yeti_statue_growl2.wav"
+		"wave"	")ambient/lair/yeti_statue_growl3.wav"
+		"wave"	")ambient/lair/yeti_statue_growl4.wav"
+		"wave"	")ambient/lair/yeti_statue_growl5.wav"
+		"wave"	")ambient/lair/yeti_statue_growl6.wav"
 	}
 }
 
@@ -1290,7 +1290,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"replay/saved.ogg"
+	"wave"		"replay/saved.wav"
 }
 
 
@@ -1302,9 +1302,9 @@
 	"pitch"		"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	")items/pumpkin_explode1.ogg"
-		"wave"	")items/pumpkin_explode2.ogg"
-		"wave"	")items/pumpkin_explode3.ogg"
+		"wave"	")items/pumpkin_explode1.wav"
+		"wave"	")items/pumpkin_explode2.wav"
+		"wave"	")items/pumpkin_explode3.wav"
 	}
 }
 
@@ -1315,7 +1315,7 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"items/pumpkin_drop.ogg"
+	"wave"		"items/pumpkin_drop.wav"
 }
 
 "Halloween.PumpkinPickup"
@@ -1326,7 +1326,7 @@
 	"pitch"		"PITCH_NORM"
 
 
-	"wave"		"items/pumpkin_pickup.ogg"
+	"wave"		"items/pumpkin_pickup.wav"
 }
 
 "Halloween.LightsOn"
@@ -1355,7 +1355,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"		"ambient/hallowloop.ogg"
+	"wave"		"ambient/hallowloop.wav"
 }
 
 "Vote.Created"
@@ -1364,7 +1364,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_started.ogg"
+	"wave"		"UI/vote_started.wav"
 }
 
 "Vote.Passed"
@@ -1373,7 +1373,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_success.ogg"
+	"wave"		"UI/vote_success.wav"
 }
 
 "Vote.Failed"
@@ -1382,7 +1382,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_failure.ogg"
+	"wave"		"UI/vote_failure.wav"
 }
 
 "Vote.Cast.Yes"
@@ -1391,7 +1391,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_yes.ogg"
+	"wave"		"UI/vote_yes.wav"
 }
 
 "Vote.Cast.No"
@@ -1400,7 +1400,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_no.ogg"
+	"wave"		"UI/vote_no.wav"
 }
 
 
@@ -1414,7 +1414,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"misc/halloween_eyeball/vortex_eyeball_moved.ogg"
+	"wave"		"misc/halloween_eyeball/vortex_eyeball_moved.wav"
 }
 
 "Halloween.TeleportVortex.EyeballDiedVortex"
@@ -1424,7 +1424,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"misc/halloween_eyeball/vortex_eyeball_died.ogg"
+	"wave"		"misc/halloween_eyeball/vortex_eyeball_died.wav"
 }
 
 "Halloween.TeleportVortex.BookSpawn"
@@ -1434,7 +1434,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"misc/halloween_eyeball/book_spawn.ogg"
+	"wave"		"misc/halloween_eyeball/book_spawn.wav"
 }
 
 "Halloween.TeleportVortex.BookExit"
@@ -1444,7 +1444,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"misc/halloween_eyeball/book_exit.ogg"
+	"wave"		"misc/halloween_eyeball/book_exit.wav"
 }
 
 "Christmas.GiftDrop"
@@ -1454,7 +1454,7 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"items/gift_drop.ogg"
+	"wave"		"items/gift_drop.wav"
 }
 
 "Christmas.GiftPickup"
@@ -1464,7 +1464,7 @@
 	"soundlevel"  	"SNDLVL_75dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"items/gift_pickup.ogg"
+	"wave"		"items/gift_pickup.wav"
 }
 
 "harbor_furnace_1shots"
@@ -1489,7 +1489,7 @@
 	"volume"		"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_80dB"
-	"wave"		"ambient\cp_harbor\cauldron_lp_main.ogg"
+	"wave"		"ambient\cp_harbor\cauldron_lp_main.wav"
 }
 
 "harbor.blue_whistle"
@@ -1499,7 +1499,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")misc\cp_harbor_blue_whistle.ogg"
+	"wave"		")misc\cp_harbor_blue_whistle.wav"
 }
 
 "harbor.red_whistle"
@@ -1509,7 +1509,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")misc\cp_harbor_red_whistle.ogg"
+	"wave"		")misc\cp_harbor_red_whistle.wav"
 }
 
 "Tournament.PlayerReady"
@@ -1518,7 +1518,7 @@
 	"soundlevel" 	"SNDLVL_NORM"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		"UI/vote_started.ogg"
+	"wave"		"UI/vote_started.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1542,7 +1542,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_lift_start.ogg"
+	"wave"		"misc\doomsday_lift_start.wav"
 }
 
 "doomsday.lift_loop"
@@ -1552,7 +1552,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_lift_loop.ogg"
+	"wave"		"misc\doomsday_lift_loop.wav"
 }
 
 "doomsday.lift_stop"
@@ -1562,7 +1562,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_lift_stop.ogg"
+	"wave"		"misc\doomsday_lift_stop.wav"
 }
 
 
@@ -1573,7 +1573,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_spin_start.ogg"
+	"wave"		")misc\doomsday_cap_spin_start.wav"
 }
 
 "doomsday.cap_spinloop"
@@ -1583,7 +1583,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_spin_loop.ogg"
+	"wave"		")misc\doomsday_cap_spin_loop.wav"
 }
 
 "doomsday.cap_spin_end"
@@ -1593,7 +1593,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_spin_end.ogg"
+	"wave"		")misc\doomsday_cap_spin_end.wav"
 }
 
 "doomsday.cap_open_start"
@@ -1603,7 +1603,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_open_start.ogg"
+	"wave"		")misc\doomsday_cap_open_start.wav"
 }
 
 "doomsday.cap_open_end"
@@ -1613,7 +1613,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_open_end.ogg"
+	"wave"		")misc\doomsday_cap_open_end.wav"
 }
 
 "doomsday.cap_close_start"
@@ -1623,7 +1623,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_close_start.ogg"
+	"wave"		")misc\doomsday_cap_close_start.wav"
 }
 
 "doomsday.cap_close_end"
@@ -1633,7 +1633,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_cap_close_end.ogg"
+	"wave"		")misc\doomsday_cap_close_end.wav"
 }
 
 "doomsday.cap_close_quick"
@@ -1643,7 +1643,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_cap_close_quick.ogg"
+	"wave"		"misc\doomsday_cap_close_quick.wav"
 }
 
 "doomsday.warhead"
@@ -1653,7 +1653,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_warhead.ogg"
+	"wave"		"misc\doomsday_warhead.wav"
 }
 
 "doomsday.pickupwarhead"
@@ -1663,7 +1663,7 @@
 	"soundlevel"  	"SNDLVL_30dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\doomsday_pickup.ogg"
+	"wave"		"misc\doomsday_pickup.wav"
 }
 
 "doomsday.radiation"
@@ -1673,7 +1673,7 @@
 	"soundlevel"  	"SNDLVL_50dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_radiation.ogg"
+	"wave"		")misc\doomsday_radiation.wav"
 }
 
 "doomsday.blank"
@@ -1683,7 +1683,7 @@
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		"misc\blank.ogg"
+	"wave"		"misc\blank.wav"
 }
 
 "doomsday.launch"
@@ -1693,7 +1693,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_missile_launch.ogg"
+	"wave"		")misc\doomsday_missile_launch.wav"
 }
 
 "doomsday.launch_exp"
@@ -1703,7 +1703,7 @@
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
 
-	"wave"		")misc\doomsday_missile_explosion.ogg"
+	"wave"		")misc\doomsday_missile_explosion.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1716,7 +1716,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_wheel_of_fate.ogg"
+	"wave"			"misc/halloween/hwn_wheel_of_fate.wav"
 }
 "Halloween.WheelofFateQuiet"
 {
@@ -1724,7 +1724,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_40dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_wheel_of_fate.ogg"
+	"wave"			"misc/halloween/hwn_wheel_of_fate.wav"
 }
 
 "Halloween.Merasmus_Spell"
@@ -1733,7 +1733,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/merasmus_spell.ogg"
+	"wave"			")misc/halloween/merasmus_spell.wav"
 }
 "Halloween.Merasmus_TP_In"
 {
@@ -1741,7 +1741,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/merasmus_appear.ogg"
+	"wave"			")misc/halloween/merasmus_appear.wav"
 }
 
 "Halloween.Merasmus_TP_Out"
@@ -1750,7 +1750,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/merasmus_disappear.ogg"
+	"wave"			")misc/halloween/merasmus_disappear.wav"
 }
 
 "Halloween.Merasmus_Float"
@@ -1759,7 +1759,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_95dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/merasmus_float.ogg"
+	"wave"			"misc/halloween/merasmus_float.wav"
 }
 
 "Halloween.Merasmus_Hiding_Explode"
@@ -1768,7 +1768,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_110dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/merasmus_hiding_explode.ogg"
+	"wave"			")misc/halloween/merasmus_hiding_explode.wav"
 }
 
 "Halloween.Merasmus_Stun"
@@ -1777,7 +1777,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/merasmus_stun.ogg"
+	"wave"			"misc/halloween/merasmus_stun.wav"
 }
 
 
@@ -1787,7 +1787,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/merasmus_death.ogg"
+	"wave"			"misc/halloween/merasmus_death.wav"
 }
 
 "Halloween.dance_loop"
@@ -1796,7 +1796,7 @@
 	"volume"		"0.5"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_dance_loop.ogg"
+	"wave"			"misc/halloween/hwn_dance_loop.wav"
 }
 
 "Halloween.dance_howl"
@@ -1805,7 +1805,7 @@
 	"volume"		"0.5"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_dance_howl.ogg"
+	"wave"			"misc/halloween/hwn_dance_howl.wav"
 }
 
 "Halloween.plumes_long"
@@ -1814,7 +1814,7 @@
 	"volume"		"0.7"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_plumes_capture.ogg"
+	"wave"			"misc/halloween/hwn_plumes_capture.wav"
 }
 
 "Halloween.plumes_short"
@@ -1823,7 +1823,7 @@
 	"volume"		"0.7"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/hwn_plumes_short.ogg"
+	"wave"			"misc/halloween/hwn_plumes_short.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1838,7 +1838,7 @@
 	"soundlevel"  	"SNDLVL_150dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")misc/halloween/clock_tick.ogg"
+	"wave"		")misc/halloween/clock_tick.wav"
 }
 
 "Halloween.hellride"
@@ -1847,7 +1847,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/gotohell.ogg"
+	"wave"			"misc/halloween/gotohell.wav"
 }
 
 "Halloween.spell_pickup"
@@ -1856,7 +1856,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_100dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_pickup.ogg"
+	"wave"			")misc/halloween/spell_pickup.wav"
 }
 
 "Halloween.spell_pickup_rare"
@@ -1865,7 +1865,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_100dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_pickup_rare.ogg"
+	"wave"			")misc/halloween/spell_pickup_rare.wav"
 }
 
 "Halloween.spelltick_a"
@@ -1874,7 +1874,7 @@
 	"volume"		"0.5"
 	"soundlevel"  	"SNDLVL_100dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/spelltick_01.ogg"
+	"wave"			"misc/halloween/spelltick_01.wav"
 }
 
 "Halloween.spelltick_b"
@@ -1883,7 +1883,7 @@
 	"volume"		"0.5"
 	"soundlevel"  	"SNDLVL_100dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/spelltick_02.ogg"
+	"wave"			"misc/halloween/spelltick_02.wav"
 }
 
 "Halloween.spelltick_set"
@@ -1892,7 +1892,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_100dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"misc/halloween/spelltick_set.ogg"
+	"wave"			"misc/halloween/spelltick_set.wav"
 }
 
 "Halloween.skeleton_break"
@@ -1901,7 +1901,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/skeleton_break.ogg"
+	"wave"			")misc/halloween/skeleton_break.wav"
 }
 
 "Halloween.skeleton_laugh_small"
@@ -1912,28 +1912,28 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"misc\halloween\skeletons\skelly_small_01.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_02.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_03.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_04.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_05.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_06.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_07.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_08.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_09.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_10.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_11.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_12.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_13.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_14.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_15.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_16.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_17.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_18.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_19.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_20.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_21.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_small_22.ogg"
+		"wave"		"misc\halloween\skeletons\skelly_small_01.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_02.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_03.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_04.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_05.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_06.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_07.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_08.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_09.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_10.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_11.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_12.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_13.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_14.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_15.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_16.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_17.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_18.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_19.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_20.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_21.wav"
+		"wave"		"misc\halloween\skeletons\skelly_small_22.wav"
 	}
 }
 
@@ -1945,10 +1945,10 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"misc\halloween\skeletons\skelly_medium_01.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_medium_02.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_medium_03.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_medium_04.ogg"
+		"wave"		"misc\halloween\skeletons\skelly_medium_01.wav"
+		"wave"		"misc\halloween\skeletons\skelly_medium_02.wav"
+		"wave"		"misc\halloween\skeletons\skelly_medium_03.wav"
+		"wave"		"misc\halloween\skeletons\skelly_medium_04.wav"
 	}
 }
 
@@ -1960,9 +1960,9 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"misc\halloween\skeletons\skelly_giant_01.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_giant_02.ogg"
-		"wave"		"misc\halloween\skeletons\skelly_giant_03.ogg"
+		"wave"		"misc\halloween\skeletons\skelly_giant_01.wav"
+		"wave"		"misc\halloween\skeletons\skelly_giant_02.wav"
+		"wave"		"misc\halloween\skeletons\skelly_giant_03.wav"
 	}
 
 }
@@ -1974,7 +1974,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_athletic.ogg"
+	"wave"			")misc/halloween/spell_athletic.wav"
 }
 
 "Halloween.spell_bat_cast"
@@ -1983,7 +1983,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_bat_cast.ogg"
+	"wave"			")misc/halloween/spell_bat_cast.wav"
 }
 
 "Halloween.spell_bat_impact"
@@ -1992,7 +1992,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_bat_impact.ogg"
+	"wave"			")misc/halloween/spell_bat_impact.wav"
 }
 
 "Halloween.spell_blastjump"
@@ -2001,7 +2001,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_blast_jump.ogg"
+	"wave"			")misc/halloween/spell_blast_jump.wav"
 }
 
 "Halloween.spell_fireball_cast"
@@ -2010,7 +2010,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_fireball_cast.ogg"
+	"wave"			")misc/halloween/spell_fireball_cast.wav"
 }
 
 "Halloween.spell_fireball_impact"
@@ -2019,7 +2019,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_fireball_impact.ogg"
+	"wave"			")misc/halloween/spell_fireball_impact.wav"
 }
 
 "Halloween.spell_lightning_cast"
@@ -2028,7 +2028,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_lightning_ball_cast.ogg"
+	"wave"			")misc/halloween/spell_lightning_ball_cast.wav"
 }
 
 "Halloween.spell_lightning_impact"
@@ -2037,7 +2037,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_lightning_ball_impact.ogg"
+	"wave"			")misc/halloween/spell_lightning_ball_impact.wav"
 }
 
 "Halloween.spell_meteor_cast"
@@ -2046,7 +2046,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_meteor_cast.ogg"
+	"wave"			")misc/halloween/spell_meteor_cast.wav"
 }
 
 "Halloween.spell_meteor_impact"
@@ -2055,7 +2055,7 @@
 	"volume"		".5"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_meteor_impact.ogg"
+	"wave"			")misc/halloween/spell_meteor_impact.wav"
 }
 
 "Halloween.spell_mirv_cast"
@@ -2064,7 +2064,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_mirv_cast.ogg"
+	"wave"			")misc/halloween/spell_mirv_cast.wav"
 }
 
 "Halloween.spell_mirv_explode_primary"
@@ -2073,7 +2073,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_mirv_explode_primary.ogg"
+	"wave"			")misc/halloween/spell_mirv_explode_primary.wav"
 }
 
 "Halloween.spell_mirv_explode_secondary"
@@ -2082,7 +2082,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_mirv_explode_secondary.ogg"
+	"wave"			")misc/halloween/spell_mirv_explode_secondary.wav"
 }
 
 "Halloween.spell_overheal"
@@ -2091,7 +2091,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_overheal.ogg"
+	"wave"			")misc/halloween/spell_overheal.wav"
 }
 
 "Halloween.spell_skeleton_horde_cast"
@@ -2100,7 +2100,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_skeleton_horde_cast.ogg"
+	"wave"			")misc/halloween/spell_skeleton_horde_cast.wav"
 }
 
 "Halloween.spell_skeleton_horde_rise"
@@ -2109,7 +2109,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_skeleton_horde_rise.ogg"
+	"wave"			")misc/halloween/spell_skeleton_horde_rise.wav"
 }
 
 "Halloween.spell_spawn_boss"
@@ -2118,7 +2118,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_spawn_boss.ogg"
+	"wave"			")misc/halloween/spell_spawn_boss.wav"
 }
 
 "Halloween.spell_spawn_boss_disappear"
@@ -2127,7 +2127,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_spawn_boss_disappear.ogg"
+	"wave"			")misc/halloween/spell_spawn_boss_disappear.wav"
 }
 
 "Halloween.spell_stealth"
@@ -2136,7 +2136,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_stealth.ogg"
+	"wave"			")misc/halloween/spell_stealth.wav"
 }
 
 "Halloween.spell_teleport"
@@ -2145,7 +2145,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/halloween/spell_teleport.ogg"
+	"wave"			")misc/halloween/spell_teleport.wav"
 }
 
 
@@ -2170,7 +2170,7 @@
 	"volume"	"1"
 	"pitch"		"100"
 	"soundlevel"  	"SNDLVL_85dB"
-	"wave"	")misc/banana_slip.ogg"
+	"wave"	")misc/banana_slip.wav"
 
 }
 
@@ -2272,7 +2272,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/item_open_crate_short.ogg"
+	"wave"			"ui/item_open_crate_short.wav"
 }
 
 
@@ -2282,7 +2282,7 @@
 	"volume"		"0.7"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/itemcrate_smash_common.ogg"
+	"wave"			"ui/itemcrate_smash_common.wav"
 }
 
 "ui.cratesmash_rare_long"
@@ -2291,7 +2291,7 @@
 	"volume"		"0.8"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/itemcrate_smash_mid.ogg"
+	"wave"			"ui/itemcrate_smash_mid.wav"
 }
 
 "ui.cratesmash_ultrarare_short"
@@ -2300,7 +2300,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/itemcrate_smash_ultrarare_short.ogg"
+	"wave"			"ui/itemcrate_smash_ultrarare_short.wav"
 }
 
 "ui.cratesmash_ultrarare_long"
@@ -2309,7 +2309,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/itemcrate_smash_ultrarare.ogg"
+	"wave"			"ui/itemcrate_smash_ultrarare.wav"
 }
 
 "ui.cratesmash_ultrarare_long_fireworks"
@@ -2318,7 +2318,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/itemcrate_smash_ultrarare_fireworks.ogg"
+	"wave"			"ui/itemcrate_smash_ultrarare_fireworks.wav"
 }
 
 "Equipment.RocketPack_Activate"
@@ -2326,21 +2326,21 @@
 	"channel"	"CHAN_WEAPON"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_94dB"
-	"wave"		")weapons/rocket_ll_shoot.ogg"
+	"wave"		")weapons/rocket_ll_shoot.wav"
 }
 "Parachute_open"
 {
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"			")items/para_open.ogg"
+	"wave"			")items/para_open.wav"
 }
 "Parachute_close"
 {
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.3"
 	"soundlevel"	"SNDLVL_75dB"
-	"wave"			")items/para_close.ogg"
+	"wave"			")items/para_close.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2461,7 +2461,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"ambient/alarms/klaxon1.ogg"
+	"wave"	"ambient/alarms/klaxon1.wav"
 }
 
 "Halloween.BellRing.Scout"
@@ -2469,7 +2469,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.ogg"
+	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.wav"
 }
 
 "Halloween.BellRing.Heman"
@@ -2477,7 +2477,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.ogg"
+	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.wav"
 }
 
 "Halloween.BellRing.PushOver"
@@ -2485,7 +2485,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.ogg"
+	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.wav"
 }
 
 "Halloween.BellRing.Wizard"
@@ -2493,7 +2493,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.ogg"
+	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.wav"
 }
 
 "Halloween.BellRing.WoodImpact"
@@ -2501,7 +2501,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.ogg"
+	"wave"	"mvm/melee_impacts/metal_gloves_hit_robo02.wav"
 }
 
 "Halloween.DuckPickup.Pos"
@@ -2509,7 +2509,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"misc/halloween/duck_pickup_pos_01.ogg"
+	"wave"	"misc/halloween/duck_pickup_pos_01.wav"
 }
 
 "Halloween.DuckPickup.Neg"
@@ -2517,14 +2517,14 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_148dB"
 	"volume"	"1"
-	"wave"	"misc/halloween/duck_pickup_neg_01.ogg"
+	"wave"	"misc/halloween/duck_pickup_neg_01.wav"
 }
 "Halloween.HammerImpact"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_150dB"
 	"volume"	"1"
-	"wave"	"misc/halloween/strongman_fast_impact_01.ogg"
+	"wave"	"misc/halloween/strongman_fast_impact_01.wav"
 }
 
 "Duck.Quack"
@@ -2554,7 +2554,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_NONE"
-	"wave"		"player/mannpower_invulnerable.ogg"
+	"wave"		"player/mannpower_invulnerable.wav"
 }
 
 "Powerup.PickUpTemp.Crit"
@@ -2564,7 +2564,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_crits.ogg"
+	"wave"			")items/powerup_pickup_crits.wav"
 }
 
 "Powerup.PickUpTemp.Uber"
@@ -2574,7 +2574,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_uber.ogg"
+	"wave"			")items/powerup_pickup_uber.wav"
 }
 
 "Powerup.PickUpKnockout"
@@ -2584,7 +2584,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_knockout.ogg"
+	"wave"			")items/powerup_pickup_knockout.wav"
 }
 
 "Powerup.Knockout_Melee_Hit"
@@ -2593,7 +2593,7 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_120dB"
-	"wave"			")items/powerup_pickup_knockout_melee_hit.ogg"
+	"wave"			")items/powerup_pickup_knockout_melee_hit.wav"
 }
 
 "Powerup.Volume.Use"
@@ -2603,7 +2603,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_team_revenge.ogg"
+	"wave"			")items/powerup_pickup_team_revenge.wav"
 }
 
 "Powerup.PickUpBase"
@@ -2613,7 +2613,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_base.ogg"
+	"wave"			")items/powerup_pickup_base.wav"
 }
 
 "Powerup.PickUpAgility"
@@ -2623,7 +2623,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_agility.ogg"
+	"wave"			")items/powerup_pickup_agility.wav"
 }
 
 "Powerup.PickUpHaste"
@@ -2633,7 +2633,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_haste.ogg"
+	"wave"			")items/powerup_pickup_haste.wav"
 }
 
 "Powerup.PickUpPrecision"
@@ -2643,7 +2643,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_precision.ogg"
+	"wave"			")items/powerup_pickup_precision.wav"
 }
 
 "Powerup.PickUpRegeneration"
@@ -2653,7 +2653,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_regeneration.ogg"
+	"wave"			")items/powerup_pickup_regeneration.wav"
 }
 
 "Powerup.PickUpResistance"
@@ -2663,7 +2663,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_resistance.ogg"
+	"wave"			")items/powerup_pickup_resistance.wav"
 }
 
 "Powerup.PickUpStrength"
@@ -2673,7 +2673,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_strength.ogg"
+	"wave"			")items/powerup_pickup_strength.wav"
 }
 
 "Powerup.PickUpVampire"
@@ -2683,7 +2683,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_vampire.ogg"
+	"wave"			")items/powerup_pickup_vampire.wav"
 }
 
 "Powerup.PickUpSupernova"
@@ -2693,7 +2693,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_supernova.ogg"
+	"wave"			")items/powerup_pickup_supernova.wav"
 }
 
 "Powerup.PickUpSupernovaActivate"
@@ -2703,7 +2703,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_supernova_activate.ogg"
+	"wave"			")items/powerup_pickup_supernova_activate.wav"
 }
 
 "Powerup.PickUpPlague"
@@ -2713,7 +2713,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_plague.ogg"
+	"wave"			")items/powerup_pickup_plague.wav"
 }
 
 "Powerup.PickUpPlagueInfected"
@@ -2723,7 +2723,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_plague_infected.ogg"
+	"wave"			")items/powerup_pickup_plague_infected.wav"
 }
 
 "Powerup.PickUpPlagueInfectedLoop"
@@ -2733,7 +2733,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_105dB"
 
-	"wave"			")items/powerup_pickup_plague_infected_loop.ogg"
+	"wave"			")items/powerup_pickup_plague_infected_loop.wav"
 }
 
 "Powerup.PickUpThorns"
@@ -2743,7 +2743,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			")items/powerup_pickup_warlock.ogg"
+	"wave"			")items/powerup_pickup_warlock.wav"
 }
 
 "Powerup.PickUpReflect"
@@ -2752,7 +2752,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")items/powerup_pickup_reflect.ogg"
+	"wave"			")items/powerup_pickup_reflect.wav"
 }
 
 "Powerup.Reflect.Reflect"
@@ -2761,7 +2761,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")items/powerup_pickup_reflect_reflect_damage.ogg"
+	"wave"			")items/powerup_pickup_reflect_reflect_damage.wav"
 }
 
 "Powerup.PickUpKing"
@@ -2770,7 +2770,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_120dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")items/powerup_pickup_king.ogg"
+	"wave"			")items/powerup_pickup_king.wav"
 }
 
 "Powerup.ReducedDamage"
@@ -2779,7 +2779,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"			"95,100"
-	"wave"			")items/powerup_pickup_reduced_damage.ogg"
+	"wave"			")items/powerup_pickup_reduced_damage.wav"
 }
 
 "Mannpower.PlayerIsDominant"
@@ -2788,7 +2788,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/killstreak.ogg"
+	"wave"			")misc/killstreak.wav"
 }
 
 "Mannpower.DominantPlayerOtherTeam"
@@ -2797,7 +2797,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/tf_revenge.ogg"
+	"wave"			")misc/tf_revenge.wav"
 }
 
 "Mannpower.PlayerIsNoLongerDominant"
@@ -2806,7 +2806,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_105dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")misc/hologram_stop.ogg"
+	"wave"			")misc/hologram_stop.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -2819,7 +2819,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_alert.ogg"
+	"wave"			"ui/quest_alert.wav"
 }
 
 "Quest.StatusTickNovice"
@@ -2828,7 +2828,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_novice.ogg"
+	"wave"			"ui/quest_status_tick_novice.wav"
 }
 
 "Quest.StatusTickNoviceFriend"
@@ -2837,7 +2837,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_novice_friend.ogg"
+	"wave"			"ui/quest_status_tick_novice_friend.wav"
 }
 
 "Quest.StatusTickNovicePDA"
@@ -2846,7 +2846,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_70dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_novice_PDA.ogg"
+	"wave"			"ui/quest_status_tick_novice_PDA.wav"
 }
 
 "Quest.StatusTickAdvanced"
@@ -2855,7 +2855,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_advanced.ogg"
+	"wave"			"ui/quest_status_tick_advanced.wav"
 }
 
 "Quest.StatusTickAdvancedFriend"
@@ -2864,7 +2864,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_advanced_friend.ogg"
+	"wave"			"ui/quest_status_tick_advanced_friend.wav"
 }
 
 "Quest.StatusTickAdvancedPDA"
@@ -2873,7 +2873,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_70dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_advanced_PDA.ogg"
+	"wave"			"ui/quest_status_tick_advanced_PDA.wav"
 }
 
 "Quest.StatusTickExpert"
@@ -2882,7 +2882,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_expert.ogg"
+	"wave"			"ui/quest_status_tick_expert.wav"
 }
 
 "Quest.StatusTickExpertFriend"
@@ -2891,7 +2891,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_expert_friend.ogg"
+	"wave"			"ui/quest_status_tick_expert_friend.wav"
 }
 
 "Quest.StatusTickExpertPDA"
@@ -2900,7 +2900,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_70dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_expert_PDA.ogg"
+	"wave"			"ui/quest_status_tick_expert_PDA.wav"
 }
 
 "Quest.StatusTickNoviceComplete"
@@ -2909,7 +2909,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_novice_complete.ogg"
+	"wave"			"ui/quest_status_tick_novice_complete.wav"
 }
 
 "Quest.StatusTickAdvancedComplete"
@@ -2918,7 +2918,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_advanced_complete.ogg"
+	"wave"			"ui/quest_status_tick_advanced_complete.wav"
 }
 
 "Quest.StatusTickExpertComplete"
@@ -2927,7 +2927,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_expert_complete.ogg"
+	"wave"			"ui/quest_status_tick_expert_complete.wav"
 }
 
 "Quest.StatusTickNoviceCompletePDA"
@@ -2936,7 +2936,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")ui/quest_status_tick_novice_complete_pda.ogg"
+	"wave"			")ui/quest_status_tick_novice_complete_pda.wav"
 }
 
 "Quest.StatusTickAdvancedCompletePDA"
@@ -2945,7 +2945,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")ui/quest_status_tick_advanced_complete_pda.ogg"
+	"wave"			")ui/quest_status_tick_advanced_complete_pda.wav"
 }
 
 "Quest.StatusTickExpertCompletePDA"
@@ -2954,7 +2954,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_85dB"
 	"pitch"			"PITCH_NORM"
-	"wave"			")ui/quest_status_tick_expert_complete_pda.ogg"
+	"wave"			")ui/quest_status_tick_expert_complete_pda.wav"
 }
 
 "Quest.StatusComplete"
@@ -2963,7 +2963,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_complete.ogg"
+	"wave"			"ui/quest_status_complete.wav"
 }
 
 "Quest.Decode"
@@ -2972,7 +2972,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_decode.ogg"
+	"wave"			"ui/quest_decode.wav"
 }
 
 "Quest.FolderOpen"
@@ -2981,7 +2981,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_folder_open.ogg"
+	"wave"			"ui/quest_folder_open.wav"
 }
 
 "Quest.FolderClose"
@@ -2990,7 +2990,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_folder_close.ogg"
+	"wave"			"ui/quest_folder_close.wav"
 }
 
 "Quest.TurnInDecode"
@@ -2999,7 +2999,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_turn_in_decode.ogg"
+	"wave"			"ui/quest_turn_in_decode.wav"
 }
 
 "Quest.TurnInAccepted"
@@ -3008,7 +3008,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_turn_in_accepted.ogg"
+	"wave"			"ui/quest_turn_in_accepted.wav"
 }
 
 "Quest.TurnInAcceptedLight"
@@ -3017,7 +3017,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_turn_in_accepted_light.ogg"
+	"wave"			"ui/quest_turn_in_accepted_light.wav"
 }
 
 "Quest.OperationPassUse"
@@ -3026,7 +3026,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_operation_pass_use.ogg"
+	"wave"			"ui/quest_operation_pass_use.wav"
 }
 
 "Quest.OperationPassBuy"
@@ -3035,7 +3035,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_operation_pass_buy.ogg"
+	"wave"			"ui/quest_operation_pass_buy.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -3048,7 +3048,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_complete_halloween.ogg"
+	"wave"			"ui/quest_status_tick_complete_halloween.wav"
 }
 
 "Quest.StatusTickBonusCompleteHalloween"
@@ -3057,7 +3057,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_status_tick_bonus_complete_halloween.ogg"
+	"wave"			"ui/quest_status_tick_bonus_complete_halloween.wav"
 }
 
 "Quest.DecodeHalloween"
@@ -3066,7 +3066,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_decode_halloween.ogg"
+	"wave"			"ui/quest_decode_halloween.wav"
 }
 
 "Quest.FolderOpenHalloween"
@@ -3075,7 +3075,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_folder_open_halloween.ogg"
+	"wave"			"ui/quest_folder_open_halloween.wav"
 }
 
 "Quest.FolderCloseHalloween"
@@ -3084,7 +3084,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_folder_close_halloween.ogg"
+	"wave"			"ui/quest_folder_close_halloween.wav"
 }
 
 "Quest.TurnInDecodeHalloween"
@@ -3093,7 +3093,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_turn_in_decode_halloween.ogg"
+	"wave"			"ui/quest_turn_in_decode_halloween.wav"
 }
 
 
@@ -3103,7 +3103,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NORM"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/quest_turn_in_accepted_halloween.ogg"
+	"wave"			"ui/quest_turn_in_accepted_halloween.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -3116,7 +3116,7 @@
 	"volume"		".4"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_round_start.ogg"
+	"wave"			"ui/mm_round_start.wav"
 }
 
 "MatchMaking.RoundStartCasual"
@@ -3125,7 +3125,7 @@
 	"volume"		".4"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_round_start_casual.ogg"
+	"wave"			"ui/mm_round_start_casual.wav"
 }
 
 "MatchMaking.MatchEndBlueWinMusic"
@@ -3134,7 +3134,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_match_end_blue_win_music.ogg"
+	"wave"			"ui/mm_match_end_blue_win_music.wav"
 }
 
 "MatchMaking.MatchEndRedWinMusic"
@@ -3143,7 +3143,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_match_end_red_win_music.ogg"
+	"wave"			"ui/mm_match_end_red_win_music.wav"
 }
 
 "MatchMaking.MatchEndWinMusicCasual"
@@ -3152,7 +3152,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_match_end_win_music_casual.ogg"
+	"wave"			"ui/mm_match_end_win_music_casual.wav"
 }
 
 "MatchMaking.MatchEndLoseMusicCasual"
@@ -3161,7 +3161,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_match_end_lose_music_casual.ogg"
+	"wave"			"ui/mm_match_end_lose_music_casual.wav"
 }
 
 "MatchMaking.RoundEndBlueWinMusic"
@@ -3170,7 +3170,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_round_end_blue_win_music.ogg"
+	"wave"			"ui/mm_round_end_blue_win_music.wav"
 }
 
 "MatchMaking.RoundEndRedWinMusic"
@@ -3179,7 +3179,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_round_end_red_win_music.ogg"
+	"wave"			"ui/mm_round_end_red_win_music.wav"
 }
 
 "MatchMaking.RoundEndStalemateMusic"
@@ -3188,7 +3188,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_round_end_stalemate_music.ogg"
+	"wave"			"ui/mm_round_end_stalemate_music.wav"
 }
 
 "MatchMaking.DoorOpen"
@@ -3197,7 +3197,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_door_open.ogg"
+	"wave"			"ui/mm_door_open.wav"
 }
 
 "MatchMaking.DoorOpenUnlock"
@@ -3206,7 +3206,7 @@
 	"volume"		".15"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_door_open_unlock.ogg"
+	"wave"			"ui/mm_door_open_unlock.wav"
 }
 
 "MatchMaking.DoorClose"
@@ -3215,7 +3215,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_door_close.ogg"
+	"wave"			"ui/mm_door_close.wav"
 }
 
 "MatchMaking.DoorCloseLock"
@@ -3224,7 +3224,7 @@
 	"volume"		".15"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_door_close_lock.ogg"
+	"wave"			"ui/mm_door_close_lock.wav"
 }
 
 "MatchMaking.ScoreboardPanelSlide"
@@ -3233,7 +3233,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_scoreboardpanel_slide.ogg"
+	"wave"			"ui/mm_scoreboardpanel_slide.wav"
 }
 
 "MatchMaking.None"
@@ -3242,7 +3242,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_none.ogg"
+	"wave"			"ui/mm_medal_none.wav"
 }
 
 "MatchMaking.Bronze"
@@ -3251,7 +3251,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_bronze.ogg"
+	"wave"			"ui/mm_medal_bronze.wav"
 }
 
 "MatchMaking.Silver"
@@ -3260,7 +3260,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_silver.ogg"
+	"wave"			"ui/mm_medal_silver.wav"
 }
 
 "MatchMaking.Gold"
@@ -3269,7 +3269,7 @@
 	"volume"		".25"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_gold.ogg"
+	"wave"			"ui/mm_medal_gold.wav"
 }
 
 "MatchMaking.XPChime"
@@ -3278,7 +3278,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_xp_chime.ogg"
+	"wave"			"ui/mm_xp_chime.wav"
 }
 
 "MatchMaking.RankUp"
@@ -3287,7 +3287,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_up.ogg"
+	"wave"			"ui/mm_rank_up.wav"
 }
 
 "MatchMaking.RankDownMedalShoot"
@@ -3295,7 +3295,7 @@
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_75dB"
 	"volume"		"1"
-	"wave"			")ui/mm_rank_down_medal_shoot.ogg"
+	"wave"			")ui/mm_rank_down_medal_shoot.wav"
 }
 
 "MatchMaking.RankDownMedalShootImpact"
@@ -3304,7 +3304,7 @@
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"				"PITCH_NORM"
 	"volume"			"1"
-	"wave"				")ui/mm_rank_down_medal_shoot_impact.ogg"
+	"wave"				")ui/mm_rank_down_medal_shoot_impact.wav"
 }
 
 "MatchMaking.MedalSpinHit"
@@ -3313,7 +3313,7 @@
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"				"PITCH_NORM"
 	"volume"			"1"
-	"wave"				")ui/mm_medal_spin_hit.ogg"
+	"wave"				")ui/mm_medal_spin_hit.wav"
 }
 
 "MatchMaking.RankOneAchieved"
@@ -3322,7 +3322,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_one_achieved.ogg"
+	"wave"			"ui/mm_rank_one_achieved.wav"
 }
 
 "MatchMaking.RankTwoAchieved"
@@ -3331,7 +3331,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_two_achieved.ogg"
+	"wave"			"ui/mm_rank_two_achieved.wav"
 }
 
 "MatchMaking.RankThreeAchieved"
@@ -3340,7 +3340,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_three_achieved.ogg"
+	"wave"			"ui/mm_rank_three_achieved.wav"
 }
 
 "MatchMaking.RankFourAchieved"
@@ -3349,7 +3349,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_four_achieved.ogg"
+	"wave"			"ui/mm_rank_four_achieved.wav"
 }
 
 "MatchMaking.RankFiveAchieved"
@@ -3358,7 +3358,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_five_achieved.ogg"
+	"wave"			"ui/mm_rank_five_achieved.wav"
 }
 
 
@@ -3368,7 +3368,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_one_achieved.ogg"
+	"wave"			"ui/mm_level_one_achieved.wav"
 }
 
 "MatchMaking.LevelTwoAchieved"
@@ -3377,7 +3377,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_two_achieved.ogg"
+	"wave"			"ui/mm_level_two_achieved.wav"
 }
 
 "MatchMaking.LevelThreeAchieved"
@@ -3386,7 +3386,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_three_achieved.ogg"
+	"wave"			"ui/mm_level_three_achieved.wav"
 }
 
 "MatchMaking.LevelFourAchieved"
@@ -3395,7 +3395,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_four_achieved.ogg"
+	"wave"			"ui/mm_level_four_achieved.wav"
 }
 
 "MatchMaking.LevelFiveAchieved"
@@ -3404,7 +3404,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_five_achieved.ogg"
+	"wave"			"ui/mm_level_five_achieved.wav"
 }
 
 "MatchMaking.LevelSixAchieved"
@@ -3413,7 +3413,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_level_six_achieved.ogg"
+	"wave"			"ui/mm_level_six_achieved.wav"
 }
 
 "MatchMaking.RankProgressTickUp"
@@ -3422,7 +3422,7 @@
 	"volume"		".5"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_progress_tick_up.ogg"
+	"wave"			"ui/mm_rank_progress_tick_up.wav"
 }
 
 "MatchMaking.RankProgressTickDown"
@@ -3431,7 +3431,7 @@
 	"volume"		".5"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_rank_progress_tick_down.ogg"
+	"wave"			"ui/mm_rank_progress_tick_down.wav"
 }
 
 "MatchMaking.MedalClick"
@@ -3440,7 +3440,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_click.ogg"
+	"wave"			"ui/mm_medal_click.wav"
 }
 
 "MatchMaking.MedalClickRare"
@@ -3449,7 +3449,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_click_rare.ogg"
+	"wave"			"ui/mm_medal_click_rare.wav"
 }
 
 "MatchMaking.MedalClickRareYeti"
@@ -3460,11 +3460,11 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"ui/mm_medal_click_rare_yeti.ogg"
-		"wave"	"ui/mm_medal_click_rare_yeti1.ogg"
-		"wave"	"ui/mm_medal_click_rare_yeti2.ogg"
-		"wave"	"ui/mm_medal_click_rare_yeti3.ogg"
-		"wave"	"ui/mm_medal_click_rare_yeti4.ogg"
+		"wave"	"ui/mm_medal_click_rare_yeti.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti1.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti2.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti3.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti4.wav"
 	}
 }
 
@@ -3474,7 +3474,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_click_rank_unknown.ogg"
+	"wave"			"ui/mm_medal_click_rank_unknown.wav"
 }
 
 "MatchMaking.MedalClickRankUnknownRare"
@@ -3483,7 +3483,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_medal_click_rank_unknown_rare.ogg"
+	"wave"			"ui/mm_medal_click_rank_unknown_rare.wav"
 }
 
 
@@ -3493,7 +3493,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_comp_banner.ogg"
+	"wave"			"ui/mm_comp_banner.wav"
 }
 
 "MatchMaking.CompBannerUp"
@@ -3502,7 +3502,7 @@
 	"volume"		".55"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_comp_banner_up.ogg"
+	"wave"			"ui/mm_comp_banner_up.wav"
 }
 
 "MatchMaking.CompBannerDown"
@@ -3511,7 +3511,7 @@
 	"volume"		".7"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/mm_comp_banner_down.ogg"
+	"wave"			"ui/mm_comp_banner_down.wav"
 }
 
 "MatchMaking.Queue"
@@ -3521,7 +3521,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_NORM"
 
-	"wave"	"ui/mm_queue.ogg"
+	"wave"	"ui/mm_queue.wav"
 }
 
 "MatchMaking.Join"
@@ -3531,7 +3531,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_NORM"
 
-	"wave"	"ui/mm_join.ogg"
+	"wave"	"ui/mm_join.wav"
 }
 
 "DemoSupport.StartRecording"
@@ -3540,7 +3540,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/demosupport_start.ogg"
+	"wave"			"ui/demosupport_start.wav"
 }
 
 "DemoSupport.EndRecording"
@@ -3549,7 +3549,7 @@
 	"volume"		"VOL_NORM"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/demosupport_stop.ogg"
+	"wave"			"ui/demosupport_stop.wav"
 }
 
 "CYOA.MenuMusic"
@@ -3579,7 +3579,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_ping_in_progress.ogg"
+	"wave"	"ui/cyoa_ping_in_progress.wav"
 }
 
 "CYOA.PingAvailable"
@@ -3589,7 +3589,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_ping_available.ogg"
+	"wave"	"ui/cyoa_ping_available.wav"
 }
 
 "CYOA.StaticFade"
@@ -3599,7 +3599,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_map_open.ogg"
+	"wave"	"ui/cyoa_map_open.wav"
 }
 
 "CYOA.MapOpen"
@@ -3609,7 +3609,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_map_open.ogg"
+	"wave"	"ui/cyoa_map_open.wav"
 }
 
 "CYOA.MapClose"
@@ -3619,7 +3619,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_map_close.ogg"
+	"wave"	"ui/cyoa_map_close.wav"
 }
 
 "CYOA.OrangePanelCollapse"
@@ -3629,7 +3629,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_orange_panel_collapse.ogg"
+	"wave"	"ui/cyoa_orange_panel_collapse.wav"
 }
 
 "CYOA.ObjectivePanelExpand"
@@ -3639,7 +3639,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_objective_panel_expand.ogg"
+	"wave"	"ui/cyoa_objective_panel_expand.wav"
 }
 
 "CYOA.ObjectivePanelCollapse"
@@ -3649,7 +3649,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_objective_panel_collapse.ogg"
+	"wave"	"ui/cyoa_objective_panel_collapse.wav"
 }
 
 "CYOA.NodeLocked"
@@ -3659,7 +3659,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_node_locked.ogg"
+	"wave"	"ui/cyoa_node_locked.wav"
 }
 
 "CYOA.NodeAbsent"
@@ -3669,7 +3669,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_node_absent.ogg"
+	"wave"	"ui/cyoa_node_absent.wav"
 }
 
 "CYOA.NodeActivate"
@@ -3679,7 +3679,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_node_activate.ogg"
+	"wave"	"ui/cyoa_node_activate.wav"
 }
 
 "CYOA.NodeDeactivate"
@@ -3689,7 +3689,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_node_deactivate.ogg"
+	"wave"	"ui/cyoa_node_deactivate.wav"
 }
 
 "CYOA.KeyGiven"
@@ -3699,7 +3699,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_key_given.ogg"
+	"wave"	"ui/cyoa_key_given.wav"
 }
 
 "CYOA.KeyMinimize"
@@ -3709,7 +3709,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_key_minimize.ogg"
+	"wave"	"ui/cyoa_key_minimize.wav"
 }
 
 "CYOA.Switch"
@@ -3719,7 +3719,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_84dB"
 
-	"wave"	"ui/cyoa_switch.ogg"
+	"wave"	"ui/cyoa_switch.wav"
 }
 
 "Chat.DisplayText"
@@ -3729,7 +3729,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_NORM"
 
-	"wave"	"ui/chat_display_text.ogg"
+	"wave"	"ui/chat_display_text.wav"
 }
 
 "UI.WarPaintApplyStart"
@@ -3738,7 +3738,7 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/item_warpaint_apply_start.ogg"
+	"wave"			"ui/item_warpaint_apply_start.wav"
 }
 
 
@@ -3748,5 +3748,5 @@
 	"volume"		"1"
 	"soundlevel"  	"SNDLVL_NONE"
 	"pitch"			"PITCH_NORM"
-	"wave"			"ui/item_warpaint_apply_stop.ogg"
+	"wave"			"ui/item_warpaint_apply_stop.wav"
 }

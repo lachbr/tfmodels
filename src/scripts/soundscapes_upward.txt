@@ -66,14 +66,14 @@
 	{
 		"volume"	".75"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 
@@ -81,7 +81,7 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 
 	"playrandom"
@@ -105,6 +105,6 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 }

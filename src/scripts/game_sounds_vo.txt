@@ -1294,7 +1294,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"ambience/goal_1.ogg"
+	"wave"			"ambience/goal_1.wav"
 }
 
 "AttackDefend.Captured.vo"
@@ -1527,7 +1527,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"items/itembk2.ogg"
+	"wave"			"items/itembk2.wav"
 }
 
 "CaptureFlag.TeamCaptured"
@@ -7704,7 +7704,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"items/itembk2.ogg"
+	"wave"			"items/itembk2.wav"
 }
 
 "Resource.TeamDropped"
@@ -25246,7 +25246,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned_fx.ogg"
+	"wave"		")ui/halloween_boss_summoned_fx.wav"
 }
 
 "Halloween.MerasmusBossSpawn"
@@ -25256,7 +25256,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned.ogg"
+	"wave"		")ui/halloween_boss_summoned.wav"
 }
 
 "Halloween.MonoculusBossSpawn"
@@ -25266,7 +25266,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_summoned_monoculus.ogg"
+	"wave"		")ui/halloween_boss_summoned_monoculus.wav"
 }
 
 "Halloween.MonoculusBossDeath"
@@ -25276,7 +25276,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_defeated_monoculus.ogg"
+	"wave"		"ui/halloween_boss_defeated_monoculus.wav"
 }
 
 "Halloween.HeadlessBossSpawnRumble"
@@ -25286,7 +25286,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_100dB"
 
-	"wave"		")ui/halloween_boss_summon_rumble.ogg"
+	"wave"		")ui/halloween_boss_summon_rumble.wav"
 }
 
 "Halloween.HeadlessBossAttack"
@@ -25377,7 +25377,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_defeated_fx.ogg"
+	"wave"		"ui/halloween_boss_defeated_fx.wav"
 }
 
 
@@ -25501,7 +25501,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape_sixty.ogg"
+	"wave"		")ui/halloween_boss_escape_sixty.wav"
 }
 
 "Halloween.EyeballBossEscapeImminent"
@@ -25511,7 +25511,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape_ten.ogg"
+	"wave"		")ui/halloween_boss_escape_ten.wav"
 }
 
 "Halloween.EyeballBossEscaped"
@@ -25521,7 +25521,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_150dB"
 
-	"wave"		")ui/halloween_boss_escape.ogg"
+	"wave"		")ui/halloween_boss_escape.wav"
 }
 
 "Halloween.EyeballBossTeleport"
@@ -25555,7 +25555,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"		"ui/halloween_boss_player_becomes_it.ogg"
+	"wave"		"ui/halloween_boss_player_becomes_it.wav"
 }
 
 
@@ -35269,7 +35269,7 @@
 	"channel"	"CHAN_VOICE"
 	"soundlevel"	"SNDLVL_TALKING"
 	"volume"	"VOL_NORM"
-	"wave"		"misc/null.ogg"
+	"wave"		"misc/null.wav"
 }
 "Psap.Attached"
 {
@@ -36269,7 +36269,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01.ogg"
+	"wave"	"misc\ks_tier_01.wav"
 }
 
 "Announcer.KillStreak_Level1_death"
@@ -36278,7 +36278,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_death.ogg"
+	"wave"	"misc\ks_tier_01_death.wav"
 }
 
 "Announcer.KillStreak_Level1_kill"
@@ -36287,7 +36287,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_kill.ogg"
+	"wave"	"misc\ks_tier_01_kill.wav"
 }
 
 
@@ -36297,7 +36297,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_02.ogg"
+	"wave"	"misc\ks_tier_02.wav"
 
 }
 
@@ -36307,7 +36307,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_01_death.ogg"
+	"wave"	"misc\ks_tier_01_death.wav"
 }
 
 "Announcer.KillStreak_Level2_kill"
@@ -36318,8 +36318,8 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"rndwave"
 	{
-		"wave"		"misc\ks_tier_02_kill_01.ogg"
-		"wave"		"misc\ks_tier_02_kill_02.ogg"
+		"wave"		"misc\ks_tier_02_kill_01.wav"
+		"wave"		"misc\ks_tier_02_kill_02.wav"
 	}
 }
 
@@ -36329,7 +36329,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_03.ogg"
+	"wave"	"misc\ks_tier_03.wav"
 
 }
 
@@ -36339,7 +36339,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_03_death.ogg"
+	"wave"	"misc\ks_tier_03_death.wav"
 }
 
 "Announcer.KillStreak_Level3_kill"
@@ -36348,7 +36348,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"		"misc\ks_tier_03_kill_01.ogg"
+	"wave"		"misc\ks_tier_03_kill_01.wav"
 
 }
 
@@ -36358,7 +36358,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_04.ogg"
+	"wave"	"misc\ks_tier_04.wav"
 }
 
 "Announcer.KillStreak_Level4_death"
@@ -36367,7 +36367,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"	"misc\ks_tier_04_death.ogg"
+	"wave"	"misc\ks_tier_04_death.wav"
 }
 
 "Announcer.KillStreak_Level4_kill"
@@ -36376,7 +36376,7 @@
 	"volume"		"1.000"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"		"misc\ks_tier_04_kill_01.ogg"
+	"wave"		"misc\ks_tier_04_kill_01.wav"
 }
 // End Announcer KillStreak
 //-----------------------------------------------------------------------------
@@ -52048,8 +52048,8 @@
 		"wave"			"vo/compmode/cm_soldier_gamewon_06.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_07.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_08.mp3"
-		"wave"			"vo/taunts/soldier/soldier_tank_12.ogg"
-		"wave"			"vo/taunts/soldier/soldier_tank_14.ogg"
+		"wave"			"vo/taunts/soldier/soldier_tank_12.wav"
+		"wave"			"vo/taunts/soldier/soldier_tank_14.wav"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_02.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_03.mp3"
 		"wave"			"vo/compmode/cm_soldier_gamewon_rare_04.mp3"

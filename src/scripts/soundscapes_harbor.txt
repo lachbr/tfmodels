@@ -68,14 +68,14 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -89,14 +89,14 @@
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -108,14 +108,14 @@
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -129,28 +129,28 @@
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.9"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 }
 
@@ -164,14 +164,14 @@
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 
 	"playrandom"
@@ -202,21 +202,21 @@
 	{
 		"volume"	".9"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playrandom"
@@ -247,14 +247,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playrandom"
@@ -284,28 +284,28 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_out_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_out_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_out_lp_03.ogg"
+		"wave"		"ambient\cp_harbor\machinery_out_lp_03.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 }
 
@@ -318,28 +318,28 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_03.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_03.wav"
 	}
 
 	"playrandom"
@@ -369,14 +369,14 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -388,14 +388,14 @@
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -408,28 +408,28 @@
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.9"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 }
 
@@ -441,14 +441,14 @@
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 }
 
@@ -460,14 +460,14 @@
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 
 	"playrandom"
@@ -497,21 +497,21 @@
 	{
 		"volume"	".9"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playrandom"
@@ -541,14 +541,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\indoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playrandom"
@@ -578,28 +578,28 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_03.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_03.wav"
 	}
 
 	"playrandom"
@@ -628,28 +628,28 @@
 	{
 		"volume"	".10"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_out_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_out_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_out_lp_03.ogg"
+		"wave"		"ambient\cp_harbor\machinery_out_lp_03.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\machinery_in_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 }
 
@@ -662,28 +662,28 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_01.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_01.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"0.4"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_04.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_04.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_02.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_02.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient\cp_harbor\outdoor_lp_03.ogg"
+		"wave"		"ambient\cp_harbor\outdoor_lp_03.wav"
 	}
 
 	"playrandom"

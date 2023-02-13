@@ -67,28 +67,28 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 }
 "Powerhouse.InsideRed"
@@ -100,28 +100,28 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 
 	"playlooping"
@@ -130,7 +130,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_90dB"
-		"wave"		"@ambient/train_engine_idle.ogg"
+		"wave"		"@ambient/train_engine_idle.wav"
 	}
 
 		"playlooping"
@@ -139,7 +139,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine1.ogg"
+		"wave"		")ambient/turbine1.wav"
 	}
 
 		"playlooping"
@@ -148,7 +148,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine2.ogg"
+		"wave"		")ambient/turbine2.wav"
 	}
 
 		"playlooping"
@@ -157,7 +157,7 @@
 		"pitch"		"100"
 		"position"	"3"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine3.ogg"
+		"wave"		")ambient/turbine3.wav"
 	}
 
 		"playlooping"
@@ -166,7 +166,7 @@
 		"pitch"		"100"
 		"position"	"4"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine4.ogg"
+		"wave"		")ambient/turbine4.wav"
 	}
 
 		"playlooping"
@@ -175,7 +175,7 @@
 		"pitch"		"100"
 		"position"	"5"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine5.ogg"
+		"wave"		")ambient/turbine5.wav"
 	}
 
 		"playlooping"
@@ -184,7 +184,7 @@
 		"pitch"		"100"
 		"position"	"6"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine6.ogg"
+		"wave"		")ambient/turbine6.wav"
 	}
 
 
@@ -200,28 +200,28 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/waterfallinside.ogg"
+		"wave"		"ambient/waterfallinside.wav"
 	}
 
 	"playlooping"
@@ -230,7 +230,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_90dB"
-		"wave"		"@ambient/train_engine_idle.ogg"
+		"wave"		"@ambient/train_engine_idle.wav"
 	}
 
 		"playlooping"
@@ -239,7 +239,7 @@
 		"pitch"		"100"
 		"position"	"1"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine1.ogg"
+		"wave"		")ambient/turbine1.wav"
 	}
 
 		"playlooping"
@@ -248,7 +248,7 @@
 		"pitch"		"100"
 		"position"	"2"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine2.ogg"
+		"wave"		")ambient/turbine2.wav"
 	}
 
 		"playlooping"
@@ -257,7 +257,7 @@
 		"pitch"		"100"
 		"position"	"3"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine3.ogg"
+		"wave"		")ambient/turbine3.wav"
 	}
 
 		"playlooping"
@@ -266,7 +266,7 @@
 		"pitch"		"100"
 		"position"	"4"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine4.ogg"
+		"wave"		")ambient/turbine4.wav"
 	}
 
 		"playlooping"
@@ -275,7 +275,7 @@
 		"pitch"		"100"
 		"position"	"5"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine5.ogg"
+		"wave"		")ambient/turbine5.wav"
 	}
 
 		"playlooping"
@@ -284,7 +284,7 @@
 		"pitch"		"100"
 		"position"	"6"
 		"soundlevel"  	"SNDLVL_70dB"
-		"wave"		")ambient/turbine6.ogg"
+		"wave"		")ambient/turbine6.wav"
 	}
 
 
@@ -300,28 +300,28 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 }
 
@@ -333,21 +333,21 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/forest_high_wind.ogg"
+		"wave"		"ambient/forest_high_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 
 	"playlooping"
@@ -356,7 +356,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"soundlevel"  	"SNDLVL_75dB"
-		"wave"		"ambient/waterfall.ogg"
+		"wave"		"ambient/waterfall.wav"
 	}
 }
 

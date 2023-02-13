@@ -68,20 +68,20 @@
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 		"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 
 		"playlooping"
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 }
@@ -94,14 +94,14 @@
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".65"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.ogg"
+		"wave"		"ambient/desert_rustle.wav"
 	}
 
 
@@ -109,7 +109,7 @@
 	{
 		"volume"	"0.10"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 		"playrandom"
@@ -141,14 +141,14 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.ogg"
+		"wave"		"ambient/desert_rustle.wav"
 	}
 
 
@@ -156,7 +156,7 @@
 	{
 		"volume"	"0.1"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 		"playrandom"
@@ -182,7 +182,7 @@
 	{
 		"volume"	"0.2"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 
 }
@@ -195,14 +195,14 @@
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 
@@ -210,7 +210,7 @@
 	{
 		"volume"	"0.15"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 		"playrandom"
@@ -242,19 +242,19 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/forest_life.ogg"
+		"wave"		"ambient/forest_life.wav"
 	}
 	"playlooping"
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 
@@ -262,7 +262,7 @@
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 		"playrandom"
@@ -292,27 +292,27 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/waterfalloutside.ogg"
+		"wave"		"ambient/waterfalloutside.wav"
 	}
 
 		"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/drips1.ogg"
+		"wave"		"ambient/drips1.wav"
 	}
 			"playlooping"
 	{
 		"volume"	"0.15"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 
 		"playlooping"
 	{
 		"volume"	"0.05"
 		"pitch"		"100"
-		"wave"		"ambient/rain.ogg"
+		"wave"		"ambient/rain.wav"
 	}
 
 }
@@ -324,27 +324,27 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind_low.ogg"
+		"wave"		"ambient/desert_wind_low.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"ambient/desert_rustle.ogg"
+		"wave"		"ambient/desert_rustle.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".35"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/nucleus_electricity.ogg"
+		"wave"		"ambient/nucleus_electricity.wav"
 
 	}
 

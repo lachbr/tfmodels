@@ -67,21 +67,21 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/indoors.ogg"
+		"wave"		"ambient/indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".10"
 		"pitch"		"100"
-		"wave"		"ambient/lighthum.ogg"
+		"wave"		"ambient/lighthum.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/windwinterinside.ogg"
+		"wave"		"ambient/windwinterinside.wav"
 	}
 }
 
@@ -94,7 +94,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors.ogg"
+		"wave"		"ambient/outdoors.wav"
 	}
 
 
@@ -102,14 +102,14 @@
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"ambient/windwinter.ogg"
+		"wave"		"ambient/windwinter.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"ambient/lightwindcreaks.ogg"
+		"wave"		"ambient/lightwindcreaks.wav"
 	}
 
 	"playrandom"

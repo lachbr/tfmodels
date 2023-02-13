@@ -66,7 +66,7 @@
 	{
 		"volume"	".65"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 
@@ -77,11 +77,11 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient\materials\rock1.ogg"
-			"wave"		"ambient\materials\rock2.ogg"
-			"wave"		"ambient\materials\rock3.ogg"
-			"wave"		"ambient\materials\rock4.ogg"
-			"wave"		"ambient\materials\rock5.ogg"
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
 		}
 	}
 
@@ -95,7 +95,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 
@@ -106,11 +106,11 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-		"wave"		"ambient\materials\wood_creak1.ogg"
-		"wave"		"ambient\materials\wood_creak2.ogg"
-		"wave"		"ambient\materials\wood_creak3.ogg"
-		"wave"		"ambient\materials\wood_creak4.ogg"
-		"wave"		"ambient\materials\wood_creak5.ogg"
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
 		}
 	}
 
@@ -124,14 +124,14 @@
 	{
 		"volume"	".65"
 		"pitch"		"100"
-		"wave"		"ambient/desert_wind.ogg"
+		"wave"		"ambient/desert_wind.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".8"
 		"pitch"		"100"
-		"wave"		"ambient\water\lake_water.ogg"
+		"wave"		"ambient\water\lake_water.wav"
 	}
 	"playrandom"
 	{
@@ -140,8 +140,8 @@
 		"pitch"		"90,105"
 		"rndwave"
 		{
-			"wave"		"ambient\levels\canals\windchime4.ogg"
-			"wave"		"ambient\levels\canals\windchime5.ogg"
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
 		}
 	}
 
@@ -157,14 +157,14 @@
 	{
 		"volume"	".50"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"ambient\lighthum.ogg"
+		"wave"		"ambient\lighthum.wav"
 	}
 
 
@@ -178,14 +178,14 @@
 	{
 		"volume"	".50"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient\fire\fire_small1.ogg"
+		"wave"		"ambient\fire\fire_small1.wav"
 	}
 
 
@@ -199,20 +199,20 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"ambient\fire\fire_small1.ogg"
+		"wave"		"ambient\fire\fire_small1.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".50"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 	"playlooping"
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"ambient\water\lake_water.ogg"
+		"wave"		"ambient\water\lake_water.wav"
 	}
 
 }
@@ -227,7 +227,7 @@
 	{
 		"volume"	".50"
 		"pitch"		"100"
-		"wave"		"ambient/desert_indoors.ogg"
+		"wave"		"ambient/desert_indoors.wav"
 	}
 	"playrandom"
 	{
@@ -236,11 +236,11 @@
 		"pitch"		"100"
 		"rndwave"
 		{
-			"wave"		"ambient\materials\rock1.ogg"
-			"wave"		"ambient\materials\rock2.ogg"
-			"wave"		"ambient\materials\rock3.ogg"
-			"wave"		"ambient\materials\rock4.ogg"
-			"wave"		"ambient\materials\rock5.ogg"
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
 		}
 	}
 

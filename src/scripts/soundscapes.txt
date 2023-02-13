@@ -67,14 +67,14 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"ambient/underground.ogg"
+		"wave"		"ambient/underground.wav"
 	}
 
 	"playlooping"
 	{
 		"volume"	".30"
 		"pitch"		"100"
-		"wave"		"ambient/machine_hum2.ogg"
+		"wave"		"ambient/machine_hum2.wav"
 	}
 
 	"playlooping"
@@ -83,7 +83,7 @@
 		"pitch"		"100"
 		"position"	"0"
 		"attenuation"	"0.7"
-		"wave"		"ambient/machine_hum.ogg"
+		"wave"		"ambient/machine_hum.wav"
 	}
 }
 
@@ -96,6 +96,6 @@
 	{
 		"volume"	".25"
 		"pitch"		"100"
-		"wave"		"ambient/outdoors_well.ogg"
+		"wave"		"ambient/outdoors_well.wav"
 	}
 }
