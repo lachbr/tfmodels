@@ -654,6 +654,41 @@
     }
 
     {
+      name PRIMARY_aimmatrix_swim
+      blend {
+        anims [
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_down_left.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_down_center.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_down_right.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_mid_left.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_mid_center.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_mid_right.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_up_left.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_up_center.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_up_right.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+          "optchar/soldier-a_PRIMARY_aimmatrix_swim_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+
+    {
       name stand_PRIMARY
       anim "optchar/soldier-stand_PRIMARY.egg"
       layers [
@@ -675,6 +710,82 @@
         }
       ]
       activity Primary_Crouch
+    }
+
+    {
+      name airwalk_PRIMARY
+      anim "optchar/soldier-airwalk_PRIMARY.egg"
+      loop true
+      activity Primary_Air_Walk
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_swim
+        }
+      ]
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+    }
+    {
+      name primary_floatA
+      anim "optchar/soldier-primary_floatA.egg"
+      loop true
+      activity Primary_Air_Walk
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+    }
+    {
+      name primary_floatB
+      anim "optchar/soldier-primary_floatB.egg"
+      loop true
+      activity Primary_Air_Walk
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+    }
+    {
+      name primary_floatC
+      anim "optchar/soldier-primary_floatC.egg"
+      loop true
+      activity Primary_Air_Walk
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+    }
+    {
+      name primary_floatD
+      anim "optchar/soldier-primary_floatD.egg"
+      loop true
+      activity Primary_Air_Walk
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
     }
 
     {
@@ -1019,6 +1130,123 @@
       ]
     }
 
+
+
+    {
+      name ReloadAirwalk_PRIMARY
+      anim "optchar/soldier-ReloadAirwalk_PRIMARY.egg"
+      delta true
+      activity Primary_Reload_Airwalk
+      events [
+        // Body group events
+        {
+          frame 11 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 1"
+        }
+        {
+          frame 21 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 0"
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_standing_arms
+          start 0 peak 4 tail 32 end 32
+        }
+      ]
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain rhand type release
+        }
+        {
+          chain lhand type release
+        }
+      ]
+    }
+
+    {
+      name ReloadAirwalk_PRIMARY_loop
+      anim "optchar/soldier-ReloadAirwalk_PRIMARY_loop.egg"
+      delta true
+      activity Primary_Reload_Air_Walk_Loop
+      loop true
+      layers [
+        {
+          sequence layer_reload_standing_arms_loop
+        }
+      ]
+      events [
+        // body group events
+        {
+          frame 1 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 0"
+        }
+        {
+          frame 12 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 1"
+        }
+        {
+          frame 22 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 0"
+        }
+      ]
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain rhand type release
+        }
+        {
+          chain lhand type release
+        }
+      ]
+    }
+
+    {
+      name ReloadAirwalk_PRIMARY_end
+      anim "optchar/soldier-ReloadAirwalk_PRIMARY_end.egg"
+      delta true
+      activity Primary_Reload_Air_Walk_End
+      events [
+        // body groups
+        {
+          frame 1 type 2
+          event Client_Bodygroup_Set_Value
+          data "rocket 0"
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_standing_arms_end
+          start 0 peak 0 tail 10 end 18
+          spline true
+        }
+      ]
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+
     {
       name jump_start_PRIMARY
       anim "optchar/soldier-jump_start_PRIMARY.egg"
@@ -1210,6 +1438,41 @@
     }
 
     {
+      name SECONDARY_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/soldier-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+
+    {
       name stand_SECONDARY
       anim "optchar/soldier-stand_SECONDARY.egg"
       layers [
@@ -1219,6 +1482,109 @@
       ]
       loop true
       activity Secondary_Stand
+    }
+
+    {
+      name crouch_SECONDARY
+      anim "optchar/soldier-crouch_SECONDARY.egg"
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Secondary_Crouch
+    }
+
+    {
+      name airwalk_SECONDARY
+      anim "optchar/soldier-airwalk_SECONDARY.egg"
+      loop true
+      activity Secondary_Air_Walk
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_idle
+        }
+      ]
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+    }
+
+    {
+      name a_crouch_walkSW_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkSW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkS_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkSE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkCenter_crouch_walk_SECONDARY.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkNW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkN_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_SECONDARY
+      anim "optchar/soldier-a_crouch_walkNE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_SECONDARY
+      blend {
+        anims [
+          "a_crouch_walkSW_crouch_walk_SECONDARY"
+          "a_crouch_walkS_crouch_walk_SECONDARY"
+          "a_crouch_walkSE_crouch_walk_SECONDARY"
+          "a_crouch_walkW_crouch_walk_SECONDARY"
+          "a_crouch_walkCenter_crouch_walk_SECONDARY"
+          "a_crouch_walkE_crouch_walk_SECONDARY"
+          "a_crouch_walkNW_crouch_walk_SECONDARY"
+          "a_crouch_walkN_crouch_walk_SECONDARY"
+          "a_crouch_walkNE_crouch_walk_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Secondary_Crouch_Walk
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
     }
 
     {
@@ -1320,6 +1686,86 @@
     }
 
     {
+      name SECONDARY_reload_airwalk
+      anim "optchar/soldier-SECONDARY_reload_airwalk.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY
+          start 0 peak 10 tail 21 end 21
+        }
+      ]
+    }
+    {
+      name SECONDARY_reload_airwalk_loop
+      anim "optchar/soldier-SECONDARY_reload_airwalk_loop.egg"
+      delta true
+      activity Secondary_Reload_Air_Walk_Loop
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY_loop
+          start -2 peak -2 tail 21 end 21
+        }
+      ]
+    }
+    {
+      name SECONDARY_reload_airwalk_end
+      anim "optchar/soldier-SECONDARY_reload_airwalk_end.egg"
+      activity Secondary_Reload_Air_Walk_End
+      delta true
+      fade_out 1.0
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_arms_SECONDARY_end
+          start -2 peak -2 tail 1 end 7
+        }
+      ]
+    }
+
+    {
       name AttackStand_secondary
       anim "optchar/soldier-AttackStand_SECONDARY.egg"
       activity Secondary_Attack_Stand
@@ -1334,6 +1780,113 @@
         {
           chain lhand type touch joint weapon_bone_1
           ref_anim stand_SECONDARY
+        }
+      ]
+    }
+
+    {
+      name AttackCrouch_SECONDARY
+      anim "optchar/soldier-AttackCrouch_SECONDARY.egg"
+      activity Secondary_Attack_Crouch
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+    }
+    {
+      name layer_reload_crouch_secondary_arms
+      anim "optchar/soldier-layer_reload_crouch_secondary_arms.egg"
+      weight_list arms_blend
+      ik_events [
+        {
+          chain rhand type release
+        }
+        // FIXME: touch IK here
+      ]
+    }
+    {
+      name ReloadCrouch_SECONDARY
+      anim "optchar/soldier-ReloadCrouch_SECONDARY.egg"
+      delta true
+      activity Secondary_Reload_Crouch
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_crouch_secondary_arms
+          start 0 peak 4 tail 20 end 20
+        }
+      ]
+    }
+    {
+      name layer_reload_crouch_secondary_arms_loop
+      anim "optchar/soldier-layer_reload_crouch_secondary_arms_loop.egg"
+      ik_events [
+        {
+          chain rhand type release
+        }
+      ]
+      weight_light arms_blend
+    }
+    {
+      name ReloadCrouch_SECONDARY_loop
+      anim "optchar/soldier-ReloadCrouch_SECONDARY_loop.egg"
+      activity Secondary_Reload_Crouch_Loop
+      delta true
+      loop true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_crouch_secondary_arms_loop
+        }
+      ]
+    }
+    {
+      name layer_reload_crouch_secondary_arms_end
+      anim "optchar/soldier-layer_reload_crouch_secondary_arms_end.egg"
+      weight_list arms_blend
+    }
+    {
+      name ReloadCrouch_SECONDARY_end
+      anim "optchar/soldier-ReloadCrouch_SECONDARY_end.egg"
+      delta true
+      activity Secondary_Reload_Crouch_End
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
         }
       ]
     }
@@ -1433,6 +1986,39 @@
     }
 
     {
+      name MELEE_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/soldier-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      weight_list hips_upper_body
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+
+    {
       name MELEE_aimmatrix_run
       blend {
         anims [
@@ -1473,6 +2059,101 @@
       layers [
         {
           sequence MELEE_aimmatrix_idle
+        }
+      ]
+    }
+
+    {
+      name crouch_MELEE
+      anim "optchar/soldier-crouch_MELEE.egg"
+      loop true
+      activity Melee_Crouch
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
+        }
+      ]
+    }
+
+    {
+      name airwalk_MELEE
+      anim "optchar/soldier-airwalk_MELEE.egg"
+      loop true
+      activity Melee_Air_Walk
+      layers [
+        {
+          sequence MELEE_aimmatrix_idle
+        }
+      ]
+    }
+
+    {
+      name a_crouch_walkSW_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkSW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkS_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkSE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkCenter_crouch_walk_MELEE.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkNW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkN_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_MELEE
+      anim "optchar/soldier-a_crouch_walkNE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_MELEE
+      blend {
+        anims [
+          "a_crouch_walkSW_crouch_walk_MELEE"
+          "a_crouch_walkS_crouch_walk_MELEE"
+          "a_crouch_walkSE_crouch_walk_MELEE"
+          "a_crouch_walkW_crouch_walk_MELEE"
+          "a_crouch_walkCenter_crouch_walk_MELEE"
+          "a_crouch_walkE_crouch_walk_MELEE"
+          "a_crouch_walkNW_crouch_walk_MELEE"
+          "a_crouch_walkN_crouch_walk_MELEE"
+          "a_crouch_walkNE_crouch_walk_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Melee_Crouch_Walk
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
         }
       ]
     }
@@ -1572,6 +2253,33 @@
         }
         {
           chain rfoot type lock
+        }
+      ]
+    }
+
+    {
+      name layer_AttackCrouchMelee_arms
+      anim "optchar/soldier-layer_AttackCrouchMelee_arms.egg"
+      weight_list weights_layer_AttackStandMelee_arms
+    }
+    {
+      name Attack_Crouch_MELEE
+      anim "optchar/soldier-Attack_Crouch_MELEE.egg"
+      delta true
+      activity Melee_Attack_Crouch
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      layers [
+        {
+          sequence layer_AttackCrouchMelee_arms
+          start 0 peak 3 tail 21 end 24
+          spline true
         }
       ]
     }
