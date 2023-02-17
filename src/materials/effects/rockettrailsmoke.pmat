@@ -28,4 +28,5 @@
 
   depth_write off
   transparency alpha
+  color_scale [ 4 4 4 1 ]
 }
