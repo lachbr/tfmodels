@@ -2286,6 +2286,17 @@
       activity Primary_Crouch_Walk
     }
     {
+      name crouch_PRIMARY
+      anim "optchar/engineer-crouch_PRIMARY.egg"
+      activity Primary_Crouch
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
       name AttackCrouch_PRIMARY
       anim "optchar/engineer-AttackCrouch_PRIMARY.egg"
       delta true
@@ -2298,6 +2309,99 @@
         }
       ]
       activity Primary_Attack_Crouch
+    }
+    {
+      name ReloadCrouch_PRIMARY
+      anim "optchar/engineer-ReloadCrouch_PRIMARY.egg"
+      delta true
+      activity Primary_Reload_Crouch
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+      ]
+    }
+    {
+      name PRIMARY_reloadcrouch
+      anim "optchar/engineer-PRIMARY_reloadcrouch.egg"
+      delta true
+      activity Primary_Reload_Crouch
+      activity_weight 100
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim crouch_PRIMARY
+        }
+      ]
+    }
+    {
+      name a_PRIMARY_reloadcrouch_loop
+      anim "optchar/engineer-a_PRIMARY_reloadcrouch_loop.egg"
+      delta true
+      activity Primary_Reload_Crouch_Loop
+      activity_weight 2
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim crouch_PRIMARY
+        }
+      ]
+    }
+    {
+      name b_PRIMARY_reloadcrouch_loop
+      anim "optchar/engineer-b_PRIMARY_reloadcrouch_loop.egg"
+      delta true
+      activity Primary_Reload_Crouch_Loop
+      activity_weight 1
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim crouch_PRIMARY
+        }
+      ]
+    }
+    {
+      name reloadcrouch_PRIMARY_end
+      anim "optchar/engineer-reloadcrouch_PRIMARY_end.egg"
+      delta true
+      activity Primary_Reload_Crouch_End
+      fade_out 0.7
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+          ref_anim crouch_PRIMARY
+        }
+      ]
     }
   ]
 
