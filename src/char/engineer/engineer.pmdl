@@ -2180,6 +2180,125 @@
       anim "optchar/engineer-layer_gesture_primary_go_armL.egg"
 
     }
+
+    {
+      name PRIMARY_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone_1
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_PRIMARY
+      anim "optchar/engineer-a_crouch_walkSW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_PRIMARY
+      anim "optchar/engineer-a_crouch_walkS_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_PRIMARY
+      anim "optchar/engineer-a_crouch_walkSE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_PRIMARY
+      anim "optchar/engineer-a_crouch_walkW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_PRIMARY
+      anim "optchar/engineer-a_crouch_walkCenter_PRIMARY.egg"
+    }
+    {
+      name a_crouch_walkE_PRIMARY
+      anim "optchar/engineer-a_crouch_walkE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_PRIMARY
+      anim "optchar/engineer-a_crouch_walkNW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_PRIMARY
+      anim "optchar/engineer-a_crouch_walkN_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_PRIMARY
+      anim "optchar/engineer-a_crouch_walkNE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_PRIMARY
+      blend {
+        anims [
+          a_crouch_walkSW_PRIMARY
+          a_crouch_walkS_PRIMARY
+          a_crouch_walkSE_PRIMARY
+          a_crouch_walkW_PRIMARY
+          a_crouch_walkCenter_PRIMARY
+          a_crouch_walkE_PRIMARY
+          a_crouch_walkNW_PRIMARY
+          a_crouch_walkN_PRIMARY
+          a_crouch_walkNE_PRIMARY
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Primary_Crouch_Walk
+    }
+    {
+      name AttackCrouch_PRIMARY
+      anim "optchar/engineer-AttackCrouch_PRIMARY.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      activity Primary_Attack_Crouch
+    }
   ]
 
   physics_model {
