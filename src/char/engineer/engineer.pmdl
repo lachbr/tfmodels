@@ -2403,6 +2403,164 @@
         }
       ]
     }
+
+    {
+      name SECONDARY_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_SECONDARY
+      anim "optchar/engineer-a_crouch_walkSW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_SECONDARY
+      anim "optchar/engineer-a_crouch_walkS_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_SECONDARY
+      anim "optchar/engineer-a_crouch_walkSE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_SECONDARY
+      anim "optchar/engineer-a_crouch_walkW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_SECONDARY
+      anim "optchar/engineer-a_crouch_walkCenter_SECONDARY.egg"
+    }
+    {
+      name a_crouch_walkE_SECONDARY
+      anim "optchar/engineer-a_crouch_walkE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_SECONDARY
+      anim "optchar/engineer-a_crouch_walkNW_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_SECONDARY
+      anim "optchar/engineer-a_crouch_walkN_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_SECONDARY
+      anim "optchar/engineer-a_crouch_walkNE_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_SECONDARY
+      blend {
+        anims [
+          a_crouch_walkSW_SECONDARY
+          a_crouch_walkS_SECONDARY
+          a_crouch_walkSE_SECONDARY
+          a_crouch_walkW_SECONDARY
+          a_crouch_walkCenter_SECONDARY
+          a_crouch_walkE_SECONDARY
+          a_crouch_walkNW_SECONDARY
+          a_crouch_walkN_SECONDARY
+          a_crouch_walkNE_SECONDARY
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Secondary_Crouch_Walk
+    }
+    {
+      name crouch_SECONDARY
+      anim "optchar/engineer-crouch_SECONDARY.egg"
+      activity Secondary_Crouch
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name AttackCrouch_SECONDARY
+      anim "optchar/engineer-AttackCrouch_SECONDARY.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+      ]
+      activity Secondary_Attack_Crouch
+    }
+    {
+      name layer_reload_crouch_arms_SECONDARY
+      anim "optchar/engineer-layer_reload_crouch_arms_SECONDARY.egg"
+      weight_list arms_blend
+      // TODO: touch ik weapon_bone on frame 9
+    }
+    {
+      name ReloadCrouch_SECONDARY
+      anim "optchar/engineer-ReloadCrouch_SECONDARY.egg"
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type release
+        }
+        {
+          chain rhand type release
+        }
+      ]
+      layers [
+        {
+          sequence layer_reload_crouch_arms_SECONDARY
+          start 0 peak 7 tail 25 end 28
+        }
+      ]
+    }
   ]
 
   physics_model {
