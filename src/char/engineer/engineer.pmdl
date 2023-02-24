@@ -2561,6 +2561,388 @@
         }
       ]
     }
+    {
+      name MELEE_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkSW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkS_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkSE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkCenter_crouch_walk_MELEE.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkNW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkN_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_MELEE
+      anim "optchar/engineer-a_crouch_walkNE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_MELEE
+      blend {
+        anims [
+          a_crouch_walkSW_crouch_walk_MELEE
+          a_crouch_walkS_crouch_walk_MELEE
+          a_crouch_walkSE_crouch_walk_MELEE
+          a_crouch_walkW_crouch_walk_MELEE
+          a_crouch_walkCenter_crouch_walk_MELEE
+          a_crouch_walkE_crouch_walk_MELEE
+          a_crouch_walkNW_crouch_walk_MELEE
+          a_crouch_walkN_crouch_walk_MELEE
+          a_crouch_walkNE_crouch_walk_MELEE
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Melee_Crouch_Walk
+    }
+    {
+      name crouch_MELEE
+      anim "optchar/engineer-crouch_MELEE.egg"
+      activity Melee_Crouch
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name armslayer_melee_Crouch_swing
+      anim "optchar/engineer-armslayer_melee_Crouch_swing.egg"
+      weight_list melee_arms_blend
+    }
+    {
+      name bodylayer_Melee_Crouch_Swing
+      anim "optchar/engineer-bodylayer_Melee_Crouch_Swing.egg"
+      weight_list melee_hips_torso
+      delta true
+    }
+    {
+      name Melee_Crouch_Swing
+      activity Melee_Attack_Crouch
+      num_frames 25
+      fps 30
+      layers [
+        {
+          sequence bodylayer_Melee_Crouch_Swing
+          start 0 peak 1 tail 20 end 24
+        }
+        {
+          sequence armslayer_melee_Crouch_swing
+          start 0 peak 5 tail 20 end 24
+        }
+      ]
+      ik_events [
+        {
+          chain lhand type release
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+
+    {
+      name PDA_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_PDA_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkSW_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkS_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkSE_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkW_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkCenter_crouch_walk_PDA.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkE_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkNW_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkN_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_PDA
+      anim "optchar/engineer-a_crouch_walkNE_crouch_walk_PDA.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_PDA
+      blend {
+        anims [
+          a_crouch_walkSW_crouch_walk_PDA
+          a_crouch_walkS_crouch_walk_PDA
+          a_crouch_walkSE_crouch_walk_PDA
+          a_crouch_walkW_crouch_walk_PDA
+          a_crouch_walkCenter_crouch_walk_PDA
+          a_crouch_walkE_crouch_walk_PDA
+          a_crouch_walkNW_crouch_walk_PDA
+          a_crouch_walkN_crouch_walk_PDA
+          a_crouch_walkNE_crouch_walk_PDA
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence PDA_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity PDA_Crouch_Walk
+    }
+    {
+      name crouch_PDA
+      anim "optchar/engineer-crouch_PDA.egg"
+      activity PDA_Crouch
+      layers [
+        {
+          sequence PDA_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+
+    {
+      name BUILDING_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/engineer-a_BUILDING_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_BUILDING
+      anim "optchar/engineer-a_crouch_walkSW_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_BUILDING
+      anim "optchar/engineer-a_crouch_walkS_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_BUILDING
+      anim "optchar/engineer-a_crouch_walkSE_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_BUILDING
+      anim "optchar/engineer-a_crouch_walkW_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_BUILDING
+      anim "optchar/engineer-a_crouch_walkCenter_BUILDING.egg"
+    }
+    {
+      name a_crouch_walkE_BUILDING
+      anim "optchar/engineer-a_crouch_walkE_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_BUILDING
+      anim "optchar/engineer-a_crouch_walkNW_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_BUILDING
+      anim "optchar/engineer-a_crouch_walkN_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_BUILDING
+      anim "optchar/engineer-a_crouch_walkNE_BUILDING.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_BUILDING
+      blend {
+        anims [
+          a_crouch_walkSW_BUILDING
+          a_crouch_walkS_BUILDING
+          a_crouch_walkSE_BUILDING
+          a_crouch_walkW_BUILDING
+          a_crouch_walkCenter_BUILDING
+          a_crouch_walkE_BUILDING
+          a_crouch_walkNW_BUILDING
+          a_crouch_walkN_BUILDING
+          a_crouch_walkNE_BUILDING
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence BUILDING_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Building_Crouch_Walk
+    }
+    {
+      name crouch_BUILDING
+      anim "optchar/engineer-crouch_BUILDING.egg"
+      activity Building_Crouch
+      layers [
+        {
+          sequence BUILDING_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
   ]
 
   physics_model {
