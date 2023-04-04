@@ -1637,6 +1637,319 @@
         }
       ]
     }
+
+    // Crouch animations.
+    {
+      name PRIMARY_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_PRIMARY_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain lfoot type lock
+        }
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name MELEE_aimmatrix_crouch_idle
+      blend {
+        anims [
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_MELEE_aimmatrix_crouch_idle_straight_up.egg"
+        ]
+        width 3
+        blend_x body_yaw
+        blend_y body_pitch
+      }
+      delta true
+      ik_events [
+        {
+          chain rfoot type lock
+        }
+        {
+          chain lfoot type lock
+        }
+        {
+          chain lhand type touch joint weapon_bone
+        }
+      ]
+    }
+    {
+      name crouch_PRIMARY
+      anim "optchar/pyro-crouch_PRIMARY.egg"
+      activity Primary_Crouch
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name crouch_SECONDARY
+      anim "optchar/pyro-crouch_SECONDARY.egg"
+      activity Secondary_Crouch
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name crouch_MELEE
+      anim "optchar/pyro-crouch_MELEE.egg"
+      activity Melee_Crouch
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+    }
+    {
+      name a_crouch_walkSW_PRIMARY
+      anim "optchar/pyro-a_crouch_walkSW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_PRIMARY
+      anim "optchar/pyro-a_crouch_walkS_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_PRIMARY
+      anim "optchar/pyro-a_crouch_walkSE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_PRIMARY
+      anim "optchar/pyro-a_crouch_walkW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_PRIMARY
+      anim "optchar/pyro-a_crouch_walkCenter_PRIMARY.egg"
+    }
+    {
+      name a_crouch_walkE_PRIMARY
+      anim "optchar/pyro-a_crouch_walkE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_PRIMARY
+      anim "optchar/pyro-a_crouch_walkNW_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_PRIMARY
+      anim "optchar/pyro-a_crouch_walkN_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_PRIMARY
+      anim "optchar/pyro-a_crouch_walkNE_PRIMARY.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_PRIMARY
+      blend {
+        anims [
+          a_crouch_walkSW_PRIMARY
+          a_crouch_walkS_PRIMARY
+          a_crouch_walkSE_PRIMARY
+          a_crouch_walkW_PRIMARY
+          a_crouch_walkCenter_PRIMARY
+          a_crouch_walkE_PRIMARY
+          a_crouch_walkNW_PRIMARY
+          a_crouch_walkN_PRIMARY
+          a_crouch_walkNE_PRIMARY
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      layers [
+        {
+          sequence PRIMARY_aimmatrix_crouch_idle
+        }
+      ]
+      loop true
+      activity Primary_Crouch_Walk
+    }
+    {
+      name a_crouch_walkSW_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkSW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkS_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkSE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkCenter_crouch_walk_SECONDARY.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkNW_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkN_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_SECONDARY
+      anim "optchar/pyro-a_crouch_walkNE_crouch_walk_SECONDARY.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_SECONDARY
+      blend {
+        anims [
+          "a_crouch_walkSW_crouch_walk_SECONDARY"
+          "a_crouch_walkS_crouch_walk_SECONDARY"
+          "a_crouch_walkSE_crouch_walk_SECONDARY"
+          "a_crouch_walkW_crouch_walk_SECONDARY"
+          "a_crouch_walkCenter_crouch_walk_SECONDARY"
+          "a_crouch_walkE_crouch_walk_SECONDARY"
+          "a_crouch_walkNW_crouch_walk_SECONDARY"
+          "a_crouch_walkN_crouch_walk_SECONDARY"
+          "a_crouch_walkNE_crouch_walk_SECONDARY"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Secondary_Crouch_Walk
+      layers [
+        {
+          sequence SECONDARY_aimmatrix_crouch_idle
+        }
+      ]
+    }
+    {
+      name a_crouch_walkSW_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkSW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkS_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkS_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkSE_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkSE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkW_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkCenter_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkCenter_crouch_walk_MELEE.egg"
+    }
+    {
+      name a_crouch_walkE_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNW_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkNW_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkN_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkN_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name a_crouch_walkNE_crouch_walk_MELEE
+      anim "optchar/pyro-a_crouch_walkNE_crouch_walk_MELEE.egg"
+      motion [ x y ]
+    }
+    {
+      name crouch_walk_MELEE
+      blend {
+        anims [
+          "a_crouch_walkSW_crouch_walk_MELEE"
+          "a_crouch_walkS_crouch_walk_MELEE"
+          "a_crouch_walkSE_crouch_walk_MELEE"
+          "a_crouch_walkW_crouch_walk_MELEE"
+          "a_crouch_walkCenter_crouch_walk_MELEE"
+          "a_crouch_walkE_crouch_walk_MELEE"
+          "a_crouch_walkNW_crouch_walk_MELEE"
+          "a_crouch_walkN_crouch_walk_MELEE"
+          "a_crouch_walkNE_crouch_walk_MELEE"
+        ]
+        width 3
+        blend_x move_x
+        blend_y move_y
+      }
+      loop true
+      activity Melee_Crouch_Walk
+      layers [
+        {
+          sequence MELEE_aimmatrix_crouch_idle
+        }
+      ]
+    }
   ]
 
   physics_model {
