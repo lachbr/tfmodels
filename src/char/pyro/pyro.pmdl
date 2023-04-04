@@ -575,18 +575,18 @@
       name SECONDARY_aimmatrix_crouch_idle
       blend {
         anims [
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_right.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_center.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_left.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_right.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_center.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_left.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_down_right.egg"
-          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_down_center.egg"
           "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_down_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_down_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_down_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_mid_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_left.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_center.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_up_right.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
+          "optchar/pyro-a_SECONDARY_aimmatrix_crouch_idle_straight_up.egg"
         ]
         width 3
         blend_x body_yaw
@@ -724,7 +724,7 @@
     }
     {
       name a_secondary_reload_loop
-      anim "optchar/pyro-a_secondary_crouch_reload_loop.egg"
+      anim "optchar/pyro-a_secondary_reload_loop.egg"
       activity Secondary_Reload_Stand_Loop
       delta true
       ik_events [
