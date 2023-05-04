@@ -1,7 +1,7 @@
 import glob
 import os
 
-wavFiles = glob.glob('**/*.wav', recursive=True)
+wavFiles = glob.glob('../**/*.wav', recursive=True)
 
 for wavFile in wavFiles:
     dirname = os.path.split(wavFile)[0]
