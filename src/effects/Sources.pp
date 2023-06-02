@@ -1,13 +1,8 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/effects
 
-#begin install_egg
-  #define UNPAL_SOURCES \
-    explosion.egg
-#end install_egg
-
 #begin blender_egg
-  #define SOURCES cappoint_hologram.blend
+  #define SOURCES cappoint_hologram.blend skybox.blend
 #end blender_egg
 
 #call tf_char_egg minigunmuzzle,idle,
@@ -18,3 +13,8 @@
     cappoint_hologram.pmdl
 
 #end install_mdl
+
+#begin install_egg
+  #define UNPAL_SOURCES \
+    explosion.egg skybox.egg
+#end install_egg
