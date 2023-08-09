@@ -377,7 +377,7 @@ if isAnimated:
 else:
     blendFilename += ".blend"
 
-command = "blender -b -P %TFMODELS%\\src\\blender_import_qc.py -- -i " \
+command = "blender -b -P %TFMODELS%\\src\\devscripts\\blender_import_qc.py -- -i " \
            + Filename(decompFolder / modelName).toOsSpecific() + ".qc -o " + blendFilename.toOsSpecific()
 if isStaticProp:
     # Bake lightmap UV's into the model if it's a static prop.  This will allow

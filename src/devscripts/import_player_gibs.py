@@ -13,6 +13,6 @@ for qcFile in qcFiles:
     qcFilename = Filename.fromOsSpecific(qcFile)
     blendOut = blendOutDir / Filename(qcFilename.getBasenameWoExtension() + ".blend")
     print(qcFilename, blendOut)
-    cmd = f'blender -b -P {tfModels.toOsSpecific()}\\src\\blender_import_static_qc.py -- -i {qcFile} -o {blendOut.toOsSpecific()}'
+    cmd = f'blender -b -P {tfModels.toOsSpecific()}\\src\\devscripts\\blender_import_static_qc.py -- -i {qcFile} -o {blendOut.toOsSpecific()}'
     print(cmd)
     os.system(cmd)
