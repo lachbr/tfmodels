@@ -24,4 +24,5 @@
     }
   }
   transparency alpha
+  depth_write off
 }
