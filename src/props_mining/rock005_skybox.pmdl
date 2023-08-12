@@ -1,0 +1,71 @@
+
+{
+  "model"   "rock005_skybox.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "rock005.pmat"
+        "rock005a.pmat"
+        "rock005b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "rock005a.pmat"
+        "rock005a.pmat"
+        "rock005b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "rock005b.pmat"
+        "rock005a.pmat"
+        "rock005b.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "rock005_skybox_physics"
+    "mass"     80
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "rock"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "rock005_reference*"
+        ]
+      }
+    ]
+  }
+}

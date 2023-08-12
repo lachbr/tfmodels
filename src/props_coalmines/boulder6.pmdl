@@ -1,0 +1,72 @@
+
+{
+  "model"   "boulder6.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_coalmine"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "boulder6.pmat"
+        "boulder6_nonormal.pmat"
+        "boulder6_desat.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "boulder6_nonormal.pmat"
+        "boulder6_nonormal.pmat"
+        "boulder6_desat.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "boulder6_desat.pmat"
+        "boulder6_nonormal.pmat"
+        "boulder6_desat.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "boulder6_physics"
+    "mass"     292780
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "rock"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "boulder6*"
+        ]
+      }
+    ]
+  }
+}

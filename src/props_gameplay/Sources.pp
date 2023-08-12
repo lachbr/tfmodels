@@ -69,3 +69,5 @@
 #include $[THISDIRPREFIX]Sources.sewer_door01.pp
 #include $[THISDIRPREFIX]Sources.door_grate001_floorplate.pp
 #include $[THISDIRPREFIX]Sources.door_grate001_top.pp
+#include $[THISDIRPREFIX]Sources.security_fence256_gate01.pp
+#include $[THISDIRPREFIX]Sources.sign_wood_cap001.pp

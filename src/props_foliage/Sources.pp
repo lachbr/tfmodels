@@ -16,3 +16,7 @@
 #include $[THISDIRPREFIX]Sources.grass_02.pp
 #include $[THISDIRPREFIX]Sources.shrub_03c.pp
 #include $[THISDIRPREFIX]Sources.deadtree01_skybox.pp
+#include $[THISDIRPREFIX]Sources.cactus01.pp
+#include $[THISDIRPREFIX]Sources.shrub_03a.pp
+#include $[THISDIRPREFIX]Sources.shrub_03_cluster.pp
+#include $[THISDIRPREFIX]Sources.joshuatree01.pp

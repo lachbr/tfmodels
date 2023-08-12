@@ -1,0 +1,49 @@
+
+{
+  "model"   "wall_map.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_hydro"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "wall_map.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "wall_map_physics"
+    "mass"     300
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "concrete"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "wall_map_reference*"
+        ]
+      }
+    ]
+  }
+}

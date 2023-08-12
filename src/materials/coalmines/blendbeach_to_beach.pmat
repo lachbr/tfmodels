@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "beach_dry.ptex"
+    "basetexture2"     "beach_wet.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "coalmines/blendbeach_to_beach.vmt"
+  }
+}

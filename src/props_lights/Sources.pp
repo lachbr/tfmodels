@@ -13,3 +13,4 @@
 #include $[THISDIRPREFIX]Sources.flood_light_right001.pp
 #include $[THISDIRPREFIX]Sources.flood_light_base001.pp
 #include $[THISDIRPREFIX]Sources.light_fluorescent_farm_124.pp
+#include $[THISDIRPREFIX]Sources.lamp002.pp

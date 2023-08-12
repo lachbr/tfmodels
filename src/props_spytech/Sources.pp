@@ -78,3 +78,7 @@
 #include $[THISDIRPREFIX]Sources.vent_system_vent02.pp
 #include $[THISDIRPREFIX]Sources.rocket002.pp
 #include $[THISDIRPREFIX]Sources.rocket_tower.pp
+#include $[THISDIRPREFIX]Sources.doorframe004c.pp
+#include $[THISDIRPREFIX]Sources.radio_tower_skybox001.pp
+#include $[THISDIRPREFIX]Sources.doorframe002c.pp
+#include $[THISDIRPREFIX]Sources.binder001.pp

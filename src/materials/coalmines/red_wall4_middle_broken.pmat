@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "red_wall4_middle_broken.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "coalmines/red_wall4_middle_broken.vmt"
+  }
+}

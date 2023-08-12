@@ -20,3 +20,12 @@
 #include $[THISDIRPREFIX]Sources.awning001.pp
 #include $[THISDIRPREFIX]Sources.ladder002.pp
 #include $[THISDIRPREFIX]Sources.blast_furnace_skybox006.pp
+#include $[THISDIRPREFIX]Sources.train_loader001.pp
+#include $[THISDIRPREFIX]Sources.blast_furnace001.pp
+#include $[THISDIRPREFIX]Sources.train_billboard001_sm.pp
+#include $[THISDIRPREFIX]Sources.blast_furnace002.pp
+#include $[THISDIRPREFIX]Sources.handrailcorner.pp
+#include $[THISDIRPREFIX]Sources.handrail_corner02.pp
+#include $[THISDIRPREFIX]Sources.train_signal_skybox001.pp
+#include $[THISDIRPREFIX]Sources.blast_furnace_skybox001.pp
+#include $[THISDIRPREFIX]Sources.metal_watertower_skybox002.pp

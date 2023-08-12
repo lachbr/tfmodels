@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "ammo_box1.ptex"
+    "selfillum"     1
+  }
+}

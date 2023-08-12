@@ -84,3 +84,6 @@
 #include $[THISDIRPREFIX]Sources.shelf_props01.pp
 #include $[THISDIRPREFIX]Sources.grain_elevator_pipes02.pp
 #include $[THISDIRPREFIX]Sources.silo_skybox001.pp
+#include $[THISDIRPREFIX]Sources.paint_can001.pp
+#include $[THISDIRPREFIX]Sources.sewer_grate_end01.pp
+#include $[THISDIRPREFIX]Sources.powertower01_skybox.pp

@@ -8,3 +8,5 @@
 #include $[THISDIRPREFIX]Sources.train_flatcar_container.pp
 #include $[THISDIRPREFIX]Sources.mining_car_metal.pp
 #include $[THISDIRPREFIX]Sources.train_rockets.pp
+#include $[THISDIRPREFIX]Sources.train_engine.pp
+#include $[THISDIRPREFIX]Sources.mining_cart_supplies001.pp

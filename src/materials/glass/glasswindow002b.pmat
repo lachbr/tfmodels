@@ -1,0 +1,23 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "glasswindow002b.ptex"
+    "envmap"     1
+    "envmapcontrast"     0.5
+    "envmapsaturation"     1
+    "envmaptint" 
+    [
+      0.1
+      0.1
+      0.1
+    ]
+  }
+  "transparency"   "alpha"
+  "tags" 
+  {
+    "surface_prop"     "glass"
+    "original"     "glass/glasswindow002b.vmt"
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "train_bumper_diffuse.ptex"
+    "envmapcontrast"     1
+  }
+  "cull"   "double_sided"
+}

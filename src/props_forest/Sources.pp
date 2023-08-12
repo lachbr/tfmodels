@@ -29,3 +29,14 @@
 #include $[THISDIRPREFIX]Sources.cliff_wall_08.pp
 #include $[THISDIRPREFIX]Sources.cliff_wall_09.pp
 #include $[THISDIRPREFIX]Sources.cliff_wall_09a.pp
+#include $[THISDIRPREFIX]Sources.bridge_support2.pp
+#include $[THISDIRPREFIX]Sources.wood_stairs96.pp
+#include $[THISDIRPREFIX]Sources.wood_stairs128.pp
+#include $[THISDIRPREFIX]Sources.wood_stairs48.pp
+#include $[THISDIRPREFIX]Sources.sawmill_stairs.pp
+#include $[THISDIRPREFIX]Sources.wood_patch4_small.pp
+#include $[THISDIRPREFIX]Sources.wood_patch2_small.pp
+#include $[THISDIRPREFIX]Sources.wood_patch2.pp
+#include $[THISDIRPREFIX]Sources.wood_patch1.pp
+#include $[THISDIRPREFIX]Sources.chimney01.pp
+#include $[THISDIRPREFIX]Sources.wood_patch1_small.pp

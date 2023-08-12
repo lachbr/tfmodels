@@ -1,0 +1,62 @@
+
+{
+  "model"   "wood_fence_short_256.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_coalmine"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "chicken_wire.pmat"
+        "wood_fence_short_256.pmat"
+        "wood_fence_short_256b.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "chicken_wire.pmat"
+        "wood_fence_short_256b.pmat"
+        "wood_fence_short_256b.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "wood_fence_short_256_physics"
+    "mass"     6254.64
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "wood"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "wood_fence_short_256*"
+        ]
+      }
+    ]
+  }
+}

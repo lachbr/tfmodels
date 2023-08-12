@@ -1,0 +1,85 @@
+
+{
+  "model"   "rock007.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_mining"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "rock007.pmat"
+        "rock007a.pmat"
+        "rock007b.pmat"
+        "rock007c.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "rock007a.pmat"
+        "rock007a.pmat"
+        "rock007b.pmat"
+        "rock007c.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "rock007b.pmat"
+        "rock007a.pmat"
+        "rock007b.pmat"
+        "rock007c.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed3"
+      "materials" 
+      [
+        "rock007c.pmat"
+        "rock007a.pmat"
+        "rock007b.pmat"
+        "rock007c.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "rock007_physics"
+    "mass"     80
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "dirt"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "rock007_reference*"
+        ]
+      }
+    ]
+  }
+}

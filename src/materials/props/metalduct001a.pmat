@@ -1,0 +1,16 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "metalduct001a.ptex"
+    "bumpmap"     "metalduct001a_normal.ptex"
+    "envmap"     1
+    "normalmapalphaenvmapmask"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "props/metalduct001a.vmt"
+  }
+}

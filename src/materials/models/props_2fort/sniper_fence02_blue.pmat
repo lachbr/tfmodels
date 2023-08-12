@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "sniper_fence02_blue.ptex"
+  }
+  "cull"   "double_sided"
+}

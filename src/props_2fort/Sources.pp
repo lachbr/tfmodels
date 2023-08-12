@@ -107,3 +107,9 @@
 #include $[THISDIRPREFIX]Sources.window004b_glass.pp
 #include $[THISDIRPREFIX]Sources.hardhat001.pp
 #include $[THISDIRPREFIX]Sources.lantern001.pp
+#include $[THISDIRPREFIX]Sources.corrugated_metal007.pp
+#include $[THISDIRPREFIX]Sources.sniper_fence02.pp
+#include $[THISDIRPREFIX]Sources.window004d_cluster01.pp
+#include $[THISDIRPREFIX]Sources.corrugated_metal006.pp
+#include $[THISDIRPREFIX]Sources.chimney_skybox008.pp
+#include $[THISDIRPREFIX]Sources.trainwheel001.pp

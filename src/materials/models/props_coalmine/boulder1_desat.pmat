@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "boulder1_desat.ptex"
+    "bumpmap"     "boulder1_normal.ptex"
+    "halflambert"     1
+  }
+}

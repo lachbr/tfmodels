@@ -1,0 +1,17 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "rockground008.ptex"
+    "basetexture2"     "dirtground008.ptex"
+    "bumpmap"     "rockground002_height-ssbump.ptex"
+    "bumpmap2"     "gravelground001_height-ssbump.ptex"
+    "ssbump"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+    "original"     "nature/blendgroundtogravel005.vmt"
+  }
+}

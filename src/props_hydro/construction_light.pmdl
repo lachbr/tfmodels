@@ -1,0 +1,59 @@
+
+{
+  "model"   "construction_light.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_hydro"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "construction_light_on.pmat"
+        "construction_light.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "construction_light.pmat"
+        "construction_light.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "construction_light_physics"
+    "mass"     100
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "construction_light_reference*"
+        ]
+      }
+    ]
+  }
+}

@@ -32,3 +32,6 @@
 #include $[THISDIRPREFIX]Sources.gorge_handrails2.pp
 #include $[THISDIRPREFIX]Sources.gorge_set2.pp
 #include $[THISDIRPREFIX]Sources.dumptruck.pp
+#include $[THISDIRPREFIX]Sources.metal_barrier01.pp
+#include $[THISDIRPREFIX]Sources.wall_map.pp
+#include $[THISDIRPREFIX]Sources.construction_light.pp

@@ -1,0 +1,64 @@
+
+{
+  "model"   "boulder_pile2.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_coalmine"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "boulder_pile1.pmat"
+        "boulder_pile1_nonormal.pmat"
+        "boulder_pile1_desat.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "boulder_pile1_nonormal.pmat"
+        "boulder_pile1_nonormal.pmat"
+        "boulder_pile1_desat.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "boulder_pile1_desat.pmat"
+        "boulder_pile1_nonormal.pmat"
+        "boulder_pile1_desat.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "rock"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "boulder_pile2*"
+        ]
+      }
+    ]
+  }
+}

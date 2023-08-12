@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "rock002_skybox.ptex"
+    "bumpmap"     "rock001_skybox_normal.ptex"
+  }
+}

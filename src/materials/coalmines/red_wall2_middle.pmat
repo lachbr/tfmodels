@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "red_wall2_middle.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "coalmines/red_wall2_middle.vmt"
+  }
+}

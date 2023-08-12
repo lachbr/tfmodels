@@ -1,0 +1,13 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "blue_wall1_middle.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "coalmines/blue_wall1_middle.vmt"
+  }
+}

@@ -115,3 +115,10 @@
 #include $[THISDIRPREFIX]Sources.rock003_skybox.pp
 #include $[THISDIRPREFIX]Sources.dustbowl_roof02.pp
 #include $[THISDIRPREFIX]Sources.dustbowl_roof01.pp
+#include $[THISDIRPREFIX]Sources.track_straight_64.pp
+#include $[THISDIRPREFIX]Sources.rock007.pp
+#include $[THISDIRPREFIX]Sources.rock005_skybox.pp
+#include $[THISDIRPREFIX]Sources.industrial_pipe01_s_01.pp
+#include $[THISDIRPREFIX]Sources.track_y_joint_arc_90.pp
+#include $[THISDIRPREFIX]Sources.crane001_small.pp
+#include $[THISDIRPREFIX]Sources.tunnel_truss01b.pp
