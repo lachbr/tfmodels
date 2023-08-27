@@ -92,9 +92,17 @@ def portTexture(vtf, sRGB, is1D=False):
     tgaOutDir = Filename(tgaOutFull.getDirname())
     if not os.path.isdir(tgaOutDir.toOsSpecific()):
         os.makedirs(tgaOutDir.toOsSpecific())
-    #if tgaOutFull.isRegularFile():
-    #    print("\tAlready ported", file=sys.stderr)
-    #    return
+
+    ptexOutFull = Filename(tgaOutFull.getFullpathWoExtension() + ".ptex")
+    # Return the filename of the .ptex file relative to the src/materials folder.
+    relFilename = Filename(ptexOutFull)
+    if not relFilename.makeRelativeTo(outDir):
+        print("ERROR: Couldn't make ptex relative to pmat directory?", file=sys.stderr)
+        sys.exit(1)
+
+    if tgaOutFull.isRegularFile():
+        print("\tAlready ported", file=sys.stderr)
+        return (relFilename.getFullpath(), tgaOutFull)
 
     process = Popen([vtf2tga, "-i", vtfFilenameFull.toOsSpecific(), "-o", tgaOutFull.toOsSpecific()], stdout=PIPE)
     (output, err) = process.communicate()
@@ -140,16 +148,7 @@ def portTexture(vtf, sRGB, is1D=False):
     else:
         ptexData.setAttribute("wrap_v", "repeat")
 
-
-    ptexOutFull = Filename(tgaOutFull.getFullpathWoExtension() + ".ptex")
     PDXValue(ptexData).write(ptexOutFull)
-
-    # Return the filename of the .ptex file relative to the src/materials folder.
-    relFilename = Filename(ptexOutFull)
-    if not relFilename.makeRelativeTo(outDir):
-        print("ERROR: Couldn't make ptex relative to pmat directory?", file=sys.stderr)
-        sys.exit(1)
-
     portedTextures.append(ptexOutFull)
 
     return (relFilename.getFullpath(), tgaOutFull)

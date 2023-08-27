@@ -29,7 +29,11 @@ def runCommand(cmd):
 def parseEntity(ent):
     classname = ent.getValue("classname")
     if classname == "prop_dynamic":
-        propDynamicModels.add(ent.getValue("model").replace("models/", "").lower())
+        # Check if we need to port it.
+        path = tfModels / Filename.fromOsSpecific("src/" + ent.getValue("model").replace("models/", "").lower())
+        path.setExtension("pmdl")
+        if not path.isRegularFile():
+            propDynamicModels.add(path)
         return
 
     if args.overlays and classname == "info_overlay":
@@ -50,11 +54,11 @@ def parseEntity(ent):
 
     # Skip it if we already have a .pmdl for it.
     pmdlFilename = tfModels / Filename("src/" + modelFilename.getFullpathWoExtension() + ".pmdl")
-    print(pmdlFilename)
     if pmdlFilename.isRegularFile():
         return
 
-    runCommand("python port_mdl.py " + Filename.fromOsSpecific(modelFile).getFullpath())
+    portMdl = tfModels / Filename("src/devscripts/port_mdl.py")
+    runCommand("python " + portMdl.toOsSpecific() + " " + Filename.fromOsSpecific(modelFile).getFullpath())
     ported.append(modelFile)
 
 def parseSide(side):
@@ -70,11 +74,11 @@ def parseSide(side):
 
     # Skip it if we already have a .pmat for it.
     pmatFilename = tfModels / Filename("src/materials/" + material.getFullpathWoExtension() + ".pmat")
-    print(pmatFilename)
     if pmatFilename.isRegularFile():
         return
 
-    runCommand("python port_vmt.py " + material.getFullpath())
+    portVmt = tfModels / Filename("src/devscripts/port_vmt.py")
+    runCommand("python " + portVmt.toOsSpecific() + " " + material.getFullpath())
     portedSideMaterials.append(material)
 
 def parseBlock(block):
@@ -89,5 +93,11 @@ def parseBlock(block):
 
 parseBlock(kv)
 
-print("prop_dynamic models:")
+print("%i non-ported prop_dynamic models:" % len(propDynamicModels))
 print(propDynamicModels)
+
+print("%i ported side materials:" % len(portedSideMaterials))
+print(portedSideMaterials)
+
+print("%i ported static props:" % len(ported))
+print(ported)

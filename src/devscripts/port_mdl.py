@@ -64,7 +64,9 @@ def convertMaterial(name):
         print("Couldn't make " + filename.getFullpath() + " relative to $TFMODELS/built_src/materials", file=sys.stderr)
         return None
 
-    output = runCommandWithOutput("python port_vmt.py %s" % filename.getFullpath())
+    portVmt = tfModels / Filename("src/devscripts/port_vmt.py")
+
+    output = runCommandWithOutput(f"python {portVmt.toOsSpecific()} %s" % filename.getFullpath())
     if not output:
         return None
 
