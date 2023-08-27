@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "arrow_up_red.ptex"
+  }
+  "transparency"   "dual"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "signs/arrow_up_red.vmt"
+  }
+}

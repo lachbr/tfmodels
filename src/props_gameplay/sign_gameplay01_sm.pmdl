@@ -1,0 +1,268 @@
+
+{
+  "model"   "sign_gameplay01_sm.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_gameplay"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "sign_gameplay01_skin1.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed3"
+      "materials" 
+      [
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed4"
+      "materials" 
+      [
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed5"
+      "materials" 
+      [
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed6"
+      "materials" 
+      [
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed7"
+      "materials" 
+      [
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed8"
+      "materials" 
+      [
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed9"
+      "materials" 
+      [
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed10"
+      "materials" 
+      [
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed11"
+      "materials" 
+      [
+        "sign_gameplay01_skin12.pmat"
+        "sign_gameplay01_skin2.pmat"
+        "sign_gameplay01_skin3.pmat"
+        "sign_gameplay01_skin4.pmat"
+        "sign_gameplay01_skin5.pmat"
+        "sign_gameplay01_skin6.pmat"
+        "sign_gameplay01_skin7.pmat"
+        "sign_gameplay01_skin8.pmat"
+        "sign_gameplay01_skin9.pmat"
+        "sign_gameplay01_skin10.pmat"
+        "sign_gameplay01_skin11.pmat"
+        "sign_gameplay01_skin12.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "sign_gameplay01_sm_physics"
+    "mass"     4.18085
+    "damping"     0
+    "rot_damping"     0
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "sign_gameplay01*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "portable_stairs001.ptex"
+    "phong"     1
+    "phongexponent"     2
+    "phongboost"     0.25
+    "phongfresnelranges" 
+    [
+      2
+      1
+      0.8
+    ]
+    "halflambert"     0
+    "bumpmap"     "portable_stairs001_normal.ptex"
+    "normalmapalphaenvmapmask"     1
+  }
+}

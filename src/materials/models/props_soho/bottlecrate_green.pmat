@@ -1,0 +1,8 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "bottlecrate_green.ptex"
+  }
+}

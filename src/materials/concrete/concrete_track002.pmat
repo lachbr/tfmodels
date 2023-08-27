@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "concrete_track002.ptex"
+    "bumpmap"     "concrete_track002_height-ssbump.ptex"
+    "ssbump"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "concrete/concrete_track002.vmt"
+  }
+}

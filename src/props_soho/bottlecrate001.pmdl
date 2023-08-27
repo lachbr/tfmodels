@@ -1,0 +1,85 @@
+
+{
+  "model"   "bottlecrate001.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_soho"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "bottlecrate_green.pmat"
+        "bottlecrate_red.pmat"
+        "bottlecrate_blue.pmat"
+        "bottlecrate_yellow.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "bottlecrate_red.pmat"
+        "bottlecrate_red.pmat"
+        "bottlecrate_blue.pmat"
+        "bottlecrate_yellow.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "bottlecrate_blue.pmat"
+        "bottlecrate_red.pmat"
+        "bottlecrate_blue.pmat"
+        "bottlecrate_yellow.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed3"
+      "materials" 
+      [
+        "bottlecrate_yellow.pmat"
+        "bottlecrate_red.pmat"
+        "bottlecrate_blue.pmat"
+        "bottlecrate_yellow.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "bottlecrate001_physics"
+    "mass"     1
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "plastic"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "BottleCrate001_Ref*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+
+{
+  "model"   "moon_interior_computer06.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_moonbase"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "moon_interior_computer04.pmat"
+        "moon_interior_buttons01_illum.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "moon_interior_computer06*"
+        ]
+      }
+    ]
+  }
+}

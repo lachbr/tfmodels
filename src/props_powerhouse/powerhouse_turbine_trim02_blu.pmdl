@@ -1,0 +1,61 @@
+
+{
+  "model"   "powerhouse_turbine_trim02_blu.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "powerhouse_turbine_trim.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "powerhouse_turbine_trim02_blu"
+      ]
+    }
+
+    {
+      "distance"       50
+      "groups" 
+      [
+        "powerhouse_turbine_trim02_blu_lod1"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_turbine_trim02_blu*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+
+{
+  "model"   "powerhouse_juice_glass.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "powerhouse_desk_stuff_glass.pmat"
+        "powerhouse_desk_stuff.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_juice_glass*"
+        ]
+      }
+    ]
+  }
+}

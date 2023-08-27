@@ -122,3 +122,6 @@
 #include $[THISDIRPREFIX]Sources.track_y_joint_arc_90.pp
 #include $[THISDIRPREFIX]Sources.crane001_small.pp
 #include $[THISDIRPREFIX]Sources.tunnel_truss01b.pp
+#include $[THISDIRPREFIX]Sources.smoke_stack001.pp
+#include $[THISDIRPREFIX]Sources.generator_valve01.pp
+#include $[THISDIRPREFIX]Sources.generator_pipe01_cap.pp

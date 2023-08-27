@@ -1,0 +1,8 @@
+
+{
+  "image"   "emergency_launch_button.tga"
+  "format"   "srgb_alpha"
+  "type"   "2d_texture"
+  "wrap_u"   "repeat"
+  "wrap_v"   "repeat"
+}

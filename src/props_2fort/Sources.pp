@@ -113,3 +113,8 @@
 #include $[THISDIRPREFIX]Sources.corrugated_metal006.pp
 #include $[THISDIRPREFIX]Sources.chimney_skybox008.pp
 #include $[THISDIRPREFIX]Sources.trainwheel001.pp
+#include $[THISDIRPREFIX]Sources.groundlight002.pp
+#include $[THISDIRPREFIX]Sources.window008.pp
+#include $[THISDIRPREFIX]Sources.corrugated_metal004.pp
+#include $[THISDIRPREFIX]Sources.window010.pp
+#include $[THISDIRPREFIX]Sources.corrugated_metal005.pp

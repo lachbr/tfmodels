@@ -35,3 +35,9 @@
 #include $[THISDIRPREFIX]Sources.metal_barrier01.pp
 #include $[THISDIRPREFIX]Sources.wall_map.pp
 #include $[THISDIRPREFIX]Sources.construction_light.pp
+#include $[THISDIRPREFIX]Sources.substation_transformer01.pp
+#include $[THISDIRPREFIX]Sources.road_railing01.pp
+#include $[THISDIRPREFIX]Sources.keg_large.pp
+#include $[THISDIRPREFIX]Sources.dumptruck_empty.pp
+#include $[THISDIRPREFIX]Sources.barricade.pp
+#include $[THISDIRPREFIX]Sources.metal_barrier02.pp

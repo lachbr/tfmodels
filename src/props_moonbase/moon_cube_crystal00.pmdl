@@ -1,0 +1,48 @@
+
+{
+  "model"   "moon_cube_crystal00.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_moonbase"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "moon_cube_crystal01.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "moon_cube_crystal00_physics"
+    "mass"     67.1113
+    "damping"     0
+    "rot_damping"     0
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "moon_cube_crystal01*"
+        ]
+      }
+    ]
+  }
+}

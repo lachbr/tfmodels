@@ -1,0 +1,28 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "moon_interior_computer04.ptex"
+    "bumpmap"     "../../effects/flat_normal.ptex"
+    "phong"     1
+    "phongexponent"     60
+    "phongboost"     1
+    "phongfresnelranges" 
+    [
+      0.5
+      0.5
+      3
+    ]
+    "halflambert"     1
+    "phongtint" 
+    [
+      1
+      0.9
+      0.75
+    ]
+    "rimlight"     1
+    "rimlightexponent"     100
+    "rimlightboost"     7
+  }
+}

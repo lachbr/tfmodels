@@ -13,3 +13,4 @@
 #include $[THISDIRPREFIX]Sources.main_entrance_door_frame.pp
 #include $[THISDIRPREFIX]Sources.bridge_railing.pp
 #include $[THISDIRPREFIX]Sources.computer_cart02.pp
+#include $[THISDIRPREFIX]Sources.brewing_vat.pp

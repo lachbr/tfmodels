@@ -20,3 +20,7 @@
 #include $[THISDIRPREFIX]Sources.shrub_03a.pp
 #include $[THISDIRPREFIX]Sources.shrub_03_cluster.pp
 #include $[THISDIRPREFIX]Sources.joshuatree01.pp
+#include $[THISDIRPREFIX]Sources.spikeplant01.pp
+#include $[THISDIRPREFIX]Sources.joshuatree02.pp
+#include $[THISDIRPREFIX]Sources.shrub_04b.pp
+#include $[THISDIRPREFIX]Sources.shrub_03_cluster_skybox.pp

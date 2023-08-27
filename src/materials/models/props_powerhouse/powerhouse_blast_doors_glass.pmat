@@ -1,0 +1,19 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_blast_doors_glass.ptex"
+    "bumpmap"     "powerhouse_blast_doors_glass_normal.ptex"
+    "envmapcontrast"     0
+    "normalmapalphaenvmapmask"     1
+    "envmap"     1
+    "envmaptint" 
+    [
+      1
+      0.941
+      0.876
+    ]
+  }
+  "transparency"   "dual"
+}

@@ -1,0 +1,22 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "moon_wallpanels06.ptex"
+    "basealphaenvmapmask"     1
+    "envmapcontrast"     0
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.09
+      0.07
+      0.04
+    ]
+  }
+  "tags" 
+  {
+    "surface_prop"     "metal"
+    "original"     "moon/moon_wallpanels06.vmt"
+  }
+}

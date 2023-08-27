@@ -1,0 +1,69 @@
+
+{
+  "model"   "emergency_launch_button.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "emergency_launch_button.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "emergency_launch_button"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "emergency_launch_button_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "emergency_launch_button_physics"
+    "mass"     881.175
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "emergency_launch_button*"
+        ]
+      }
+    ]
+  }
+}

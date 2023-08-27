@@ -1,0 +1,42 @@
+
+{
+  "model"   "powerhouse_blind01.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "powerhouse_blinds.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_blind01*"
+        ]
+      }
+    ]
+  }
+}

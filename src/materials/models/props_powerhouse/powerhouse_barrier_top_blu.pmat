@@ -1,0 +1,8 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_barrier_top_blu.ptex"
+  }
+}

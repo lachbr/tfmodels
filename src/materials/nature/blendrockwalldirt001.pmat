@@ -1,0 +1,15 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "rockwall006.ptex"
+    "basetexture2"     "rockground006.ptex"
+    "ssbump"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "dirt"
+    "original"     "nature/blendrockwalldirt001.vmt"
+  }
+}

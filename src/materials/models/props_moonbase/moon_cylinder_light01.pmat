@@ -1,0 +1,23 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "moon_cylinder_light01.ptex"
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.3
+      0.3
+      0.3
+    ]
+    "selfillum"     1
+    "selfillumtint" 
+    [
+      1
+      0.95
+      0.6
+    ]
+    "selfillummask"     "moon_cylinder_light01_illum.ptex"
+  }
+}

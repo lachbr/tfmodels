@@ -40,3 +40,4 @@
 #include $[THISDIRPREFIX]Sources.wood_patch1.pp
 #include $[THISDIRPREFIX]Sources.chimney01.pp
 #include $[THISDIRPREFIX]Sources.wood_patch1_small.pp
+#include $[THISDIRPREFIX]Sources.waterfall001.pp

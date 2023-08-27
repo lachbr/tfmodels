@@ -1,0 +1,34 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_console.ptex"
+    "selfillum"     1
+    "selfillummask"     "powerhouse_console_illum.ptex"
+    "basemapalphaphongmask"     1
+    "envmapcontrast"     0
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.09
+      0.07
+      0.04
+    ]
+    "phong"     1
+    "phongexponent"     25
+    "phongboost"     4
+    "phongfresnelranges" 
+    [
+      0.5
+      0.5
+      3
+    ]
+    "phongtint" 
+    [
+      1
+      0.9
+      0.75
+    ]
+  }
+}

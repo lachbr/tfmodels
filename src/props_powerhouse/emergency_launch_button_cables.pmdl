@@ -1,0 +1,61 @@
+
+{
+  "model"   "emergency_launch_button_cables.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "emergency_launch_button.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "emergency_launch_button_cables"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "emergency_launch_button_cables_lod1"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "emergency_launch_button_cables*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+
+{
+  "model"   "med_ladder001.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_medical"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "med_ladder001.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "med_ladder001_physics"
+    "mass"     1
+    "damping"     0
+    "rot_damping"     1
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "wood"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "med_ladder001*"
+        ]
+      }
+    ]
+  }
+}

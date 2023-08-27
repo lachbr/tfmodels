@@ -1,0 +1,27 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "emergency_launch_button.ptex"
+    "basemapalphaphongmask"     1
+    "envmapcontrast"     0
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.09
+      0.07
+      0.04
+    ]
+    "selfillum"     1
+    "selfillummask"     "emergency_launch_button_illum.ptex"
+    "phong"     1
+    "phongexponent"     25
+    "phongfresnelranges" 
+    [
+      0.5
+      1
+      3
+    ]
+  }
+}

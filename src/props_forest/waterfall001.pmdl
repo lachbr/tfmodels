@@ -1,0 +1,42 @@
+
+{
+  "model"   "waterfall001.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_forest"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "waterfall001.pmat"
+        "waterfall001_solid.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "dirt"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "waterfall001_reference*"
+        ]
+      }
+    ]
+  }
+}

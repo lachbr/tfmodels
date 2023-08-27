@@ -1,0 +1,41 @@
+
+{
+  "model"   "train_track_ties_bb01.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_barnblitz"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "woodwall_darkbrown001.pmat"
+      ]
+    }
+  ]
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "train_track_ties_bb01_ref*"
+        ]
+      }
+    ]
+  }
+}

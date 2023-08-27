@@ -1,0 +1,16 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wood_floor01.ptex"
+    "envmap"     1
+    "envmapmask"     "wood_floor01_mask.ptex"
+    "envmapcontrast"     1
+  }
+  "tags" 
+  {
+    "surface_prop"     "wood"
+    "original"     "cp_manor/wood_floor01.vmt"
+  }
+}

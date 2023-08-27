@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "window010b.ptex"
+    "selfillum"     1
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "oildrum002.ptex"
+  }
+}

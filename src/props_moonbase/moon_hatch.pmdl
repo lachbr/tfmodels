@@ -1,0 +1,50 @@
+
+{
+  "model"   "moon_hatch.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_moonbase"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "moon_hatch.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "moon_hatch_physics"
+    "mass"     4060.28
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "moon_hatch*"
+        ]
+      }
+    ]
+  }
+}

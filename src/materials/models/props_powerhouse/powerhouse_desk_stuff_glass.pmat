@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_desk_stuff_glass.ptex"
+    "envmapcontrast"     0
+    "normalmapalphaenvmapmask"     1
+    "envmap"     1
+    "envmaptint" 
+    [
+      1
+      0.941
+      0.876
+    ]
+  }
+  "transparency"   "alpha"
+}

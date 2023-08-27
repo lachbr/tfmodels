@@ -1,0 +1,69 @@
+
+{
+  "model"   "exterior_fence002a.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_wasteland"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "fence_alpha.pmat"
+        "fence_sheet01.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "exterior_fence002a_reference"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "exterior_fence002a_reference_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "exterior_fence002a_physics"
+    "mass"     5
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "grate"
+    "surfaceprop"     "chainlink"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "exterior_fence002a_reference*"
+        ]
+      }
+    ]
+  }
+}

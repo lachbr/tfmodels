@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../props_c17/fence_alpha.ptex"
+  }
+  "alpha_test"   "greater_equal"
+  "alpha_test_ref"   0.3
+}

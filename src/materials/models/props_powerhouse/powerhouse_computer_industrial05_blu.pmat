@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_computer_industrial05_blu.ptex"
+    "selfillum"     1
+    "selfillummask"     "powerhouse_computer_industrial05_illum.ptex"
+  }
+}

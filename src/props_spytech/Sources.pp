@@ -82,3 +82,4 @@
 #include $[THISDIRPREFIX]Sources.radio_tower_skybox001.pp
 #include $[THISDIRPREFIX]Sources.doorframe002c.pp
 #include $[THISDIRPREFIX]Sources.binder001.pp
+#include $[THISDIRPREFIX]Sources.doorframe005d.pp

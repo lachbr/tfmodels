@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "moon_interior_buttons01_illum.ptex"
+  }
+  "light"   "off"
+}

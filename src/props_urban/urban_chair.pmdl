@@ -1,0 +1,76 @@
+
+{
+  "model"   "urban_chair.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_urban"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "urban_chair.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "urban_chair"
+      ]
+    }
+
+    {
+      "distance"       50
+      "groups" 
+      [
+        "urban_chair_lod1"
+      ]
+    }
+
+    {
+      "distance"       100
+      "groups" 
+      [
+        "urban_chair_lod2"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "urban_chair_physics"
+    "mass"     1
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "Body"
+        "nodes" 
+        [
+          "urban_chair*"
+        ]
+      }
+    ]
+  }
+}

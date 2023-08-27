@@ -1,0 +1,25 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "powerhouse_blast_doors.ptex"
+    "basemapalphaphongmask"     1
+    "envmapcontrast"     0
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.09
+      0.07
+      0.04
+    ]
+    "phong"     1
+    "phongexponent"     25
+    "phongfresnelranges" 
+    [
+      0.5
+      1
+      3
+    ]
+  }
+}

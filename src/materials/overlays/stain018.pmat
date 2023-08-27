@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "stain018.ptex"
+  }
+  "transparency"   "dual"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "overlays/stain018.vmt"
+  }
+}

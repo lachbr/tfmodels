@@ -1,0 +1,18 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "generator_valve01.ptex"
+    "bumpmap"     "generator_valve01_normal.ptex"
+    "phong"     1
+    "phongexponent"     3
+    "phongboost"     0.025
+    "phongfresnelranges" 
+    [
+      0.6
+      15
+      10
+    ]
+  }
+}

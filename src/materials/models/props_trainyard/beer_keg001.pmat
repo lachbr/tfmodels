@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "beer_keg001.ptex"
+    "bumpmap"     "beer_keg001_normal.ptex"
+  }
+}

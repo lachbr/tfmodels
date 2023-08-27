@@ -1,0 +1,8 @@
+
+{
+  "image"   "powerhouse_entry_pipe_blu.tga"
+  "format"   "srgb"
+  "type"   "2d_texture"
+  "wrap_u"   "repeat"
+  "wrap_v"   "repeat"
+}

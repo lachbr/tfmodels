@@ -1,0 +1,11 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "waterfall001.ptex"
+  }
+  "cull"   "double_sided"
+  "transparency"   "dual"
+  "light"   "off"
+}

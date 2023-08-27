@@ -1,0 +1,76 @@
+
+{
+  "model"   "cardboard_box_set_02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_manor"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "cardboard_box_sheet_02.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "cardboard_box_set_02"
+      ]
+    }
+
+    {
+      "distance"       35
+      "groups" 
+      [
+        "cardboard_box_set_02_lod1"
+      ]
+    }
+
+    {
+      "distance"       65
+      "groups" 
+      [
+        "cardboard_box_set_02_lod2"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "cardboard_box_set_02_physics"
+    "mass"     45.1733
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "cardboard"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "cardboard_box_set_02*"
+        ]
+      }
+    ]
+  }
+}

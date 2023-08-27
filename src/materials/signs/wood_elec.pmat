@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "wood_elec.ptex"
+  }
+  "transparency"   "dual"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "signs/wood_elec.vmt"
+  }
+}

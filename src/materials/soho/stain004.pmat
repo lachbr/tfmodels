@@ -1,0 +1,14 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "stain004.ptex"
+  }
+  "transparency"   "dual"
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "soho/stain004.vmt"
+  }
+}

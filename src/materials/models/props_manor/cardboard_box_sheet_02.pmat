@@ -1,0 +1,9 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "cardboard_box_sheet_02.ptex"
+  }
+  "cull"   "double_sided"
+}

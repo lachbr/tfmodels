@@ -1,0 +1,17 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "moon_cube_crystal01.ptex"
+    "envmapcontrast"     0
+    "envmap"     1
+    "envmaptint" 
+    [
+      0.914
+      0.878
+      0.811
+    ]
+    "basealphaenvmapmask"     1
+  }
+}

@@ -1,0 +1,70 @@
+
+{
+  "model"   "powerhouse_blast_doors.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "powerhouse_blast_doors.pmat"
+        "powerhouse_blast_doors_glass.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "powerhouse_blast_doors"
+      ]
+    }
+
+    {
+      "distance"       45
+      "groups" 
+      [
+        "powerhouse_blast_doors_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "powerhouse_blast_doors_physics"
+    "mass"     136644
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_blast_doors*"
+        ]
+      }
+    ]
+  }
+}

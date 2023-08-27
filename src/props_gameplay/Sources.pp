@@ -71,3 +71,5 @@
 #include $[THISDIRPREFIX]Sources.door_grate001_top.pp
 #include $[THISDIRPREFIX]Sources.security_fence256_gate01.pp
 #include $[THISDIRPREFIX]Sources.sign_wood_cap001.pp
+#include $[THISDIRPREFIX]Sources.bottle001.pp
+#include $[THISDIRPREFIX]Sources.sign_gameplay01_sm.pp

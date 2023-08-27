@@ -1,0 +1,24 @@
+{
+  material SourceWaterMaterial
+  parameters {
+    normalmap "../../maps/tfwater001_normal.ptex"
+    animatednormalmap 1
+    interpnormalframes 1
+    normalmapfps 30
+    reflectnormalscale 0.25
+    refractnormalscale 0.32
+    fresnelexponent 5.0
+    fog true
+    fogcolor [ 57 54 44 ]
+    fogdensity 2.0
+    reflecttint [ 0.5 0.5 0.5 ]
+    refracttint [ 1.0 1.0 1.0 ]
+  }
+
+  depth_write off
+  bin transparent
+
+  tags {
+    compile_water 1
+  }
+}

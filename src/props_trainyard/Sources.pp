@@ -29,3 +29,5 @@
 #include $[THISDIRPREFIX]Sources.train_signal_skybox001.pp
 #include $[THISDIRPREFIX]Sources.blast_furnace_skybox001.pp
 #include $[THISDIRPREFIX]Sources.metal_watertower_skybox002.pp
+#include $[THISDIRPREFIX]Sources.window_skylight001.pp
+#include $[THISDIRPREFIX]Sources.portable_stairs001.pp

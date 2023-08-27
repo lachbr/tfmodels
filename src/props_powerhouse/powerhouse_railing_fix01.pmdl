@@ -1,0 +1,86 @@
+
+{
+  "model"   "powerhouse_railing_fix01.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_trainyard"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "handrail128.pmat"
+        "handrail128_skin2.pmat"
+        "handrail128_skin3.pmat"
+        "handrail128_skin4.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "handrail128_skin2.pmat"
+        "handrail128_skin2.pmat"
+        "handrail128_skin3.pmat"
+        "handrail128_skin4.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed2"
+      "materials" 
+      [
+        "handrail128_skin3.pmat"
+        "handrail128_skin2.pmat"
+        "handrail128_skin3.pmat"
+        "handrail128_skin4.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed3"
+      "materials" 
+      [
+        "handrail128_skin4.pmat"
+        "handrail128_skin2.pmat"
+        "handrail128_skin3.pmat"
+        "handrail128_skin4.pmat"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "powerhouse_railing_fix01_physics"
+    "mass"     41.8767
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_railing_fix01*"
+        ]
+      }
+    ]
+  }
+}

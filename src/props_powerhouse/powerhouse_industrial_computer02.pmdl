@@ -1,0 +1,79 @@
+
+{
+  "model"   "powerhouse_industrial_computer02.egg"
+  "hpr" 
+  [
+    180
+    0
+    0
+  ]
+  "material_paths" 
+  [
+    "../materials/models/props_powerhouse"
+    "../materials"
+  ]
+  "material_groups" 
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials" 
+      [
+        "powerhouse_computer_industrial02.pmat"
+        "powerhouse_computer_industrial02_blu.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials" 
+      [
+        "powerhouse_computer_industrial02_blu.pmat"
+        "powerhouse_computer_industrial02_blu.pmat"
+      ]
+    }
+  ]
+  "lods" 
+  [
+
+    {
+      "distance"       0
+      "groups" 
+      [
+        "powerhouse_industrial_computer02"
+      ]
+    }
+
+    {
+      "distance"       30
+      "groups" 
+      [
+        "powerhouse_industrial_computer02_lod1"
+      ]
+    }
+  ]
+  "physics_model" 
+  {
+    "mesh"     "powerhouse_industrial_computer02_physics"
+    "mass"     419.826
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data" 
+  {
+    "contents"     "solid"
+    "surfaceprop"     "default"
+    "bodygroups" 
+    [
+
+      {
+        "name"         "body"
+        "nodes" 
+        [
+          "powerhouse_industrial_computer02*"
+        ]
+      }
+    ]
+  }
+}

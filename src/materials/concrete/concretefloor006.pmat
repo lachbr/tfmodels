@@ -1,0 +1,24 @@
+
+{
+  "material"   "SourceLightmappedMaterial"
+  "parameters" 
+  {
+    "basetexture"     "concretefloor006.ptex"
+    "envmap"     1
+    "envmapcontrast"     1
+    "envmapsaturation"     1
+    "envmaptint" 
+    [
+      0.75
+      0.75
+      0.75
+    ]
+    "normalmapalphaenvmapmask"     1
+    "bumpmap"     "concretefloor004_normal.ptex"
+  }
+  "tags" 
+  {
+    "surface_prop"     "default"
+    "original"     "concrete/concretefloor006.vmt"
+  }
+}
