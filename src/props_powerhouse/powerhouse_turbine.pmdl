@@ -1,0 +1,103 @@
+
+{
+  "model"   "optchar/powerhouse_turbine-zero.egg"
+  "hpr"
+  [
+    180
+    0
+    0
+  ]
+  "material_paths"
+  [
+    "../materials/models/props_powerhouse"
+  ]
+  "material_groups"
+  [
+
+    {
+      "name"       "unnamed0"
+      "materials"
+      [
+        "powerhouse_turbine.pmat"
+        "powerhouse_turbine_base.pmat"
+        "powerhouse_turbine_grill.pmat"
+        "powerhouse_turbine_blu.pmat"
+        "powerhouse_turbine_base_blu.pmat"
+        "powerhouse_turbine_grill_blu.pmat"
+      ]
+    }
+
+    {
+      "name"       "unnamed1"
+      "materials"
+      [
+        "powerhouse_turbine_blu.pmat"
+        "powerhouse_turbine_base_blu.pmat"
+        "powerhouse_turbine_grill_blu.pmat"
+        "powerhouse_turbine_blu.pmat"
+        "powerhouse_turbine_base_blu.pmat"
+        "powerhouse_turbine_grill_blu.pmat"
+      ]
+    }
+  ]
+  "lods"
+  [
+
+    {
+      "distance"       0
+      "groups"
+      [
+        "powerhouse_turbine"
+      ]
+    }
+
+    {
+      "distance"       110
+      "groups"
+      [
+        "powerhouse_turbine_lod1"
+      ]
+    }
+
+    {
+      "distance"       130
+      "groups"
+      [
+        "powerhouse_turbine_lod2"
+      ]
+    }
+  ]
+  "physics_model"
+  {
+    "mesh"     "powerhouse_turbine_physics"
+    "mass"     2134.24
+    "damping"     0
+    "rot_damping"     0
+    "concave"     1
+  }
+  "custom_data"
+  {
+    "contents"     "solid"
+    "surfaceprop"     "metal"
+    "bodygroups"
+    [
+
+      {
+        "name"         "body"
+        "nodes"
+        [
+          "powerhouse_turbine*"
+        ]
+      }
+    ]
+  }
+
+  sequences [
+    {
+      name spin
+      anim "optchar/powerhouse_turbine-spin.egg"
+      fps 15
+      loop true
+    }
+  ]
+}

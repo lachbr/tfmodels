@@ -1,6 +1,18 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/props_powerhouse
 
+// Animated powerhouse turbine.
+#define POWERHOUSE_TURBINE_OPTCHAR_OPTS \
+  -flag powerhouse_turbine,powerhouse_turbine_lod1,powerhouse_turbine_lod2, \
+  -flag powerhouse_turbine_physics
+#call tf_char_egg powerhouse_turbine,spin,$[POWERHOUSE_TURBINE_OPTCHAR_OPTS]
+
+#begin install_mdl
+  #define SOURCES \
+    powerhouse_turbine.pmdl
+
+#end install_mdl
+
 #include $[THISDIRPREFIX]Sources.powerhouse_industrial_computer03.pp
 #include $[THISDIRPREFIX]Sources.powerhouse_industrial_computer04.pp
 #include $[THISDIRPREFIX]Sources.powerhouse_industrial_computer02.pp
