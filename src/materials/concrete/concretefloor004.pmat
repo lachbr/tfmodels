@@ -15,6 +15,10 @@
     ]
     "normalmapalphaenvmapmask"     1
     "bumpmap"     "concretefloor004_normal.ptex"
+    "detail"     "../overlays/detail001.ptex"
+    "detailscale"     1.9
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

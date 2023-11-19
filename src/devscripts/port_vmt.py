@@ -253,6 +253,17 @@ def setParamSourceMaterial(key, value):
     elif key == "$albedo":
         pmatParams.setAttribute("albedo", portTexture(value, True)[0])
 
+    elif key == "$detail":
+        pmatParams.setAttribute("detail", portTexture(value, False)[0])
+    elif key == "$detailscale":
+        pmatParams.setAttribute("detailscale", float(value))
+    elif key == "$detailblendfactor":
+        pmatParams.setAttribute("detailblendfactor", float(value))
+    elif key == "$detailblendmode":
+        pmatParams.setAttribute("detailblendmode", int(value))
+    elif key == "$detailtint":
+        pmatParams.setAttribute("detailtint", pdxListFromString(value))
+
 def setParamSourceLightmappedMaterial(key, value):
     global baseTexImgPath
 
@@ -294,6 +305,17 @@ def setParamSourceLightmappedMaterial(key, value):
 
     elif key == "$albedo":
         pmatParams.setAttribute("albedo", portTexture(value, True)[0])
+
+    elif key == "$detail":
+        pmatParams.setAttribute("detail", portTexture(value, False)[0])
+    elif key == "$detailscale":
+        pmatParams.setAttribute("detailscale", float(value))
+    elif key == "$detailblendfactor":
+        pmatParams.setAttribute("detailblendfactor", float(value))
+    elif key == "$detailblendmode":
+        pmatParams.setAttribute("detailblendmode", int(value))
+    elif key == "$detailtint":
+        pmatParams.setAttribute("detailtint", pdxListFromString(value))
 
     elif key == "$surfaceprop":
         tags["surface_prop"] = value.lower()

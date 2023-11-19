@@ -4,5 +4,9 @@
   "parameters" 
   {
     "basetexture"     "rock004.ptex"
+    "detail"     "../../overlays/detail004.ptex"
+    "detailscale"     3.2
+    "detailblendmode"     0
+    "detailblendfactor"     1.4
   }
 }

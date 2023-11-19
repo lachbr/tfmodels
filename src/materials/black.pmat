@@ -1,8 +1,8 @@
 
 {
   "material"   "SourceMaterial"
-  "parameters" 
+  "parameters"
   {
-    "basetexture"     "../maps/black.ptex"
+    "basetexture"     "models/effects/black.ptex"
   }
 }

@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "wall024.ptex"
+    "detail"     "concrete_macro001.ptex"
+    "detailscale"     8
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

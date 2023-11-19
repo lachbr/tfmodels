@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "wood_floor001.ptex"
+    "detail"     "../overlays/detail006.ptex"
+    "detailscale"     1
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

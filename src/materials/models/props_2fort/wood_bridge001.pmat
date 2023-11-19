@@ -4,5 +4,9 @@
   "parameters" 
   {
     "basetexture"     "../../wood/wood_bridge001.ptex"
+    "detail"     "../../overlays/detail006.ptex"
+    "detailscale"     1
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
 }

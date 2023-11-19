@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "metaldoor046a.ptex"
+    "detail"     "../detail/metal_detail_01.ptex"
+    "detailscale"     4.283
+    "detailblendfactor"     0.65
+    "detailblendmode"     0
     "envmap"     1
     "bumpmap"     "metaldoor046a_normal.ptex"
     "normalmapalphaenvmapmask"     1

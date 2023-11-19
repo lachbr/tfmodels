@@ -6,6 +6,10 @@
     "basetexture"     "dirtground005.ptex"
     "bumpmap"     "dirtground005_height-ssbump.ptex"
     "ssbump"     1
+    "detail"     "../overlays/detail004.ptex"
+    "detailscale"     1.2
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

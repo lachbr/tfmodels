@@ -6,5 +6,9 @@
     "basetexture"     "fence_sheet01.ptex"
     "envmap"     1
     "basealphaenvmapmask"     1
+    "detail"     "../../detail/metal_detail_01.ptex"
+    "detailscale"     12.283
+    "detailblendfactor"     0.8
+    "detailblendmode"     0
   }
 }

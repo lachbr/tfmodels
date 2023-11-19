@@ -4,5 +4,8 @@
   "parameters" 
   {
     "basetexture"     "building001_dirtmap.ptex"
+    "detail"     "../../metal/wall027.ptex"
+    "detailscale"     3
+    "detailblendmode"     4
   }
 }

@@ -6,6 +6,10 @@
     "basetexture"     "brickwall002.ptex"
     "bumpmap"     "brickwall002_height-ssbump.ptex"
     "ssbump"     1
+    "detail"     "../overlays/detail001.ptex"
+    "detailscale"     1.1
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

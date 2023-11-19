@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "wood_floor01.ptex"
+    "detail"     "../overlays/detail006.ptex"
+    "detailscale"     1
+    "detailblendmode"     0
+    "detailblendfactor"     1
     "envmap"     1
     "envmapmask"     "wood_floor01_mask.ptex"
     "envmapcontrast"     1

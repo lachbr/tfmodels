@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "grain_elevator_facade_14a.ptex"
+    "detail"     "../overlays/detail006.ptex"
+    "detailscale"     1
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

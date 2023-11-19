@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "../models/props_c17/fence_alpha.ptex"
+    "detail"     "../detail/metal_detail_01.ptex"
+    "detailscale"     4.283
+    "detailblendfactor"     0.8
+    "detailblendmode"     0
   }
   "alpha_test"   "greater_equal"
   "alpha_test_ref"   0.3

@@ -4,5 +4,9 @@
   "parameters" 
   {
     "basetexture"     "../../wood/grain_elevator_facade_14b.ptex"
+    "detail"     "../../overlays/detail006.ptex"
+    "detailscale"     1
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
 }

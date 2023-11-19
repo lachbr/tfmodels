@@ -4,5 +4,9 @@
   "parameters" 
   {
     "basetexture"     "cliff_wall_01.ptex"
+    "detail"     "cliff_detail.ptex"
+    "detailscale"     4
+    "detailblendfactor"     1
+    "detailblendmode"     0
   }
 }

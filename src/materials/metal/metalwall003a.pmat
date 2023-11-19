@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "metalwall003a.ptex"
+    "detail"     "../detail/metal_detail_01.ptex"
+    "detailscale"     4.283
+    "detailblendfactor"     0.8
+    "detailblendmode"     0
   }
   "tags" 
   {

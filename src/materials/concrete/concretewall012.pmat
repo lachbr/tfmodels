@@ -4,6 +4,10 @@
   "parameters" 
   {
     "basetexture"     "concretewall012.ptex"
+    "detail"     "../overlays/detail001.ptex"
+    "detailscale"     1.9
+    "detailblendmode"     0
+    "detailblendfactor"     1
   }
   "tags" 
   {

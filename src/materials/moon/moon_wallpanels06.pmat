@@ -13,6 +13,10 @@
       0.07
       0.04
     ]
+    "detail"     "../detail/moon_wallpanels02_detail.ptex"
+    "detailscale"     0.5
+    "detailblendmode"     0
+    "detailblendfactor"     0.5
   }
   "tags" 
   {
