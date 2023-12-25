@@ -1,0 +1,7 @@
+{
+  image "debris_chunk_#.rgb"
+  type "2d_texture_array"
+  num_pages 6
+  format srgb_alpha
+  wrap clamp
+}

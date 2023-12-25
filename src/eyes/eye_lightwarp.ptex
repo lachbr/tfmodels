@@ -3,4 +3,6 @@
   format rgb
   wrap clamp
   type "1d_texture"
+  magfilter linear
+  minfilter linear
 }

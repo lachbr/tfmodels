@@ -5,4 +5,6 @@
   "type"   "1d_texture"
   "wrap_u"   "repeat"
   "wrap_v"   "repeat"
+  magfilter linear
+  minfilter linear
 }

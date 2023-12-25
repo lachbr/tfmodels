@@ -5,4 +5,6 @@
   "type"   "2d_texture"
   "wrap_u"   "clamp"
   "wrap_v"   "clamp"
+  magfilter linear
+  minfilter linear
 }
