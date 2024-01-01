@@ -1,0 +1,66 @@
+{
+  model "optchar/w_syringegun-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  lods [
+    {
+      distance 0
+      groups [ w_syringegun_reference ]
+    }
+    {
+      distance 20
+      groups [ w_syringegun_reference_lod1 ]
+    }
+    {
+      distance 30
+      groups [ w_syringegun_reference_lod2 ]
+    }
+    {
+      distance 40
+      groups [ w_syringegun_reference_lod3 ]
+    }
+    {
+      distance 60
+      groups [ w_syringegun_reference_lod4 ]
+    }
+  ]
+
+  material_paths [
+    "../../materials/models/weapons/w_syringegun"
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [ "w_syringegun01.pmat" ]
+    }
+    {
+      name blue
+      materials [ "w_syringegun01_blue.pmat" ]
+    }
+  ]
+
+  physics_model {
+    mesh w_syringegun_physics
+    mass 1.0
+  }
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0 6.06 21.34 ]
+          hpr [ 0 90 0 ]
+        }
+      ]
+    }
+  ]
+}

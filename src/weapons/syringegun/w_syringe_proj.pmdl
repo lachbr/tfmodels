@@ -1,0 +1,36 @@
+{
+  model "w_syringe_proj.egg"
+
+  hpr [ 180 0 0 ]
+
+  custom_data {
+    surfaceprop metal
+    contents solid
+  }
+
+  material_paths [
+    "../../materials/models/weapons/syringe_projectile"
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [ "syringe_projectile.pmat" ]
+    }
+    {
+      name blue
+      materials [ "syringe_projectile_blue.pmat" ]
+    }
+  ]
+
+  lods [
+    {
+      distance 0
+      groups [ w_syringe_proj_reference ]
+    }
+    {
+      distance 20
+      groups [ w_syringe_proj_reference_lod1 ]
+    }
+  ]
+}

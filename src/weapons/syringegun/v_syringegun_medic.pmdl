@@ -1,0 +1,87 @@
+{
+  model "optchar/v_syringegun_medic-zero.egg"
+
+  hpr [ 180 0 0 ]
+
+  material_paths [
+    "../../materials/models/weapons/v_syringegun"
+    "../../materials"
+  ]
+
+  material_groups [
+    {
+      name red
+      materials [ "medic_red.pmat" "medic_hands_red.pmat" "v_syringegun_glass.pmat" "v_syringegun.pmat" ]
+    }
+    {
+      name blue
+      materials [ "medic_blue.pmat" "medic_hands_blue.pmat" "v_syringegun_glass.pmat" "v_syringegun_blue.pmat" ]
+    }
+  ]
+
+  attachments [
+    {
+      name muzzle
+      influences [
+        {
+          parent weapon_bone
+          pos [ 0.19 6.06 21.34 ]
+          hpr [ 0 89.49 0 ]
+        }
+      ]
+    }
+  ]
+
+  sequences [
+    {
+      name draw
+      anim "optchar/v_syringegun_medic-draw.egg"
+      fps 30
+      activity VM_Draw
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_SyringeGun.Draw"
+        }
+      ]
+    }
+    {
+      name idle
+      anim "optchar/v_syringegun_medic-idle.egg"
+      loop true
+      fps 20
+      activity VM_Idle
+    }
+    {
+      name fire
+      anim "optchar/v_syringegun_medic-fire.egg"
+      activity VM_Fire
+      snap true
+      fps 30
+    }
+    {
+      name reload
+      anim "optchar/v_syringegun_medic-reload.egg"
+      activity VM_Reload
+      fps 30
+      events [
+        {
+          frame 1 type 2 event Client_Play_Sound
+          data "Weapon_SyringeGun.Draw"
+        }
+        {
+          frame 9 type 2 event Client_Play_Sound
+          data "Weapon_SyringeGun.Reload1"
+        }
+        {
+          frame 18 type 2 event Client_Play_Sound
+          data "Weapon_SyringeGun.Reload2"
+        }
+        {
+          frame 21 type 2 event Client_Play_Sound
+          data "Weapon_SyringeGun.Reload3"
+        }
+      ]
+    }
+  ]
+}

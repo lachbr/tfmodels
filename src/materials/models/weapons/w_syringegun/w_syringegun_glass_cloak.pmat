@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "../../effects/black.ptex"
+  }
+  "color_blend"   "additive"
+  "light"   "off"
+}

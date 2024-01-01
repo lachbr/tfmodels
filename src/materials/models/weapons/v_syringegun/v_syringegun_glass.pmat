@@ -1,0 +1,10 @@
+
+{
+  "material"   "SourceMaterial"
+  "parameters" 
+  {
+    "basetexture"     "v_syringegun_glass.ptex"
+  }
+  "color_blend"   "additive"
+  "transparency"   "dual"
+}
